@@ -1,0 +1,45 @@
+---
+product: places
+audience: end-user
+user-guide-title: Adobe Experience Platform Location Services Help
+---
+
+# Adobe Experience Platform Location Services Help {#location-services}
+
++ [Adobe Experience Platform Location Services](overview.md)
++ [Release notes](release-notes.md)
++ [Getting started](getting-started.md)
++ [Places dashboard management](places-database-management-1.md)
+  + [Manage Places in the Places UI](places-database-management-1/managing-pois-in-the-places-ui)
+  + [Manage Libraries in the Places UI](places-database-management-1/manage-libraries)
++ [Places REST API](places-rest-apis)
+  + [Organizational requirements](places-rest-apis/organizational-requirements)
+  + [Adobe I/O integration](places-rest-apis/adobe-i-o-integration)
+    + [Create a Places integration](adobe-i-o-integration/create-a-places-integration)
+    + [API usage](adobe-i-o-integration/api-usage)
+      + [Manage libraries](api-usage/manage-libraries)
+        + [Create a library](manage-libraries/create-a-library)
+        + [Read a library](manage-libraries/read-a-library)
+        + [Update a library](manage-libraries/update-a-library)
+        + [Delete a library](manage-libraries/delete-a-library)
+        + [Read all libraries in your organization](manage-libraries/read-all-libraries-in-your-organization)
+        + [Set a rank on your libraries](manage-libraries/set-a-ran-on-your-libraries)
+        + [Get a library's rank](manage-libraries/get-a-librarys-rank)
+      + [Manage POIs](api-usage/manage-pois)
+        + [Create a POI](manage-pois/create-a-poi)
+        + [Read a POI](manage-pois/read-a-poi)
+        + [Update a POI](manage-pois/update-a-poi)
+        + [Delete a POI](manage-pois/delete-a-poi)
+        + [Read all POIs in a library](manage-pois/read-all-pois-in-a-library)
+        + [Read all POIs in your organization](manage-pois/read-all-pois-in-your-organization)
+        + [Batch APIs](manage-pois/batch-apis)
+          + [Create multiple POIs](batch-apis/create-multiple-pois)
+          + [Update multiple POIs](batch-apis/update-multiple-pois)
+          + [Delete multiple POIs](batch-apis/delete-multiple-pois)
+      + [Query APIs](api-usage/query-apis)
+      + [Configure SDK with Places](configure-places-in-the-sdk)
+        + [Adding Places extensions](configure-places-in-the-sdk/adding-places-extensions)
+        + [Launch Data Elements with Places Data](configure-places-in-the-sdk/data-elements-with-places-data)
+        + [Launch Rules with Places Data](configure-places-in-the-sdk/locations)
+  + [Places use cases](places-services-by-adobe-documentation/places-use-cases)
+  + [Places FAQs](places-services-by-adobe-documentation/places-faqs)
