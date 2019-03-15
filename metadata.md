@@ -1,13 +1,13 @@
 ---
 cloud: experience-cloud
-product: project-griffon
-solution-title: Mobile Services
+product: places
+solution-title: Location Services
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 getting-started-title: Getting Started
 getting-started-url: https://www.adobe.com
 tutorials-title: Tutorials
 tutorials-url: https://www.adobe.com
-git-repo: https://git.corp.adobe.com/AdobeDocs/project-griffon.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/location-services.en
 index: no
 ---
 

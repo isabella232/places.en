@@ -4,16 +4,16 @@ audience: end-user
 user-guide-title: Adobe Experience Platform Location Services Help
 ---
 
-# Adobe Experience Platform Location Services Help {#location-services}
+# Adobe Experience Platform Location Services Help {#using}
 
-+ [Adobe Experience Platform Location Services](overview.md)
++ [Adobe Experience Platform Location Services](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + [Places dashboard management](places-database-management-1.md)
   + [Manage Places in the Places UI](places-database-management-1/managing-pois-in-the-places-ui)
   + [Manage Libraries in the Places UI](places-database-management-1/manage-libraries)
 + [Places REST API](places-rest-apis)
-  + [Organizational requirements](places-rest-apis/organizational-requirements)
+  + [Organizational requirements](places-rest-apis/organizational-requirements.md)
   + [Adobe I/O integration](places-rest-apis/adobe-i-o-integration)
     + [Create a Places integration](adobe-i-o-integration/create-a-places-integration)
     + [API usage](adobe-i-o-integration/api-usage)
