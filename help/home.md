@@ -1,6 +1,13 @@
+---
+title: Overview
+seo-title: Adobe Location Services Overview
+description: Location is the most personal context for designing and delivering personalized experiences. Places enables mobile apps with user location awareness in relation to Points of Interest.
+seo-description: Location is the most personal context for designing and delivering personalized experiences. Places enables mobile apps with user location awareness in relation to Points of Interest (POI).
+---
+
 # Overview
 
-Location is the most personal context for designing and delivering personalized experiences. Places enables mobile apps with user location awareness in relation to Points of Interest \(POIs\).
+Location is the most personal context for designing and delivering personalized experiences. Places enables mobile apps with user location awareness in relation to Points of Interest (POIs).
 
 The goal of Places is to help you achieve the following:
 
@@ -19,17 +26,15 @@ For example, Places could be used to:
 
 Places comprises the following components:
 
-* Places database: Create and manage POIs using the Places management UI or Places REST APIs For more information, see[ Places database management](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
+* Places database: Create and manage POIs using the Places management UI or Places REST APIs For more information, see [Places database management](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
 * Places SDK: manages device location in relation to POIs from the Places database. For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
 * Places rules: Adobe Launch rules are enabled with entry and exit events and conditions from the Places database. 
-
-
 
 ## Terminology
 
 Here are some common terms that are used in the Places documentation:
 
-* A **point of interest \(POI\)** is a location that is of interest to your organization. Places creates a databased of POIs that you define. You can define POIs with attributes such as a name, radius, address, category and metadata tags.
+* A **point of interest (POI)** is a location that is of interest to your organization. Places creates a databased of POIs that you define. You can define POIs with attributes such as a name, radius, address, category and metadata tags.
 * A **geofence** is a type of POI. This type is a virtual geographic boundary defined by latitude and longitude coordinates.
 * A **beacon** is a type of POI. This type is a physical device that represents a location by emitting a low power bluetooth signal. Beacons are not currently supported in Places.
 * A **library** is a collection of POIs.  
