@@ -1,4 +1,11 @@
-# Getting started
+---
+title: Overview
+seo-title: Getting started
+description: Getting started with Adobe Places.
+seo-description: Getting started with Adobe Places.
+---
+
+# Getting started {#getting-started}
 
 ## Prerequisites 
 

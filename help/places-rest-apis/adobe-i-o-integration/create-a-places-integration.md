@@ -36,7 +36,7 @@ To generate your own self-signed keys:
 
 The following video guides you through the process of generating the key pair:
 
-![](../../.gitbook/assets/places_integration_video.gif)
+![](assets/places_integration_video.gif)
 
 ## Create a Places integration in the Adobe I/O console
 
@@ -64,7 +64,7 @@ To create a Places integration:
 
    These IDs will be needed for each Places Rest API request.
 
-![](../../.gitbook/assets/places_orgid_api-key.png)
+![](/assets/places_orgid_api-key.png)
 
 ## Generate a JWT token
 

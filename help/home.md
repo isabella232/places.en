@@ -5,7 +5,7 @@ description: Location is the most personal context for designing and delivering 
 seo-description: Location is the most personal context for designing and delivering personalized experiences. Places enables mobile apps with user location awareness in relation to Points of Interest (POI).
 ---
 
-# Overview
+# Overview {#home}
 
 Location is the most personal context for designing and delivering personalized experiences. Places enables mobile apps with user location awareness in relation to Points of Interest (POIs).
 
@@ -47,5 +47,5 @@ Here are some common terms that are used in the Places documentation:
 
 Here is a high-level view of the Places workflow:
 
-![](.gitbook/assets/places-workflow-diagram-lc-1.png)
+![](assets/places-workflow-diagram-lc-1.png)
 
