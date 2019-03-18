@@ -8,4 +8,3 @@ seo-description: This topic provides additional information about some frequentl
 # Places FAQs
 
 This information is in progress.
-

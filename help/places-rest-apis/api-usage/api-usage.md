@@ -16,7 +16,7 @@ For details about the Places REST API that help you manage your POIs and librari
 
 Below are details on the headers and parameters available in the Places REST API.
 
-## Supported headers
+### Supported headers
 
 | Header | Description | Method | Example |
 | :--- | :--- | :--- | :--- |
