@@ -1,3 +1,10 @@
+---
+title: Organizational requirements
+seo-title: Organizational requirements
+description: This topic contains information about the prerequisites that must be completed before you can access the REST APIs.
+seo-description: This topic contains information about the prerequisites that must be completed before you can access the REST APIs.
+---
+
 # Organizational requirements
 
 To access to the Places APIs, verify with your System administrator that the following tasks have been completed:

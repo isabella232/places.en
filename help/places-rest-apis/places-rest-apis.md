@@ -1,3 +1,10 @@
+---
+title: Location Services REST APIs
+seo-title: Location Services REST APIs
+description: This topic is an introduction to the Location Services REST APIs.
+seo-description: This topic is an introduction to the Location Services REST APIs.
+---
+
 # Places REST APIs
 
 Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Platform solutions with location data, delivering the right experience to the right person at the right time and the right place.

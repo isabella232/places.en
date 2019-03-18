@@ -1,3 +1,10 @@
+---
+title: Release notes
+seo-title: Release notes for Adobe Location Services.
+description: Release notes for Adobe Location Services.
+seo-description: Release notes for Adobe Location Services.
+---
+
 # Release notes
 
 ## February 28, 2019
