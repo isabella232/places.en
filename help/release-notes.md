@@ -22,7 +22,7 @@ Here are the key features in this release:
 We have released a management UI where you can view and manage your Points of Interest \(POIs\). You also can organize your POIs into libraries. In addition to standard metadata such as city, state, and category, we also support the ability to add custom metadata to your POIs.
 
 * To see the Places UI, go to [https://places.adobe.com](https://places.adobe.com). 
-* To get started with the Places UI, see [Getting Started](https://launch.gitbook.io/places-services-by-adobe-documentation/getting-started).
+* To get started with the Places UI, see [Getting Started](/help/getting-started.md).
 
 #### Places Launch Extension 
 
@@ -34,13 +34,13 @@ In the Places extension:
 * Rule events that trigger on POI entry or exit.
 * Create data elements that point to the user's current POI.
 
-For more information about the Places extension, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
+For more information about the Places extension, see [Places extension (beta)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1).
 
 #### Places APIs 
 
 We have a complete set of easy-to-use APIs that developers can use to populate and update their list of POIs. All of the APIs that are used by the Places UI are available for our customers. If you want to, you can  build your own UI or integrate with an existing POI database. You can also use Places API `batch` endpoints to do bulk import of POIs. A python utility is provided with the APIs.
 
-For more information about the Places APIs, see [Places REST API](https://launch.gitbook.io/places-developer-by-adobe-documentation/) guide.
+For more information about the Places APIs, see [Places web services](/help/places-rest-apis/places-rest-apis.md).
 
 ### Coming Soon
 
