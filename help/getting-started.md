@@ -13,7 +13,7 @@ Before you can use Places, complete the following tasks:
 
 * Verify your organization is provisioned with Places in the Admin Console. To ensure that your organization is correctly provisioned, contact your Adobe representative.
 * Verify you are listed as a user under the Places and Launch product contexts in the Admin Console.
-* Your mobile app property is installed and configured in Launch. For more information, see [Adobe Places \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension). 
+* Your mobile app property is installed and configured in Launch. For more information, see [Places extension (Beta)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
 
 
 
@@ -34,7 +34,7 @@ A point of interest \(POI\) is a location or a point on a map that is of interes
 3. In the map view, on the lower right side, click **+ New POI**. 
 4. Expand the **Details** section.
 5. Type a name.
-6.  Select a library.
+6. Select a library.
 7. Enter or select a radius. 
 8. Select the icon that you want to use for your POI.
 9. Select a color for your POI icon.

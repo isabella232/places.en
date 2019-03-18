@@ -12,5 +12,5 @@ To create an integration for Places, see [Creating a Places integration](/help/p
 
 To understand API key integration, generating a JWT, and public key certificates, see [Adobe I/O Authentication Overview](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
 
-**Important:** If you cannot log in to the Adobe I/O console, or if Places is not an option in the _Create Integrations_ screen, see [Organization requirements](/help/places-rest-apis/organizational-requirements.mds).
+**Important:** If you cannot log in to the Adobe I/O console, or if Places is not an option in the _Create Integrations_ screen, see [Organization requirements](/help/places-rest-apis/organizational-requirements.md).
 
