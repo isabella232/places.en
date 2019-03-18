@@ -56,5 +56,7 @@ Use the following CURL command to test the API:
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
 ```
 
-**Important**: Replace `<POIID>`, `<API KEY>`, `<TOKEN>`, and `<ORIGIN>` with actual values.
+>[!IMPORTANT]
+>
+>Replace `<POIID>`, `<API KEY>`, `<TOKEN>`, and `<ORIGIN>` with actual values.
 
