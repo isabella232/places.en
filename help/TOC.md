@@ -41,7 +41,6 @@ user-guide-title: Adobe Experience Platform Location Services Help
         + [Delete multiple POIs](places-rest-apis/api-usage/manage-pois/delete-multiple-pois.md)
     + [Query APIs](places-rest-apis/api-usage/query-apis.md)
 + [Configure the SDK with Places](configure-places-in-the-sdk.md)
-+ [Configure Launch Rules with Places Data]{#locations}
-  + [Launch Data Elements with Places Data](locations/data-elements-with-places-data.md)
++ [Launch Data Elements with Places Data](data-elements-with-places-data.md)
 + [Places use cases](places-use-cases.md)
 + [Places FAQs](places-faqs.md)
