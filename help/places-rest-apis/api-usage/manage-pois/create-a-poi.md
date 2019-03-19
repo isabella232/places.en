@@ -83,5 +83,7 @@ Use the following CURL command to test this API:
 curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>' -d '<SINGLEPOIDATA>' -H "Content-Type: application/json"
 ```
 
-**Important**: Remember to replace `<API KEY>`, `<TOKEN>`, ',' and `<SINGLEPOIDATA>` with actual values.
+>[!IMPORTANT]
+>
+>Remember to replace `<API KEY>`, `<TOKEN>`, ',' and `<SINGLEPOIDATA>` with actual values.
 

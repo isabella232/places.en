@@ -22,5 +22,7 @@
 
 `curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'`
 
-**Important**: Replace variables such as `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
+>[!IMPORTANT]
+>
+>Replace variables such as `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
 

@@ -154,5 +154,7 @@ Use the following CURL command to test the API:
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>/pois' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
 ```
 
-**Important**: Replace '', `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
+>[!IMPORTANT]
+>
+>Replace '', `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
 

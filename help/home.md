@@ -27,7 +27,7 @@ For example, Places could be used to:
 Places comprises the following components:
 
 * Places database: Create and manage POIs using the Places management UI or Places REST APIs For more information, see [Places database management](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
-* Places SDK: manages device location in relation to POIs from the Places database. For more information, see [Places SDK extensions \(Beta\)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension).
+* Places SDK: manages device location in relation to POIs from the Places database. For more information, see [Places extensions (Beta)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1).
 * Places rules: Adobe Launch rules are enabled with entry and exit events and conditions from the Places database. 
 
 ## Terminology
@@ -40,7 +40,7 @@ Here are some common terms that are used in the Places documentation:
 * A **library** is a collection of POIs.  
 * A SDK **extension**, in Adobe Launch extensions are are used in conjunction with the AEP SDK to provide additional functionality while using shared data from the SDK.
 * An **organization** is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud.  The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have more than one organization.
-* The **orgID** is the ID that represents your organization across AEP.  For more information, see [Finding your orgID](https://forums.adobe.com/thread/2339895).
+* The **orgID** is the ID that represents your organization across AEP.  For more information, see [How do I find my Marketing Cloud ID (MC ORG ID?)](https://forums.adobe.com/message/9568166#9568166).
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.  For more information, see [Overview](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Places workflow
@@ -48,4 +48,3 @@ Here are some common terms that are used in the Places documentation:
 Here is a high-level view of the Places workflow:
 
 ![](assets/places-workflow-diagram-lc-1.png)
-
