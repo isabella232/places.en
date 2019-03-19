@@ -1,3 +1,10 @@
+---
+title: Create multiple POIs
+seo-title: Create multiple POIs
+description: Use the batch APIs to create multiple POIs.
+seo-description: Use the batch APIs to create multiple POIs.
+---
+
 # Create multiple POIs
 
 A POST method that lets you create multiple POIs.

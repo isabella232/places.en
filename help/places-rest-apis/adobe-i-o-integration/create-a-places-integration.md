@@ -1,3 +1,10 @@
+---
+title: Create a Places integration
+seo-title: Create a Places integration
+description: Information about creating a Places integration.
+seo-description: Information about creating a Places integration.
+---
+
 # Create a Places integration
 
 ## Generate a public and private key pair
@@ -44,7 +51,7 @@ The following video guides you through the process of generating the key pair:
 
 To create a Places integration:
 
-1. Go to [https://console.adobe.io/](https://console.adobe.io/) and sign in with your Adobe ID.
+1. In a browser, go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
 2. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the left.
 3. Click **[!UICONTROL New Integration]**.
 4. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.

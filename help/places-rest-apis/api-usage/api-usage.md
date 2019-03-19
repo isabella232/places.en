@@ -14,7 +14,7 @@ For details about the Places REST API that help you manage your POIs and librari
 * [Managing Libraries](/help/places-rest-apis/api-usage/manage-libraries/manage-libraries.md)
 * [Managing POIs](/help/places-rest-apis/api-usage/manage-pois/manage-pois.md)
 
-Below are details on the headers and parameters available in the Places REST API.
+Here are details on the headers and parameters available in the Places REST API:
 
 ### Supported headers
 
