@@ -1,3 +1,11 @@
+---
+title: Read a library
+seo-title: Read a library
+description: Read a library by using the Places REST API.
+seo-description: Read a library by using the Places REST API.
+---
+
+
 # Read a library
 
 A GET method that returns the details for a library.

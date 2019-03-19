@@ -1,3 +1,10 @@
+---
+title: Create a library
+seo-title: Create a library
+description: Create a library by using the Places REST API.
+seo-description: Create a library by using the Places REST API.
+---
+
 # Create a library
 
 A POST method that lets you create a library.

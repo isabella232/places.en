@@ -1,3 +1,10 @@
+---
+title: Create a Places integration
+seo-title: Create a Places integration
+description: Information about creating a Places integration.
+seo-description: Information about creating a Places integration.
+---
+
 # Create a Places integration
 
 ## Generate a public and private key pair

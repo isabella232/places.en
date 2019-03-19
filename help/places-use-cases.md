@@ -13,6 +13,3 @@ Some examples include:
 * Analyze foot traffic of my stores vs. competitor stores 
 * Create business traveler audience 
 * Target user with in store experience when relevant
-
-
-

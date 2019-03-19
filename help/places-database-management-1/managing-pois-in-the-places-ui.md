@@ -1,3 +1,10 @@
+---
+title: Manage POIs in the Places UI
+seo-title: Manage POIs in the Places UI
+description: Use the Places UI to manage your POIs.
+seo-description: Use the Places UI to manage your POIs.
+---
+
 # Manage POIs in the Places UI
 
 ## Defining a geofence POI
