@@ -42,8 +42,6 @@ To verify that Places and Launch are provisioned:
 
       ![](/assets/places_provisioned.png)
 
-   If they are displayed, Places and Launch have been provisioned for your organization. If they are not displayed, they have not been provisioned for your organization.
-  
     >[!IMPORTANT]
     >
     >During the Beta period, after you complete the [Beta survey](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fkr821yYptFo-ghlnlXCyhUM0dQVkJCSzVDMFNGWEFXWUUwNEJWSjhSRS4u), the request is made to the Provisioning team.
