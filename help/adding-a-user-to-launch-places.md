@@ -23,7 +23,7 @@ To verify that Places and Launch are provisioned:
 1. Log in to your Experience Cloud organization.
 2. In the top-right side, click the Experience Cloud shell switcher.
 
-    ![](/assets/places_shell_switcher.png)
+    ![](/help/assets/places_shell_switcher.png)
 
 3. Under **[!UICONTROL Platform]**, click **[!UICONTROL Administration]**.
 
@@ -40,7 +40,7 @@ To verify that Places and Launch are provisioned:
 
 6. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]** and **[!UICONTROL Places Core Services]** are displayed.
 
-      ![](/assets/places_provisioned.png)
+      ![](/help/assets/places_provisioned.png)
 
    If they are displayed, Places and Launch have been provisioned for your organization. If they are not displayed, they have not been provisioned for your organization.
   
