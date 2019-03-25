@@ -21,14 +21,16 @@ If this is the first time you are adding a user, complete the following steps to
 To verify that Places and Launch are provisioned:
 
 1. Log in to your Experience Cloud organization.
-2. In the top-right side, click the Experience Cloud shell switcher.
+1. In the top-right side, click the Experience Cloud shell switcher.
 
-3. Under **[!UICONTROL Platform]**, click **[!UICONTROL Administration]**.
+  ![](assets/places_shell_switcher1.png)
+
+1. Under **[!UICONTROL Platform]**, click **[!UICONTROL Administration]**.
 
    If you do not see **Administration** in the list, you are not an admin. You must contact your org admin to complete this procedure.
 
-4. In the Experience Cloud Administration page, on the **[!UICONTROL Admin Console]** card, click **[!UICONTROL Take me there]**.
-5. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page. 
+1. In the Experience Cloud Administration page, on the **[!UICONTROL Admin Console]** card, click **[!UICONTROL Take me there]**.
+1. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page. 
 
     This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the org from the drop-down list. If you have access to several organizations, verify that the correct org is selected.  
 
@@ -36,7 +38,10 @@ To verify that Places and Launch are provisioned:
     >
     >If you do not have access to an organization, it means that you do not have admin access to that organization.
 
-6. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]** and **[!UICONTROL Places Core Services]** are displayed.
+1. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]** and **[!UICONTROL Places Core Services]** are displayed.
+
+    ![](assets/places_provisioned1.png)
+
 
     >[!IMPORTANT]
     >
