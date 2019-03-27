@@ -16,6 +16,7 @@ user-guide-title: Adobe Experience Platform Location Services Help
   + [Adobe I/O integration](places-rest-apis/adobe-i-o-integration/adobe-i-o-integration.md)
     + [Create a Places integration](places-rest-apis/adobe-i-o-integration/create-a-places-integration.md)
   + API usage {#api-usage}
+    + [API usage overview](places-rest-apis/api-usage/api-usage.md)
     + [Headers and parameters](places-rest-apis/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
       + [Manage libraries](places-rest-apis/api-usage/manage-libraries/manage-libraries.md)
