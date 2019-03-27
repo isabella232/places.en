@@ -19,7 +19,7 @@ To get provisioned, complete the following tasks:
 
 * Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console.
 
-  For more information, see [Adding a user to Launch and Places](help/adding-a-user-to-launch-places.md).
+  For more information, see [Adding a user to Launch and Places](/help/adding-a-user-to-launch-places.md).
 * Ensure your mobile app property is configured in Adobe Launch with the Places extension installed. 
 
   For more information, see [Adobe Places (Beta)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
