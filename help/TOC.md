@@ -16,7 +16,7 @@ user-guide-title: Adobe Experience Platform Location Services Help
   + [Adobe I/O integration](places-rest-apis/adobe-i-o-integration/adobe-i-o-integration.md)
     + [Create a Places integration](places-rest-apis/adobe-i-o-integration/create-a-places-integration.md)
   + API usage {#api-usage}
-    + [API usage](places-rest-apis/api-usage/api-usage.md)
+    + [API usage overview](places-rest-apis/api-usage/api-usage.md)
     + [Headers and parameters](places-rest-apis/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
       + [Manage libraries](places-rest-apis/api-usage/manage-libraries/manage-libraries.md)
@@ -42,9 +42,8 @@ user-guide-title: Adobe Experience Platform Location Services Help
           + [Delete multiple POIs](places-rest-apis/api-usage/manage-pois/delete-multiple-pois.md)
     + [Query APIs](places-rest-apis/api-usage/query-apis.md)
 + Places UI {#places-database-management-1}
-  + [Places UI](places-database-management-1/places-database-management.md)
-    + [Manage Places in the Places UI](places-database-management-1/managing-pois-in-the-places-ui.md)
-    + [Manage libraries in the Places UI](places-database-management-1/manage-libraries.md)
+  + [Manage Places in the Places UI](places-database-management-1/managing-pois-in-the-places-ui.md)
+  + [Manage libraries in the Places UI](places-database-management-1/manage-libraries.md)
 + [Configure the SDK with Places](configure-places-in-the-sdk.md)
 + [Launch rules and data elements with Places data](rules-data-elements-places-data.md)
 + [Places use cases](places-use-cases.md)
