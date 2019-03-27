@@ -5,7 +5,7 @@ description: Understanding how Launch rules and data elements are used with Plac
 seo-description: Understanding how Launch rules and data elements are used with Places data.
 ---
 
-# Launch rules and data elements with Places data
+# Configure Launch rules and data elements with Places data
 
 ## Rules
 

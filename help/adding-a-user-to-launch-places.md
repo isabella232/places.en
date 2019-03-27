@@ -30,6 +30,7 @@ To verify that Places and Launch are provisioned:
    If you do not see **Administration** in the list, you are not an admin. You must contact your org admin to complete this procedure.
 
 1. In the Experience Cloud Administration page, on the **[!UICONTROL Admin Console]** card, click **[!UICONTROL Take me there]**.
+
 1. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page. 
 
     This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the org from the drop-down list. If you have access to several organizations, verify that the correct org is selected.  
@@ -42,6 +43,7 @@ To verify that Places and Launch are provisioned:
 
     ![](assets/places_provisioned1.png)
 
+    If they are displayed, Places and Launch have been provisioned for your organization. If they are not displayed, they have not been provisioned for your organization.
 
     >[!IMPORTANT]
     >
@@ -57,17 +59,16 @@ To set up the profile and add the permissions:
 
    b. In the left pane, in the list of products, click **[!UICONTROL Adobe Experience Platform Launch]**.
 
-     The Launch profile(s) appear on the right. Launch has a default profile called *Launch - (org name)*. If you previously added users to Launch, you might see multiple profiles listed.
+     * The Launch profile(s) appear on the right.
+     * Launch has a default profile called *Launch - (org name)* . 
+  
+       If you previously added users to Launch, you might see multiple profiles listed.
 
-   c. Verify that the default permission is displayed.
-
-   d. Set the permissions for the Launch profile.
-
-   If you have added users to Launch, you might have multiple profiles.
+   If you have added users to Launch, you might have multiple profiles listed.
 
 2. Select the correct profile:
 
-   a. Click on the name of the profile.
+   a. Click on the name of the default profile.
 
    b. Click the **[!UICONTROL Permissions]** tab.
 
@@ -75,7 +76,7 @@ To set up the profile and add the permissions:
 
    d. In the left pane, click **+ Add all**.
 
-      This step moves the available permissions to the included permissions list.
+      This step moves all of the available permissions to the included permissions list.
 
    e. Click **[!UICONTROL Company Rights]**.
 
@@ -123,7 +124,9 @@ To add a user to your Launch and Places profiles:
 
 2. Add a user to **[!UICONTROL Places Core Services]**.
 
-   **Tip**: Currently, all Places users have the same permissions, so you do not need to edit the permissions.
+   >[!TIP]
+   >
+   >Currently, all Places users have the same permissions, so you do not need to edit the permissions.
 
    a. On the **[!UICONTROL Places Core Services]** card, verify the following:
 
@@ -167,5 +170,5 @@ To add a developer:
 
 1. Click **Save**.
 
-Users receive an email notifying them that they have access to Launch and can now log into the [Launch](https://launch.adobe.com) or the [Places](https://places.adobe.com) UIs for this organization. If you complete step 11, the user can also log in to the [Adobe /O console](https://console.adobe.io) to create a Places Integration and use the Places REST API.
+Users receive an email that notifies them that they have access to Launch and can log in to the [Launch](https://launch.adobe.com) or the [Places](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **Add a developer** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places Integration and use the Places REST API.
 
