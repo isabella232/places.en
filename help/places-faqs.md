@@ -9,10 +9,6 @@ seo-description: This topic provides additional information about some frequentl
 
 Here is some information and frequently asked questions about Places. 
 
->[!IMPORTANT]
->
->This information is in progress.
-
 ## Size and reliability  
 
 Important to note for all geofences being used in region monitoring from a mobile app regardless of using Adobe or some other service. The Operating systems recommend some parameters to keep in mind when creating geofences. For maximum reliability, geofences should have a radius of at least 100 meters. It is okay to create smaller geofences, but entry and exit events may not be generated, or may be generated after the user stops moving for a period. 
