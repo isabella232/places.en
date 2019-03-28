@@ -4,7 +4,7 @@ seo-title: Manage libraries
 description: Managing the Places REST API libraries.
 seo-description: Managing the Places REST API libraries.
 ---
-# Manage libraries {#manage-libraries}
+# Manage libraries overview {#manage-libraries}
 
 You can manage libraries the following ways by using the Places REST APIs:
 

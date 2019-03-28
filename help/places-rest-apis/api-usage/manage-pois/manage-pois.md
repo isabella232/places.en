@@ -5,7 +5,7 @@ description: Understand and work with POIs.
 seo-description: Understand and work with POIs. 
 ---
 
-# Manage POIs {#manage-pois}
+# Manage POIs overview {#manage-pois}
 
 You can manage libraries the following ways by using the Places REST APIs:
 
