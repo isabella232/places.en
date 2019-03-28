@@ -7,9 +7,14 @@ seo-description: This topic contains information about the prerequisites that mu
 
 # Organizational requirements
 
-To access to the Places APIs, verify with your System administrator that the following tasks have been completed:
+To access to the Places APIs, verify with your system administrator that the following tasks have been completed:
 
 1. Places has been provisioned and appears in the organization. 
 2. You have been added to the organization. 
 3. You have been added to Places in your organization.
-4. You have been added as a Places developer to your organization. For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+
+    For more information, see [Adding a user to Launch and Places](/help/adding-a-user-to-launch-places.md).
+
+4. You have been added as a Places developer to your organization. 
+
+    For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).

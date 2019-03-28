@@ -35,10 +35,10 @@ For more information about configuring the Places extension and Places Monitor e
 ## Create an empty library in the Places database by using the Places UI
 
 1. Log into Adobe Places with your Adobe ID.
-2. Click on the **Libraries** tab.
-3. Click **Create Library**.
+2. Click on the **[!UICONTROL Libraries]** tab.
+3. Click **[!UICONTROL Create Library]**.
 4. Type the name.
-5. Click **Confirm**.
+5. Click **[!UICONTROL Confirm]**.
 
 ## Create a POI in the library by using the Places UI
 
@@ -47,21 +47,20 @@ A point of interest (POI) is a location or a point on a map that is of interest 
 1. Log in to Adobe Places Services ([https://places.adobe.com/](https://places.adobe.com/)) with your Adobe ID.
 2. In the top left side, click **[!UICONTROL Map]**.
 3. In the map view, on the lower right side, click **[!UICONTROL + New POI]**. 
-4. Expand the **[!UICONTROL Details]** section.
-5. Type a name.
-6. Select a library.
-7. Enter or select a radius. 
-8. Select the icon that you want to use for your POI.
-9. Select a color for your POI icon.
-10. Type a category.
-11. Expand the **[!UICONTROL Location]** section.
-12. Type an address.
-13. Type the city.
-14. Type the name of the state.
-15. Type the name of the country.
-16. Select or enter a latitude or longitude.
-17. Click **[!UICONTROL Drop Pin on Map]**.
-18. Expand the **[!UICONTROL Metadata]** section and click **[!UICONTROL Add Metadata]**.
-19. Type the key name.
-20. Type the key value.
-21. Click **[!UICONTROL Confirm]**.
+4. Type a name.
+5. Select a library.
+
+    To create a new library, click **[!UICONTROL +]**.
+
+6. Enter or select a radius. 
+7. Select the icon that you want to use for your POI.
+8. Select a color for the icon.
+9. Type a category.
+10. Expand the **[!UICONTROL Location]** section.
+11. Type an address, city, state, and country.
+12. Select or enter a latitude or longitude of your POI.
+13. Click **[!UICONTROL Drop Pin on Map]**.
+14. Expand the **[!UICONTROL Metadata]** section and click **[!UICONTROL + Add Metadata]**.
+15. Type the key name.
+16. Type the key value.
+17. Click **[!UICONTROL Confirm]**.
