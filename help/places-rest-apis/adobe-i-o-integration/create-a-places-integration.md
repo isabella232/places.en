@@ -13,7 +13,7 @@ To create a Places integration, you need a public and a private key pair. These 
 
 To generate your own self-signed keys:
 
-1. Copy and paste the following lines in a terminal window and press Enter after pasting each line:
+1. In a terminal window, copy and paste each of the following lines and press **[!UICONTROL Enter]** after pasting each line:
 
    ```text
       mkdir keys
@@ -41,7 +41,9 @@ To generate your own self-signed keys:
 
    **Important**: The information that you provide is incorporated into the keys.
 
-3. Navigate to the directory where the `.key` and `.crt` files are located. For example, in iOS, go to **[!UICONTROL Macintosh HD >]** **[!UICONTROL users >] **[UICONTROL (your user name**) >]** **[!UICONTROL Keys]**.
+3. Navigate to the directory where the `.key` and `.crt` files are located. 
+
+    For example, in iOS, go to **[!UICONTROL Macintosh HD >]** **[!UICONTROL users >] **[UICONTROL (your user name**) >]** **[!UICONTROL Keys]**.
 
 The following video guides you through the process of generating the key pair:
 
@@ -60,7 +62,7 @@ To create a Places integration:
 7. On the _Create a new integration_ screen, enter a name and description. 
 8. Drag and drop your `xxxx_public.crt` file, created above, to the **[!UICONTROL Public keys certificates]** drop zone.
 9. At the bottom of the page, click **[!UICONTROL Create integration]**.
-10. After a few seconds, you should see the _Integration created_ screen with the following message:
+10. After a few seconds, in the _Integration created_ screen, verify that the following message appears:
 
     `Your integration has been created.`
 
@@ -79,11 +81,11 @@ To create a Places integration:
 
 ## Generate a JWT token
 
-On the **[!UICONTROL JWT]** tab, the Adobe I/O console allows you to test your integration by generating a JWT and providing you the exchange URL.
+On the **[!UICONTROL JWT]** tab, the Adobe I/O console allows you to test your integration by generating a JWT and providing the exchange URL.
 
 To generate a JWT token:
 
-1. In a text editor, open your `private.key` file created above.
+1. In a text editor, open your `private.key` file created that you created above.
 2. On the **[!UICONTROL JWT]** tab, copy the contents of the key, and paste it in the **[!UICONTROL Paste private key]** field. 
 3. Click **[!UICONTROL Generate JWT]**.
 4. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
@@ -94,5 +96,5 @@ To generate a JWT token:
 
 >[!IMPORTANT]
 >
->Adobe access tokens are valid for 24 hrs. Save the sample CURL command (step 5) because, if the access token is no longer valid, you need to regenerate the token.
+>Adobe access tokens are valid **only** for 24 hours, so save the sample CURL command (step 5). If the access token is no longer valid, you need to generate the token again.
 
