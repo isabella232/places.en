@@ -1,4 +1,4 @@
-# Adobe I/O integration
+# Adobe I/O integration overview
 
 Each request to the Places REST API requires the following items:
 
