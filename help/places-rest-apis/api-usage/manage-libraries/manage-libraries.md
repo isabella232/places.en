@@ -6,7 +6,7 @@ seo-description: Managing the Places REST API libraries.
 ---
 # Manage libraries overview {#manage-libraries}
 
-You can manage libraries the following ways by using the Places REST APIs:
+You can use the Places REST APIs to manage libraries the following ways:
 
 * [Create a library](/help/places-rest-apis/api-usage/manage-libraries/create-a-library.md)
 * [Read a library](/help/places-rest-apis/api-usage/manage-libraries/read-a-library.md)

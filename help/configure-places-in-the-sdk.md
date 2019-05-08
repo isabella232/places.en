@@ -1,13 +1,13 @@
 ---
-title: Configure the SDK with Location Services
-seo-title: Configure the SDK with Location Services
-description: You can configure the SDK with Location Services extensions to enable location awareness in your mobile app. 
-seo-description: You can configure the SDK with Location Services extensions to enable location awareness in your mobile app. 
+title: Configure the SDK with Places
+seo-title: Configure the SDK with Places
+description: You can configure the SDK with the Places extension to enable location awareness in your mobile app. 
+seo-description: You can configure the SDK with the Places extension to enable location awareness in your mobile app. 
 ---
 
-# Configure the SDK and the Monitor extension with Places
+# Configure the SDK with Places
 
-To enable location awareness in your mobile app, configure the SDK with the Places extensions and, optionally, the Places Monitoring extension. For more information including SDK configuration, see [Places extension (Beta)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1).
+To enable location awareness in your mobile app, configure the SDK with the Places extensions and, optionally, the Places Monitoring extension. For more information including SDK configuration, see [Places (Beta) extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1).
 
 ## Configuring the Places extension
 

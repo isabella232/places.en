@@ -1,11 +1,11 @@
 ---
-title: Location Services REST APIs
-seo-title: Location Services REST APIs
-description: This topic is an introduction to the Location Services REST APIs.
-seo-description: This topic is an introduction to the Location Services REST APIs.
+title: Places web services
+seo-title: Places web services
+description: This topic is an introduction to the Places REST APIs.
+seo-description: This topic is an introduction to the Places REST APIs.
 ---
 
-# Places REST APIs
+# Places web services
 
 Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 
@@ -17,11 +17,11 @@ The Places services allows you to do the following:
 
 This section provides information about how to use the REST APIs and the Places database, which contains your org's POI data.
 
-## Places REST API
+## Places REST APIs
 
-The Places REST API let you work programmatically with your organization's POIs. These APIs allow you to create, update, and delete your libraries and the POIs in those libraries. These APIs use JavaScript Object Notation (JSON) standards to format the data that is sent and received. A principal advantage of JSON is that it makes API queries easy to write, read, and parse by developers and machines.
+The Places REST APIs let you work programmatically with your organization's POIs. These APIs allow you to create, update, and delete your libraries and the POIs in those libraries. These APIs use JavaScript Object Notation (JSON) standards to format the data that is sent and received. A principal advantage of JSON is that it makes API queries easy to write, read, and parse by developers and machines.
 
-Before you can use the Places API, ensure that the following requirements have been met:
+Before you can use the Places APIs, ensure that the following requirements have been met:
 
 1. Places is provisioned in your organization, and you have appropriate access as a user. 
 

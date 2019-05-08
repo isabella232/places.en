@@ -5,7 +5,7 @@ description: Manage your libraries by using the Places UI.
 seo-description: Manage your libraries by using the Places UI.
 ---
 
-# Manage libraries in the Places UI
+# Manage libraries in the Places UI {#manage-libraries-places-ui}
 
 A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization.  
 
@@ -26,6 +26,12 @@ Libraries are defined by the following:
 3. Click **Create Library**.
 4. Type the name.
 5. Click **Confirm**.
+
+## Change the rank of a library in the Places UI
+
+1. Log into Adobe Places with your Adobe ID.
+2. On the Libraries tab, review the current ranking of your libraries.
+3. Click the icon at the top left of the library, and drag the library to the new rank. 
 
 ## Rename a library
 

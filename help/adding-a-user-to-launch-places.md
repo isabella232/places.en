@@ -1,4 +1,11 @@
-# Adding a user to Launch and Places
+---
+title: Adding a user to Launch and Places
+seo-title: Adding a user to Launch and Places
+description: You need to add users to the Places Core Service so that they can access the Places UI. 
+seo-description: You need to add users to the Places Core Service so that they can access the Places UI. 
+---
+
+# Adding a user to Launch and Places {#adding-user-launch-places}
 
 To allow users to access places.adobe.com, they need to be added to Places Core Service in the Admin Console as a user. To allow users to have access to Launch, configure mobile properties, and use Places with the Adobe Experience Platform SDK, they need to be added to Adobe Experience Platform Launch in the Admin Console and be given the following permissions for Launch:
 
@@ -74,7 +81,7 @@ To set up the profile and add the permissions:
 
    c. Click **[!UICONTROL Edit]** next to **[!UICONTROL Property Rights]**.
 
-   d. In the left pane, click **+ Add all**.
+   d. In the left pane, click **[!UICONTROL + Add all]**.
 
       This step moves all of the available permissions to the included permissions list.
 
