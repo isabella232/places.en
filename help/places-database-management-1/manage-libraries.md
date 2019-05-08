@@ -27,6 +27,12 @@ Libraries are defined by the following:
 4. Type the name.
 5. Click **Confirm**.
 
+## Change the rank of a library in the Places UI
+
+1. Log into Adobe Places with your Adobe ID.
+2. On the Libraries tab, review the current ranking of your libraries.
+3. Click the icon at the top left of the library, and drag the library to the new rank. 
+
 ## Rename a library
 
 1. Log in to Adobe Places with your Adobe ID.

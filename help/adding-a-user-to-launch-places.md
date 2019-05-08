@@ -74,7 +74,7 @@ To set up the profile and add the permissions:
 
    c. Click **[!UICONTROL Edit]** next to **[!UICONTROL Property Rights]**.
 
-   d. In the left pane, click **+ Add all**.
+   d. In the left pane, click **[!UICONTROL + Add all]**.
 
       This step moves all of the available permissions to the included permissions list.
 

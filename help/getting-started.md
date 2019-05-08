@@ -32,35 +32,66 @@ To get provisioned, complete the following tasks:
 
 For more information about configuring the Places extension and Places Monitor extension, see [Places extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension) and [Places Monitor extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-monitoring-extension).
 
-## Create an empty library in the Places database by using the Places UI
+## Creating libraries and POIs
 
-1. Log into Adobe Places with your Adobe ID.
+You can create libraries and POIs in one of the following ways:
+
+* By using the web services.
+
+  For more information, see [Places web services](https://launch.gitbook.io/places-services-by-adobe-documentation/places-rest-apis).
+
+* By using the Places UI.
+  
+  For more information, see [Places UI](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
+  
+
+## Create an empty library in the Places database in the Places UI
+
+1. Log into Adobe Places UI.
+
+    The UI allows you to visually add and manage POIs and libraries.
+
 2. Click on the **[!UICONTROL Libraries]** tab.
 3. Click **[!UICONTROL Create Library]**.
 4. Type the name.
 5. Click **[!UICONTROL Confirm]**.
 
-## Create a POI in the library by using the Places UI
+## Create a POI in the library in the Places UI
 
 A point of interest (POI) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
 1. Log in to Adobe Places Services ([https://places.adobe.com/](https://places.adobe.com/)) with your Adobe ID.
-2. In the top left side, click **[!UICONTROL Map]**.
-3. In the map view, on the lower right side, click **[!UICONTROL + New POI]**. 
-4. Type a name.
-5. Select a library.
+2. On the **[!UICONTROL Map]** tab, click **[!UICONTROL + New POI]**. 
+3. Complete the following tasks in the **[!UICONTROL Details]** section:
 
-    To create a new library, click **[!UICONTROL +]**.
+    a. Type a name.
 
-6. Enter or select a radius. 
-7. Select the icon that you want to use for your POI.
-8. Select a color for the icon.
-9. Type a category.
-10. Expand the **[!UICONTROL Location]** section.
-11. Type an address, city, state, and country.
-12. Select or enter a latitude or longitude of your POI.
-13. Click **[!UICONTROL Drop Pin on Map]**.
-14. Expand the **[!UICONTROL Metadata]** section and click **[!UICONTROL + Add Metadata]**.
-15. Type the key name.
-16. Type the key value.
-17. Click **[!UICONTROL Confirm]**.
+    b. Select a library.
+
+      To create a new library, click **[!UICONTROL +]**.
+
+    c. Enter or select a radius. 
+
+    d. Select the icon that you want to use for your POI.
+
+    e. Select a color for the icon.
+
+    f. Type a category.
+
+4. Complete the following tasks in the **[!UICONTROL Location]** section:
+
+    a. Type an address, city, state, and country.
+
+    b. Select or enter a latitude or longitude of your POI.
+
+    c. Click **[!UICONTROL Drop Pin on Map]**.
+
+5. Complete the following tasks in the **[!UICONTROL Metadata]** section:
+
+   a. Click **[!UICONTROL + Add Metadata]**.
+
+   b. Type the key name.
+
+   c. Type the key value.
+
+   d. Click **[!UICONTROL Confirm]**.

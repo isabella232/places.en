@@ -43,7 +43,7 @@ To generate your own self-signed keys:
 
 3. Navigate to the directory where the `.key` and `.crt` files are located. 
 
-    For example, in iOS, go to **[!UICONTROL Macintosh HD >]** **[!UICONTROL users >] **[UICONTROL (your user name**) >]** **[!UICONTROL Keys]**.
+    For example, in iOS, go to **[!UICONTROL Macintosh HD]** > **[!UICONTROL users]** > **[!UICONTROL (your user name)]** > **[!UICONTROL Keys]**.
 
 The following video guides you through the process of generating the key pair:
 
@@ -86,10 +86,10 @@ On the **[!UICONTROL JWT]** tab, the Adobe I/O console allows you to test your i
 To generate a JWT token:
 
 1. In a text editor, open your `private.key` file created that you created above.
-2. On the **[!UICONTROL JWT]** tab, copy the contents of the key, and paste it in the **[!UICONTROL Paste private key]** field. 
+2. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field. 
 3. Click **[!UICONTROL Generate JWT]**.
 4. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
-5. Run the command by pressing Enter on your keyboard.
+5. Run the command by pressing **[!UICONTROL Enter]** on your keyboard.
 6. Locate the `"token_type": "bearer"` and the `"access_token"` value.  
 
     The value of the bearer access token is what you will use in your Places API requests.  

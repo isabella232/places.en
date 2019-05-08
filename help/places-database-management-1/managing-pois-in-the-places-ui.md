@@ -7,6 +7,8 @@ seo-description: Use the Places UI to manage your POIs.
 
 # Manage POIs in the Places UI
 
+POIs and libraries are created and managed in the Places database by using the Places UI.
+
 ## Defining a geofence POI
 
 Geofences are a type of POI and are defined in the database based by the following keys:
