@@ -1,15 +1,17 @@
 ---
-title: Create a Places integration
-seo-title: Create a Places integration
-description: Information about creating a Places integration.
-seo-description: Information about creating a Places integration.
+title: Create a Experience Platform Location Services integration
+seo-title: Create a Experience Platform Location Services integration
+description: Information about creating a Experience Platform Location Services integration.
+seo-description: Information about creating a Experience Platform Location Services integration.
 ---
 
-# Create a Places integration
+# Create a Experience Platform Location Services integration {create-places-integration}
+
+To create an Experience Platform Location Services integration, complete the following tasks:
 
 ## Generate a public and private key pair
 
-To create a Places integration, you need a public and a private key pair. These pairs can be purchased, or you can generate your own self-signed keys.
+To create a Experience Platform Location Services integration, you need a public and a private key pair. These pairs can be purchased, or you can generate your own self-signed keys.
 
 To generate your own self-signed keys:
 
@@ -21,7 +23,7 @@ To generate your own self-signed keys:
       openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout places_integration_test_private.key -out    places_integration_test_public.crt
    ```
 
-   >[!TIP]
+   >[!IMPORTANT]
    >
    >We recommend that you name your keys for easy reference and store them in a folder. If you create multiple integrations, you can easily identify and manage which keys belong to which integration.
 
@@ -49,9 +51,9 @@ The following video guides you through the process of generating the key pair:
 
 ![](/help/assets/places_integration_video.gif)
 
-## Create a Places integration in the Adobe I/O console
+## Create a Experience Platform Location Services integration in the Adobe I/O console
 
-To create a Places integration:
+To create a Experience Platform Location Services integration:
 
 1. In a browser, go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
 2. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the left.
@@ -59,10 +61,10 @@ To create a Places integration:
 4. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.
 5. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
 6. Select **[!UICONTROL New integration]** and click **[!UICONTROL Continue]**.
-7. On the _Create a new integration_ screen, enter a name and description. 
-8. Drag and drop your `xxxx_public.crt` file, created above, to the **[!UICONTROL Public keys certificates]** drop zone.
+7. On the *Create a new integration* screen, enter a name and description. 
+8. Drag and drop your `xxxx_public.crt` file, that you created above, to the **[!UICONTROL Public keys certificates]** drop zone.
 9. At the bottom of the page, click **[!UICONTROL Create integration]**.
-10. After a few seconds, in the _Integration created_ screen, verify that the following message appears:
+10. After a few seconds, in the *Integration created* screen, verify that the following message appears:
 
     `Your integration has been created.`
 

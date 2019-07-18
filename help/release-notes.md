@@ -7,6 +7,34 @@ seo-description: Release notes for Adobe Location Services.
 
 # Release notes
 
+## June 25, 2019
+
+The following updates were made in this release:
+
+**iOS Places Monitor 1.0.2**
+
+* Quality of life improvements, including better in-code documentation and logging.
+
+## June 17, 2019
+
+The following updates were made in this release:
+
+**iOS Places 1.1.0**
+
+* Added a new API to return an error code when there is a failure retrieving nearby places.
+* When privacy status changes to opt-out, all Places-related data will now be wiped from the device.
+* Fixed an issue that, after a first launch, sometimes caused Places events to be lost due to bad network conditions.
+* Fixed an issue where, when processing POI entry events in quick succession, token replacement via Rules Engine sometimes reference the incorrect POI.
+
+## May 28, 2019
+
+Fixed the following issues in the Places UI:
+
+* Updated the Solution Switcher in Places to align with the rest of the Experience Cloud.
+* Fixed an issue where rank was saving in instances where no rank changes were made.
+* Increased the minimum allowed radius in the UI to 10 meters.
+* Fixed an issue where, if you delete all the numbers in the field, the radius field reset back to 20 meters.
+
 ## February 28, 2019
 
 ### Beta Release

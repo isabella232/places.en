@@ -1,3 +1,10 @@
+---
+title: Overview
+seo-title: Getting started
+description: Getting started with Experience Platform Location Services.
+seo-description: Getting started with Experience Platform Location Services.
+---
+
 # Launch Data Elements with Places Data
 
 ## Data elements

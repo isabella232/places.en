@@ -1,6 +1,6 @@
 ---
 title: Headers and parameters
-seo-title: Getting started
+seo-title: Headers and parameters
 description: Headers and parameters that are available in the Places REST APIs.
 seo-description: Headers and parameters that are available in the Places REST APIs.
 ---

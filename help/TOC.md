@@ -10,12 +10,12 @@ user-guide-title: Adobe Experience Platform Location Services Help
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + [Adding a user to Launch and Places](adding-a-user-to-launch-places.md)
-+ Places web services {#places-rest-apis}
-  + [Places REST APIs](places-rest-apis/places-rest-apis.md)
++ Experience Platform Location Services web services {#places-rest-apis}
+  + [Experience Platform Location Services REST APIs](places-rest-apis/places-rest-apis.md)
   + [Organizational requirements](places-rest-apis/organizational-requirements.md)
   + Adobe I/O integration {#adobe-i-o-integration}
     + [Adobe I/O integration](places-rest-apis/adobe-i-o-integration/adobe-i-o-integration.md)
-    + [Create a Places integration](places-rest-apis/adobe-i-o-integration/create-a-places-integration.md)
+    + [Create a Experience Platform Location Services integration](places-rest-apis/adobe-i-o-integration/create-a-places-integration.md)
   + API usage {#api-usage}
     + [API usage overview](places-rest-apis/api-usage/api-usage.md)
     + [Headers and parameters](places-rest-apis/api-usage/headers-and-parameters.md)
@@ -42,10 +42,12 @@ user-guide-title: Adobe Experience Platform Location Services Help
         + [Update multiple POIs](places-rest-apis/api-usage/manage-pois/update-multiple-pois.md)
         + [Delete multiple POIs](places-rest-apis/api-usage/manage-pois/delete-multiple-pois.md)
     + [Query APIs](places-rest-apis/api-usage/query-apis.md)
-+ Places UI {#places-database-management-1}
-  + [Manage POIs in the Places UI](places-database-management-1/managing-pois-in-the-places-ui.md)
++ Experience Platform Location Services UI {#places-database-management-1}
+  + [Manage POIs in the Experience Platform Location Services UI](places-database-management-1/managing-pois-in-the-places-ui.md)
   + [Manage libraries in the Places UI](places-database-management-1/manage-libraries.md)
-+ [Configure the SDK with Places](configure-places-in-the-sdk.md)
-+ [Configure Launch rules and data elements with Places data](rules-data-elements-places-data.md)
-+ [Places use cases](places-use-cases.md)
-+ [Places FAQs](places-faqs.md)
++ Configure the SDK with Experience Platform Location Services {#configure-places-with-sdk}
+  + [Configure the SDK with Experience Platform Location Services](configure-places-in-the-sdk.md)
+    + [Places extension](configure-location-services-in-the sdk/places-extension.md)
++ [Configure Experience Platform Launch rules and data elements with Experience Platform Location Services data](rules-data-elements-places-data.md)
++ [Experience Platform Location Services use cases](places-use-cases.md)
++ [Experience Platform Location Services FAQs](places-faqs.md)

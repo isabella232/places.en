@@ -1,6 +1,6 @@
 ---
-title: Overview
-seo-title: Manage POIs
+title: Manage POIs overview
+seo-title: Manage POIs overview
 description: Understand and work with POIs. 
 seo-description: Understand and work with POIs. 
 ---

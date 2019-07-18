@@ -1,97 +1,101 @@
 ---
 title: Overview
 seo-title: Getting started
-description: Getting started with Adobe Places.
-seo-description: Getting started with Adobe Places.
+description: Getting started with Experience Platform Location Services.
+seo-description: Getting started with Experience Platform Location Services.
 ---
 
 # Getting started {#getting-started}
 
-## Get provisioned to use Adobe Places 
+Here are the tasks you need to complete before you can use Experience Platform Location Services.
 
-Places requires special provisioning context with your regular Adobe Experience Platform provisioning context. 
+## Get provisioned to use Adobe Places
+
+Places requires special provisioning context with your regular Adobe Experience Platform provisioning context.
 
 To get provisioned, complete the following tasks:
 
-* In the Admin Console, ensure that your organization is provisioned with Places. 
+* In the Admin Console, ensure that your organization is provisioned with Places.   
 
   If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
 
-* Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console.
+* Ensure you are listed as a user under the Places and Launch product contexts in the Admin Console.  
 
-  For more information, see [Adding a user to Launch and Places](/help/adding-a-user-to-launch-places.md).
-* Ensure your mobile app property is configured in Adobe Launch with the Places extension installed. 
+   For more information, see [Adding a user to Launch and Places](https://placesdocs.com/places-services-by-adobe-documentation/adding-a-user-to-launch-and-places).
 
-  For more information, see [Adobe Places (Beta)](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1). 
+* Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.   
 
-* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places.
+  For more information, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension). 
+
+* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places.  
 
   This allows you to add your POIs and Libraries.
 
 ## Configure the Places extension and Places Monitor extension
 
-For more information about configuring the Places extension and Places Monitor extension, see [Places extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension) and [Places Monitor extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-monitoring-extension).
+For more information about configuring the Places extension and Monitor extension, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension) and [Places Monitor extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension).
 
 ## Creating libraries and POIs
 
 You can create libraries and POIs in one of the following ways:
 
-* By using the web services.
-
-  For more information, see [Places web services](https://launch.gitbook.io/places-services-by-adobe-documentation/places-rest-apis).
-
-* By using the Places UI.
-  
-  For more information, see [Places UI](https://launch.gitbook.io/places-services-by-adobe-documentation/places-database-management-1).
-  
+* By using the web services. For more information, see [Places web services](https://placesdocs.com/places-services-by-adobe-documentation/places-rest-apis).
+* By using the Places UI. For more information, see [Places UI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1). 
 
 ## Create an empty library in the Places database in the Places UI
 
-1. Log into Adobe Places UI.
-
-    The UI allows you to visually add and manage POIs and libraries.
-
-2. Click on the **[!UICONTROL Libraries]** tab.
-3. Click **[!UICONTROL Create Library]**.
+1. Log into Adobe Places UI  The user interface that is used to visually add and manage the POIs and libraries. 
+2. Click on the **Libraries** tab.
+3. Click **Create Library**.
 4. Type the name.
-5. Click **[!UICONTROL Confirm]**.
+5. Click **Confirm**.
 
-## Create a POI in the library in the Places UI
+## Create a new POI in the library in the Places UI
 
-A point of interest (POI) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
+A POI is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on.
 
-1. Log in to Adobe Places Services ([https://places.adobe.com/](https://places.adobe.com/)) with your Adobe ID.
-2. On the **[!UICONTROL Map]** tab, click **[!UICONTROL + New POI]**. 
-3. Complete the following tasks in the **[!UICONTROL Details]** section:
+1. Log in to Adobe Places Services UI \([https://places.adobe.com](https://places.adobe.com)\) with your Adobe ID.
+2. In the map view, click **+ New POI**. 
+3. Complete the following steps in the **Details** section:
 
-    a. Type a name.
+   a. Type a name.
 
-    b. Select a library.
+   b. Select a library.
 
-      To create a new library, click **[!UICONTROL +]**.
+   c. Enter or select a radius.
 
-    c. Enter or select a radius. 
+   d. Select the icon that you want to use for your POI.
 
-    d. Select the icon that you want to use for your POI.
+   e. Select a color for your POI icon.
 
-    e. Select a color for the icon.
+   f. Type a category.
 
-    f. Type a category.
+4. Complete the following steps in the **Location** section:
 
-4. Complete the following tasks in the **[!UICONTROL Location]** section:
+   a. Type an address.
 
-    a. Type an address, city, state, and country.
+   b. Type the city.
 
-    b. Select or enter a latitude or longitude of your POI.
+   c. Type the name of the state.
 
-    c. Click **[!UICONTROL Drop Pin on Map]**.
+   d. Type the name of the country.
 
-5. Complete the following tasks in the **[!UICONTROL Metadata]** section:
+   e. Select or enter a latitude or longitude.
 
-   a. Click **[!UICONTROL + Add Metadata]**.
+   f. Click **Drop Pin on Map**.
+
+5. Complete the following steps in the **Metadata** section:
+
+   a. Click **Add Metadata.**
 
    b. Type the key name.
 
    c. Type the key value.
 
-   d. Click **[!UICONTROL Confirm]**.
+6. Click **Confirm**. 
+
+## Get started with Experience Location Services: a video
+
+Here is a video that can help you get started with Adobe Experience Platform Location Services:
+
+>[!VIDEO](https://www.youtube.com/watch?v=aV6i\_ayxWCw)

@@ -1,13 +1,13 @@
 ---
-title: Adding a user to Launch and Places
-seo-title: Adding a user to Launch and Places
-description: You need to add users to the Places Core Service so that they can access the Places UI. 
-seo-description: You need to add users to the Places Core Service so that they can access the Places UI. 
+title: Adding a user to Experience Platform Location Services and Adobe Experience Platform Launch
+seo-title: Adding a user to Experience Platform Location Services and Experience Platform Launch
+description: You need to add users to the Places Core Service so that they can access the Experience Platform Location Services UI. 
+seo-description: You need to add users to the Experience Platform Location Services Core Service so that they can access the Experience Platform Location Services UI. 
 ---
 
-# Adding a user to Launch and Places {#adding-user-launch-places}
+# Adding a user to Experience Platform Location Services and Experience Platform Launch {#adding-user-launch-places}
 
-To allow users to access places.adobe.com, they need to be added to Places Core Service in the Admin Console as a user. To allow users to have access to Launch, configure mobile properties, and use Places with the Adobe Experience Platform SDK, they need to be added to Adobe Experience Platform Launch in the Admin Console and be given the following permissions for Launch:
+To allow users to access places.adobe.com, they need to be added to Experience Platform Location Services Core Service in the Admin Console as a user. To allow users to have access to Adobe Experience Platform Launch, configure mobile properties, and use Experience Platform Location Services with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
 
 * All Property Rights:
   * Develop
@@ -23,14 +23,14 @@ If this is the first time you are adding a user, complete the following steps to
 >
 >Only org administrators can access the Admin Console and add the users.
 
-## 1. Verify that Places and Launch are provisioned 
+## 1. Verify that Experience Platform Location Services and Adobe Experience Platform Launch are provisioned 
 
-To verify that Places and Launch are provisioned:
+To verify that Experience Platform Location Services and Adobe Experience Platform Launch are provisioned:
 
 1. Log in to your Experience Cloud organization.
 1. In the top-right side, click the Experience Cloud shell switcher.
 
-  ![](assets/places_shell_switcher1.png)
+    ![shell switcher](assets/places_shell_switcher1.png)
 
 1. Under **[!UICONTROL Platform]**, click **[!UICONTROL Administration]**.
 
@@ -40,7 +40,7 @@ To verify that Places and Launch are provisioned:
 
 1. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page. 
 
-    This is the organization to which you will add your users. If the correct org has not been selected, click on the org, and select the org from the drop-down list. If you have access to several organizations, verify that the correct org is selected.  
+    This is the organization to which you will add your users. If the correct org has not been selected, click on the org and select the org from the drop-down list.   
 
     >[!IMPORTANT]
     >
@@ -50,7 +50,7 @@ To verify that Places and Launch are provisioned:
 
     ![](assets/places_provisioned1.png)
 
-    If they are displayed, Places and Launch have been provisioned for your organization. If they are not displayed, they have not been provisioned for your organization.
+    If they are displayed, Experience Platform Location Services and Experience Platform Launch have been provisioned for your organization. If they are not displayed, they have not been provisioned for your organization.
 
     >[!IMPORTANT]
     >
@@ -60,18 +60,16 @@ To verify that Places and Launch are provisioned:
 
 To set up the profile and add the permissions:
 
-1. Set up a Launch profile, which allows the users who were added to the profile, use Launch and its mobile properties with the Adobe Experience Platform SDK.
+1. Set up a Experience Platform Launch profile, which allows the users who were added to the profile, use Experience Platform Launch and its mobile properties with the Experience Platform SDK.
 
    a. In the menu bar, click **[!UICONTROL Product]**.
 
    b. In the left pane, in the list of products, click **[!UICONTROL Adobe Experience Platform Launch]**.
 
-     * The Launch profile(s) appear on the right.
-     * Launch has a default profile called *Launch - (org name)* . 
+     * The Experience Platform Launch profile(s) appear on the right.
+     * Experience Platform Launch has a default profile called *Launch - (org name)* . 
   
-       If you previously added users to Launch, you might see multiple profiles listed.
-
-   If you have added users to Launch, you might have multiple profiles listed.
+       If you previously added users to Experience Platform Launch, you might see multiple profiles listed.
 
 2. Select the correct profile:
 
@@ -93,19 +91,19 @@ To set up the profile and add the permissions:
 
 >[!IMPORTANT]
 >
->For Places, there is a default profile, but you do not have to add any permissions. 
+>For Experience Platform Location Services, there is a default profile, but you do not have to add any permissions. 
 
 You have successfully added permissions to the profile that you created.
 
-## 3. Add a user or a developer to your Launch and Places profiles
+## 3. Add a user or a developer to your Experience Platform Location Services and Adobe Experience Platform Launch profiles
 
-You can add a user and/or a developer to your Launch and Places profiles.
+You can add a user and/or a developer to your Experience Platform Location Services and Experience Platform Launch profiles.
 
 ### Add a user
 
-To add a user to your Launch and Places profiles:
+To add a user to your Experience Platform Location Services and Experience Platform Launch profiles:
 
-1. Add a user to the Launch profile.
+1. Add a user to the Experience Platform Launch profile.
 
    a. In the menu bar, click **[!UICONTROL Overview]**.
 
@@ -122,8 +120,8 @@ To add a user to your Launch and Places profiles:
 
    e. Complete one of the following steps:
 
-   * If you are adding a new user, click **[!UICONTROL New user]**, and enter the user’s first and last name.
-   * If you are adding an existing user, click the user’s name that is displayed.
+      * If you are adding a new user, click **[!UICONTROL New user]**, and enter the user’s first and last name.
+      * If you are adding an existing user, click the user’s name that is displayed.
 
    f. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the profile that you edited earlier.
 
@@ -133,7 +131,7 @@ To add a user to your Launch and Places profiles:
 
    >[!TIP]
    >
-   >Currently, all Places users have the same permissions, so you do not need to edit the permissions.
+   >Currently, all Experience Platform Location Services users have the same permissions, so you do not need to edit the permissions.
 
    a. On the **[!UICONTROL Places Core Services]** card, verify the following:
 
@@ -155,7 +153,7 @@ To add a user to your Launch and Places profiles:
 
 ### Add a developer
 
-For users who also need access to the Places REST API, you need to add them as a Developer.
+For users who also need access to the Experience Platform Location Services REST API, you need to add them as a Developer.
 
 To add a developer:
 
@@ -170,12 +168,12 @@ To add a developer:
 
 1. Complete one of the following steps:
 
-     * If you are adding a new user, click **[!UICONTROL New user]**, and enter the user’s first and last name.
+     * If you are adding a new user, click **[!UICONTROL New user]** and enter the user’s first and last name.
      * If you are adding an existing user, click the user’s name that is displayed.
 
-1. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Places profile.
+1. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Experience Platform Location Services profile.
 
 1. Click **Save**.
 
-Users receive an email that notifies them that they have access to Launch and can log in to the [Launch](https://launch.adobe.com) or the [Places](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **Add a developer** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places Integration and use the Places REST API.
+Users receive an email that notifies them that they have access to Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Experience Platform Launch](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **Add a developer** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Experience Platform Location Services integration and use the Experience Platform Location Services REST API.
 
