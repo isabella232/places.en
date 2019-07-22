@@ -5,7 +5,7 @@ description: The Location Services extension allows you to act based on the loca
 seo-description: The Location Services extension allows you to act based on the location of your users.
 ---
 
-# Location Services extension {places-extension}
+# Location Services extension {#places-extension}
 
 The Location Services extension allows you to act based on the location of your users. This extension is the interface to the Location Services Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
 
@@ -23,7 +23,7 @@ The Location Services extension allows you to act based on the location of your 
 
 ### Configure the Location Services extension
 
-![Places extension](assets/places-extension.png)
+![Places extension](/assets/places-extension.png)
 
 ## Add the Location Services extension to your app
 

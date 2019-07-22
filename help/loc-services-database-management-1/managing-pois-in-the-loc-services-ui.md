@@ -1,13 +1,13 @@
 ---
-title: Manage POIs in the Places UI
-seo-title: Manage POIs in the Places UI
+title: Manage POIs in the Experience Platform Location Services UI
+seo-title: Manage POIs in the Experience Platform Location Services UI
 description: Use the Places UI to manage your POIs.
 seo-description: Use the Places UI to manage your POIs.
 ---
 
 # Manage POIs in the Places UI
 
-POIs and libraries are created and managed in the Places database by using the Places UI.
+POIs and libraries are created and managed in the Experience Platform Location Services database by using the Experience Platform Location Services UI.
 
 ## Defining a geofence POI
 
@@ -33,7 +33,7 @@ Geofences are a type of POI and are defined in the database based by the followi
 
 A point of interest (POI) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
-1. Log into Adobe Places Services with your Adobe ID.
+1. Log into Adobe Experience Platform Location Services with your Adobe ID.
 2. In the top left side, click **[!UICONTROL Map]**.
 3. In the map view, on the lower right side, click **[!UICONTROL New POI]**. 
 4. Expand the **[!UICONTROL Details]** section.

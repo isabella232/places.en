@@ -7,6 +7,16 @@ seo-description: Release notes for Adobe Location Services.
 
 # Release notes
 
+Here are the release notes for Experience Platform Location Services:
+
+## July 19, 2019
+
+The following updates were made in this release:
+
+**iOS Places 1.2.0**
+
+Added a new API that clears out all Places-related data from shared state, in-app memory, and NSUserDefaults.
+
 ## June 25, 2019
 
 The following updates were made in this release:

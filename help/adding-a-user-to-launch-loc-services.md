@@ -1,7 +1,7 @@
 ---
 title: Adding a user to Experience Platform Location Services and Adobe Experience Platform Launch
 seo-title: Adding a user to Experience Platform Location Services and Experience Platform Launch
-description: You need to add users to the Places Core Service so that they can access the Experience Platform Location Services UI. 
+description: You need to add users to the Experience Platform Location Services Core Service so that they can access the Experience Platform Location Services UI. 
 seo-description: You need to add users to the Experience Platform Location Services Core Service so that they can access the Experience Platform Location Services UI. 
 ---
 
@@ -17,7 +17,7 @@ To allow users to access places.adobe.com, they need to be added to Experience P
   * Manage environments
 * Manage Properties permission under Company Rights 
 
-If this is the first time you are adding a user, complete the following steps to add users to Launch and Places. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
+If this is the first time you are adding a user, complete the following steps to add users to Experience Platform Launch and Experience Platform Location Services. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
 
 >[!IMPORTANT]
 >
@@ -147,7 +147,7 @@ To add a user to your Experience Platform Location Services and Experience Platf
    * If you are adding a new user, click **[!UICONTROL New user]**, and enter the user’s first and last name.
    * If you are adding an existing user, click the user’s name that is displayed.
 
-   e. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Places profile.
+   e. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Experience Platform Location Services profile.
 
    f. Click **[!UICONTROL Save]**.
 
@@ -157,7 +157,7 @@ For users who also need access to the Experience Platform Location Services REST
 
 To add a developer:
 
-1. On the **[!UICONTROL Places Core Services]** card, verify the following:
+1. On the **[!UICONTROL Experience Platform Location Services Core Services]** card, verify the following:
 
    * Two dots are displayed at the bottom of the card.
    * Click the dot on the right so **[!UICONTROL Assign Developers]** appears at the bottom of the card.

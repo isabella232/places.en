@@ -1,15 +1,15 @@
 ---
 title: Overview
-seo-title: Adobe Location Services overview
-description: Location is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
-seo-description: Location is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+seo-title: Adobe Experience Platform Location Services overview
+description: Experience Platform Location Services is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+seo-description: Experience Platform Location Services is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 ---
 
 # Overview {#home}
 
-Location is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
+Experience Platform Location Services is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
 
-Places in Adobe's Experience Cloud geo-location service allows you to achieve the following:
+Experience Platform Location Services in Adobe's Experience Cloud geo-location service allows you to achieve the following:
 
 * Create and manage a database of POIs that can be leveraged with other Experience Cloud solutions.
 * Attach custom metadata to the POIs to make them richer and more meaningful by specifying additional attributes. 
@@ -19,27 +19,36 @@ Places in Adobe's Experience Cloud geo-location service allows you to achieve th
 
 This will allow you to take actions from location signals in real time, when and where it matters. The right context provides a more enriching mobile engagement experience.
 
-Here are some of the ways you can use Places: 
+Here are some of the ways you can use Experience Platform Location Services: 
 
 * Send a real time notification when someone enters a POI, _"Hey..welcome to the stadium"_. 
 * Analyze foot traffic of your own stores versus your competitor stores.
 * Segment an audience based on offline behavior by using audience profiles with location context.
 * Target a user with an in-store experience when relevant.
 
-## Places Components
+## Experience Platform Location Services Components
 
-Places comprises the following components:
+Experience Platform Location Services comprises the following components:
 
-* **Places web service** You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see [Places web service](https://placesdocs.com/places-services-by-adobe-documentation/places-rest-apis).
-* **Places UI** Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
-* **Places SDK** The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension).
-* **Places rules** The geo-intelligent Experience Platform Launch rules that enable you to trigger actions with entry and exit events. The rules also allow you to use geo-attributes in conditions to personalize the experience. 
+* **Experience Platform Location Services Web Service** You can create and manage POIs by using the REST APIs. 
+
+  For more information about the REST APIs, see [Places web service](https://placesdocs.com/places-services-by-adobe-documentation/places-rest-apis).
+* **Experience Platform Location Services UI** Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
+* **Places SDK** The multi-platform mobile API interface to integrate the location context in your mobile apps. 
+
+  For more information about the SDKs, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension).
+
+* **Places rules** The geo-intelligent Experience Platform Launch rules that enable you to trigger actions with entry and exit events. 
+
+  The rules also allow you to use geo-attributes in conditions to personalize the experience. 
+
 * **Places Monitor**  
+  
   The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension).
 
 ## Terminology
 
-Here are some common terms that are used in the Places documentation:
+Here are some common terms that are used in the Experience Platform Location Services documentation:
 
 * A **point of interest \(POI\)** is a geo-location that is of interest to your organization.  You can define POIs with attributes such as a name, radius, address, category, and metadata tags.
 * A **geofence** is a type of POI.  This POI type is a virtual geographic boundary that is defined by latitude and longitude coordinates.
@@ -54,9 +63,9 @@ Here are some common terms that are used in the Places documentation:
 * The **orgID** is the ID that represents your organization across Adobe Experience Platform.   For more information, see [Finding your orgID](https://forums.adobe.com/thread/2339895).
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. For more information, see [Overview](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
-## Understanding the Places UI
+## Understanding the Experience Platform Location Services UI
 
-To access the Places UI, in a browser, go to  [https://places.adobe.com](https://places.adobe.com) and log in with your Adobe ID. 
+To access the Experience Platform Location Services UI, in a browser, go to  [https://places.adobe.com](https://places.adobe.com) and log in with your Adobe ID. 
 
 Here is some basic information to help you get familiar with the UI:
 
@@ -68,8 +77,8 @@ Here is some basic information to help you get familiar with the UI:
 ![](assets/places_ui_intro.png)
 
 
-## Places workflow
+## Experience Platform Location Services workflow
 
-Here is a high-level view of the Places workflow:
+Here is a high-level view of the Experience Platform Location Services workflow:
 
 ![](assets/places-workflow-diagram-lc-1.png)

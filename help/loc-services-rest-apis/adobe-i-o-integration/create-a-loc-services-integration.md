@@ -79,7 +79,7 @@ To create a Experience Platform Location Services integration:
 
    These IDs are needed for each Places Rest API request.
 
-![](/help/assets/places_orgid_api-key.png)
+![](/assets/places_orgid_api-key.png)
 
 ## Generate a JWT token
 

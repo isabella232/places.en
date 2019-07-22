@@ -18,10 +18,10 @@ An integration with Adobe I/O provides these items and a way to request the bear
 ## Additional information
 
 * For more information about JWTs, see [Introduction to JSON Web Tokens](https://jwt.io/introduction/).
-* To create an integration for Places, see [Creating a Experience Platform Location Services integration](/help/places-rest-apis/adobe-i-o-integration/create-a-places-integration.md).
+* To create an integration for Places, see [Creating a Experience Platform Location Services integration](//help/loc-services-rest-apis/adobe-i-o-integration/create-a-loc-services-integration.md).
 * To understand API key integration, generating a JWT, and public key certificates, see [Adobe I/O Authentication Overview](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
 
 >[!IMPORTANT]
 >
->If you cannot log in to the Adobe I/O console, or if Experience Platform Location Services is not an option on the *Create Integrations page*, see [Organization requirements](/help/places-rest-apis/organizational-requirements.md).
+>If you cannot log in to the Adobe I/O console, or if Experience Platform Location Services is not an option on the *Create Integrations page*, see [Organization requirements](/help/loc-services-rest-apis/organizational-requirements.md).
 
