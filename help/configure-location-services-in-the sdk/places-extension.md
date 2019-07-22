@@ -1,39 +1,39 @@
 ---
-title: Places extension
-seo-title: Places extension
-description: The Places extension allows you to act based on the location of your users.
-seo-description: The Places extension allows you to act based on the location of your users.
+title: Location Services extension
+seo-title: Location Services extension
+description: The Location Services extension allows you to act based on the location of your users.
+seo-description: The Location Services extension allows you to act based on the location of your users.
 ---
 
-# Places extension {places-extension}
+# Location Services extension {places-extension}
 
-The Places extension allows you to act based on the location of your users. This extension is the interface to the Places Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
+The Location Services extension allows you to act based on the location of your users. This extension is the interface to the Location Services Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
 
-## Install the Places extension in Adobe Experience Platform Launch
+## Install the Location Services extension in Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 2. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Adobe Places]** extension, and click **[!UICONTROL Install]**.
 3. Select the Places libraries you want to use in this property. These are the libraries that will be accessible in your app.
 4. Click **[!UICONTROL Save]**. 
 
-    When you click **[!UICONTROL Save]**, the Experience Platform SDK searches the Places Service for POIs in the libraries that you selected. The POI data is not included in the download of the library when you build the app, but a location-based subset of POIs is downloaded to the end user's device at runtime and is based on the user's GPS coordinates.
+    When you click **[!UICONTROL Save]**, the Experience Platform SDK searches the Places Services for POIs in the libraries that you selected. The POI data is not included in the download of the library when you build the app, but a location-based subset of POIs is downloaded to the end user's device at runtime and is based on the user's GPS coordinates.
 5. Complete the publishing process to update the SDK configuration.
 
    For more information about publishing, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
 
-### Configure the Places extension
+### Configure the Location Services extension
 
-![Places extension](/assets/places-extension.png)
+![Places extension](assets/places-extension.png)
 
-## Add the Places extension to your app
+## Add the Location Services extension to your app
 
-You can add the Places extension to your app in Android and iOS.
+You can add the Location Services extension to your app in Android and iOS.
 
 ### Android
 
-To add the Places extension to your app by using Java:
+To add the Location Services extension to your app by using Java:
 
-1. Add the Places extension to your project using your app's gradle file.
+1. Add the Location Services extension to your project using your app's gradle file.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -49,7 +49,7 @@ To add the Places extension to your app by using Java:
 
 ### iOS
 
-To add Places extension to your app by using Objective-C or Swift:
+To add Location Services extension to your app by using Objective-C or Swift:
 
 1. Add the Places and [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) libraries to your project. You will need to add the following pods to your `Podfile`:
 
@@ -58,7 +58,7 @@ To add Places extension to your app by using Objective-C or Swift:
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and Places libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
+   Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and Location Services libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
 
 2. Update your Cocoapods:
 
@@ -66,7 +66,7 @@ To add Places extension to your app by using Objective-C or Swift:
    pod update
    ```
 
-3. Open Xcode, and in your AppDelegate class, import the Core and Places headers:
+3. Open Xcode, and in your AppDelegate class, import the Core and Location Services headers:
 
     **Objective-C**
 
@@ -84,11 +84,11 @@ To add Places extension to your app by using Objective-C or Swift:
 
 ### Register Experience Platform Location Services with Mobile Core
 
-You can register Experience Platform Location Services with Mobile Core in Android and iOS.
+You need to register Experience Platform Location Services with Mobile Core in Android and iOS.
 
 #### Android
 
-In your App's `OnCreate` method register the Places extensions:
+In your App's `OnCreate` method register the Location Services extensions:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -110,7 +110,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-In your App's `application:didFinishLaunchingWithOptions:` method, register the Places extension with your other SDK registration calls:
+In your App's `application:didFinishLaunchingWithOptions:` method, register the Location Services extension with your other SDK registration calls:
 
 **Objective-C**
 
@@ -135,7 +135,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Configuration keys
 
-To update the SDK configuration programmatically at runtime, use the following information to change your Adobe Places configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
+To update the SDK configuration programmatically at runtime, use the following information to change your Location Services configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
 | Key | Required | Description |
 | :--- | :--- | :--- |
