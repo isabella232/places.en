@@ -7,7 +7,7 @@ seo-description: You need to add users to the Experience Platform Location Servi
 
 # Adding a user to Experience Platform Location Services and Experience Platform Launch {#adding-user-launch-places}
 
-To allow users to access places.adobe.com, they need to be added to Experience Platform Location Services Core Service in the Admin Console as a user. To allow users to have access to Adobe Experience Platform Launch, configure mobile properties, and use Experience Platform Location Services with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
+To allow users to access the [Experience Platform Launch Services UI](https://places.adobe.com), they need to be added to Experience Platform Location Services Core Service in the Admin Console as a user. To allow users to have access to Adobe Experience Platform Launch, configure mobile properties, and use Experience Platform Location Services with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
 
 * All Property Rights:
   * Develop

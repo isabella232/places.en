@@ -9,39 +9,35 @@ seo-description: A list of the events that are handled by the Places extension.
 
 Here is a list of the events that are handled by the Places extension.
 
-# Places event reference
+## GetCurrentPointsOfInterest
 
-## Events handled by the Places extension
-
-### GetCurrentPointsOfInterest
-
-#### **Event Details**
+**Event Details**
 
 | Type | Source | Name | Paired |
 | :--- | :--- | :--- | :--- |
-| PLACES | REQUEST\_CONTENT | requestgetuserwithinplaces | True |
+| PLACES | REQUEST_CONTENT | requestgetuserwithinplaces | True |
 
-#### **Event Description**
+**Event Description**
 
 This event is a request to retrieve the POIs in which the device is currently located.
 
-#### **Data Payload Definition**
+**Data Payload Definition**
 
 n/a
 
-### GetNearbyPointsOfInterest
+## GetNearbyPointsOfInterest
 
-#### **Event Details**
+**Event Details**
 
 | Type | Source | Name | Paired |
 | :--- | :--- | :--- | :--- |
-| PLACES | REQUEST\_CONTENT | requestgetnearbyplaces | True |
+| PLACES | REQUEST_CONTENT | requestgetnearbyplaces | True |
 
-#### **Event Description**
+**Event Description**
 
 This event is a request to get the nearby POIs by taking into consideration the current device location and the configured Places libraries.
 
-#### **Data Payload Definition**
+**Data Payload Definition**
 
 | Key | Value Type | Required | Default Value | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -50,19 +46,19 @@ This event is a request to get the nearby POIs by taking into consideration the 
 | radius | integer | false | n/a | Radius, in meters, used by the search for nearby POIs. |
 | count | integer | false | 10 | Maximum number of POIs to return in resulting response event. |
 
-### ProcessRegionEvent
+## ProcessRegionEvent
 
-#### **Event Details**
+**Event Details**
 
 | Type | Source | Name | Paired |
 | :--- | :--- | :--- | :--- |
-| PLACES | REQUEST\_CONTENT | requestprocessregionevent | False |
+| PLACES | REQUEST_CONTENT | requestprocessregionevent | False |
 
-#### **Event Description**
+**Event Description**
 
 This event causes the Places extension to process a geofence entry or exit event.
 
-#### **Data Payload Definition**
+**Data Payload Definition**
 
 | Key | Value Type | Required | Description |
 | :--- | :--- | :--- | :--- |

@@ -7,23 +7,28 @@ seo-description: Information on how to install, configure, and use the Places Mo
 
 # Using the Places Monitor extension {#using-places-monitor-extension}
 
-## Install the Places Monitor extension in Experience Platform Launch  <a id="configure-places-monitoring-extension-in-launch"></a>
+To use the Places Monitor extension, complete the following tasks:
 
-1. In Experience Platform Launch, click the **Extensions** tab.
-2. On the **Catalog** tab, locate the **Places Monitor** extension, and click **Install**.
-3. Click **Save**.
+## Install the Places Monitor extension in Experience Platform Launch
+
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+2. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Places Monitor]** extension, and click **Install**.
+3. Click **[!UICONTROL Save]**.
 4. Follow the publishing process to update the SDK configuration.
 
-### **Configure the Places Monitor extension**  <a id="configure-places-extension"></a>
+### **Configure the Places Monitor extension**  
 
 There are no configuration tasks for the Places Monitor extension.
 
 ![](/assets/configure_places_monitor.png)‌
 
-## Add the Places Monitor extension to your app  <a id="add-places-monitor-extension-to-your-app"></a>
+## Add the Places Monitor extension to your app
 
-{% tabs %}
-{% tab title="Android" %}
+You need to add the Places Monitor extension to your Android or iOS app.
+
+### Android
+
+In Android, complete the following steps:
 
 #### Java
 
@@ -44,13 +49,14 @@ There are no configuration tasks for the Places Monitor extension.
 import com.adobe.marketing.mobile.PlacesMonitor;
 ```
 
-{% endtab %}
+### iOS
 
-{% tab title="iOS" %}
+In iOS, complete the following steps:
+
 1. Add the library to your project via your Cocoapods `Podfile` by adding `pod 'ACPPlacesMonitor'`.
 2. Import the Places and Places Monitor libraries:
 
-#### Objective-C  <a id="objective-c"></a>
+#### Objective-C
 
 ```objectivec
 #import "ACPCore.h"
@@ -58,20 +64,22 @@ import com.adobe.marketing.mobile.PlacesMonitor;
 #import "ACPPlacesMonitor.h"
 ```
 
-#### Swift  <a id="swift"></a>
+#### Swift
 
 ```swift
 import ACPCore
 import ACPPlaces
 import ACPPlacesMonitor
 ```
-{% endtab %}
-{% endtabs %}
 
-## Register and Start the Places Monitor <a id="register-the-places-monitor-with-mobile-core"></a>
 
-{% tabs %}
-{% tab title="Android" %}
+## Register and Start the Places Monitor
+
+You need to register and start the Places Monitor in Android or iOS.
+
+## Android
+
+In Android, complete the following steps:
 
 #### Java
 
@@ -97,12 +105,11 @@ public class MobileApp extends Application {
 
 **Important:** Places monitoring depends on the Places extension. When you manually install the Places Monitor extension, ensure that you also add the `places.aar` library to your project.
 
-{% endtab %}
+## iOS
 
-{% tab title="iOS" %}
-In your app's`application:didFinishLaunchingWithOptions`, register `PlacesMonitor` and Places with Mobile Core:
+In your iOS app's`application:didFinishLaunchingWithOptions`, register `PlacesMonitor` and Places with Mobile Core:
 
-#### Objective-C  <a id="objective-c-1"></a>
+#### Objective-C
 
 ```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
@@ -118,7 +125,7 @@ In your app's`application:didFinishLaunchingWithOptions`, register `PlacesMonito
 }
 ```
 
-#### Swift  <a id="swift-1"></a>
+#### Swift
 
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -135,14 +142,15 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-**Important**: Places monitoring depends on the Places extension. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
-{% endtab %}
-{% endtabs %}
+>[!IMPORTANT]
+>
+>Places monitoring depends on the Places extension. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
 
-## Add permissions to the manifest <a id="add-permissions-to-the-manifest"></a>
 
-{% tabs %}
-{% tab title="Android" %}
+## Add permissions to the manifest
+
+### Android
+
 **Java**
 
 For all versions of Android, to declare that your app need location permission, put a `<uses-permission>` element in your app manifest, as a child of the top-level `<manifest>` element.
@@ -155,25 +163,24 @@ For all versions of Android, to declare that your app need location permission, 
   </application>
 </manifest>
 ```
-{% endtab %}
-{% endtabs %}
 
-## Enable location updates in the background  <a id="enable-location-updates-in-background"></a>
+
+## Enable location updates in the background  
 
 iOS supports the delivery of location events to apps that are suspended or no longer running. To receive location updates in the background for the Places Monitor extension, configure the Location updates capability for your app in `Xcode.background-location-updates`.
 
 ![](/assets/using-the-places-monitor_1.png)
 
-## Configuring the plist keys  <a id="configuring-the-plist-keys"></a>
+## Configuring the plist keys  
 
 The following keys must be included in your app's `Info.plist` file:
 
 * `NSLocationWhenInUseUsageDescription` - the text should describe why the app is requesting access to the user’s location information while running in the foreground.
 * `NSLocationAlwaysAndWhenInUseUsageDescription` - the text should describe why the app is requesting access to the user’s location information at all times.
 
-{% hint style="info" %}
-If your app supports iOS 10 and earlier, the `NSLocationAlwaysUsageDescription` key is also required.
-{% endhint %}
+>[!TIP]
+>
+>If your app supports iOS 10 and earlier, the `NSLocationAlwaysUsageDescription` key is also required.
 
 ![](/assets/using-the-places-monitor_2.png)
 

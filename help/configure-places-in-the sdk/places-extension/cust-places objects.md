@@ -1,4 +1,3 @@
-
 ---
 title: Custom Places objects
 seo-title: Custom native classes to be used with the Places APIsGetting started with Experience Platform Location Services.
@@ -7,13 +6,13 @@ seo-description: Custom native classes to be used with the Places APIs.
 
 # Custom Places objects {#places-objects}
 
-## Custom native classes to be used with the Places APIs
+Here are the custom native classes that will be used with the Places APIs:
 
-{% tabs %}
-{% tab title="iOS" %}
+## iOS
+
 ### ACPPlacesPoi
 
-#### Definition
+Here is the definition:
 
 ```text
 /**
@@ -33,6 +32,4 @@ seo-description: Custom native classes to be used with the Places APIs.
 
 @end
 ```
-{% endtab %}
-{% endtabs %}
 

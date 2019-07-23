@@ -1,8 +1,8 @@
 ---
-title: Placess extension
-seo-title: Places extension
-description: The Places extension allows you to act based on the location of your users.
-seo-description: The Placess extension allows you to act based on the location of your users.
+title: Places API reference
+seo-title: Places API reference
+description: Information about the API references in Places.
+seo-description: Information about the API references in Placess.
 ---
 
 # Places API reference {#places-api-reference}
@@ -55,7 +55,11 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent (iOS)
 
+This method should be called in the `CLLocationManager` delegate, which tells if the user has entered or exited a specific region.
+
 **Syntax**
+
+Here is the syntax for this method:
 
 ```objectivec
 + (void) processRegionEvent: (nonnull CLRegion*) region forRegionEventType: (ACPRegionEventType) eventType;
@@ -63,7 +67,8 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 **Example**
 
-This method should be called in the CLLocationManager delegate, which tells if the user has entered or exited a specific region.
+Here is the code sample for this method:
+
 
 ```objectivec
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
@@ -106,9 +111,11 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ## Retrieve nearby points of interest
 
-Requests a list of nearby POIs and returns them in a callback. Returns an ordered list of nearby POIs.
+Returns an ordered list of nearby POIs in a callback.
 
 ### GetNearbyPointsOfInterest (Android)
+
+Here is the syntax for this method:
 
 **Syntax**
 
@@ -118,6 +125,8 @@ public static void getNearbyPointsOfInterest(final Location location,
 ```
 
 **Example**
+
+Here is the code sample for this method:
 
 ```java
 Places.getNearbyPlaces(currentLocation, 10, new AdobeCallback<List<PlacesPOI>>() {
@@ -156,6 +165,8 @@ Requests a list of POIs in which the device is currently known to be in and retu
 
 ### GetCurrentPointsOfInterest (Android)
 
+Here is the syntax for this method:
+
 **Syntax**
 
 ```java
@@ -163,6 +174,8 @@ public static void getCurrentPointsOfInterest(final AdobeCallback<List<PlacesPOI
 ```
 
 **Example**
+
+Here is the code sample for this method:
 
 ```java
 Places.getCurrentPointsOfInterest(new AdobeCallback<List<PlacesPOI>>() {
@@ -178,11 +191,15 @@ Places.getCurrentPointsOfInterest(new AdobeCallback<List<PlacesPOI>>() {
 
 **Syntax**
 
+Here is the syntax for this method:
+
 ```objectivec
 + (void) getCurrentPointsOfInterest: (nullable void (^) (NSArray<ACPPlacesPoi*>* _Nullable userWithinPoi)) callback;
 ```
 
 **Example**
+
+Here is the code sample for this method:
 
 ```objectivec
 [ACPPlaces getCurrentPointsOfInterest:^(NSArray<ACPPlacesPoi*>* userWithinPoi) {
@@ -194,22 +211,26 @@ Places.getCurrentPointsOfInterest(new AdobeCallback<List<PlacesPOI>>() {
 
 ## Get the location of the device
 
-Requests the location of the device, as previously known, by the Location Services extension.
+Requests the location of the device, as previously known, by the Places extension.
 
 >[!TIP]
 >
->The Places extension only knows about locations that were provided to it via calls to [GetNearbyPointsOfInterest](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension/places-api-reference#retrieve-nearby-points-of-interest).
+>The Places extension only knows about locations that were provided to it via calls to `GetNearbyPointsOfInterest`.
 
 
 ### GetLastKnownLocation (Android)
 
 **Syntax**
 
+Here is the syntax for this method:
+
 ```java
 public static void getLastKnownLocation(final AdobeCallback<Location> callback);
 ```
 
 **Example**
+
+Here is the code sample for this method:
 
 ```java
 Places.getLastKnownLocation(new AdobeCallback<Location>() {
@@ -225,11 +246,15 @@ Places.getLastKnownLocation(new AdobeCallback<Location>() {
 
 **Syntax**
 
+Here is the syntax for this method:
+
 ```objectivec
 + (void) getLastKnownLocation: (nullable void (^) (CLLocation* _Nullable lastLocation)) callback;
 ```
 
 **Example**
+
+Here is the code sample for this method:
 
 ```objectivec
 [ACPPlaces getLastKnownLocation:^(CLLocation* lastLocation) {
@@ -247,11 +272,15 @@ Clears out the client-side data for Location Services in shared state, local sto
 
 **Syntax**
 
+Here is the syntax for this method:
+
 ```java
 public static void clear();
 ```
 
 **Example**
+
+Here is the code sample for this method:
 
 ```java
 Places.clear();
@@ -263,11 +292,15 @@ Clears out the client-side data for Location Services in shared state, local sto
 
 **Syntax**
 
+Here is the syntax for this method:
+
 ```objectivec
 + (void) clear;
 ```
 
 **Example**
+
+Here is the code sample for this method:
 
 ```objectivec
 [ACPPlaces clear];

@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Getting started
 seo-title: Getting started
 description: Getting started with Experience Platform Location Services.
 seo-description: Getting started with Experience Platform Location Services.
@@ -9,7 +9,7 @@ seo-description: Getting started with Experience Platform Location Services.
 
 Here are the tasks you need to complete before you can use Experience Platform Location Services.
 
-## Get provisioned to use Adobe Places
+## Get provisioned to use Experience Platform Location Services
 
 Experience Platform Location Services requires special provisioning context with your regular Adobe Experience Platform provisioning context.
 
@@ -21,11 +21,11 @@ To get provisioned, complete the following tasks:
 
 * Ensure you are listed as a user under the Experience Platform Location Services and Launch product contexts in the Admin Console.  
 
-   For more information, see [Adding a user to Launch and Experience Platform Location Services](https://placesdocs.com/places-services-by-adobe-documentation/adding-a-user-to-launch-and-places).
+   For more information, see [Adding a user to Experience Platform Launch and Experience Platform Location Services](/help/adding-a-user-to-launch-loc-services.md).
 
 * Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.   
 
-  For more information, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension). 
+  For more information, see [Places extension](/help/configure-places-in-the sdk/places-extension/places-extension.md). 
 
 * If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Experience Platform Location Services.  
 
@@ -33,18 +33,25 @@ To get provisioned, complete the following tasks:
 
 ## Configure the Places extension and Places Monitor extension
 
-For more information about configuring the Places extension and Monitor extension, see [Places extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension) and [Places Monitor extension](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension).
+For more information about configuring the Places extension and Monitor extension, see [Places extension](/help/configure-places-in-the sdk/places-extension/places-extension.md) and [Places Monitor extension](/help/configure-places-in-the sdk/places-monitor-extension/places-monitor-extension.md).
 
 ## Creating libraries and POIs
 
 You can create libraries and POIs in one of the following ways:
 
-* By using the web services. For more information, see [Experience Platform Location Services web services](https://placesdocs.com/places-services-by-adobe-documentation/places-rest-apis).
-* By using the Experience Platform Location Services UI. For more information, see [Places UI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1). 
+* By using the web services. 
+
+  For more information, see [Experience Platform Location Services web services](/help/loc-services-rest-apis/loc-services-web-services.md).
+
+* By using the Experience Platform Location Services UI. 
+
+  For more information, see [Experience Platform Location Services UI](/help/loc-services-database-management-1/loc-services-database-management.md). 
 
 ## Create an empty library in the Experience Platform Location Services database in the Experience Platform Location Services UI
 
-1. Log into Adobe Experience Platform Location Services UI  The user interface that is used to visually add and manage the POIs and libraries. 
+1. Log into Adobe Experience Platform Location Services UI  
+
+    The user interface helps you to visually add and manage the POIs and libraries. 
 2. Click on the **Libraries** tab.
 3. Click **Create Library**.
 4. Type the name.
@@ -54,7 +61,7 @@ You can create libraries and POIs in one of the following ways:
 
 A POI is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on.
 
-1. Log in to Adobe Experience Platform Location Services Services UI \([https://places.adobe.com](https://places.adobe.com)\) with your Adobe ID.
+1. Log in to [Adobe Experience Platform Location Services Services UI](https://places.adobe.com) with your Adobe ID.
 2. In the map view, click **+ New POI**. 
 3. Complete the following steps in the **Details** section:
 

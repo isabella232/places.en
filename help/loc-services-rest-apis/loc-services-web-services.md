@@ -23,8 +23,13 @@ The Experience Platform Location Services REST API let you work programmatically
 
 Before you can use the Experience Platform Location Services API, ensure that the following requirements have been met:
 
-1. Places is provisioned in your organization, and you have appropriate access as a user.   For more information, see [Organization requirements](/help/loc-services-rest-apis/organizational-requirements.md).
-2. After Places is provisioned in your organization, and you have access, create an Adobe Integration for Places. For more information, see [Creating an Adobe I/O Integration](/help/loc-services-rest-apis/adobe-i-o-integration/create-a-loc-services-integration.md).
+* Places is provisioned in your organization, and you have appropriate access as a user.
+
+  For more information, see [Organization requirements](/help/loc-services-rest-apis/organizational-requirements.md).
+
+* After Places is provisioned in your organization, and you have access, create an Adobe Integration for Places. 
+
+  For more information, see [Creating an Adobe I/O Integration](/help/loc-services-rest-apis/adobe-i-o-integration/create-a-loc-services-integration.md).
 
 Additional information:
 

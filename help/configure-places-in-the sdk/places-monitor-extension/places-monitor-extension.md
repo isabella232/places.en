@@ -1,13 +1,9 @@
-
 ---
 title: Places Monitor extension
 seo-title: Places Monitor extension
 description: The Places Monitor extension handles the interactions with the operating system to register and monitor the POIs that are closest to the user.
 seo-description: The Places Monitor extension handles the interactions with the operating system to register and monitor the POIs that are closest to the user. 
 ---
-
-
-
 
 # Places Monitor extension {#places-monitor-extension}
 

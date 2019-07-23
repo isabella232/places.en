@@ -1,15 +1,15 @@
 ---
-title: Location Services extension
-seo-title: Location Services extension
-description: The Location Services extension allows you to act based on the location of your users.
-seo-description: The Location Services extension allows you to act based on the location of your users.
+title: Places extension
+seo-title: Places extension
+description: The Places extension allows you to act based on the location of your users.
+seo-description: The Places extension allows you to act based on the location of your users.
 ---
 
-# Location Services extension {#places-extension}
+# Places extension {#places-extension}
 
-The Location Services extension allows you to act based on the location of your users. This extension is the interface to the Location Services Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
+The Places extension allows you to act based on the location of your users. This extension is the interface to the Location Services Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
 
-## Install the Location Services extension in Adobe Experience Platform Launch
+## Install the Places extension in Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 2. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Adobe Places]** extension, and click **[!UICONTROL Install]**.
@@ -17,23 +17,24 @@ The Location Services extension allows you to act based on the location of your 
 4. Click **[!UICONTROL Save]**. 
 
     When you click **[!UICONTROL Save]**, the Experience Platform SDK searches the Places Services for POIs in the libraries that you selected. The POI data is not included in the download of the library when you build the app, but a location-based subset of POIs is downloaded to the end user's device at runtime and is based on the user's GPS coordinates.
+
 5. Complete the publishing process to update the SDK configuration.
 
-   For more information about publishing, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
+   For more information about publishing in Experience Platform Launch, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
 
-### Configure the Location Services extension
+### Configure the Places extension
 
-![Places extension](/assets/places-extension.png)
+![](/assets/places-extension.png)
 
-## Add the Location Services extension to your app
+## Add the Places extension to your app
 
-You can add the Location Services extension to your app in Android and iOS.
+You can add the Places extension to your Android and iOS apps.
 
 ### Android
 
-To add the Location Services extension to your app by using Java:
+To add the Places extension to your app by using Java:
 
-1. Add the Location Services extension to your project using your app's gradle file.
+1. Add the Places extension to your project using your app's gradle file.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -49,7 +50,7 @@ To add the Location Services extension to your app by using Java:
 
 ### iOS
 
-To add Location Services extension to your app by using Objective-C or Swift:
+To add Places extension to your app by using Objective-C or Swift:
 
 1. Add the Places and [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) libraries to your project. You will need to add the following pods to your `Podfile`:
 
@@ -82,7 +83,7 @@ To add Location Services extension to your app by using Objective-C or Swift:
     import ACPPlaces
     ```
 
-### Register Experience Platform Location Services with Mobile Core
+### Register Places with Mobile Core
 
 You need to register Experience Platform Location Services with Mobile Core in Android and iOS.
 
@@ -110,7 +111,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-In your App's `application:didFinishLaunchingWithOptions:` method, register the Location Services extension with your other SDK registration calls:
+In your App's `application:didFinishLaunchingWithOptions:` method, register the Places extension with your other SDK registration calls:
 
 **Objective-C**
 
@@ -132,13 +133,12 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-
 ## Configuration keys
 
-To update the SDK configuration programmatically at runtime, use the following information to change your Location Services configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
+To update the SDK configuration programmatically at runtime, use the following information to change your Places configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
 | Key | Required | Description |
 | :--- | :--- | :--- |
 | `places.libraries` | Yes | The places libraries for the mobile app. It specifies the library ID and the name of the library that the mobile app supports. |
-| `places.endpoint` | Yes | The default Places Query Service endpoint, which is used to get information about libraries and POIs. |
+| `places.endpoint` | Yes | The default Experience Platform Location Query Service endpoint, which is used to get information about libraries and POIs. |
 

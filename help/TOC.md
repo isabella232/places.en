@@ -9,7 +9,7 @@ user-guide-title: Adobe Experience Platform Location Services Help
 + [Adobe Experience Platform Location Services](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
-+ [Adding a user to Launch and Location Services](adding-a-user-to-launch-loc-services.md)
++ [Adding a user to Experience Platform Launch and Location Services](adding-a-user-to-launch-loc-services.md)
 + Experience Platform Location Services web services {#loc-services-rest-apis}
   + [Experience Platform Location Services Web Services](loc-services-rest-apis/loc-services-web-services.md)
     + [Organizational requirements](loc-services-rest-apis/organizational-requirements.md)
