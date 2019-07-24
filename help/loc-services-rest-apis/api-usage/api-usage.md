@@ -1,8 +1,8 @@
 ---
 title: API usage overview
 seo-title: API usage overview
-description: Provides an introduction to the Experience Platform Location Services REST APIs.
-seo-description: Provides an introduction to the Experience Platform Location Services REST APIs.
+description: Provides an introduction to the Location Service REST APIs.
+seo-description: Provides an introduction to the Location Service REST APIs.
 ---
 
 # API usage overview {rest-api-usage}
@@ -11,5 +11,5 @@ You can use the Places REST API to manage your libraries, POIs, complete batch t
 
 For more information, see the following sections:
 
-* [Managing Libraries](/help/loc-services-rest-apis/api-usage/manage-libraries/manage-libraries.md)
+* [Managing libraries](/help/loc-services-rest-apis/api-usage/manage-libraries/manage-libraries.md)
 * [Managing POIs](/help/loc-services-rest-apis/api-usage/manage-pois/manage-pois.md)

@@ -1,3 +1,10 @@
+---
+title: Delete a POI
+seo-title: Delete a POI
+description: Delete a POI by using the Location Service REST APIs.
+seo-description: Delete a POI by using the Location Service REST APIs.
+---
+
 # Delete a POI
 
 A DELETE method that lets you delete a POI.

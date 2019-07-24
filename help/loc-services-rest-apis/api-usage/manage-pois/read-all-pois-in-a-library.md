@@ -1,8 +1,8 @@
 ---
 title: Read all POIs in a library
 seo-title: Read all POIs in a library
-description: Read all POIs in a library by using the Places REST APIs.
-seo-description: Read all POIs in a library by using the Places REST APIs.
+description: Read all POIs in a library by using the Location Service REST APIs.
+seo-description: Read all POIs in a library by using the Location Service REST APIs.
 ---
 
 # Read all POIs in a library

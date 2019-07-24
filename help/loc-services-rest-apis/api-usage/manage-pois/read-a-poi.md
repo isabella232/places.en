@@ -1,3 +1,10 @@
+---
+title: Read a POI
+seo-title: Read a POI
+description: Read a POI by using the Location Service REST APIs.
+seo-description: Read a POI by using the Location Service REST APIs.
+---
+
 # Read a POI
 
 A GET method that returns the details for a POI.

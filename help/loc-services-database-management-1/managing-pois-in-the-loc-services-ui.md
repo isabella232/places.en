@@ -1,13 +1,13 @@
 ---
-title: Manage POIs in the Experience Platform Location Services UI
-seo-title: Manage POIs in the Experience Platform Location Services UI
-description: Use the Places UI to manage your POIs.
-seo-description: Use the Places UI to manage your POIs.
+title: Manage POIs in the Location Service UI
+seo-title: Manage POIs in the Location Service UI
+description: Use the Location Service UI to manage your POIs.
+seo-description: Use the Location Service UI to manage your POIs.
 ---
 
-# Manage POIs in the Places UI
+# Manage POIs in the Location Service UI
 
-POIs and libraries are created and managed in the Experience Platform Location Services database by using the Experience Platform Location Services UI.
+POIs and libraries are created and managed in the Location Service database by using the Location Service UI.
 
 ## Defining a geofence POI
 

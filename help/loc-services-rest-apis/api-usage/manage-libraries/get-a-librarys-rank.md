@@ -1,3 +1,10 @@
+---
+title: Get a library's rank
+seo-title: Get a library's rank
+description: Get a library's rank by using the Location Service REST API.
+seo-description: Get a library's rank by using the Location Service REST API.
+---
+
 # Get a library's rank
 
  A GET method that allows you to rank libraries.

@@ -1,11 +1,11 @@
 ---
-title: Manage libraries in the Experience Platform Location Services UI
-seo-title: Manage libraries in the Experience Platform Location Services UI
-description: Manage your libraries by using the Experience Platform Location Services UI.
-seo-description: Manage your libraries by using the Experience Platform Location Services UI.
+title: Manage libraries in the Location Service UI
+seo-title: Manage libraries in the Location Service UI
+description: Manage your libraries by using the Location Service UI.
+seo-description: Manage your libraries by using the Location Service UI.
 ---
 
-# Manage libraries in the Experience Platform Location Services UI {#manage-libraries-places-ui}
+# Manage libraries in the Location Service UI {#manage-libraries-places-ui}
 
 A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization.  
 
@@ -21,21 +21,21 @@ Libraries are defined by the following:
 
 ## Create a library
 
-1. Log into Adobe Experience Platform Location Services with your Adobe ID.
+1. Log into Location Service with your Adobe ID.
 2. Click on the **[!UICONTROL Libraries]** tab.
 3. Click **[!UICONTROL Create Library]**.
 4. Type the name.
 5. Click **[!UICONTROL Confirm]**.
 
-## Change the rank of a library in the Places UI
+## Change the rank of a library in the Location Service UI
 
-1. Log into Adobe Experience Platform Location Services with your Adobe ID.
+1. Log into Location Service with your Adobe ID.
 2. On the Libraries tab, review the current ranking of your libraries.
 3. Click the icon at the top left of the library, and drag the library to the new rank. 
 
 ## Rename a library
 
-1. Log in to Adobe Experience Platform Location Services with your Adobe ID.
+1. Log in to Location Service with your Adobe ID.
 2. Click the **[!UICONTROL Library]** tab.
 3. Click **[!UICONTROL Edit]**.
 4. Enter the new name.
@@ -43,7 +43,7 @@ Libraries are defined by the following:
 
 ## Delete a library
 
-1. Log in to Adobe Experience Platform Location Services with your Adobe ID.
+1. Log in to Location Service with your Adobe ID.
 2. Click the **[!UICONTROL Library]** tab.
 3. Click **[!UICONTROL Delete]**.
 4. Click **[!UICONTROL Confirm]**.

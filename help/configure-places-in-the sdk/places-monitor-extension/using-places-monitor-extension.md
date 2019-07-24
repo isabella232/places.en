@@ -16,7 +16,7 @@ To use the Places Monitor extension, complete the following tasks:
 3. Click **[!UICONTROL Save]**.
 4. Follow the publishing process to update the SDK configuration.
 
-### **Configure the Places Monitor extension**  
+### Configure the Places Monitor extension 
 
 There are no configuration tasks for the Places Monitor extension.
 
@@ -36,18 +36,18 @@ In Android, complete the following steps:
 
 2. Also include the latest Google Location services in the gradle file.
 
- ```java
- implementation 'com.adobe.marketing.mobile:places:1.+'
- implementation 'com.adobe.marketing.mobile:places-monitor:1.+'
- implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
- implementation 'com.google.android.gms:play-services-location:16.0.0'
- ```  
+    ```java
+    implementation 'com.adobe.marketing.mobile:places:1.+'
+    implementation 'com.adobe.marketing.mobile:places-monitor:1.+'
+    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    ```  
  
 3. Import the Places Monitor extension in your application's main activity.
 
-```java
-import com.adobe.marketing.mobile.PlacesMonitor;
-```
+    ```java
+    import com.adobe.marketing.mobile.PlacesMonitor;
+    ```
 
 ### iOS
 
@@ -120,7 +120,7 @@ In your iOS app's`application:didFinishLaunchingWithOptions`, register `PlacesMo
         // do other initialization required for the SDK
         [ACPPlacesMonitor start];
     }];
-    
+
     return YES; 
 }
 ```

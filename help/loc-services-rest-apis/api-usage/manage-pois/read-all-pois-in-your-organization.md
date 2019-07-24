@@ -1,3 +1,10 @@
+---
+title: Read all POIs in your organization
+seo-title: Read all POIs in your organization
+description: Read all POIs in your organization by using the Location Service REST APIs.
+seo-description: Read all POIs in your organization by using the Location Service REST APIs.
+---
+
 # Read all POIs in your organization
 
 A GET method that returns all POIs in your organization.

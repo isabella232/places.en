@@ -1,3 +1,10 @@
+---
+title: Update a POI
+seo-title: Update a POI
+description: Update a POI by using the Location Service REST APIs.
+seo-description: Update a POI by using the Location Service REST APIs.
+---
+
 # Update a POI
 
 A PUT method that lets you update a POI.

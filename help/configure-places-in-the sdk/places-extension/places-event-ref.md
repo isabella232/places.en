@@ -15,7 +15,7 @@ Here is a list of the events that are handled by the Places extension.
 
 | Type | Source | Name | Paired |
 | :--- | :--- | :--- | :--- |
-| PLACES | REQUEST_CONTENT | requestgetuserwithinplaces | True |
+| PLACES | REQUEST_CONTENT | `requestgetuserwithinplaces` | True |
 
 **Event Description**
 
@@ -31,7 +31,7 @@ n/a
 
 | Type | Source | Name | Paired |
 | :--- | :--- | :--- | :--- |
-| PLACES | REQUEST_CONTENT | requestgetnearbyplaces | True |
+| PLACES | REQUEST_CONTENT | `requestgetnearbyplaces` | True |
 
 **Event Description**
 
@@ -52,7 +52,7 @@ This event is a request to get the nearby POIs by taking into consideration the 
 
 | Type | Source | Name | Paired |
 | :--- | :--- | :--- | :--- |
-| PLACES | REQUEST_CONTENT | requestprocessregionevent | False |
+| PLACES | REQUEST_CONTENT | `requestprocessregionevent` | False |
 
 **Event Description**
 
@@ -65,7 +65,7 @@ This event causes the Places extension to process a geofence entry or exit event
 | regionid | string | true | ID of the region generating the event. |
 | regioneventtype | int | true | Type of region event being generated. 1 for entry and 2 for exit. |
 
-## Event dispatched by the Places extension
+## Events dispatched by the Places extension
 
 This information is currently in progress.
 

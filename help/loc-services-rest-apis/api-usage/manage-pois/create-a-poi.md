@@ -1,3 +1,10 @@
+---
+title: Create a POI
+seo-title: Create a POI
+description: Create a POI by using the Location Service REST APIs.
+seo-description: Create a POI by using the Location Service REST APIs.
+---
+
 # Create a POI
 
 A POST method that lets you create a POI.
