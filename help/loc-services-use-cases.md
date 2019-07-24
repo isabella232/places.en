@@ -1,11 +1,11 @@
 ---
 title: Uses cases
-seo-title: Use cases for Adobe Location Services.
+seo-title: Use cases for Location Service.
 description: This topic contains details about use cases for Location Services.
 seo-description: This topic contains details about use cases for Location Services.
 ---
 
-# Places use cases
+# Location Service use cases
 
 Some examples include:
 

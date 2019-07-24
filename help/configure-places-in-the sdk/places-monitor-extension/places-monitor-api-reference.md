@@ -234,7 +234,7 @@ Monitoring can be set to one of the following values:
 
   The monitoring extension only receives and processes location updates after the device has moved a significant distance from the previously processed location. This monitoring strategy consumes less power than the continuous monitoring strategy. For more information, see [Apple documentation on significant monitoring](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423531-startmonitoringsignificantlocati)
 
-### SetPlacesMonitorMode
+### SetPlacesMonitorMode (iOS)
 
 #### Syntax
 

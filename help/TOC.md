@@ -59,3 +59,4 @@ user-guide-title: Adobe Experience Platform Location Services Help
 + [Configure Experience Platform Launch rules and data elements with Location Service data](rules-data-elements-loc-services-data.md)
 + [Location Service use cases](loc-services-use-cases.md)
 + [Location Service FAQs](loc-services-faqs.md)
++ [Using Location Services with Adobe Campaign Standard](using-loc-services-with-acs.md)

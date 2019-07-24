@@ -1,13 +1,13 @@
 ---
 title: Places FAQs
-seo-title: Adobe Location Services FAQs
+seo-title: Location Service FAQs
 description: This topic provides additional information about some frequently asked questions about Location Services.
 seo-description: This topic provides additional information about some frequently asked questions about Location Services.
 ---
 
-# Places FAQs
+# Location Service FAQs
 
-Here is some information and frequently asked questions about Places. 
+Here is some information and frequently asked questions about Location Service. 
 
 ## Size and reliability  
 
