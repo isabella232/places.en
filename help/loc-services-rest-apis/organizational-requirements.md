@@ -5,7 +5,7 @@ description: This topic contains information about the prerequisites that must b
 seo-description: This topic contains information about the prerequisites that must be completed before you can access the Location Service REST APIs.
 ---
 
-# Organizational requirements {org-requirements}
+# Organizational requirements {#org-requirements}
 
 To access the Location Services REST APIs, verify with your system administrator that the following tasks have been completed:
 

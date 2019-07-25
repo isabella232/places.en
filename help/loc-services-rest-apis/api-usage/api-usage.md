@@ -5,7 +5,7 @@ description: Provides an introduction to the Location Service REST APIs.
 seo-description: Provides an introduction to the Location Service REST APIs.
 ---
 
-# API usage overview {rest-api-usage}
+# API usage overview {#rest-api-usage}
 
 You can use the Places REST API to manage your libraries, POIs, complete batch tasks, and run query APIs.
 

@@ -147,6 +147,7 @@ You can ensure the SDK has finished initialization by calling `start` from the c
 #### Example
 
 Starting the Places Monitor when the SDK is initializing:
+
 ```objectivec
 [ACPCore start:^{
     [ACPPlacesMonitor start];
@@ -154,6 +155,7 @@ Starting the Places Monitor when the SDK is initializing:
 ```
 
 Starting the Places Monitor later in app execution:
+
 ```objectivec
 [ACPPlacesMonitor start];
 ```

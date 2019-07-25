@@ -5,7 +5,7 @@ description: With batch APIs, you can create, update, and delete multiple POIs.
 seo-description: With batch APIs, you can create, update, and delete multiple POIs.
 ---
 
-# Batch APIs {batch-apis}
+# Batch APIs {#batch-apis}
 
 The batch APIs allow you to create, update, or delete multiple POIs at the same time.
 

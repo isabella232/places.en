@@ -5,7 +5,7 @@ description: Use the batch APIs to create multiple POIs.
 seo-description: Use the batch APIs to create multiple POIs.
 ---
 
-# Create multiple POIs {create-multiple-pois}
+# Create multiple POIs {#create-multiple-pois}
 
 A POST method that lets you create multiple POIs.
 

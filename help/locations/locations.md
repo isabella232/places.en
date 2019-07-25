@@ -5,7 +5,7 @@ description: Location is the most personal context for designing and delivering 
 seo-description: Location is the most personal context for designing and delivering personalized experiences. Places enables mobile apps with user location awareness in relation to Points of Interest (POI).
 ---
 
-# Configure Launch rules and data elements with Places data {configure-rules-data-places-data}
+# Configure Launch rules and data elements with Places data {#configure-rules-data-places-data}
 
 ## Rules
 

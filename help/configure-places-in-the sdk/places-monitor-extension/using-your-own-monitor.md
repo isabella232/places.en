@@ -75,7 +75,7 @@ In iOS, complete the following steps:
             };
     ```
 
-1. Extract the data from the obtained `PlacesPOI` objects and start monitoring those POIs.
+3. Extract the data from the obtained `PlacesPOI` objects and start monitoring those POIs.
 
     ```java
     private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {

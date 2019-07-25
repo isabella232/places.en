@@ -5,7 +5,7 @@ description: Information about creating a Location Service integration.
 seo-description: Information about creating a Location Service integration.
 ---
 
-# Create a Location Service integration {create-places-integration}
+# Create a Location Service integration {#create-places-integration}
 
 To create an Location Service integration, complete the following tasks:
 

@@ -5,7 +5,7 @@ description: Use the batch APIs to update multiple POIs.
 seo-description: Use the batch APIs to update multiple POIs.
 ---
 
-# Update multiple POIs {update-multiple-pois}
+# Update multiple POIs {#update-multiple-pois}
 
 A POST method that lets you update multiple POIs.
 

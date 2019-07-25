@@ -81,7 +81,7 @@ You need to register and start the Places Monitor in Android or iOS.
 
 In Android, complete the following steps:
 
-#### Java
+### Java
 
 In your App's `OnCreate` method register the Places Monitor extensions:
 
@@ -109,7 +109,7 @@ public class MobileApp extends Application {
 
 In your iOS app's`application:didFinishLaunchingWithOptions`, register `PlacesMonitor` and Places with Mobile Core:
 
-#### Objective-C
+### Objective-C
 
 ```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions {

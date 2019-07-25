@@ -6,7 +6,7 @@ seo-description: Use the batch APIs to delete multiple POIs.
 ---
 
 
-# Delete multiple POIs {delete-multiple-pois}
+# Delete multiple POIs {#delete-multiple-pois}
 
 A POST method that lets you delete multiple POIs.
 
