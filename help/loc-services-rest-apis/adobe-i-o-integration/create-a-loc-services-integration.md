@@ -49,7 +49,7 @@ To generate your own self-signed keys:
 
 The following video guides you through the process of generating the key pair:
 
-![](/help//help/assets/places_integration_video.gif)
+![](/help/assets/places_integration_video.gif)
 
 ## Create a Location Service integration in the Adobe I/O console
 
