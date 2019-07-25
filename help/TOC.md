@@ -47,10 +47,10 @@ user-guide-title: Adobe Experience Platform Location Services Help
   + [Manage libraries in the Location Service UI](loc-services-database-management-1/manage-libraries-in-the-loc-services-ui.md)
 + Configure the SDK with Location Service {#configure-places-with-sdk}
   + [Configure the SDK with Location Service](configure-places-in-the-sdk.md)
-    + [Places extension](configure-places-in-the sdk/places-extension.md)
+    + [Places extension](configure-places-in-the-sdk/places-extension.md)
       + [Places API reference](configure-places-in-the-sdk/places-extension/places-api-reference.md)
       + [Places event reference](configure-places-in-the-sdk/places-extension/places-event-ref.md)
-      + [Custom Places objects](configure-places-in-the-sdk/places-extension/cust-places objects.md)
+      + [Custom Places objects](configure-places-in-the-sdk/places-extension/cust-places-objects.md)
     + [Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension.md)
       + [Using the Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/using-places-monitor-extension.md)
       + [Using your own monitor](configure-places-in-the-sdk/places-monitor-extension/using-your-own-monitor.md)
