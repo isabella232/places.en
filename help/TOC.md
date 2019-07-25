@@ -12,22 +12,22 @@ user-guide-title: Adobe Experience Platform Location Services Help
 + [Adding a user to Experience Platform Launch and Location Service](adding-a-user-to-launch-loc-services.md)
 + Location Service web services {#loc-services-rest-apis}
   + [Location Service web services](loc-services-rest-apis/loc-services-web-services.md)
-    + [Organizational requirements](loc-services-rest-apis/organizational-requirements.md)
-    + Adobe I/O integration {#adobe-i-o-integration}
-      + [Adobe I/O integration](loc-services-rest-apis/adobe-i-o-integration/adobe-i-o-integration.md)
-      + [Create a Location Service integration](loc-services-rest-apis/adobe-i-o-integration/create-a-loc-services-integration.md)
+  + [Organizational requirements](loc-services-rest-apis/organizational-requirements.md)
+  + Adobe I/O integration {#adobe-i-o-integration}
+    + [Adobe I/O integration](loc-services-rest-apis/adobe-i-o-integration/adobe-i-o-integration.md)
+    + [Create a Location Service integration](loc-services-rest-apis/adobe-i-o-integration/create-a-loc-services-integration.md)
   + API usage {#api-usage}
     + [API usage overview](loc-services-rest-apis/api-usage/api-usage.md)
     + [Headers and parameters](loc-services-rest-apis/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
       + [Manage libraries overview](loc-services-rest-apis/api-usage/manage-libraries/manage-libraries.md)
-        + [Create a library](loc-services-rest-apis/api-usage/manage-libraries/create-a-library.md)
-        + [Read a library](loc-services-rest-apis/api-usage/manage-libraries/read-a-library.md)
-        + [Update a library](loc-services-rest-apis/api-usage/manage-libraries/update-a-library.md)
-        + [Delete a library](loc-services-rest-apis/api-usage/manage-libraries/delete-a-library.md)
-        + [Read all libraries in your organization](loc-services-rest-apis/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
-        + [Set a rank on your libraries](loc-services-rest-apis/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
-        + [Get a library's rank](loc-services-rest-apis/api-usage/manage-libraries/get-a-librarys-rank.md)
+      + [Create a library](loc-services-rest-apis/api-usage/manage-libraries/create-a-library.md)
+      + [Read a library](loc-services-rest-apis/api-usage/manage-libraries/read-a-library.md)
+      + [Update a library](loc-services-rest-apis/api-usage/manage-libraries/update-a-library.md)
+      + [Delete a library](loc-services-rest-apis/api-usage/manage-libraries/delete-a-library.md)
+      + [Read all libraries in your organization](loc-services-rest-apis/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
+      + [Set a rank on your libraries](loc-services-rest-apis/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
+      + [Get a library's rank](loc-services-rest-apis/api-usage/manage-libraries/get-a-librarys-rank.md)
     + Manage POIs {#manage-pois}
       + [Manage POIs overview](loc-services-rest-apis/api-usage/manage-pois/manage-pois.md)
       + [Create a POI](loc-services-rest-apis/api-usage/manage-pois/create-a-poi.md)
@@ -47,11 +47,13 @@ user-guide-title: Adobe Experience Platform Location Services Help
   + [Manage libraries in the Location Service UI](loc-services-database-management-1/manage-libraries-in-the-loc-services-ui.md)
 + Configure the SDK with Location Service {#configure-places-with-sdk}
   + [Configure the SDK with Location Service](configure-places-in-the-sdk/configure-places-in-the-sdk.md)
-    + [Places extension](configure-places-in-the-sdk/places-extension/places-extension.md)
+    + Places extension {#places-extension}
+      + [Places extension](configure-places-in-the-sdk/places-extension/places-extension.md)
       + [Places API reference](configure-places-in-the-sdk/places-extension/places-api-reference.md)
       + [Places event reference](configure-places-in-the-sdk/places-extension/places-event-ref.md)
       + [Custom Places objects](configure-places-in-the-sdk/places-extension/cust-places-objects.md)
-    + [Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)
+    + Places Monitor extension {#places-monitor-extension}
+      + [Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)
       + [Using the Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/using-places-monitor-extension.md)
       + [Using your own monitor](configure-places-in-the-sdk/places-monitor-extension/using-your-own-monitor.md)
       + [Places Monitor API reference](configure-places-in-the-sdk/places-monitor-extension/places-monitor-api-reference.md)
