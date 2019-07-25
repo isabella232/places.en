@@ -76,7 +76,7 @@ To create a data element in Experience Platform Launch:
 
 ### Create a rule in Experience Platform Launch for Location Service
 
-![](/assets/create-a-rule.png)
+![](//help/assets/create-a-rule.png)
 
 1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
 2. Click **Add Rule**.

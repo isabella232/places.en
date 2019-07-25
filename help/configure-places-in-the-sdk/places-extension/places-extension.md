@@ -24,7 +24,7 @@ The Places extension allows you to act based on the location of your users. This
 
 ### Configure the Places extension
 
-![](assets/places-extension.png)
+  ![](//help/assets/places-extension.png)
 
 ## Add the Places extension to your app
 

@@ -95,11 +95,11 @@ Here is some basic information to help you get familiar with the UI:
 * You can also use the arrow keys to scroll the map
 * In the lower right corner, click the New Poi button to create a new point of interest (POI).
 
-![](assets/places_ui_intro.png)
+![](/help/assets/places_ui_intro.png)
 
 
 ## The Location Service workflow
 
 Here is a high-level view of the Location Service workflow:
 
-![](assets/places-workflow-diagram-lc-1.png)
+![](/help/assets/places-workflow-diagram-lc-1.png)

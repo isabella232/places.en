@@ -30,7 +30,7 @@ To verify that Location Service and Experience Platform Launch are provisioned:
 1. Log in to your Experience Cloud organization.
 1. In the top-right side, click the Experience Cloud shell switcher.
 
-    ![shell switcher](assets/places_shell_switcher1.png)
+    ![shell switcher](/help/assets/places_shell_switcher1.png)
 
 1. Under **[!UICONTROL Platform]**, click **[!UICONTROL Administration]**.
 
@@ -48,7 +48,7 @@ To verify that Location Service and Experience Platform Launch are provisioned:
 
 1. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]** and **[!UICONTROL Places Core Services]** are displayed.
 
-    ![](assets/places_provisioned1.png)
+    ![](/help/assets/places_provisioned1.png)
 
     If they are displayed, Location Service and Experience Platform Launch have been provisioned for your organization. If they are not displayed, they have not been provisioned for your organization.
 
