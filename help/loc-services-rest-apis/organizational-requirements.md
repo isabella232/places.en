@@ -13,7 +13,7 @@ To access the Location Services REST APIs, verify with your system administrator
 2. You have been added to the organization. 
 3. You have been added to Location Service in your organization.
 
-    For more information, see [Adding a user to Location Service and Experience Platform Launch](/help/adding-a-user-to-launch-places.md).
+    For more information, see [Adding a user to Location Service and Experience Platform Launch](/help/adding-a-user-to-launch-loc-services.md).
 
 4. You have been added as a Location Service developer to your organization. 
 

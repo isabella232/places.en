@@ -79,7 +79,7 @@ To create a Location Service integration:
 
    These IDs are needed for each Places Rest API request.
 
-![](/assets/places_orgid_api-key.png)
+![](assets/places_orgid_api-key.png)
 
 ## Generate a JWT token
 

@@ -84,7 +84,7 @@ You can use the Places APIs do do the following:
 
     A python utility is provided with the APIs. 
 
-For more information about the Places APIs, see [Location Service web services](/help/places-rest-apis/places-rest-apis.md).
+For more information about the Places APIs, see [Location Service web services](/help/loc-services-rest-apis/loc-services-web-services.md).
 
 ### Coming Soon
 

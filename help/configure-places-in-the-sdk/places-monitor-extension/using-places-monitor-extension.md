@@ -20,7 +20,7 @@ To use the Places Monitor extension, complete the following tasks:
 
 There are no configuration tasks for the Places Monitor extension.
 
-![](/assets/configure_places_monitor.png)‌
+![](assets/configure_places_monitor.png)‌
 
 ## Add the Places Monitor extension to your app
 
@@ -169,7 +169,7 @@ For all versions of Android, to declare that your app need location permission, 
 
 iOS supports the delivery of location events to apps that are suspended or no longer running. To receive location updates in the background for the Places Monitor extension, configure the Location updates capability for your app in `Xcode.background-location-updates`.
 
-![](/assets/using-the-places-monitor_1.png)
+![](assets/using-the-places-monitor_1.png)
 
 ## Configuring the plist keys  
 
@@ -182,5 +182,5 @@ The following keys must be included in your app's `Info.plist` file:
 >
 >If your app supports iOS 10 and earlier, the `NSLocationAlwaysUsageDescription` key is also required.
 
-![](/assets/using-the-places-monitor_2.png)
+![](assets/using-the-places-monitor_2.png)
 
