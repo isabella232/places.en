@@ -33,32 +33,29 @@ Geofences are a type of POI and are defined in the database based by the followi
 
 A point of interest (POI) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
-1. Log into Adobe Experience Platform Location Services with your Adobe ID.
-2. In the top left side, click **[!UICONTROL Map]**.
-3. In the map view, on the lower right side, click **[!UICONTROL New POI]**. 
-4. Expand the **[!UICONTROL Details]** section.
-5. Type a name.
-6. Select a library.
-7. Enter or select a radius. 
-8. Select the icon that you want to use for your POI.
-9. Select a color for your POI icon.
-10. Type a category.
-11. Expand the **[!UICONTROL Location]** section.
-12. Type an address.
-13. Type the city.
-14. Type the name of the state.
-15. Type the name of the country.
-16. Select or enter a latitude or longitude.
-17. Click **[!UICONTROL Drop Pin on Map]**.
-18. Expand the **Metadata** section and click **[!UICONTROL Add Metadata]**.
-19. Type the key name.
-20. Type the key value.
-21. Click **[!UICONTROL Confirm]**.
+1. Log in to Adobe Places with your Adobe ID.
+2. In the top left side, click **[!UICONTROLMap]**.
+3. In the map view, on the lower right side, click **[!UICONTROLNew POI]**. 
+4. Type a name for your POI.
+5. Enter or select a radius. 
+6. Select an icon for your POI.
+7. Select a color for the icon.
+8. Expand the **[!UICONTROL Location]** section.
+9. Type an address.
+10. Type the city.
+11. Type the name of the state.
+12. Type the name of the country.
+13. Select or enter a latitude or longitude.
+14. Click **[!UICONTROL Drop Pin on Map]**.
+15. Expand the **[!UICONTROL Metadata]** section and click **[!UICONTROL Add Metadata**.
+16. Type the key name.
+17. Type the key value.
+18. Click **[!UICONTROL Confirm]** and then **[!UICONTROL Save]**.
 
 ## Edit a POI
 
 1. Log into Experience Platform Location Services using your Adobe ID.
-2. On the **[!UICONTROL Libraries]** tab, click **[!UICONTROL View POIs]**. 
+2. On the **[!UICONTROL Libraries]** tab, find the library, and click **[!UICONTROL View POIs]**. 
 3. In the list, click the POI that you want to edit.
 4. Click **[!UICONTROL Confirm]**.
 
