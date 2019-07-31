@@ -9,6 +9,14 @@ seo-description: Release notes for Adobe Location Service.
 
 Here are the release notes for Location Service:
 
+## July 25, 2019
+
+**ACPPlacesMonitor 2.0.0**
+
+* To clear all Places data from the device, in ACPPlacesMonitor, replaced an existing API (`+ (void) stop;`) with `+ (void) stop: (BOOL) clearData;`. 
+
+* Updated the use of the ACPPlaces `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
+
 ## July 19, 2019
 
 The following updates were made in this release:
