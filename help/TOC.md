@@ -43,6 +43,7 @@ user-guide-title: Adobe Experience Platform Location Services Help
         + [Delete multiple POIs](loc-services-rest-apis/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
     + [Query APIs](loc-services-rest-apis/api-usage/query-apis.md)
 + Location Service UI {#loc-services-database-management-1}
+  + [Experience Platform Location Service UI](loc-services-database-management-1/loc-services-database-management.md)
   + [Manage libraries in the Location Service UI](loc-services-database-management-1/manage-libraries-in-the-loc-services-ui.md)
   + [Manage POIs in the Location Service UI](loc-services-database-management-1/managing-pois-in-the-loc-services-ui.md)
 + Configure the SDK with Location Service {#configure-places-with-sdk}
