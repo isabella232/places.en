@@ -21,30 +21,30 @@ Libraries are defined by the following:
 
 ## Create a library
 
-1. Log into Location Service with your Adobe ID.
-2. Click on the **[!UICONTROL Libraries]** tab.
-3. Click **[!UICONTROL Create Library]**.
+1. Log into Adobe Places with your Adobe ID.
+2. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**. 
+3. Click **[!UICONTROL New]**.
 4. Type the name.
 5. Click **[!UICONTROL Confirm]**.
 
 ## Change the rank of a library in the Location Service UI
 
-1. Log into Location Service with your Adobe ID.
-2. On the Libraries tab, review the current ranking of your libraries.
-3. Click the icon at the top left of the library, and drag the library to the new rank. 
+1. Log in to Adobe Places with your Adobe ID.
+2. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**.
+3. Click the icon to the left of the library name and drag the library to the new rank. 
 
 ## Rename a library
 
-1. Log in to Location Service with your Adobe ID.
-2. Click the **[!UICONTROL Library]** tab.
-3. Click **[!UICONTROL Edit]**.
-4. Enter the new name.
-5. Click **[!UICONTROL Save]**.
+1. Log in to Adobe Places with your Adobe ID.
+2. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
+3. Locate the library that you want to delete.
+4. Click **[!UICONTROL ...]** and select **[!UICONTROL Rename]**.
+5. Update the name and click **[!UICONTROL Save]**.
 
 ## Delete a library
 
-1. Log in to Location Service with your Adobe ID.
-2. Click the **[!UICONTROL Library]** tab.
-3. Click **[!UICONTROL Delete]**.
-4. Click **[!UICONTROL Confirm]**.
+1. Log in to Adobe Places with your Adobe ID.
+2. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
+3. Locate the library that you want to delete.
+4. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
 
