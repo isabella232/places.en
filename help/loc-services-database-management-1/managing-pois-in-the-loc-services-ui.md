@@ -34,37 +34,76 @@ Geofences are a type of POI and are defined in the database based by the followi
 A point of interest (POI) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
 1. Log in to Adobe Places with your Adobe ID.
-2. In the top left side, click **[!UICONTROLMap]**.
-3. In the map view, on the lower right side, click **[!UICONTROLNew POI]**. 
-4. Type a name for your POI.
-5. Enter or select a radius. 
-6. Select an icon for your POI.
-7. Select a color for the icon.
-8. Expand the **[!UICONTROL Location]** section.
-9. Type an address.
-10. Type the city.
-11. Type the name of the state.
-12. Type the name of the country.
-13. Select or enter a latitude or longitude.
-14. Click **[!UICONTROL Drop Pin on Map]**.
-15. Expand the **[!UICONTROL Metadata]** section and click **[!UICONTROL Add Metadata**.
-16. Type the key name.
-17. Type the key value.
-18. Click **[!UICONTROL Confirm]** and then **[!UICONTROL Save]**.
+2. In the top right side, click the icon that looks like a bulleted list and then click **[!UICONTROL New]**. 
+  
+  This step displays all of the POIs in your library.
+
+1. Type a name for your POI.
+1. Select or add a library.
+1. Enter or select a radius.
+
+   a. Select an icon for your POI.
+
+   b. Select a color for the icon.
+
+1. Expand the **[!UICONTROL Location]** section.
+
+    a. Type an address.
+
+    b. Type the city.
+
+    c. Type the name of the state.
+ 
+    d. Type the name of the country.
+
+    e. Select or enter a latitude or longitude.
+
+    f. Click **[!UICONTROL Drop Pin on Map]**.
+
+1. Expand the **[!UICONTROL Metadata]** section and click **[!UICONTROL Add Metadata]**.
+
+    a. Type the key name.
+
+    b. Type the key value.
+
+1. Click **[!UICONTROL Confirm]** and then **[!UICONTROL  Save]**.
 
 ## Edit a POI
 
 1. Log into Experience Platform Location Services using your Adobe ID.
-2. On the **[!UICONTROL Libraries]** tab, find the library, and click **[!UICONTROL View POIs]**. 
-3. In the list, click the POI that you want to edit.
-4. Click **[!UICONTROL Confirm]**.
+1. Log into Adobe Places Service using your Adobe ID.
+1. In the top right side, click the icon that looks like a bulleted list.
+1. Locate the POI that you want to edit.
+1. Click **[!UICONTROL ...]** and select **[UICONTROL View Details]**.
+1. Update the information and click **[!UICONTROL Save]**.
 
 ## Delete a POI
 
 1. Log into Experience Platform Location Services using your Adobe ID.
-2. On the **[!UICONTROL Libraries]** tab, click **[!UICONTROL View POIs]**. 
-3. In the list, click the POI that you want to delete.
-4. Expand the **[!UICONTROL Advanced]** section.
-5. Click **[!UICONTROL Delete POI]**.
-6. Click **[!UICONTROL Confirm]**.
+1. Log into Adobe Places Service using your Adobe ID.
+1. In the top right side, click the icon that looks like a bulleted list.
+1. Locate the POI that you want to delete.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
+
+## Filter POIs by city, state, country, or metadata
+
+1. Log into Adobe Places Service using your Adobe ID.
+1. In the top right side, click the filtering icon.
+1. You can filter POIs in one of the following ways: 
+
+   * By library:
+
+      a. Select a library.
+
+   * By property:
+
+      a. In Property drop-down list, select **[!UICONTROL Country]**, **[!UICONTROL State]**, or **[UICONTROL City]**.
+
+      b. In the next line, enter a value. 
+
+        For example, you can select **[!UICONTROL State]** and type **[!UICONTROL California]**.
+
+   * With metadata:
+
+      a. Enter a key and value.
 
