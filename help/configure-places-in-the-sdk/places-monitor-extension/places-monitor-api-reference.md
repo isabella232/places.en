@@ -46,7 +46,7 @@ public class MobileApp extends Application {
 
 Here is the syntax in Objective-C:
 
-```objectivec
+```objective-c
 + (void) registerExtension;
 ```
 
@@ -54,7 +54,7 @@ Here is the syntax in Objective-C:
 
 This method should be called in the `didFinishLaunchingWithOptions` delegate method of the `AppDelegate`.
 
-```objectivec
+```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     [ACPCore configureWithAppId:@"launch-appID"];    
@@ -91,13 +91,13 @@ String placesMonitorVersion = PlacesMonitor.extensionVersion();
 
 #### Syntax
 
-```objectivec
+```objective-c
 + (nonnull NSString*) extensionVersion;
 ```
 
 #### Example
 
-```objectivec
+```objective-c
 NSString *placesMonitorVersion = [ACPPlacesMonitor extensionVersion];
 ```
 
@@ -148,7 +148,7 @@ You can ensure the SDK has finished initialization by calling `start` from the c
 
 Starting the Places Monitor when the SDK is initializing:
 
-```objectivec
+```objective-c
 [ACPCore start:^{
     [ACPPlacesMonitor start];
 }];
@@ -156,7 +156,7 @@ Starting the Places Monitor when the SDK is initializing:
 
 Starting the Places Monitor later in app execution:
 
-```objectivec
+```objective-c
 [ACPPlacesMonitor start];
 ```
 
@@ -188,7 +188,7 @@ PlacesMonitor.stop();
 
 #### Example
 
-```objectivec
+```objective-c
 [ACPPlacesMonitor stop];
 ```
 
@@ -214,13 +214,13 @@ PlacesMonitor.updateLocation();
 
 #### Syntax
 
-```objectivec
+```objective-c
 + (void) updateLocationNow;
 ```
 
 #### Example
 
-```objectivec
+```objective-c
 [ACPPlacesMonitor updateLocationNow];
 ```
 
@@ -240,12 +240,12 @@ Monitoring can be set to one of the following values:
 
 #### Syntax
 
-```objectivec
+```objective-c
 + (void) setPlacesMonitorMode: (ACPPlacesMonitorMode) monitorMode;
 ```
 
 #### Example
 
-```objectivec
+```objective-c
 [ACPPlacesMonitor setPlacesMonitorMode:ACPPlacesMonitorModeSignificantChanges];
 ```

@@ -33,9 +33,9 @@ To get provisioned, complete the following tasks:
 
 ## Configure the Places extension and Places Monitor extension
 
-For more information about configuring the Places extension and Monitor extension, see [Places extension](/help/configure-places-in-the sdk/places-extension/places-extension.md) and [Places Monitor extension](/help/configure-places-in-the sdk/places-monitor-extension/places-monitor-extension.md).
+For more information about configuring the Places extension and Monitor extension, see [Places extension](/help/configure-places-in-the-sdk/places-extension/places-extension.md) and [Places Monitor extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md).
 
-## Creating libraries and POIs
+## Create your libraries and POIs
 
 You can create libraries and POIs in one of the following ways:
 
@@ -47,61 +47,7 @@ You can create libraries and POIs in one of the following ways:
 
   For more information, see [Location Service UI](/help/loc-services-database-management-1/loc-services-database-management.md). 
 
-## Create an empty library in the Location Service UI database in the Location Service UI
-
-1. Log into Location Service UI  
-
-    The user interface helps you to visually add and manage the POIs and libraries. 
-2. Click on the **Libraries** tab.
-3. Click **Create Library**.
-4. Type the name.
-5. Click **Confirm**.
-
-## Create a new POI in the library in the Location Service UI
-
-A POI is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on.
-
-1. Log in to [Location Services Service UI](https://places.adobe.com) with your Adobe ID.
-2. In the map view, click **+ New POI**. 
-3. Complete the following steps in the **Details** section:
-
-   a. Type a name.
-
-   b. Select a library.
-
-   c. Enter or select a radius.
-
-   d. Select the icon that you want to use for your POI.
-
-   e. Select a color for your POI icon.
-
-   f. Type a category.
-
-4. Complete the following steps in the **Location** section:
-
-   a. Type an address.
-
-   b. Type the city.
-
-   c. Type the name of the state.
-
-   d. Type the name of the country.
-
-   e. Select or enter a latitude or longitude.
-
-   f. Click **Drop Pin on Map**.
-
-5. Complete the following steps in the **Metadata** section:
-
-   a. Click **Add Metadata.**
-
-   b. Type the key name.
-
-   c. Type the key value.
-
-6. Click **Confirm**. 
-
-## Get started with Location Service: a video
+## Get started with Location Service
 
 Here is a video that can help you get started with Location Service:
 

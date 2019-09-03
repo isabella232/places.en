@@ -88,14 +88,14 @@ Here are some common terms that are used in this documentation:
 
 To access the Location Service UI, in a browser, go to  [https://places.adobe.com](https://places.adobe.com) and log in with your Adobe ID. 
 
-Here is some basic information to help you get familiar with the UI:
+Here is some basic information to help you become familiar with the UI:
 
-* In the upper right corner of the screen, there are buttons for zooming in and out, centering on your current location (Find Me), and switching between the map view and satellite view.
+* In the top right corner, there are buttons that you can click to create a library, POIs, and filter your search.
+* In the lower right corner of the screen, there are buttons for zooming in and out, centering on your current location \(**Find Me**\), and switching between the map view and satellite view.
 * Double click to zoom in or click and drag to recenter the map.
-* You can also use the arrow keys to scroll the map
-* In the lower right corner, click the New Poi button to create a new point of interest (POI).
+* You can also use the arrow keys to scroll the map.
 
-![](/help/assets/places_ui_intro.png)
+![](assets/location-services.png)
 
 
 ## The Location Service workflow
