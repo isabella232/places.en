@@ -81,7 +81,7 @@ To create a Location Service integration:
 
    These IDs are needed for each Location Service REST API request.
 
-![](/help/assets/places_orgid_api-key.pngg)
+![](/help/assets/places_orgid_api-key.png)
 
 ## Generate a JWT token
 
