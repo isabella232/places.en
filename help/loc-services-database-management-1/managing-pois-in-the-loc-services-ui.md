@@ -29,7 +29,7 @@ Geofences are a type of POI and are defined in the database based by the followi
 | Longitude | Longitude coordinate for center of POI | Yes |
 | Metadata | custom key + value pairs that can be assigned to POIs. This metadata streamlines future workflows by allowing you to group POIs across libraries for each to use rules and filters in downstream workflows such as send a push notification whenever someone enter a POI with Type = Competitor. | No |
 
-## Create a POI {create-a-poi}
+## Create a POI {#create-a-poi}
 
 A point of interest (POI) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
