@@ -15,15 +15,15 @@ To configure the Places extension:
 
 1. Configure the Places extension in Launch.
 
-    For more information, see [Configure the Places extension in Launch](#configure-places-extension).
+    For more information, see *Configure the Places extension in Launch*.
 
 1. Add the Places extension to your mobile app.
 
-    For more information, see [Add the Places extension to your app](#add-places-to-app).
+    For more information, see *Add the Places extension to your app*.
 
 1. Register Places with the Mobile Core extension.
 
-    For more information, see [Register Adobe Places with Mobile core](#register-places-mobile-core).
+    For more information, see *Register Adobe Places with Mobile core*.
 
 ## Configuring the Places Monitor extension 
 
@@ -31,16 +31,16 @@ To configure the Places Monitor extension in Launch:
 
 1. Configure the Places Monitor extension in Launch.
 
-    For more information, see [Configure the Places Monitoring extension in Launch](#configure-places-monitor-extension).
+    For more information, see *Configure the Places Monitoring extension in Launch*.
 
 2. Add the Places Monitor extension to your mobile app.
 
-    For more information, see [Add the Places Monitor extension to your app](#add-monitor-extension-to-app).
+    For more information, see *Add the Places Monitor extension to your app*.
 
 3. Register the Places Monitor with the Mobile Core extension.
 
-    For more information, see Register the [Places Monitor with Mobile Core](#register-start-places-monitor).
+    For more information, see Register the *Places Monitor with Mobile Core*.
 
 4. Enable location updates in the background.
 
-    For more information, see [Enable location updates in the background](#enable-location-updates-background).
+    For more information, see *Enable location updates in the background*.

@@ -51,7 +51,7 @@ To generate your own self-signed keys:
 
 The following video guides you through the process of generating the key pair:
 
-![](/assets/places_integration_video.gif)
+![](/help/assets/places_integration_video.gif)
 
 ## Create a Location Service integration in the Adobe I/O console
 
@@ -81,7 +81,7 @@ To create a Location Service integration:
 
    These IDs are needed for each Location Service REST API request.
 
-![](/assets/places_orgid_api-key.png)
+![](/help/assets/places_orgid_api-key.pngg)
 
 ## Generate a JWT token
 

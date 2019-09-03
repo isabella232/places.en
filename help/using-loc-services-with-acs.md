@@ -13,7 +13,7 @@ Having a deep understanding your customers preferences and habits are key to any
 
 According to a recent report from eMarketer, 85% of high-performing retailers believe that location is very important to their marketing efforts. Additionally, over 58% of retailers in North America are planning to invest in proximity/location technologies to enhance their customer experiences.
 
-![](/assets/using-loc-services-acs_0.png)
+![](/help/assets/using-loc-services-acs_0.png)
 
 Think about how critical location is in your smartphone usage experience. How often do ask your smartphone to find nearby restaurants, gas stations, grocery stores or other services.
 
@@ -68,7 +68,7 @@ After you verify that you have the Places and Places Monitor extensions working 
 6. Type a name for the data element, such as **[!UICONTROL Last Entered POI Name]**, and click **[!UICONTROL Save]**. 
 
 
-    ![](/assets/using-loc-services-acs_1.png)
+    ![](/help/assets/using-loc-services-acs_1.png)
 
 7. Repeat the same steps above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, *Last Entered POI Radius*.
 
@@ -145,7 +145,7 @@ Now that we have location data populated in Campaign, we can use points of inter
 
     You can make additional selections to determine the range of time since the user’s last visit to this POI.
 
-    ![](/assets/using-loc-services-acs_2.png)
+    ![](/help/assets/using-loc-services-acs_2.png)
 
 7. Click [!**UICONTROL Confirm]**.
 8. Run the count again at the top to see your audience size change. 
@@ -154,7 +154,7 @@ Now that we have location data populated in Campaign, we can use points of inter
 9. You can drag out additional POI location filters to include multiple POIs in your message.
 10. Click **[!UICONTROL Next]** to finish creating the push notification for delivery.
 
-    ![](/assets/using-loc-services-acs_3.png)
+    ![](/help/assets/using-loc-services-acs_3.png)
 
 In addition to push notifications, you can also use location data to segment which users you would like to receive an in-app message.
 
@@ -169,7 +169,7 @@ In addition to push notifications, you can also use location data to segment whi
 
 7. Click **[!UICONTROL Next]** to finish creating the in-app message for delivery.
 
-    ![](/assets/using-loc-services-acs_4.png)
+    ![](/help/assets/using-loc-services-acs_4.png)
 
 Using Adobe Experience Platform Location Services in conjunction with Adobe Campaign Standard gives you a very powerful tool to segment and target your messaging to users based on historical location. This simple integration opens the door for building out more personalized and contextual use cases.
 
