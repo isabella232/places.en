@@ -7,7 +7,7 @@ seo-description: Understand and work with POIs.
 
 # Manage POIs overview {#manage-pois}
 
-You can manage POIs the following ways by using the Location Service REST APIs:
+You can use the Location Service REST APIs to complete the following tasks:
 
 * [Create a POI](/help/loc-services-rest-apis/api-usage/manage-pois/create-a-poi.md)
 * [Read a POI](/help/loc-services-rest-apis/api-usage/manage-pois/read-a-poi.md)

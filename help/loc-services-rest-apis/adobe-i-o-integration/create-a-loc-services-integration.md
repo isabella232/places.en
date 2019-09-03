@@ -41,7 +41,9 @@ To generate your own self-signed keys:
 
    For more information about OpenSSL, see [OpenSSL](https://www.openssl.org/).
 
-   **Important**: The information that you provide is incorporated into the keys.
+    >[!IMPORTANT]
+    >
+    >The information that you provide is incorporated into the keys.
 
 3. Navigate to the directory where the `.key` and `.crt` files are located. 
 
@@ -55,7 +57,7 @@ The following video guides you through the process of generating the key pair:
 
 To create a Location Service integration:
 
-1. In a browser, go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
+1. Go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
 2. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the left.
 3. Click **[!UICONTROL New Integration]**.
 4. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.
@@ -77,7 +79,7 @@ To create a Location Service integration:
 1. On the **[!UICONTROL Services]** tab, confirm that **[!UICONTROL Places]** is displayed.
 2. On the **[!UICONTROL Overview]** tab, locate and record the API Key (Client ID) and the Organization ID.
 
-   These IDs are needed for each Places Rest API request.
+   These IDs are needed for each Location Service REST API request.
 
 ![](/help/assets/places_orgid_api-key.png)
 

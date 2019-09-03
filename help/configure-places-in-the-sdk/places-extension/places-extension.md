@@ -22,11 +22,11 @@ The Places extension allows you to act based on the location of your users. This
 
    For more information about publishing in Experience Platform Launch, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
 
-### Configure the Places extension
+### Configure the Places extension {#configure-places-extension}
 
   ![](//help/assets/places-extension.png)
 
-## Add the Places extension to your app
+## Add the Places extension to your app {#add-places-to-app}
 
 You can add the Places extension to your Android and iOS apps.
 
@@ -83,7 +83,7 @@ To add Places extension to your app by using Objective-C or Swift:
     import ACPPlaces
     ```
 
-### Register Places with Mobile Core
+### Register Places with Mobile Core {#register-places-mobile-core}
 
 You need to register Experience Platform Location Services with Mobile Core in Android and iOS.
 

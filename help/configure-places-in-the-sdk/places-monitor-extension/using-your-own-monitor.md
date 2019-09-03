@@ -5,7 +5,7 @@ description: You can also use your monitoring services and integrate with Locati
 seo-description: You can also use your monitoring services and integrate with Location Service by using the Places extension APIs. 
 ---
 
-# Using your own monitor
+# Using your own monitor {#using-your-monitor}
 
 You can also use your monitoring services and integrate with Places by using the Places extension APIs.
 
@@ -19,9 +19,9 @@ In iOS, complete the following steps:
 
 1. Pass the location updates that were obtained from the Core location services of the iOS to the Places extension. 
 
-2. Use the `getNearbyPointsOfInterest` Places extension API to get the array of _n_ `ACPPlacesPoi` objects around the current location.
+2. Use the `getNearbyPointsOfInterest` Places extension API to get the array of *n* `ACPPlacesPoi` objects around the current location.
 
-   ```text
+   ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
 
           [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
@@ -33,7 +33,7 @@ In iOS, complete the following steps:
 
 3. Extract the information from the obtained `ACPPlacesPOI` objects and start monitoring those POIs.
 
-    ```text
+    ```objective-c
     - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
         // verify if the device supports monitoring geofences
         // check for location permission
@@ -102,7 +102,9 @@ In iOS, complete the following steps:
 
 Calling the `getNearbyPointsOfInterest` API results in a network call that gets the location around the current location.
 
-**Important** : You should call the API sparingly or only when there is significant location change of the user.
+>[!IMPORTANT]
+>
+>You should call the API sparingly or only when there is significant location change of the user.
 
 ## Posting Geofence Events
 
@@ -110,7 +112,7 @@ Calling the `getNearbyPointsOfInterest` API results in a network call that gets 
 
 In iOS, call the `processGeofenceEvent` Places API in the `CLLocationManager` delegate. This API notifies you whether the user has entered or exited a specific region.
 
-```objectivec
+```objective-c
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
     [ACPPlaces processRegionEvent:region forRegionEventType:ACPRegionEventTypeEntry];
 }

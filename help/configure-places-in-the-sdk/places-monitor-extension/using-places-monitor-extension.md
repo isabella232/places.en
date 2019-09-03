@@ -16,13 +16,13 @@ To use the Places Monitor extension, complete the following tasks:
 3. Click **[!UICONTROL Save]**.
 4. Follow the publishing process to update the SDK configuration.
 
-### Configure the Places Monitor extension 
+### Configure the Places Monitor extension {#configure-places-monitor-extension}
 
 There are no configuration tasks for the Places Monitor extension.
 
 ![configure the Places Monitor](/help/assets/configure_places_monitor.png)‌
 
-## Add the Places Monitor extension to your app
+## Add the Places Monitor extension to your app {#add-monitor-extension-to-app}
 
 You need to add the Places Monitor extension to your Android or iOS app.
 
@@ -73,7 +73,7 @@ import ACPPlacesMonitor
 ```
 
 
-## Register and Start the Places Monitor
+## Register and Start the Places Monitor {#register-start-places-monitor}
 
 You need to register and start the Places Monitor in Android or iOS.
 
@@ -165,7 +165,7 @@ For all versions of Android, to declare that your app need location permission, 
 ```
 
 
-## Enable location updates in the background  
+## Enable location updates in the background  {#enable-location-updates-background}
 
 iOS supports the delivery of location events to apps that are suspended or no longer running. To receive location updates in the background for the Places Monitor extension, configure the Location updates capability for your app in `Xcode.background-location-updates`.
 
