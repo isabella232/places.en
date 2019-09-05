@@ -1,8 +1,8 @@
 ---
 title: Read all libraries in your organization
 seo-title: Read all libraries in your organization
-description: Read all libraries in your organization by using the Location Service REST API.
-seo-description: Read all libraries in your organization by using the Location Service REST API.
+description: Read all libraries in your organization by using the Experience Platform Location Service REST API.
+seo-description: Read all libraries in your organization by using the Experience Platform Location Service REST API.
 ---
 
 # Read all libraries in your organization

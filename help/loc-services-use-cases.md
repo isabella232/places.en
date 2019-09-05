@@ -1,11 +1,11 @@
 ---
 title: Uses cases
-seo-title: Use cases for Location Service.
-description: This topic contains details about use cases for Location Services.
-seo-description: This topic contains details about use cases for Location Services.
+seo-title: Use cases for Experience Platform Location Service.
+description: This topic contains details about use cases for Experience Platform Location Services.
+seo-description: This topic contains details about use cases for Experience Platform Location Services.
 ---
 
-# Location Service use cases
+# Experience Platform Location Service use cases
 
 Some examples include:
 

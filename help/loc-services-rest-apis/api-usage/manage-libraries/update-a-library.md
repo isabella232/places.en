@@ -1,8 +1,8 @@
 ---
 title: Update a library
 seo-title: Update a library
-description: Update a library by using the Location Service REST API.
-seo-description: Update a library by using the Location Service REST API.
+description: Update a library by using the Experience Platform Location Service REST API.
+seo-description: Update a library by using the Experience Platform Location Service REST API.
 ---
 
 # Update a library

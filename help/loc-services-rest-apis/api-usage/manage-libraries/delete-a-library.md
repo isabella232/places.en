@@ -1,8 +1,8 @@
 ---
 title: Delete a library
 seo-title: Delete a library
-description: Delete a library by using the Location Service REST APIs.
-seo-description: Delete a library by using the Location Service REST APIs.
+description: Delete a library by using the Experience Platform Location Service REST APIs.
+seo-description: Delete a library by using the Experience Platform Location Service REST APIs.
 ---
 
 # Delete a library

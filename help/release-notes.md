@@ -1,21 +1,83 @@
 ---
 title: Release notes
-seo-title: Release notes for Adobe Location Service.
-description: Release notes for Adobe Location Service.
-seo-description: Release notes for Adobe Location Service.
+seo-title: Release notes for Adobe Experience Platform Location Service.
+description: Release notes for Adobe Experience Platform Location Service.
+seo-description: Release notes for Adobe Experience Platform Location Service.
 ---
 
-# Release notes
+# Release notes {#release-notes}
 
-Here are the release notes for Location Service:
+Here are the release notes for Experience Platform Location Service:
+
+## Aug 8, 2019
+
+The following updates were made in this release:
+
+### Experience Platform Location Service UI Updates
+
+Here is a list of the updates to the Experience Platform Location Service UI: 
+
+#### New Features
+
+* Added a new list view that shows POIs without the map.
+* Added POI filtering options for the city, the state, the country, and the metadata.
+* The first library in an organization is automatically created.
+* Added POI sorting to the List View.
+
+#### UI Updates
+
+* Moved the list and details panel to right side of UI.
+* Added a new search panel to the top of the UI.
+* If only one library is present, this library is automatically selected when you create a POI.
+* Moved library management into a popup window.
+* Added a POI count next to the filters.
+
+## Aug 6, 2019
+
+The following updates were made in this release:
+
+### Places Monitor Launch Extension 2.0.0
+
+* Updated the Android and iOS installation instructions for the Places Monitor 2.0.
+
+## July 31, 2019
+
+The following updates were made in this release:
+
+### Places Monitor 2.0.0
+
+* Monitoring status is now persisted between launches.
+* The handling of the callback, which resulted from a location permission request no longer requires you to extend PlacesActivity.
+* Changed an existing API, allowing developers to clear all Places data from the device:
+
+     Old API: `public static void stop();`
+
+     New API: `public static void stop (final boolean clearData);`
+
+* Updated the use of the Places `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
 
 ## July 25, 2019
 
-**ACPPlacesMonitor 2.0.0**
+The following updates were made in this release:
 
-* To clear all Places data from the device, in ACPPlacesMonitor, replaced an existing API (`+ (void) stop;`) with `+ (void) stop: (BOOL) clearData;`. 
+### ACPPlacesMonitor 2.0.0
+
+* To clear all Places data from the device,
+
+  in ACPPlacesMonitor, replaced an existing API \(`+ (void) stop;`\) with`+ (void) stop: (BOOL) clearData;`.
 
 * Updated the use of the ACPPlaces `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
+
+## July 22, 2019
+
+The following updates were made in this release:
+
+### Android Places 1.3.0
+
+* Added a new API that clears out all Places-related data from shared state, in-app memory, and Shared Preference.
+* Fixed an issue where shared state was not getting updated during application start.
+* Fixed a bug where `getNearbyPointsOfInterest` callback was returning error code SERVER\_RESPONSE\_ERROR instead of CONNECTIVITY\_ERROR on no internet.
+* `getNearbyPointsOfInterest` API \(without the errorCallback\) will have the `successCallback` called with empty poi list, in case of error retrieving the nearby points of interest.
 
 ## July 19, 2019
 
@@ -23,7 +85,7 @@ The following updates were made in this release:
 
 **iOS Places 1.2.0**
 
-Added a new API that clears out all Location Service-related data from shared state, in-app memory, and `NSUserDefaults`.
+Added a new API that clears out all Experience Platform Location Service-related data from shared state, in-app memory, and `NSUserDefaults`.
 
 ## June 25, 2019
 
@@ -40,15 +102,15 @@ The following updates were made in this release:
 **iOS Places 1.1.0**
 
 * Added a new API to return an error code when there is a failure retrieving nearby places.
-* When privacy status changes to opt-out, all Location Service-related data will now be wiped from the device.
-* Fixed an issue that, after a first launch, sometimes caused Location Service events to be lost due to bad network conditions.
+* When privacy status changes to opt-out, all Experience Platform Location Service-related data will now be wiped from the device.
+* Fixed an issue that, after a first launch, sometimes caused Experience Platform Location Service events to be lost due to bad network conditions.
 * Fixed an issue where, when processing POI entry events in quick succession, token replacement via Rules Engine sometimes reference the incorrect POI.
 
 ## May 28, 2019
 
-Fixed the following issues in the Location Service UI:
+Fixed the following issues in the Experience Platform Location Service UI:
 
-* Updated the Solution Switcher in Location Service to align with the rest of the Experience Cloud.
+* Updated the Solution Switcher in Experience Platform Location Service to align with the rest of the Experience Cloud.
 * Fixed an issue where rank was saving in instances where no rank changes were made.
 * Increased the minimum allowed radius in the UI to 10 meters.
 * Fixed an issue where, if you delete all the numbers in the field, the radius field reset back to 20 meters.
@@ -57,7 +119,7 @@ Fixed the following issues in the Location Service UI:
 
 ### Beta Release
 
-This is the first release of Location Service, a set of tools that allows customers to enrich their users' experiences with real world location data. For the first release, our primary use case is to enable mobile apps to retrieve custom location data and act on that data through Adobe Experience Platform Launch.
+This is the first release of Experience Platform Location Service, a set of tools that allows customers to enrich their users' experiences with real world location data. For the first release, our primary use case is to enable mobile apps to retrieve custom location data and act on that data through Adobe Experience Platform Launch.
 
 ### Key features
 
@@ -67,12 +129,12 @@ Here are the key features in this release:
 
 We have released a management UI where you can view and manage your points of interest (POIs). You also can organize your POIs into libraries. In addition to standard metadata such as city, state, and category, we also support the ability to add custom metadata to your POIs.
 
-* To see the Location Service UI, go to [https://places.adobe.com](https://places.adobe.com). 
-* To get started with the Location Service UI, see [Getting started](/help/getting-started.md).
+* To see the Experience Platform Location Service UI, go to [https://places.adobe.com](https://places.adobe.com). 
+* To get started with the Experience Platform Location Service UI, see [Getting started](/help/getting-started.md).
 
 #### Places Extension
 
-Using the Places Extension, you can add your Location Service libraries to your mobile app and act on their POIs. Using the rule builder in Experience Platform Launch, you can trigger actions to fire when users enter and exit POIs.
+Using the Places Extension, you can add your Experience Platform Location Service libraries to your mobile app and act on their POIs. Using the rule builder in Experience Platform Launch, you can trigger actions to fire when users enter and exit POIs.
 
 In the Places extension:
 
@@ -92,11 +154,11 @@ You can use the Places APIs do do the following:
 
     A python utility is provided with the APIs. 
 
-For more information about the Places APIs, see [Location Service web services](/help/loc-services-rest-apis/loc-services-web-services.md).
+For more information about the Places APIs, see [Experience Platform Location Service web services](/help/loc-services-rest-apis/loc-services-web-services.md).
 
 ### Coming Soon
 
 #### Analytics Integration
 
-The Analytics extension is being updated to automatically add location context data from your Location Service database to all outgoing Analytics calls when a user is within a POI (Passive calls). This update will also allow rule creation to fire Analytics track calls directly at POI entry or exit (Active calls).
+The Analytics extension is being updated to automatically add location context data from your Experience Platform Location Service database to all outgoing Analytics calls when a user is within a POI (Passive calls). This update will also allow rule creation to fire Analytics track calls directly at POI entry or exit (Active calls).
 

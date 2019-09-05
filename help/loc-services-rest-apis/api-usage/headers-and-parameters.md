@@ -1,13 +1,13 @@
 ---
 title: Headers and parameters
 seo-title: Headers and parameters
-description: Headers and parameters that are available in the Location Service REST APIs.
-seo-description: Headers and parameters that are available in the Location Service REST APIs.
+description: Headers and parameters that are available in the Experience Platform  REST APIs.
+seo-description: Headers and parameters that are available in the Experience Platform Location Service REST APIs.
 ---
 
 # Headers and parameters {#headers-and-parameters}
 
-Here are the details about the headers and parameters that are available in the Location Service REST API:
+Here are the details about the headers and parameters that are available in the Experience Platform Location Service REST API:
 
 ## Supported headers
 

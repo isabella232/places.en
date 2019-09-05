@@ -1,8 +1,8 @@
 ---
 title: Delete a POI
 seo-title: Delete a POI
-description: Delete a POI by using the Location Service REST APIs.
-seo-description: Delete a POI by using the Location Service REST APIs.
+description: Delete a POI by using the Experience Platform Location Service REST APIs.
+seo-description: Delete a POI by using the Experience Platform Location Service REST APIs.
 ---
 
 # Delete a POI

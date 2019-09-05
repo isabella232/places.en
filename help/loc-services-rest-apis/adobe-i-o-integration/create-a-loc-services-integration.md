@@ -1,17 +1,17 @@
 ---
-title: Create a Location Service integration
-seo-title: Create a Location Service integration
-description: Information about creating a Location Service integration.
-seo-description: Information about creating a Location Service integration.
+title: Create a Experience Platform Location Service integration
+seo-title: Create a Experience Platform Location Service integration
+description: Information about creating a Experience Platform Location Service integration.
+seo-description: Information about creating a Experience Platform Location Service integration.
 ---
 
-# Create a Location Service integration {#create-places-integration}
+# Create a Experience Platform Location Service integration {#create-places-integration}
 
-To create an Location Service integration, complete the following tasks:
+To create an Experience Platform Location Service integration, complete the following tasks:
 
 ## Generate a public and private key pair
 
-To create a Location Service integration, you need a public and a private key pair. These pairs can be purchased, or you can generate your own self-signed keys.
+To create a Experience Platform Location Service integration, you need a public and a private key pair. These pairs can be purchased, or you can generate your own self-signed keys.
 
 To generate your own self-signed keys:
 
@@ -53,9 +53,9 @@ The following video guides you through the process of generating the key pair:
 
 ![](/help/assets/places_integration_video.gif)
 
-## Create a Location Service integration in the Adobe I/O console
+## Create a Experience Platform Location Service integration in the Adobe I/O console
 
-To create a Location Service integration:
+To create a Experience Platform Location Service integration:
 
 1. Go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
 2. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the left.
@@ -79,7 +79,7 @@ To create a Location Service integration:
 1. On the **[!UICONTROL Services]** tab, confirm that **[!UICONTROL Places]** is displayed.
 2. On the **[!UICONTROL Overview]** tab, locate and record the API Key (Client ID) and the Organization ID.
 
-   These IDs are needed for each Location Service REST API request.
+   These IDs are needed for each Experience Platform Location Service REST API request.
 
 ![](/help/assets/places_orgid_api-key.png)
 
@@ -96,7 +96,7 @@ To generate a JWT token:
 5. Run the command by pressing **[!UICONTROL Enter]** on your keyboard.
 6. Locate the `"token_type": "bearer"` and the `"access_token"` value.  
 
-    The value of the bearer access token is what you will use in your Location Service API requests.  
+    The value of the bearer access token is what you will use in your Experience Platform Location Service API requests.  
 
 >[!IMPORTANT]
 >

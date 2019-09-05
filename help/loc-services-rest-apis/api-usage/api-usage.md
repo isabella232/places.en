@@ -1,8 +1,8 @@
 ---
 title: API usage overview
 seo-title: API usage overview
-description: Provides an introduction to the Location Service REST APIs.
-seo-description: Provides an introduction to the Location Service REST APIs.
+description: Provides an introduction to the Experience Platform Location Service REST APIs.
+seo-description: Provides an introduction to the Experience Platform Location Service REST APIs.
 ---
 
 # API usage overview {#rest-api-usage}

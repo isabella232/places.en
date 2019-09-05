@@ -1,12 +1,12 @@
 ---
 title: Custom Places objects
-seo-title: Custom native classes to be used with the Location Service APIs.
-seo-description: Custom native classes to be used with the Location Service APIs.
+seo-title: Custom native classes to be used with the Experience Platform Location Service APIs.
+seo-description: Custom native classes to be used with the Experience Platform Location Service APIs.
 ---
 
 # Custom Places objects {#places-objects}
 
-Here are the custom native classes that will be used with the Location Service APIs:
+Here are the custom native classes that will be used with the Experience Platform Location Service APIs:
 
 ## iOS
 
@@ -18,7 +18,7 @@ Here is the definition:
 /**
  *  @class ACPPlacesPoi
  *
- *  This class contains data that is directly correlated to the properties maintained by the Location Service database.
+ *  This class contains data that is directly correlated to the properties maintained by the Experience Platform Location Service database.
  */
 @interface ACPPlacesPoi : NSObject
 

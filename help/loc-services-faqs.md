@@ -1,13 +1,13 @@
 ---
 title: Places FAQs
-seo-title: Location Service FAQs
-description: This topic provides additional information about some frequently asked questions about Location Services.
-seo-description: This topic provides additional information about some frequently asked questions about Location Services.
+seo-title: Experience Platform Location Service FAQs
+description: This topic provides additional information about some frequently asked questions about Experience Platform Location Services.
+seo-description: This topic provides additional information about some frequently asked questions about Experience Platform Location Services.
 ---
 
-# Location Service FAQs
+# Experience Platform Location Service FAQs
 
-Here is some information and frequently asked questions about Location Service. 
+Here is some information and frequently asked questions about Experience Platform Location Service. 
 
 ## Size and reliability  
 

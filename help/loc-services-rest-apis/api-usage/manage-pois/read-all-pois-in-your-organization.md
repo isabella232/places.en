@@ -1,8 +1,8 @@
 ---
 title: Read all POIs in your organization
 seo-title: Read all POIs in your organization
-description: Read all POIs in your organization by using the Location Service REST APIs.
-seo-description: Read all POIs in your organization by using the Location Service REST APIs.
+description: Read all POIs in your organization by using the Experience Platform Location Service REST APIs.
+seo-description: Read all POIs in your organization by using the Experience Platform Location Service REST APIs.
 ---
 
 # Read all POIs in your organization
