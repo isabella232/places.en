@@ -7,7 +7,7 @@ seo-description: The Places extension allows you to act based on the location of
 
 # Places extension {#places-extension}
 
-The Places extension allows you to act based on the location of your users. This extension is the interface to the Location Services Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
+The Places extension allows you to act based on the location of your users. This extension is the interface to the Experience Platform Location Services Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
 
 ## Install the Places extension in Adobe Experience Platform Launch
 
@@ -59,7 +59,7 @@ To add Places extension to your app by using Objective-C or Swift:
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and Location Services libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
+   Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and Experience Platform Location Services libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
 
 2. Update your Cocoapods:
 
@@ -67,7 +67,7 @@ To add Places extension to your app by using Objective-C or Swift:
    pod update
    ```
 
-3. Open Xcode, and in your AppDelegate class, import the Core and Location Services headers:
+3. Open Xcode, and in your AppDelegate class, import the Core and Experience Platform Location Services headers:
 
     **Objective-C**
 

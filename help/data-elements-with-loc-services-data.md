@@ -1,11 +1,11 @@
 ---
-title: Experience Platform Launch Data Elements with Location Service Data
-seo-title: Experience Platform Launch Data Elements with Location Service Data
+title: Experience Platform Launch Data Elements with Experience Platform Location Service Data
+seo-title: Experience Platform Launch Data Elements with Experience Platform Location Service Data
 description: Data elements are the building blocks for your data dictionary (or data map). 
 seo-description: Data elements are the building blocks for your data dictionary (or data map). 
 ---
 
-# Experience Platform Launch Data Elements with Location Service Data
+# Experience Platform Launch Data Elements with Experience Platform Location Service Data
 
 ## Data elements
 

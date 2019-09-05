@@ -1,8 +1,8 @@
 ---
 title: Read a library
 seo-title: Read a library
-description: Read a library by using the Location Service REST API.
-seo-description: Read a library by using the Location Service REST API.
+description: Read a library by using the Experience Platform Location Service REST API.
+seo-description: Read a library by using the Experience Platform Location Service REST API.
 ---
 
 

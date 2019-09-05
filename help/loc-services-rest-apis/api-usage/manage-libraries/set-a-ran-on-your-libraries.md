@@ -1,8 +1,8 @@
 ---
 title: Set a rank on your libraries
 seo-title: Set a rank on your libraries
-description: Set a rank on your libraries by using the Location Service REST API.
-seo-description: Set a rank on your libraries by using the Location Service REST API.
+description: Set a rank on your libraries by using the Experience Platform Location Service REST API.
+seo-description: Set a rank on your libraries by using the Experience Platform Location Service REST API.
 ---
 
 # Set a rank on your libraries

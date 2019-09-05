@@ -1,8 +1,8 @@
 ---
 title: Get a library's rank
 seo-title: Get a library's rank
-description: Get a library's rank by using the Location Service REST API.
-seo-description: Get a library's rank by using the Location Service REST API.
+description: Get a library's rank by using the Experience Platform Location Service REST API.
+seo-description: Get a library's rank by using the Experience Platform Location Service REST API.
 ---
 
 # Get a library's rank

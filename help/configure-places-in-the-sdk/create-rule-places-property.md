@@ -1,11 +1,11 @@
 ---
-title: Creating a rule for your Location Service property
-seo-title: Creating a rule for your Location Service property
-description: The Location Service SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
-seo-description: The Location Service SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
+title: Creating a rule for your Experience Platform Location Service property
+seo-title: Creating a rule for your Experience Platform Location Service property
+description: The Experience Platform Location Service SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
+seo-description: The Experience Platform Location Service SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
 ---
 
-# Create a rule for your Location Service property {#creating-rule-places-property}
+# Create a rule for your Experience Platform Location Service property {#creating-rule-places-property}
 
 The Location Service SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs.
 
@@ -17,14 +17,14 @@ You can configure a rule, which is composed of an event, a condition, and an act
 * (Optional) conditions
 * One or more actions
 
-### Location Service events
+### Events
 
-Location Service offers the following events on which you can run a rule:
+Experience Platform Location Service offers the following events on which you can run a rule:
 
-* **Enter POI**, which is triggered by the Location Service SDK when your customer enters the POI that you configured.
-* **Exit POI**, which is triggered by the Location Service SDK when your customer exits the POI that you configured.
+* **[!UICONTROL Enter POI]**, which is triggered by the Experience Platform Location Service SDK when your customer enters the POI that you configured.
+* **[!UICONTROL Exit POI]**, which is triggered by the Experience Platform Location Service SDK when your customer exits the POI that you configured.
 
-### Places conditions
+### Conditions
 
 Conditions define the criteria that the data associated with the event, or the shared state of an extension at that instance, must meet for the action to be taken. For example, you can set a condition to trigger an action on an entry to a coffee shop only in the city of San Francisco.
 
@@ -66,13 +66,13 @@ Before you create a rule, you must create a data element in Experience Platform 
 
 To create a data element in Experience Platform Launch:
 
-1. Click the **Data Elements** tab.
-2. Click **Add Data Element**.
-3. Type a name, for example, **Current coffee shop name**.
-4. In the **Extension** drop-down list, select **Places – Beta**.
-5. In **Data Element**, select **City**.
+1. Click the **[!UICONTROL Data Elements]** tab.
+2. Click **[!UICONTROL Add Data Element]**.
+3. Type a name, for example, **[!UICONTROL Current coffee shop name]**.
+4. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places – Beta]**.
+5. In **[!UICONTROL Data Element]**, select **[!UICONTROL City]**.
 6. In the right pane, select **Current POI**.
-7. Click **Save**.
+7. Click **[!UICONTROL Save]**.
 
 ### Create a rule in Experience Platform Launch for Location Service
 
@@ -121,5 +121,3 @@ To create a data element in Experience Platform Launch:
 ### Publish the rule
 
 1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
-
-

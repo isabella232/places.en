@@ -9,13 +9,13 @@ user-guide-title: Adobe Experience Platform Location Services Help
 + [Adobe Experience Platform Location Service](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
-+ [Adding a user to Experience Platform Launch and Location Service](adding-a-user-to-launch-loc-services.md)
-+ Location Service web services {#loc-services-rest-apis}
-  + [Location Service web services](loc-services-rest-apis/loc-services-web-services.md)
++ [Adding a user to Experience Platform Launch and Experience Platform Location Service](adding-a-user-to-launch-loc-services.md)
++ Experience Platform Location Service web services {#loc-services-rest-apis}
+  + [Experience Platform Location Service web services](loc-services-rest-apis/loc-services-web-services.md)
   + [Organizational requirements](loc-services-rest-apis/organizational-requirements.md)
   + Adobe I/O integration {#adobe-i-o-integration}
     + [Adobe I/O integration](loc-services-rest-apis/adobe-i-o-integration/adobe-i-o-integration.md)
-    + [Create a Location Service integration](loc-services-rest-apis/adobe-i-o-integration/create-a-loc-services-integration.md)
+    + [Create a Experience Platform Location Service integration](loc-services-rest-apis/adobe-i-o-integration/create-a-loc-services-integration.md)
   + API usage {#api-usage}
     + [API usage overview](loc-services-rest-apis/api-usage/api-usage.md)
     + [Headers and parameters](loc-services-rest-apis/api-usage/headers-and-parameters.md)
@@ -42,12 +42,12 @@ user-guide-title: Adobe Experience Platform Location Services Help
         + [Update multiple POIs](loc-services-rest-apis/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
         + [Delete multiple POIs](loc-services-rest-apis/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
     + [Query APIs](loc-services-rest-apis/api-usage/query-apis.md)
-+ Location Service UI {#loc-services-database-management-1}
++ Experience Platform Location Service UI {#loc-services-database-management-1}
   + [Experience Platform Location Service UI](loc-services-database-management-1/loc-services-database-management.md)
-  + [Manage libraries in the Location Service UI](loc-services-database-management-1/manage-libraries-in-the-loc-services-ui.md)
-  + [Manage POIs in the Location Service UI](loc-services-database-management-1/managing-pois-in-the-loc-services-ui.md)
-+ Configure the SDK with Location Service {#configure-places-with-sdk}
-  + [Configure the SDK with Location Service](configure-places-in-the-sdk/configure-places-in-the-sdk.md)
+  + [Manage libraries in the Experience Platform Location Service UI](loc-services-database-management-1/manage-libraries-in-the-loc-services-ui.md)
+  + [Manage POIs in the Experience Platform Location Service UI](loc-services-database-management-1/managing-pois-in-the-loc-services-ui.md)
++ Configure the SDK with Experience Platform Location Service {#configure-places-with-sdk}
+  + [Configure the SDK with Experience Platform Location Service](configure-places-in-the-sdk/configure-places-in-the-sdk.md)
   + Places extension {#places-extension}
     + [Places extension](configure-places-in-the-sdk/places-extension/places-extension.md)
     + [Places API reference](configure-places-in-the-sdk/places-extension/places-api-reference.md)
@@ -59,7 +59,7 @@ user-guide-title: Adobe Experience Platform Location Services Help
     + [Using your own monitor](configure-places-in-the-sdk/places-monitor-extension/using-your-own-monitor.md)
     + [Places Monitor API reference](configure-places-in-the-sdk/places-monitor-extension/places-monitor-api-reference.md)
   + [Create a rule for your Places property](configure-places-in-the-sdk/create-rule-places-property.md)
-+ [Configure Experience Platform Launch rules and data elements with Location Service data](rules-data-elements-loc-services-data.md)
-+ [Location Service use cases](loc-services-use-cases.md)
-+ [Location Service FAQs](loc-services-faqs.md)
-+ [Using Location Services with Adobe Campaign Standard](using-loc-services-with-acs.md)
++ [Configure Experience Platform Launch rules and data elements with Experience Platform Location Service data](rules-data-elements-loc-services-data.md)
++ [Experience Platform Location Service use cases](loc-services-use-cases.md)
++ [Experience Platform Location Service FAQs](loc-services-faqs.md)
++ [Using Experience Platform Location Services with Adobe Campaign Standard](using-loc-services-with-acs.md)

@@ -5,7 +5,7 @@ description: Having a deep understanding your customers preferences and habits a
 seo-description: Having a deep understanding your customers preferences and habits are key to any successful marketing campaign. Knowing if a user has visited a physical location can also add some very valuable context in forming a relationship with the consumer.
 ---
 
-# Using Places with Adobe Campaign Standard
+# Using Experience Platform Location Service with Adobe Campaign Standard
 
 *Thanks for visiting us last week, we’d love to give you a surprise for use on your next visit!*
 
@@ -17,9 +17,9 @@ According to a recent report from eMarketer, 85% of high-performing retailers be
 
 Think about how critical location is in your smartphone usage experience. How often do ask your smartphone to find nearby restaurants, gas stations, grocery stores or other services.
 
-It makes sense then that as a brand you should be thinking of ways to leverage location into your marketing campaigns. In this guide we’ll show how you can harness the power of Adobe Experience Platform Location Service to add location context to messaging through Adobe Campaign Standard, allowing you to blast out personalized push notifications or in-app messages based on historical point of interest (POI) entry.
+It makes sense then that as a brand you should be thinking of ways to leverage location into your marketing campaigns. In this guide we’ll show how you can harness the power of Adobe Experience Platform Experience Platform Location Service to add location context to messaging through Adobe Campaign Standard, allowing you to blast out personalized push notifications or in-app messages based on historical point of interest (POI) entry.
 
-Before we begin, this guide assumes that you have a mobile application configured with the Adobe Experience Platform Mobile SDK with the Adobe Campaign Standard extension. In addition to Adobe Experience Platform Mobile SDK and Campaign Standard, you should have access to Location Service.
+Before we begin, this guide assumes that you have a mobile application configured with the Adobe Experience Platform Mobile SDK with the Adobe Campaign Standard extension. In addition to Adobe Experience Platform Mobile SDK and Campaign Standard, you should have access to Experience Platform Location Service.
 
 ## Prerequisites
 
@@ -29,13 +29,13 @@ Before we begin, this guide assumes that you have a mobile application configure
 
   >[!TIP]
   >
-  >If you are looking for ways to bulk upload or manage POIs, take a look at this [script to upload POIs from a CSV](https://github.com/adobe/places-scripts) file. Additionally, the [Location Service APIs](/help/loc-services-rest-apis/api-usage/api-usage.md) can be used to create or manage points of interest.
+  >If you are looking for ways to bulk upload or manage POIs, take a look at this [script to upload POIs from a CSV](https://github.com/adobe/places-scripts) file. Additionally, the [Experience Platform Location Service APIs](/help/loc-services-rest-apis/api-usage/api-usage.md) can be used to create or manage points of interest.
 
-If you do not have access to Location Services, you can [request access here](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fkr821yYptFo-ghlnlXCyhUM0dQVkJCSzVDMFNGWEFXWUUwNEJWSjhSRS4u).
+If you do not have access to Experience Platform Location Services, you can [request access here](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fkr821yYptFo-ghlnlXCyhUM0dQVkJCSzVDMFNGWEFXWUUwNEJWSjhSRS4u).
 
 ### Enable and install the Places extensions in your application
 
-After creating points of interest in the Adobe Experience Platform Location Services interface, you will need to add the Places functionality to your application.
+After creating points of interest in the Adobe Experience Platform Experience Platform Location Services interface, you will need to add the Places functionality to your application.
 
 1. Follow the directions for enabling the Places and Places Monitor extensions in your application.
 
@@ -163,7 +163,7 @@ In addition to push notifications, you can also use location data to segment whi
 3. Click **[!UICONTROL Next]** and fill in the general details on the next screen.
 4. You’ll see on the left sidebar that you can now use a variety triggers related to Places.
 5. I can choose to have the in-app message display if the user has entered a POI geo-fence
-6. I can also use metadata that I defined in the Location Services UI to filter my audience. 
+6. I can also use metadata that I defined in the Experience Platform Location Services UI to filter my audience. 
 
       In this example I want to trigger an in-app message shown only to users that last exited a POI that also had a Gym facility. Perhaps I want to send them a survey to see if they used/liked the gym.
 
@@ -173,7 +173,7 @@ In addition to push notifications, you can also use location data to segment whi
 
 Using Adobe Experience Platform Location Services in conjunction with Adobe Campaign Standard gives you a very powerful tool to segment and target your messaging to users based on historical location. This simple integration opens the door for building out more personalized and contextual use cases.
 
-We’re constantly evolving Adobe Experience Platform Location Services and the solutions integrated to bring location context into mobile workflows. One product that will take advantage of Platform Location Services, is the upcoming Triggered Journey’s solution that will allow customers to create real-time workflows based on event triggers such as location.
+We’re constantly evolving Adobe Experience Platform Location Services and the solutions integrated to bring location context into mobile workflows. One product that will take advantage of Experience Platform Location Services, is the upcoming Triggered Journey’s solution that will allow customers to create real-time workflows based on event triggers such as location.
 
 ## Recommended Links
 
@@ -183,7 +183,7 @@ For more information, see the following:
 
 * [Adobe Campaign Standard](https://www.adobe.com/marketing/campaign.html)
 
-* [Sign-up for access to Adobe Location Service Beta](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fkr821yYptFo-ghlnlXCyhUM0dQVkJCSzVDMFNGWEFXWUUwNEJWSjhSRS4u)
+* [Sign-up for access to Adobe Experience Platform Location Service Beta](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fkr821yYptFo-ghlnlXCyhUM0dQVkJCSzVDMFNGWEFXWUUwNEJWSjhSRS4u)
 
 * [Adobe Experience Platform Mobile SDK](https://sdkdocs.com/)
 

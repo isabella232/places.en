@@ -1,8 +1,8 @@
 ---
 title: Read a POI
 seo-title: Read a POI
-description: Read a POI by using the Location Service REST APIs.
-seo-description: Read a POI by using the Location Service REST APIs.
+description: Read a POI by using the Experience Platform Location Service REST APIs.
+seo-description: Read a POI by using the Experience Platform Location Service REST APIs.
 ---
 
 # Read a POI

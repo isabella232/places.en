@@ -1,11 +1,11 @@
 ---
-title: Manage libraries in the Location Service UI
-seo-title: Manage libraries in the Location Service UI
-description: Manage your libraries by using the Location Service UI.
-seo-description: Manage your libraries by using the Location Service UI.
+title: Manage libraries in the Experience Platform Location Service UI
+seo-title: Manage libraries in the Experience Platform Location Service UI
+description: Manage your libraries by using the Experience Platform Location Service UI.
+seo-description: Manage your libraries by using the Experience Platform Location Service UI.
 ---
 
-# Manage libraries in the Location Service UI {#manage-libraries-places-ui}
+# Manage libraries in the Experience Platform Location Service UI {#manage-libraries-places-ui}
 
 A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization.  
 
@@ -27,7 +27,7 @@ Libraries are defined by the following:
 4. Type the name.
 5. Click **[!UICONTROL Confirm]**.
 
-## Change the rank of a library in the Location Service UI
+## Change the rank of a library in the Experience Platform Location Service UI
 
 1. Log in to Adobe Places with your Adobe ID.
 2. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**.
