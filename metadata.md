@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: places
-solution-title: Location Services
+solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 getting-started-title: Getting Started
 getting-started-url: https://www.adobe.com
