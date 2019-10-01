@@ -7,7 +7,7 @@ getting-started-title: Getting Started
 getting-started-url: https://www.adobe.com
 tutorials-title: Tutorials
 tutorials-url: https://www.adobe.com
-git-repo: https://git.corp.adobe.com/AdobeDocs/location-services.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
 index: no
 ---
 
