@@ -1,12 +1,12 @@
 ---
-product: Adobe Experience Platform Location Services
+product: places
 audience: end-user
-user-guide-title: Adobe Experience Platform Location Services Help
+user-guide-title: Adobe Places Help
 ---
 
-# Adobe Experience Platform Location Services Help {#using}
+# Adobe Places Help {#using}
 
-+ [Adobe Experience Platform Location Service](home.md)
++ [Adobe Experience Platform Places](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + [Adding a user to Experience Platform Launch and Experience Platform Location Service](adding-a-user-to-launch-loc-services.md)
