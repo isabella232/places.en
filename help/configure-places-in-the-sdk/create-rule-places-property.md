@@ -1,11 +1,11 @@
 ---
-title: Creating a rule for your Experience Platform Location Service property
-seo-title: Creating a rule for your Experience Platform Location Service property
-description: The Experience Platform Location Service SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
-seo-description: The Experience Platform Location Service SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
+title: Creating a rule for your Places property
+seo-title: Creating a rule for your Places property
+description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
+seo-description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
 ---
 
-# Create a rule for your Experience Platform Location Service property {#creating-rule-places-property}
+# Create a rule for your Places property {#creating-rule-places-property}
 
 The Location Service SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs.
 
@@ -19,10 +19,10 @@ You can configure a rule, which is composed of an event, a condition, and an act
 
 ### Events
 
-Experience Platform Location Service offers the following events on which you can run a rule:
+Places offers the following events on which you can run a rule:
 
-* **[!UICONTROL Enter POI]**, which is triggered by the Experience Platform Location Service SDK when your customer enters the POI that you configured.
-* **[!UICONTROL Exit POI]**, which is triggered by the Experience Platform Location Service SDK when your customer exits the POI that you configured.
+* **[!UICONTROL Enter POI]**, which is triggered by the Places SDK when your customer enters the POI that you configured.
+* **[!UICONTROL Exit POI]**, which is triggered by the Places SDK when your customer exits the POI that you configured.
 
 ### Conditions
 

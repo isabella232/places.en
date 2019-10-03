@@ -1,33 +1,33 @@
 ---
 title: Getting started
 seo-title: Getting started
-description: Getting started with Location Service.
-seo-description: Getting started with Location Service.
+description: Getting started with Places.
+seo-description: Getting started with Places.
 ---
 
 # Getting started {#getting-started}
 
-Here are the tasks you need to complete before you can use Location Service.
+Here are the tasks you need to complete before you can use Places.
 
-## 1. Get provisioned to use Location Service
+## 1. Get provisioned to use Places
 
-Location Service requires special provisioning context with your regular Adobe Experience Platform provisioning context.
+Places requires special provisioning context with your regular Adobe Experience Platform provisioning context.
 
 To get provisioned, complete the following tasks:
 
-* In the Admin Console, ensure that your organization is provisioned with Location Service.   
+* In the Admin Console, ensure that your organization is provisioned with Places.
 
-  If you are not the Adobe administrator, contact the administrator to ensure the Location Service context in Admin Console.
+  If you are not the Adobe administrator, contact the administrator to ensure the Places context in Admin Console.
 
-* Ensure you are listed as a user under the Location Service and Experience Platform Launch product contexts in the Admin Console.  
+* Ensure you are listed as a user under the Places and Experience Platform Launch product contexts in the Admin Console.  
 
-   For more information, see [Adding a user to Experience Platform Launch and Location Services](/help/adding-a-user-to-launch-loc-services.md).
+   For more information, see [Adding a user to Experience Platform Launch and Places](/help/adding-a-user-to-places.md).
 
 * Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.
 
   For more information, see [Places extension](/help/configure-places-in-the-sdk/places-extension/places-extension.md).
 
-* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Experience Platform Location Services.  
+* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places.  
 
   This allows you to add your POIs and Libraries.
 
@@ -41,14 +41,14 @@ You can create libraries and POIs in one of the following ways:
 
 * By using the web services. 
 
-  For more information, see [Location Service web services](/help/loc-services-rest-apis/loc-services-web-services.md).
+  For more information, see [Places web services](/help/places-rest-apis/places-web-services.md).
 
-* By using the Location Services UI. 
+* By using the Places UI. 
 
-  For more information, see [Location Service UI](/help/loc-services-database-management-1/loc-services-database-management.md). 
+  For more information, see [Places UI](/help/places-database-management-1/places-database-management.md). 
 
-## 4. Get started with Location Service
+## 4. Get started with Places
 
-Here is a video that helps you get started with Location Service:
+Here is a video that helps you get started with Places:
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)

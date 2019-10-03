@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Platform Location Service overview
-seo-title: Adobe Experience Platform Location Service overview
-description: Location Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
-seo-description: Location Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+title: Adobe Places overview
+seo-title: Adobe Places overview
+description: Adobe Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+seo-description: Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 ---
 
 # Overview {#home}
 
-Location Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Location Service is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
+Adobe Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
 
-Location Service allows you to achieve the following:
+Places allows you to achieve the following:
 
 * Create and manage a database of POIs that can be leveraged with other Adobe Experience Cloud solutions.
 * Attach custom metadata to the POIs to make them richer and more meaningful by specifying additional attributes. 
@@ -19,28 +19,28 @@ Location Service allows you to achieve the following:
 
 This will allow you to take actions from location signals in real time, when and where it matters. The right context provides a more enriching mobile engagement experience.
 
-Here are some of the ways you can use Location Service: 
+Here are some of the ways you can use Places: 
 
 * Send a real time notification when someone enters a POI, *"Hey..welcome to the stadium."* 
 * Analyze foot traffic of your own stores versus your competitor stores.
 * Segment an audience based on offline behavior by using audience profiles with location context.
 * Target a user with an in-store experience when relevant.
 
-## Location Service components
+## Places components
 
-Location Service comprises the following components:
+Places comprises the following components:
 
-* **Location Service web service** 
+* **Places web service** 
 
-  You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see [Location Service web services](/help/loc-services-rest-apis/api-usage/api-usage.md).
+  You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see [Places web services](/help/places-rest-apis/api-usage/api-usage.md).
 
-* **Location Service UI** 
+* **Places UI** 
 
   Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
 
 * **Places SDK** 
 
-  The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](/help/configure-places-in-the sdk/places-extension/places-extension.md).
+  The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](/help/configure-places-in-the-sdk/places-extension/places-extension.md).
 
 * **Places rules** 
 
@@ -48,7 +48,7 @@ Location Service comprises the following components:
 
 * **Places Monitor**  
   
-  The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places Monitor extension](/help/configure-places-in-the sdk/places-monitor-extension/places-monitor-extension.md).
+  The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places Monitor extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminology
 
@@ -82,24 +82,24 @@ Here are some common terms that are used in this documentation:
 
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. 
 
-  For more information, see [Overview](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+  For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
 
-## Understanding the Location Service UI
+## Understanding the Places UI
 
-To access the Location Service UI, in a browser, go to  [https://places.adobe.com](https://places.adobe.com) and log in with your Adobe ID. 
+To access the Places UI, in a browser, go to [Places UI](https://places.adobe.com) and log in with your Adobe ID. 
 
 Here is some basic information to help you become familiar with the UI:
 
 * In the top right corner, there are buttons that you can click to create a library, POIs, and filter your search.
-* In the lower right corner of the screen, there are buttons for zooming in and out, centering on your current location \(**Find Me**\), and switching between the map view and satellite view.
+* In the lower right corner of the screen, there are buttons for zooming in and out, centering on your current location **[!UICONTROL Find Me]**, and switching between the map view and satellite view.
 * Double click to zoom in or click and drag to recenter the map.
 * You can also use the arrow keys to scroll the map.
 
 ![](assets/location-services.png)
 
 
-## The Location Service workflow
+## The Places workflow
 
-Here is a high-level view of the Location Service workflow:
+Here is a high-level view of the Places workflow:
 
 ![](/help/assets/places-workflow-diagram-lc-1.png)
