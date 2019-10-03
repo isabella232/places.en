@@ -15,13 +15,13 @@ user-guide-title: Adobe Places Help
   + [Organizational requirements](places-rest-apis/organizational-requirements.md)
   + Adobe I/O integration {#adobe-i-o-integration}
     + [Adobe I/O integration](places-rest-apis/adobe-i-o-integration/adobe-i-o-integration.md)
-    + [Create a Places integration](places.en/help/places-rest-apis/adobe-i-o-integration/create-a-places-integration.md)
+    + [Create a Places integration](places-rest-apis/adobe-i-o-integration/create-a-places-integration.md)
   + API usage {#api-usage}
     + [API usage overview](places-rest-apis/api-usage/api-usage.md)
     + [Headers and parameters](places-rest-apis/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
       + [Manage libraries overview](places-rest-apis/api-usage/manage-libraries/manage-libraries.md)
-      + [Create a library](loc-services-rest-apis/api-usage/manage-libraries/create-a-library.md)
+      + [Create a library](places-rest-apis/api-usage/manage-libraries/create-a-library.md)
       + [Read a library](places-rest-apis/api-usage/manage-libraries/read-a-library.md)
       + [Update a library](places-rest-apis/api-usage/manage-libraries/update-a-library.md)
       + [Delete a library](places-rest-apis/api-usage/manage-libraries/delete-a-library.md)
@@ -41,10 +41,10 @@ user-guide-title: Adobe Places Help
         + [Create multiple POIs](places-rest-apis/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
         + [Update multiple POIs](places-rest-apis/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
         + [Delete multiple POIs](places-rest-apis/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
-    + [Query APIs](places.en/help/places-rest-apis/api-usage/query-apis.md)
+    + [Query APIs](places-rest-apis/api-usage/query-apis.md)
 + Places UI {#places-database-management-1}
   + [Places UI](places-database-management-1/places-database-management.md)
-  + [Manage libraries in the Places UI](places.en/help/places-database-management-1/manage-libraries-in-the-places-ui.md)
+  + [Manage libraries in the Places UI](places-database-management-1/manage-libraries-in-the-places-ui.md)
   + [Manage POIs in the Places UI](places-database-management-1/managing-pois-in-the-places-ui.md)
 + Configure the SDK with Places {#configure-places-with-sdk}
   + [Configure the SDK with Places](configure-places-in-the-sdk/configure-places-in-the-sdk.md)
@@ -59,7 +59,7 @@ user-guide-title: Adobe Places Help
     + [Using your own monitor](configure-places-in-the-sdk/places-monitor-extension/using-your-own-monitor.md)
     + [Places Monitor API reference](configure-places-in-the-sdk/places-monitor-extension/places-monitor-api-reference.md)
   + [Create a rule for your Places property](configure-places-in-the-sdk/create-rule-places-property.md)
-+ [Configure Experience Platform Launch rules and data elements with Places data](/Users/rekrishn/Documents/GitHub/places.en/help/rules-data-elements-places-data.md)
++ [Configure Experience Platform Launch rules and data elements with Places data](rules-data-elements-places-data.md)
 + [Places use cases](places-use-cases.md)
 + [Places FAQs](places-faqs.md)
 + [Using Places with Adobe Campaign Standard](using-places-with-acs.md)
