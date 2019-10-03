@@ -6,7 +6,7 @@ user-guide-title: Adobe Places Help
 
 # Adobe Places Help {#using}
 
-+ [Adobe Experience Platform Places](home.md)
++ [Adobe Places](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + [Adding a user to Experience Platform Launch and Places](adding-a-user-to-places.md)
