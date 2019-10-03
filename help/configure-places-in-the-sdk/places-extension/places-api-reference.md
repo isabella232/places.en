@@ -268,7 +268,7 @@ Here is the code sample for this method:
 
 ### Clear (Android)
 
-Clears out the client-side data for Placess in shared state, local storage, and in-memory.
+Clears out the client-side data for Places in shared state, local storage, and in-memory.
 
 **Syntax**
 
@@ -288,7 +288,7 @@ Places.clear();
 
 ### clear (iOS)
 
-Clears out the client-side data for Placess in shared state, local storage, and in-memory.
+Clears out the client-side data for Places in shared state, local storage, and in-memory.
 
 **Syntax**
 
