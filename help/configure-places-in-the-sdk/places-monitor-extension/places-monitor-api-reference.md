@@ -228,27 +228,33 @@ PlacesMonitor.updateLocation();
 
 ## App Location permission
 
-Use this API to set the type of location permission that the user will be prompted and authorized for using location services.
+You can use this API to set the type of location permission that the user is prompted and authorized to use for location services.
 
 ### SetLocationPermission (Android)
 
- Sets the type of location permission request, which user will be prompted during Places Monitor start. 
+ This API sets the type of location permission request, for which user will be prompted for `PlacesMonitor.start()`. 
 
-This API is effective only for Android 10 and above devices. Call this method before the `PlacesMonitor.start()`, to set the appropriate authorization prompt to be shown to the user. Calling this method, while actively monitoring will upgrade the location permission level to the requested permission value. This method has no effect if the requested authorization level is either already provided or denied by the application user or when attempted to downgrade permission from "Allow All Time" to "While using app".
+**Tip:** This API is effective only for devices that are on Android 10 and above.
 
-Location permission can be set to one of the following values.
+To set the appropriate authorization prompt to be shown to the user, call this API before the `PlacesMonitor.start()`. Calling this method, while actively monitoring will upgrade the location permission level to the requested permission value. If the requested authorization level is either already provided or denied by the application user, or if you attempt to downgrade permission from `ALLOW_ALL_TIME` to `WHILE_USING_APP`, this method has no effect.
+
+Location permission can be set to one of the following values:
 
 - `PlacesMonitorLocationPermission.WHILE_USING_APP`
 
-  Setting to this value will prompt user to access device location only while using the application. An app is considered to be in use when the user is looking at the app on their device screen (i.e) an activity is running in the foreground. Make sure ACCESS_FINE_LOCATION user permission is set in the app's manifest file.
+   This value prompts the user to access device location only while using the application. An app is considered to be in use when the user is looking at the app on their device screen, for example an activity is running in the foreground.
+
+  **Tip:** Make sure ACCESS_FINE_LOCATION user permission is set in the app's manifest file.
 
 - `PlacesMonitorLocationPermission.ALLOW_ALL_TIME`
 
-  Setting to this value will prompt user to access device location even when the application is backgrounded.  Make sure ACCESS_BACKGROUND_LOCATION and ACCESS_FINE_LOCATION user permission is set in the app's manifest file.
+  This value prompts the user to access device location even when the application is backgrounded.  
+  
+  **Tip:** Make sure ACCESS_BACKGROUND_LOCATION and ACCESS_FINE_LOCATION user permission is set in the app's manifest file.
 
-`PlacesMonitorLocationPermission.ALLOW_ALL_TIME` is the default location permission value
+`PlacesMonitorLocationPermission.ALLOW_ALL_TIME` is the default location permission value.
 
-**Important** : Geofences will not be registered with the operating system if the app user has granted "While using app" permission. Hence the places monitor extension will not trigger entry/exit events on regions happening in the background.
+**Important: **Geofences will not be registered with the operating system if the app user has granted the `WHILE_USING_APP` permission. As a result, the Places Monitor extension will not trigger entry/exit events on regions that are happening in the background.
 
 #### Syntax
 
@@ -258,7 +264,7 @@ public static void setLocationPermission(final PlacesMonitorLocationPermission p
 
 #### Example
 
-To request for WhenInUse permission
+To request the `WHILE_USING_APP` permission:
 
 ```java
 // set the location permission
@@ -267,7 +273,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.WHILE_USING_
 PlacesMonitor.start()
 ```
 
-Further when its required to upgrade to Always Allow authorization
+To upgrade to `ALLOW_ALL_TIME` permission:
 
 ```java
 // upgrade the permission level
@@ -278,23 +284,23 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALLOW_ALL_TI
 
 ### SetRequestAuthorizationLevel (iOS)
 
-Sets the type of location authorization request, which the user will be prompted during Places Monitor start.
+This API sets the type of location authorization request, for which the user will be prompted for `[ACPPlacesMonitor start]`.
 
-Call this method before the Places Monitor start to set the appropriate authorization prompt to be shown to the user. Calling this method while actively monitoring will upgrade the location authorization level to the requested authorization value. This method has no effect if the requested authorization level is either already provided or denied by the application user or when there is a downgrade of permission from "Always" to "WhenInUse" authorization.
+To set the appropriate authorization prompt to be shown to the user, call this API before the `[ACPPlacesMonitor start]`. Calling this method while actively monitoring will upgrade the location authorization level to the requested authorization value. If the requested authorization level is either already provided or denied by the application user or when there is a downgrade of permission from `ACPPlacesRequestAuthorizationLevelAlways` to `ACPPlacesRequestAuthorizationLevelWhenInUse` authorization, this method has no effect.
 
-Authorization level can be set to one of the following values
+Authorization level can be set to one of the following values:
 
 - `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
-   Requests the user’s permission to use location services while the app is in use. The user prompt contains the text from the NSLocationWhenInUseUsageDescription key in your app Info.plist file, and the presence of that key is required when calling this method. For more information see :  [Apple documentation on requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
+   Requests the user’s permission to use location services while the app is in use. The user prompt contains the text from the `NSLocationWhenInUseUsageDescription` key in your app Info.plist file, and the presence of that key is required when calling this method. For more information see the  [Apple documentation on requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
 
 - `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-  Use this enum to request for user permission to use location services whether or not the app is in use. You must have NSLocationAlwaysUsageDescription and NSLocationWhenInUseUsageDescription keys in your app’s Info.plist file definining the text that will appear during the user prompt. For more information see : [Apple documentation on requestalwaysauthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+  Use this enum to request location services even when the app is in the background. You must have `NSLocationAlwaysUsageDescription` and `NSLocationWhenInUseUsageDescription` keys in your app’s Info.plist. These keys define the text that will appear during the user prompt. For more information see the [Apple documentation on requestalwaysauthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
-  ACPPlacesRequestAuthorizationLevelAlways is the default request authorization value.
+  `ACPPlacesRequestAuthorizationLevelAlways` is the default request authorization value.
 
-**Important** : Application that authorized to use WhenInUse location services will not be able to trigger entry/exit events on regions happening in the background.
+**Important:** The application that authorized the use of location services *WhileInUse*, will not be able to trigger entry/exit events on regions that are happening in the background.
 
 #### Syntax
 
@@ -304,7 +310,7 @@ Authorization level can be set to one of the following values
 
 #### Example
 
-To request for WhenInUse permission
+To request the `ACPPlacesRequestAuthorizationLevelWhenInUse` permission:
 
 ```objective-c
 // set the request authorization level
@@ -313,7 +319,7 @@ To request for WhenInUse permission
 [ACPPlacesMonitor start];
 ```
 
-Further when its required to upgrade to Always Allow authorization
+To upgrade to `ACPPlacesRequestAuthorizationLevelAlways` authorization:
 
 ```objective-c
 // set the request authorization level
