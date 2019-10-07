@@ -254,7 +254,7 @@ Location permission can be set to one of the following values:
 
 `PlacesMonitorLocationPermission.ALLOW_ALL_TIME` is the default location permission value.
 
-**Important: **Geofences will not be registered with the operating system if the app user has granted the `WHILE_USING_APP` permission. As a result, the Places Monitor extension will not trigger entry/exit events on regions that are happening in the background.
+**Important:** Geofences will not be registered with the operating system if the app user has granted the `WHILE_USING_APP` permission. As a result, the Places Monitor extension will not trigger entry/exit events on regions that are happening in the background.
 
 #### Syntax
 
