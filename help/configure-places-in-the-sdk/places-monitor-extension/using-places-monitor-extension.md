@@ -153,7 +153,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 **Java**
 
-For all versions of Android, to declare that your app need location permission, put a `<uses-permission>` element in your app manifest, as a child of the top-level `<manifest>` element. For Android applications that  target's API Level 29 and above include the ACCESS_BACKGROUND_LOCATION permission to allow the app to access location in background.
+For all versions of Android, to declare that your app needs location permission, add a `<uses-permission>` element in your app manifest, as a child of the top-level `<manifest>` element. For Android applications that target API Level 29 and above, to allow the app to access location in background, include the ACCESS_BACKGROUND_LOCATION permission.
 
 ```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
