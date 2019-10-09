@@ -41,8 +41,8 @@ In Android, complete the following steps:
     implementation 'com.adobe.marketing.mobile:places-monitor:1.+'
     implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
     implementation 'com.google.android.gms:play-services-location:16.0.0'
-    ```  
- 
+    ```
+
 3. Import the Places Monitor extension in your application's main activity.
 
     ```java
@@ -153,11 +153,13 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 **Java**
 
-For all versions of Android, to declare that your app need location permission, put a `<uses-permission>` element in your app manifest, as a child of the top-level `<manifest>` element.
+For all versions of Android, to declare that your app needs location permission, add a `<uses-permission>` element in your app manifest, as a child of the top-level `<manifest>` element. For Android applications that target API Level 29 and above, to allow the app to access location in background, include the ACCESS_BACKGROUND_LOCATION permission.
 
 ```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    // Only for Android apps targeting API level 29 and above
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> 
   <application>        
     ...    
   </application>
