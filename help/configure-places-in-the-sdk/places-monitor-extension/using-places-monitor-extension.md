@@ -73,7 +73,7 @@ import ACPPlacesMonitor
 ```
 
 
-## Register and Start the Places Monitor {#register-start-places-monitor}
+## Register and start the Places Monitor {#register-start-places-monitor}
 
 You need to register and start the Places Monitor in Android or iOS.
 

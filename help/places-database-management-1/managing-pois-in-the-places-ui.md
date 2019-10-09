@@ -38,23 +38,31 @@ A point of interest (POI) is a location or a point on a map that is of interest 
 3. Type a name for your POI.
 4. Select or add a library.
 5. Enter or select a radius.
-6. Select an icon for your POI.
-7. b. Select a color for the icon.
-8. Expand the **[!UICONTROL Location]** section.
+
+    a. Select an icon for your POI.
+    b. b. Select a color for the icon.
+
+6. Expand the **[!UICONTROL Location]** section.
 
     a. Type an address.
+
     b. Type the city.
+
     c. Type the name of the state.
+
     d. Type the name of the country.
+
     e. Select or enter a latitude or longitude.
+
     f. Click **[!UICONTROL Drop Pin on Map]**.
 
-9. Expand the **[!UICONTROL Metadata]** section and click **[!UICONTROL Add Metadata]**.
+7. Expand the **[!UICONTROL Metadata]** section and click **[!UICONTROL Add Metadata]**.
 
     a. Type the key name.
+
     b. Type the key value.
 
-10. Click **[!UICONTROL Confirm]** and then **[!UICONTROL  Save]**.
+8. Click **[!UICONTROL Confirm]** and then **[!UICONTROL  Save]**.
 
 ## Edit a POI
 
@@ -62,7 +70,7 @@ A point of interest (POI) is a location or a point on a map that is of interest 
 1. Log into Adobe Places Service using your Adobe ID.
 1. In the top right side, click the icon that looks like a bulleted list.
 1. Locate the POI that you want to edit.
-1. Click **[!UICONTROL ...]** and select **[UICONTROL View Details]**.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL View Details]**.
 1. Update the information and click **[!UICONTROL Save]**.
 
 ## Delete a POI
@@ -85,7 +93,8 @@ A point of interest (POI) is a location or a point on a map that is of interest 
 
    * By property:
 
-      a. In Property drop-down list, select **[!UICONTROL Country]**, **[!UICONTROL State]**, or **[UICONTROL City]**.
+      a. In Property drop-down list, select **[!UICONTROL Country]**, **[!UICONTROL State]**, or **[!UICONTROL City]**.
+    
       b. In the next line, enter a value. 
 
         For example, you can select **[!UICONTROL State]** and type **[!UICONTROL California]**.
