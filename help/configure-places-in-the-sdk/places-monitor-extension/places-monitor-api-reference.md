@@ -13,6 +13,8 @@ Registers the Places Monitor extension with the Core Event Hub.
 
 ### RegisterExtension (Android)
 
+Here is the syntax and example code for this API:
+
 #### Syntax
 
 Here is the syntax in Java:
@@ -41,6 +43,8 @@ public class MobileApp extends Application {
 ```
 
 ### RegisterExtension (iOS)
+
+Here is the syntax and example code for this API:
 
 #### Syntax
 
@@ -75,6 +79,8 @@ Returns the current version of the Places Monitor extension
 
 ### ExtensionVersion (Android)
 
+Here is the syntax and example code for this API:
+
 #### Syntax
 
 ```java
@@ -88,6 +94,8 @@ String placesMonitorVersion = PlacesMonitor.extensionVersion();
 ```
 
 ### ExtensionVersion (iOS)
+
+Here is the syntax and example code for this API:
 
 #### Syntax
 
@@ -105,10 +113,11 @@ NSString *placesMonitorVersion = [ACPPlacesMonitor extensionVersion];
 
 Begin tracking the device's location and monitoring nearby Places.
 
-
 ### Start (Android)
 
 If authorization to use device location has not been granted by the user, the first call to the `start` API prompts the user for permission.
+
+Here is the syntax and example code for this API:
 
 #### Syntax
 
@@ -137,6 +146,7 @@ PlacesMonitor.start();
 
 You can ensure the SDK has finished initialization by calling `start` from the callback provided to `ACPCore::start:`.
 
+Here is the syntax and example code for this API:
 
 #### Syntax
 
@@ -166,6 +176,8 @@ Stops tracking the device's location.
 
 ### Stop (Android)
 
+Here is the syntax and example code for this API:
+
 #### Syntax
 
 ```java
@@ -179,6 +191,8 @@ PlacesMonitor.stop();
 ```
 
 ### Stop (iOS)
+
+Here is the syntax and example code for this API:
 
 #### Syntax
 
@@ -197,6 +211,8 @@ PlacesMonitor.stop();
 Use this API for an immediate update on the device's location. When you call this API, the device attempts to determine the location with the level of accuracy that you specified. This process also refreshes the nearby POIs that are monitored by the extension.
 
 ### UpdateLocation (Android)
+
+Here is the syntax and example code for this API:
 
 #### Syntax
 
@@ -224,8 +240,6 @@ PlacesMonitor.updateLocation();
 [ACPPlacesMonitor updateLocationNow];
 ```
 
-
-
 ## App Location permission
 
 You can use this API to set the type of location permission that the user is prompted for and authorized to use for location services.
@@ -234,27 +248,37 @@ You can use this API to set the type of location permission that the user is pro
 
 This API sets the type of location permission request for which the user is prompted to select.
 
-**Tip:** This API is effective only for devices that are on Android 10 and above.
-
-To set the appropriate authorization prompt to be displayed to the user, call this API before the `PlacesMonitor.start()`. Calling this method, while actively monitoring, upgrades the location permission level to the requested permission value. If the requested authorization level is either already provided or denied by the application user, or if you attempt to downgrade the permission from `ALWAYS_ALLOW` to `WHILE_USING_APP`, this method has no effect.
+>[!TIP]
+>
+>This API is effective only for devices that are on Android 10 and above.
+>
+>To set the appropriate authorization prompt to be displayed to the user, call this API before the `PlacesMonitor.start()`. Calling this method, while actively monitoring, upgrades the location permission level to the requested permission value. If the requested authorization level is either already provided or denied by the application user, or if you attempt to downgrade the permission from `ALWAYS_ALLOW` to `WHILE_USING_APP`, this method has no effect.
 
 Location permission can be set to one of the following values:
 
 * `PlacesMonitorLocationPermission.WHILE_USING_APP`
 
-This value prompts the user to access device location only while using the application. An app is considered to be in use when the user is looking at the app on their device screen, for example an activity is running in the foreground.
+  This value prompts the user to access device location only while using the application. An app is considered to be in use when the user is looking at the app on their device screen, for example an activity is running in the foreground.
 
-**Tip:** Make sure the ACCESS_FINE_LOCATION user permission is set in the app's manifest file.
+  >[!TIP]
+  >
+  >Make sure the ACCESS_FINE_LOCATION user permission is set in the app's manifest file.
 
 * `PlacesMonitorLocationPermission.ALWAYS_ALLOW`
 
-This value prompts the user to access device location even when the application is backgrounded.  
+  This value prompts the user to access device location even when the application is backgrounded.  
 
-**Tip:** Make sure the ACCESS_BACKGROUND_LOCATION and  ACCESS_FINE_LOCATION user permissions are set in the app's manifest file.
+  >[!TIP]
+  >
+  >Make sure the ACCESS_BACKGROUND_LOCATION and  ACCESS_FINE_LOCATION user permissions are set in the app's manifest file.
 
-`PlacesMonitorLocationPermission.ALWAYS_ALLOW` is the default location permission value.
+  `PlacesMonitorLocationPermission.ALWAYS_ALLOW` is the default location permission value.
 
-**Important:** If the app user is granted the `WHILE_USING_APP` permission, geofences will not be registered with the operating system. As a result, the Places Monitor extension will not trigger entry/exit events on regions that are happening in the background.
+>[!IMPORTANT]
+>
+>If the app user is granted the `WHILE_USING_APP` permission, geofences will not be registered with the operating system. As a result, the Places Monitor extension will not trigger entry/exit events on regions that are happening in the background.
+
+Here is the syntax and example code for this API:
 
 #### Syntax
 
@@ -280,8 +304,6 @@ To upgrade to `ALWAYS_ALLOW` permission:
 PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW);
 ```
 
-
-
 ### SetRequestAuthorizationLevel (iOS)
 
 This API sets the type of location authorization request for which the user will be prompted.
@@ -292,15 +314,19 @@ Authorization level can be set to one of the following values:
 
 * `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
-Requests the user’s permission to use location services while the app is in use. The user prompt contains the text from the `NSLocationWhenInUseUsageDescription` key in your app Info.plist file, and the presence of that key is required when calling this method. For more information see the  [Apple documentation on requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
+    Requests the user’s permission to use location services while the app is in use. The user prompt contains the text from the `NSLocationWhenInUseUsageDescription` key in your app Info.plist file, and the presence of that key is required when calling this method. For more information see the  [Apple documentation on requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-Use this enum to request location services even when the app is in the background. You must have the `NSLocationAlwaysUsageDescription` and `NSLocationWhenInUseUsageDescription` keys in your app’s Info.plist. These keys define the text that will appear during the user prompt. For more information see the [Apple documentation on requestalwaysauthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+    Use this enum to request location services even when the app is in the background. You must have the `NSLocationAlwaysUsageDescription` and `NSLocationWhenInUseUsageDescription` keys in your app’s Info.plist. These keys define the text that will appear during the user prompt. For more information see the [Apple documentation on requestalwaysauthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` is the default request authorization value.
 
-**Important:** The application that authorized the use of the `ACPPlacesRequestAuthorizationLevelWhenInUse` permission will not be able to trigger entry/exit events on regions that are happening in the background.
+>[!IMPORTANT]
+>
+>The application that authorized the use of the `ACPPlacesRequestAuthorizationLevelWhenInUse` permission will not be able to trigger entry/exit events on regions that are happening in the background.
+
+Here is the syntax and example code for this API:
 
 #### Syntax
 
@@ -326,21 +352,21 @@ To upgrade to `ACPPlacesRequestAuthorizationLevelAlways` authorization:
 [ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways]
 ```
 
-
-
 ## Monitoring Mode (iOS only)
 
 Monitoring can be set to one of the following values:
 
 * `ACPPlacesMonitorModeContinuous`
 
-The monitoring extension receives and processes locations more frequently. This monitoring strategy consumes a lot of power but provides higher accuracy. For more information, see [Apple documentation on continuous monitoring](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423750-startupdatinglocation).
+    The monitoring extension receives and processes locations more frequently. This monitoring strategy consumes a lot of power but provides higher accuracy. For more information, see [Apple documentation on continuous monitoring](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423750-startupdatinglocation).
 
 * `ACPPlacesMonitorModeSignificantChanges`
 
-The monitoring extension only receives and processes location updates after the device has moved a significant distance from the previously processed location. This monitoring strategy consumes less power than the continuous monitoring strategy. For more information, see [Apple documentation on significant monitoring](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423531-startmonitoringsignificantlocati)
+    The monitoring extension only receives and processes location updates after the device has moved a significant distance from the previously processed location. This monitoring strategy consumes less power than the continuous monitoring strategy. For more information, see [Apple documentation on significant monitoring](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423531-startmonitoringsignificantlocati)
 
 ### SetPlacesMonitorMode (iOS)
+
+Here is the syntax and example code for this API:
 
 #### Syntax
 
