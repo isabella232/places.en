@@ -9,6 +9,20 @@ seo-description: Release notes for Adobe Places.
 
 Here are the release notes for Places:
 
+## October 9, 2019
+
+* **PlacesMonitor 2.1.0**
+
+  * **iOS**
+  
+    * Added a new API, `setRequestAuthorizationLevel`, to set the type of location authorization request for which the user will be prompted.
+
+
+  * **Android**
+
+    * Added a new API, `setLocationPermission`, to set the type of location permission request for which the user will be prompted.
+    * The Places Monitor now supports Android 10.
+
 ## Aug 8, 2019
 
 The following updates were made in this release:
