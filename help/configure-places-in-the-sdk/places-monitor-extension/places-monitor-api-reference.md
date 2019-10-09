@@ -240,17 +240,17 @@ To set the appropriate authorization prompt to be displayed to the user, call th
 
 Location permission can be set to one of the following values:
 
-- `PlacesMonitorLocationPermission.WHILE_USING_APP`
+* `PlacesMonitorLocationPermission.WHILE_USING_APP`
 
-   This value prompts the user to access device location only while using the application. An app is considered to be in use when the user is looking at the app on their device screen, for example an activity is running in the foreground.
+This value prompts the user to access device location only while using the application. An app is considered to be in use when the user is looking at the app on their device screen, for example an activity is running in the foreground.
 
-  **Tip:** Make sure the ACCESS_FINE_LOCATION user permission is set in the app's manifest file.
+**Tip:** Make sure the ACCESS_FINE_LOCATION user permission is set in the app's manifest file.
 
-- `PlacesMonitorLocationPermission.ALWAYS_ALLOW`
+* `PlacesMonitorLocationPermission.ALWAYS_ALLOW`
 
-  This value prompts the user to access device location even when the application is backgrounded.  
-  
-  **Tip:** Make sure the ACCESS_BACKGROUND_LOCATION and  ACCESS_FINE_LOCATION user permissions are set in the app's manifest file.
+This value prompts the user to access device location even when the application is backgrounded.  
+
+**Tip:** Make sure the ACCESS_BACKGROUND_LOCATION and  ACCESS_FINE_LOCATION user permissions are set in the app's manifest file.
 
 `PlacesMonitorLocationPermission.ALWAYS_ALLOW` is the default location permission value.
 
