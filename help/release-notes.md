@@ -120,6 +120,12 @@ The following updates were made in this release:
 * Fixed an issue that, after a first launch, sometimes caused Places events to be lost due to bad network conditions.
 * Fixed an issue where, when processing POI entry events in quick succession, token replacement via Rules Engine sometimes reference the incorrect POI.
 
+## May 30, 2019 (Places)
+
+**Android Places Monitor 1.0.1**
+
+* Fixed an issue that prevented an entry event for POIs when the Places monitoring is started.
+
 ## May 28, 2019
 
 Fixed the following issues in the Places UI:
@@ -128,6 +134,52 @@ Fixed the following issues in the Places UI:
 * Fixed an issue where rank was saving in instances where no rank changes were made.
 * Increased the minimum allowed radius in the UI to 10 meters.
 * Fixed an issue where, if you delete all the numbers in the field, the radius field reset back to 20 meters.
+
+## May 17, 2019 (Places)
+
+The following updates were made in this release:
+
+**Android Places 1.2.0**
+
+* Added a new API to process an individual Geofence.
+* Bug fix to prevent multiple consecutive entry events.
+
+**Android Places Monitor 1.0.0**
+
+Initial release of the Places Monitor for Android.
+
+The Places Monitor manages the OS-level Location APIs and communicates directly with the Places extension. With both extensions installed, customers can have out-of-the-box region monitoring in their application.
+For more information about the Places Monitor, click here.
+
+
+## May 2, 2019
+
+**Android Places 1.1.0**
+
+* Introduced a new API for getNearByPlaces, which has an errorCallback and is called with an errorCode that indicates the reason for the error.
+* The Places extension now queues the events until a configuration is obtained.
+* Added support for environment-aware configurations.
+* Bug Fix : corrected the keys for the region entry/exit events
+* Storage of last known location now properly respects the user's privacy status
+
+
+## April 9, 2019
+
+The following updates were made in this release:
+
+**iOS Places Monitor 1.0.1**
+
+* Added full unit test coverage.
+* CI integration (CircleCI)
+* Code coverage integration (codecov)
+
+## March 25, 2019
+
+iOS Places Monitor 1.0.0
+
+Initial release of the Places Monitor for iOS.
+
+The Places Monitor manages the OS-level Location APIs and communicates directly with the Places extension. With both extensions installed, customers can have out-of-the-box region monitoring in their application. For more information about the Places Monitor, see [Places Monitor extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md).
 
 ## February 28, 2019
 
