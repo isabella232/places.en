@@ -26,6 +26,12 @@ Here are some of the ways you can use Places:
 * Segment an audience based on offline behavior by using audience profiles with location context.
 * Target a user with an in-store experience when relevant.
 
+## Adding a placeholder for the "Places intro" video from Brandon
+
+## Places Use Cases
+
+Improve this section with 
+
 ## Places components
 
 Places comprises the following components:
@@ -83,23 +89,3 @@ Here are some common terms that are used in this documentation:
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. 
 
   For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
-
-## Understanding the Places UI
-
-To access the Places UI, in a browser, go to [Places UI](https://places.adobe.com) and log in with your Adobe ID. 
-
-Here is some basic information to help you become familiar with the UI:
-
-* In the top right corner, there are buttons that you can click to create a library, POIs, and filter your search.
-* In the lower right corner of the screen, there are buttons for zooming in and out, centering on your current location **[!UICONTROL Find Me]**, and switching between the map view and satellite view.
-* Double click to zoom in or click and drag to recenter the map.
-* You can also use the arrow keys to scroll the map.
-
-![](assets/location-services.png)
-
-
-## The Places workflow
-
-Here is a high-level view of the Places workflow:
-
-![](/help/assets/places-workflow-diagram-lc-1.png)

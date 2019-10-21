@@ -6,11 +6,16 @@ user-guide-title: Adobe Places Help
 
 # Adobe Places Help {#using}
 
-+ [Adobe Places](home.md)
++ [Adobe Places overview](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
-+ [Adding a user to Experience Platform Launch and Places](adding-a-user-to-places.md)
-+ Places web services {#places-rest-apis}
++ Places services {#places-service}
+  + [Create a new POI](places-service/create-a-poi-ui.md]
+  + [Manage existing POIs](places-service/managing-pois-in-the-places-ui.md)
+  + [Use metadata with POIs](places-service/metadata-with-pois.md)
+  + [Bulk upload POIs](places-service/bulk-upload-pois.md)
+  + [Manage multiple libraries](places-service/manage-libraries-in-the-places-ui.md)
++ Places web service API {#places-web-service}
   + [Places web services](places-rest-apis/places-web-services.md)
   + [Organizational requirements](places-rest-apis/organizational-requirements.md)
   + Adobe I/O integration {#adobe-i-o-integration}
@@ -42,24 +47,32 @@ user-guide-title: Adobe Places Help
         + [Update multiple POIs](places-rest-apis/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
         + [Delete multiple POIs](places-rest-apis/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
     + [Query APIs](places-rest-apis/api-usage/query-apis.md)
-+ Places UI {#places-database-management-1}
-  + [Places UI](places-database-management-1/places-database-management.md)
-  + [Manage libraries in the Places UI](places-database-management-1/manage-libraries-in-the-places-ui.md)
-  + [Manage POIs in the Places UI](places-database-management-1/managing-pois-in-the-places-ui.md)
-+ Configure the SDK with Places {#configure-places-with-sdk}
-  + [Configure the SDK with Places](configure-places-in-the-sdk/configure-places-in-the-sdk.md)
-  + Places extension {#places-extension}
-    + [Places extension](configure-places-in-the-sdk/places-extension/places-extension.md)
++ Places extensions for Adobe Experience Platform Mobile SDK {#places-extension}
+  + [Places extension](configure-places-in-the-sdk/places-extension/places-extension.md)
     + [Places API reference](configure-places-in-the-sdk/places-extension/places-api-reference.md)
     + [Places event reference](configure-places-in-the-sdk/places-extension/places-event-ref.md)
     + [Custom Places objects](configure-places-in-the-sdk/places-extension/cust-places-objects.md)
-  + Places Monitor extension {#places-monitor-extension}
-    + [Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)
-    + [Using the Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/using-places-monitor-extension.md)
-    + [Using your own monitor](configure-places-in-the-sdk/places-monitor-extension/using-your-own-monitor.md)
-    + [Places Monitor API reference](configure-places-in-the-sdk/places-monitor-extension/places-monitor-api-reference.md)
-  + [Create a rule for your Places property](configure-places-in-the-sdk/create-rule-places-property.md)
++ Places Monitor extension {#places-monitor-extension}
+  + [Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)
+  + [Using the Places Monitor extension](configure-places-in-the-sdk/places-monitor-extension/using-places-monitor-extension.md)
+  + [Places Monitor API reference](configure-places-in-the-sdk/places-monitor-extension/places-monitor-api-reference.md)
++ Use Places as part of the Adobe Experience Platform Launch workflow {#use-places-launch-workflow}
+  + [Define data elements](use-places-launch-workflow/define-data-elements.md)
+  + [Create Places entry and exit rules](use-places-launch-workflow/create-rule-places-property.md)
++ [Use Places with your own monitoring solution](configure-places-in-the-sdk/places-monitor-extension/using-your-own-monitor.md)
++ [Use Places without active region monitoring](use-places-without-active-monitoring.md)
 + [Configure Experience Platform Launch rules and data elements with Places data](rules-data-elements-places-data.md)
-+ [Places use cases](places-use-cases.md)
-+ [Places FAQs](places-faqs.md)
-+ [Using Places with Adobe Campaign Standard](using-places-with-acs.md)
++ Use Places with other Adobe Solutions {#use-places-with-other-solutions}
+  + [Use Places with other Adobe Solutions](use-places-with-other-solutions/use-places-with-other-solutions.md)
+    + Use Places with Adobe Analytics {#places-adobe-analytics}
+      + [Use Places with Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+    + Use Places with Mobile Services for Messaging {#places-mobile-svcs-messaging}
+      + [Use Places with Mobile Services for Messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
+    + Use Places with Adobe Campaign Standard {#places-acs}
+      + [Use Places with Push notifications](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
+      + [Use Places with In-App messages](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
+    + Use Places with Adobe Target {#places-target}
+      + [Use Places with Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
++ Test and validate Places {#places-testing-validation}
+  + [Test and validate Places](places-testing-validation/test-validate-places.md)
++ [Frequently asked questions](places-faqs.md)

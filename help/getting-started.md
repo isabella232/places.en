@@ -7,7 +7,11 @@ seo-description: Getting started with Places.
 
 # Getting started {#getting-started}
 
-Here are the tasks you need to complete before you can use Places.
+Here is a video that helps you get started with Places:
+
+>[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+
+To use Places, complete the following tasks: 
 
 ## 1. Get provisioned to use Places
 
@@ -46,9 +50,3 @@ You can create libraries and POIs in one of the following ways:
 * By using the Places UI. 
 
   For more information, see [Places UI](/help/places-database-management-1/places-database-management.md). 
-
-## 4. Get started with Places
-
-Here is a video that helps you get started with Places:
-
->[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
