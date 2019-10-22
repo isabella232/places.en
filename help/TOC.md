@@ -28,7 +28,7 @@ user-guide-title: Adobe Places Help
     + [API usage overview](places-web-service-api/api-usage/api-usage.md)
     + [Headers and parameters](places-web-service-api/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
-      + [Manage libraries overview](places-web-service-api/api-usage/manage-libraries//manage-libraries/manage-libraries.md)
+      + [Manage libraries overview](places-web-service-api/api-usage/manage-libraries/manage-libraries.md)
       + [Create a library](places-web-service-api/api-usage/manage-libraries/create-a-library.md)
       + [Read a library](places-web-service-api/api-usage/manage-libraries/read-a-library.md)
       + [Update a library](places-web-service-api/api-usage/manage-libraries/update-a-library.md)
@@ -45,7 +45,7 @@ user-guide-title: Adobe Places Help
       + [Read all POIs in a library](places-web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
       + [Read all POIs in your organization](places-web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
       + Batch APIs {#batch-apis}
-        + [Batch APIs overview](places-web-service-api/api-usage/manage-pois/batch-apis/manage-pois/batch-apis.md)
+        + [Batch APIs overview](places-web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)
         + [Create multiple POIs](places-web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
         + [Update multiple POIs](places-web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
         + [Delete multiple POIs](places-web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
