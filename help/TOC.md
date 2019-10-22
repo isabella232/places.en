@@ -10,12 +10,11 @@ user-guide-title: Adobe Places Help
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + Places services {#places-service}
-  + [Places service overview](places-service/places-services-overview.md)
-    + [Create a new POI](places-service/create-a-poi-ui.md)
-    + [Manage existing POIs in the Places UI](places-service/managing-pois-in-the-places-ui.md)
-    + [Use metadata with POIs](places-service/metadata-with-pois.md)
-    + [Bulk upload POIs](places-service/bulk-upload-pois.md)
-    + [Manage multiple libraries](places-service/manage-libraries-in-the-places-ui.md)
+  + [Create a new POI](places-service/create-a-poi-ui.md)
+  + [Manage existing POIs in the Places UI](places-service/managing-pois-in-the-places-ui.md)
+  + [Use metadata with POIs](places-service/metadata-with-pois.md)
+  + [Bulk upload POIs](places-service/bulk-upload-pois.md)
+  + [Manage multiple libraries](places-service/manage-libraries-in-the-places-ui.md)
 + Places web service API {#places-web-service-api}
   + [Places web services](places-web-service-api/places-web-services.md)
   + [Organizational requirements](places-web-service-api/organizational-requirements.md)
