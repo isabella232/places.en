@@ -220,7 +220,7 @@ You can use the Places APIs do do the following:
 
     A python utility is provided with the APIs. 
 
-For more information about the Places APIs, see [Places web services](/help/places-web-service/places-web-services.md).
+For more information about the Places APIs, see [Places web services](/help/places-web-service-api/places-web-services.md).
 
 ### Coming Soon
 
