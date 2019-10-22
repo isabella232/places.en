@@ -11,9 +11,9 @@ user-guide-title: Adobe Places Help
 + [Getting started](getting-started.md)
 + Places services {#places-service}
   + [Places service overview](places-service/places-services-overview.md)
-  + [Manage libraries in the Places UI]{#manage-places-ui}
+  + Manage libraries in the Places UI{#managing-libraries-places-ui}
     + [Manage multiple libraries](places-service/manage-libraries-in-the-places-ui.md)
-  + [Manage existing POIs in the Places UI]{#manage-pois-places-ui}
+  + Manage existing POIs in the Places UI{#managing-pois-places-ui}
     + [Manage existing POIs in the Places UI](places-service/managing-pois-in-the-places-ui.md)
     + [Create a new POI](places-service/managing-pois-in-the-places-ui/create-a-poi.md]
     + [Use metadata with POIs](places-service/managing-pois-in-the-places-ui/metadata-with-pois.md)
@@ -51,12 +51,12 @@ user-guide-title: Adobe Places Help
         + [Delete multiple POIs](places-web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
     + [Query APIs](places-web-service-api/api-usage/query-apis.md)
 + Places extensions for Adobe Experience Platform Mobile SDK {#places-extension}
-  + [Places extension]{#places-extension}
+  + Places extension{#places-extension}
     + [Places extension](places-ext-aep-sdks/places-extension/places-extension.md)
     + [Places API reference](places-ext-aep-sdks/places-extension/places-api-reference.md)
     + [Places event reference](places-ext-aep-sdks/places-extension/places-event-ref.md)
     + [Custom Places objects](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-+ [Places Monitor extension]{#places-monitor-extension}
++ Places Monitor extension{#places-monitor-extension}
   + Places Monitor extension {#places-monitor-extension}
     + [Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
     + [Using the Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
