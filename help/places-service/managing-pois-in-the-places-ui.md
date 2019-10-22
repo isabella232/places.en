@@ -68,4 +68,3 @@ Geofences are a type of POI and are defined in the database based by the followi
    * With metadata:
 
       a. Enter a key and value.
-
