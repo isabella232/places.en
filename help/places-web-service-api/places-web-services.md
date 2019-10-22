@@ -5,7 +5,7 @@ description: Places is the set of services that makes it easier for Adobe custom
 seo-description: Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Experience Cloud and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 ---
 
-# Places web services {#places-web-services}
+# Places web services API {#places-web-services-api}
 
 Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 

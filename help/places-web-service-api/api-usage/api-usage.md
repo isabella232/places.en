@@ -11,5 +11,5 @@ You can use the Places REST API to manage your libraries, POIs, complete batch t
 
 For more information, see the following sections:
 
-* [Managing libraries](/help/places-rest-apis/api-usage/manage-libraries/manage-libraries.md)
-* [Managing POIs](/help/places-rest-apis/api-usage/manage-pois/manage-pois.md)
+* [Managing libraries](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md)
+* [Managing POIs](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md)

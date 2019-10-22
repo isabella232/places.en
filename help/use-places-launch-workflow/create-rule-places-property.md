@@ -50,7 +50,7 @@ Actions define what the app will do in response to the condition for the rule is
 
 >[!CAUTION]
 >
->This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) and [Create a Library](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
+>This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](/help/places-service/create-a-poi-ui.md) and see *Create a library* in [Manage libraries in the Places UI](/help/places-service/manage-libraries-in-the-places-ui.md).
 
 The following procedure is an example of how to create a rule that sends a post back to Slack when you enter a coffee shop in San Francisco.
 

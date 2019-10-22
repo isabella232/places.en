@@ -37,7 +37,7 @@ To get provisioned, complete the following tasks:
 
 ## 2. Configure the Places extension and Places Monitor extension
 
-For more information about configuring the Places extension and Monitor extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) and [Places Monitor extension](/Users/rekrishn/Documents/GitHub/places.en/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+For more information about configuring the Places extension and Monitor extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) and [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## 3. Create your libraries and POIs
 
