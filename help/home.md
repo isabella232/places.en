@@ -38,7 +38,7 @@ Places comprises the following components:
 
 * **Places web service** 
 
-  You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see [Places web services](/help/places-rest-apis/api-usage/api-usage.md).
+  You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see [Places web services](/help/places-web-service/api-usage/api-usage.md).
 
 * **Places UI** 
 
@@ -46,7 +46,7 @@ Places comprises the following components:
 
 * **Places SDK** 
 
-  The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](/help/configure-places-in-the-sdk/places-extension/places-extension.md).
+  The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **Places rules** 
 
@@ -54,7 +54,7 @@ Places comprises the following components:
 
 * **Places Monitor**  
   
-  The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places Monitor extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md).
+  The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminology
 

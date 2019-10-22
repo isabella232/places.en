@@ -29,7 +29,7 @@ To get provisioned, complete the following tasks:
 
 * Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.
 
-  For more information, see [Places extension](/help/configure-places-in-the-sdk/places-extension/places-extension.md).
+  For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places.  
 
@@ -37,7 +37,7 @@ To get provisioned, complete the following tasks:
 
 ## 2. Configure the Places extension and Places Monitor extension
 
-For more information about configuring the Places extension and Monitor extension, see [Places extension](/help/configure-places-in-the-sdk/places-extension/places-extension.md) and [Places Monitor extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md).
+For more information about configuring the Places extension and Monitor extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) and [Places Monitor extension](/Users/rekrishn/Documents/GitHub/places.en/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## 3. Create your libraries and POIs
 
@@ -45,7 +45,7 @@ You can create libraries and POIs in one of the following ways:
 
 * By using the web services. 
 
-  For more information, see [Places web services](/help/places-rest-apis/places-web-services.md).
+  For more information, see [Places web services](/help/places-web-service/places-web-services.md).
 
 * By using the Places UI. 
 
