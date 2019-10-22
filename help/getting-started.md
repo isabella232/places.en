@@ -25,7 +25,7 @@ To get provisioned, complete the following tasks:
 
 * Ensure you are listed as a user under the Places and Experience Platform Launch product contexts in the Admin Console.  
 
-   For more information, see [Adding a user to Experience Platform Launch and Places](/help/adding-a-user-to-places.md).
+   For more information, see *Adding a user to Experience Platform Launch and Places* in [Places FAQs](/help/places-faqs.md).
 
 * Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.
 

@@ -13,7 +13,7 @@ To access the Places REST APIs, verify with your system administrator that the f
 * You have been added to the organization. 
 * You have been added to Places in your organization.
 
-    For more information, see [Adding a user to Places and Experience Platform Launch](/help/adding-a-user-to-places.md).
+    For more information, see *Adding a user to Places and Experience Platform Launch* in [Places FAQs](/help/places-faqs.md).
 
 * You have been added as a Places developer to your organization. 
 
