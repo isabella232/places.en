@@ -179,7 +179,7 @@ iOS Places Monitor 1.0.0
 
 Initial release of the Places Monitor for iOS.
 
-The Places Monitor manages the OS-level Location APIs and communicates directly with the Places extension. With both extensions installed, customers can have out-of-the-box region monitoring in their application. For more information about the Places Monitor, see [Places Monitor extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md).
+The Places Monitor manages the OS-level Location APIs and communicates directly with the Places extension. With both extensions installed, customers can have out-of-the-box region monitoring in their application. For more information about the Places Monitor, see [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## February 28, 2019
 
@@ -208,7 +208,7 @@ In the Places extension:
 * Rule events that trigger on POI entry or exit.
 * Create data elements that point to the user's current POI.
 
-For more information about the Places extension, see [Places extension](/help/configure-places-in-the sdk/places-extension/places-extension.md).
+For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### Places APIs 
 
@@ -220,7 +220,7 @@ You can use the Places APIs do do the following:
 
     A python utility is provided with the APIs. 
 
-For more information about the Places APIs, see [Places web services](/help/places-rest-apis/places-web-services.md).
+For more information about the Places APIs, see [Places web services](/help/places-web-service-api/places-web-services.md).
 
 ### Coming Soon
 

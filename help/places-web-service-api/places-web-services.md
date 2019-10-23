@@ -1,11 +1,11 @@
 ---
-title: Places web service
-seo-title: Places web service
+title: Places web services overview 
+seo-title: Places web services overview 
 description: Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Experience Cloud and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 seo-description: Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Experience Cloud and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 ---
 
-# Places web services {#places-web-services}
+# Places web services overview {#places-web-services-api}
 
 Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 
@@ -25,14 +25,27 @@ Before you can use the Places API, ensure that the following requirements have b
 
 * Places is provisioned in your organization, and you have appropriate access as a user.
 
-  For more information, see [Organization requirements](/help/places-rest-apis/organizational-requirements.md).
+  For more information, see the *Organization requirements* section below.
 
 * After Places is provisioned in your organization, and you have access, create an Adobe integration for Places. 
 
-  For more information, see [Creating an Adobe I/O integration](/help/places-rest-apis/adobe-i-o-integration/create-a-places-integration.md).
+  For more information, see *Creating Places integration* in [Adobe I/O integration overview](/help/places-web-service-api/adobe-i-o-integration.md).
 
 Additional information:
 
-* For more information about information about the available APIs and how to use them, see [API usage](/help/places-rest-apis/api-usage/api-usage.md). 
-* For more information about the headers and parameters in these APIs, see [Headers and parameters](/help/places-rest-apis/api-usage/headers-and-parameters.md).
+* For more information about information about the available APIs and how to use them, see [Manage libraries](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md). 
+* For more information about the headers and parameters in these APIs, see [Headers and parameters](/help/places-web-service-api/api-usage/headers-and-parameters.md).
 
+## Organizational requirements {#org-requirements}
+
+To access the Places REST APIs, verify with your system administrator that the following tasks have been completed:
+
+* Places has been provisioned and appears in the organization. 
+* You have been added to the organization. 
+* You have been added to Places in your organization.
+
+    For more information, see *Adding a user to Places and Experience Platform Launch* in [Places FAQs](/help/places-faqs.md).
+
+* You have been added as a Places developer to your organization. 
+
+  For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).

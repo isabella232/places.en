@@ -26,13 +26,19 @@ Here are some of the ways you can use Places:
 * Segment an audience based on offline behavior by using audience profiles with location context.
 * Target a user with an in-store experience when relevant.
 
+## Adding a placeholder for the "Places intro" video from Brandon
+
+## Places Use Cases
+
+Improve this section with 
+
 ## Places components
 
 Places comprises the following components:
 
 * **Places web service** 
 
-  You can create and manage POIs by using the REST APIs. For more information about the REST APIs, see [Places web services](/help/places-rest-apis/api-usage/api-usage.md).
+  You can create and manage POIs by using the Places REST APIs. For more information about the REST APIs, see [Manage libraries](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Places UI** 
 
@@ -40,7 +46,7 @@ Places comprises the following components:
 
 * **Places SDK** 
 
-  The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](/help/configure-places-in-the-sdk/places-extension/places-extension.md).
+  The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **Places rules** 
 
@@ -48,7 +54,7 @@ Places comprises the following components:
 
 * **Places Monitor**  
   
-  The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places Monitor extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md).
+  The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminology
 
@@ -83,23 +89,3 @@ Here are some common terms that are used in this documentation:
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. 
 
   For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
-
-## Understanding the Places UI
-
-To access the Places UI, in a browser, go to [Places UI](https://places.adobe.com) and log in with your Adobe ID. 
-
-Here is some basic information to help you become familiar with the UI:
-
-* In the top right corner, there are buttons that you can click to create a library, POIs, and filter your search.
-* In the lower right corner of the screen, there are buttons for zooming in and out, centering on your current location **[!UICONTROL Find Me]**, and switching between the map view and satellite view.
-* Double click to zoom in or click and drag to recenter the map.
-* You can also use the arrow keys to scroll the map.
-
-![](assets/location-services.png)
-
-
-## The Places workflow
-
-Here is a high-level view of the Places workflow:
-
-![](/help/assets/places-workflow-diagram-lc-1.png)
