@@ -9,20 +9,16 @@ user-guide-title: Adobe Places Help
 + [Adobe Places overview](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
-+ Places services {#places-service}
-  + [Create a new POI](places-service/create-a-poi-ui.md)
-  + [Manage existing POIs in the Places UI](places-service/managing-pois-in-the-places-ui.md)
-  + [Use metadata with POIs](places-service/metadata-with-pois.md)
-  + [Bulk upload POIs](places-service/bulk-upload-pois.md)
-  + [Manage multiple libraries](places-service/manage-libraries-in-the-places-ui.md)
++ Places point of interest management interface {#poi-mgmt-ui}
+  + [Create a new POI](poi-mgmt-ui/create-a-poi-ui.md)
+  + [Manage previously created POIs](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
+  + [Strategies for using metadata with POIs](poi-mgmt-ui/metadata-with-pois.md)
+  + [Bulk upload POIs](poi-mgmt-ui/bulk-upload-pois.md)
+  + [Manage multiple libraries](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + Places web service API {#places-web-service-api}
-  + [Places web services](places-web-service-api/places-web-services.md)
-  + [Organizational requirements](places-web-service-api/organizational-requirements.md)
-  + Adobe I/O integration {#adobe-i-o-integration}
-    + [Adobe I/O integration](places-web-service-api/adobe-i-o-integration/adobe-i-o-integration.md)
-    + [Create a Places integration](places-web-service-api/adobe-i-o-integration/create-a-places-integration.md)
+  + [Places web services overview](places-web-service-api/places-web-services.md)
+  + [Adobe I/O integration](places-web-service-api/adobe-i-o-integration/adobe-i-o-integration.md)
   + API usage {#api-usage}
-    + [API usage overview](places-web-service-api/api-usage/api-usage.md)
     + [Headers and parameters](places-web-service-api/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
       + [Manage libraries overview](places-web-service-api/api-usage/manage-libraries/manage-libraries.md)
@@ -33,7 +29,7 @@ user-guide-title: Adobe Places Help
       + [Read all libraries in your organization](places-web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
       + [Set a rank on your libraries](places-web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
       + [Get a library's rank](places-web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
-    + Manage POIs {#manage-pois}
+    + Manage points of interest {#manage-pois}
       + [Manage POIs overview](places-web-service-api/api-usage/manage-pois/manage-pois.md)
       + [Create a POI](places-web-service-api/api-usage/manage-pois/create-a-poi.md)
       + [Read a POI](places-web-service-api/api-usage/manage-pois/read-a-poi.md)
