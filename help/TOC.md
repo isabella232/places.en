@@ -10,7 +10,7 @@ user-guide-title: Adobe Places Help
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + Places point of interest management interface {#poi-mgmt-ui}
-  + [Create a new POI](poi-mgmt-ui/create-a-poi-ui.md)
+  + [Create a new POI](places-service/create-a-poi-ui.md)
   + [Manage previously created POIs](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
   + [Strategies for using metadata with POIs](poi-mgmt-ui/metadata-with-pois.md)
   + [Bulk upload POIs](poi-mgmt-ui/bulk-upload-pois.md)

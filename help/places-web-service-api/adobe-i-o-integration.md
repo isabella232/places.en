@@ -18,7 +18,7 @@ An integration with Adobe I/O provides these items and a way to request the bear
 ## Additional information
 
 * For more information about JWTs, see [Introduction to JSON Web Tokens](https://jwt.io/introduction/).
-* To create an integration for Places, see [Creating a Places integration](/help/places-web-service-api/adobe-i-o-integration/create-a-places-integration.md).
+* To create an integration for Places, see the *Creating a Places integration* section below.
 * To understand API key integration, generating a JWT, and public key certificates, see [Adobe I/O Authentication Overview](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
 
 >[!IMPORTANT]
