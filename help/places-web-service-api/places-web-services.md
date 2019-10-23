@@ -29,11 +29,11 @@ Before you can use the Places API, ensure that the following requirements have b
 
 * After Places is provisioned in your organization, and you have access, create an Adobe integration for Places. 
 
-  For more information, see [Creating an Adobe I/O integration](/help/places-web-service-api/adobe-i-o-integration/create-a-places-integration.md).
+  For more information, see *Creating Places integration* in [Adobe I/O integration overview](/help/places-web-service-api/adobe-i-o-integration.md).
 
 Additional information:
 
-* For more information about information about the available APIs and how to use them, see [API usage](/help/places-web-service-api/api-usage/api-usage.md). 
+* For more information about information about the available APIs and how to use them, see [Manage libraries](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md). 
 * For more information about the headers and parameters in these APIs, see [Headers and parameters](/help/places-web-service-api/api-usage/headers-and-parameters.md).
 
 ## Organizational requirements {#org-requirements}

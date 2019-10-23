@@ -49,4 +49,4 @@ You can create libraries and POIs in one of the following ways:
 
 * By using the Places UI. 
 
-  For more information, see [Places UI](/help/places-service/places-services-overview.md). 
+  For more information, see [Places UI](/help/poi-mgmt-ui/places-services-overview.md). 

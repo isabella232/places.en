@@ -10,14 +10,14 @@ user-guide-title: Adobe Places Help
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + Places point of interest management interface {#poi-mgmt-ui}
-  + [Create a new POI](places-service/create-a-poi-ui.md)
+  + [Create a new POI](poi-mgmt-ui/create-a-poi-ui.md)
   + [Manage previously created POIs](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
   + [Strategies for using metadata with POIs](poi-mgmt-ui/metadata-with-pois.md)
   + [Bulk upload POIs](poi-mgmt-ui/bulk-upload-pois.md)
   + [Manage multiple libraries](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + Places web service API {#places-web-service-api}
   + [Places web services overview](places-web-service-api/places-web-services.md)
-  + [Adobe I/O integration](places-web-service-api/adobe-i-o-integration/adobe-i-o-integration.md)
+  + [Adobe I/O integration](places-web-service-api/adobe-i-o-integration.md)
   + API usage {#api-usage}
     + [Headers and parameters](places-web-service-api/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
