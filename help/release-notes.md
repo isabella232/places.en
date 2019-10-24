@@ -1,8 +1,8 @@
 ---
 title: Release notes
-seo-title: Release notes for Adobe Places.
-description: Release notes for Adobe Places.
-seo-description: Release notes for Adobe Places.
+seo-title: Release notes for Adobe Experience Platform Places.
+description: Release notes for Adobe Experience Platform Places.
+seo-description: Release notes for Adobe Experience Platform Places.
 ---
 
 # Release notes {#release-notes}

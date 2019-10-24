@@ -21,7 +21,7 @@ Libraries are defined by the following:
 
 ## Create a library
 
-1. Log into Adobe Places with your Adobe ID.
+1. Log into Places with your Adobe ID.
 2. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**. 
 3. Click **[!UICONTROL New]**.
 4. Type the name.
@@ -29,13 +29,13 @@ Libraries are defined by the following:
 
 ## Change the rank of a library in the Places UI
 
-1. Log in to Adobe Places with your Adobe ID.
+1. Log in to Places with your Adobe ID.
 2. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**.
 3. Click the icon to the left of the library name and drag the library to the new rank. 
 
 ## Rename a library
 
-1. Log in to Adobe Places with your Adobe ID.
+1. Log in to Places with your Adobe ID.
 2. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 3. Locate the library that you want to delete.
 4. Click **[!UICONTROL ...]** and select **[!UICONTROL Rename]**.
@@ -43,7 +43,7 @@ Libraries are defined by the following:
 
 ## Delete a library
 
-1. Log in to Adobe Places with your Adobe ID.
+1. Log in to Places with your Adobe ID.
 2. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 3. Locate the library that you want to delete.
 4. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.

@@ -9,7 +9,7 @@ seo-description: Create a POI using the Places UI.
 
 A point of interest (POI) is a location or a point on a map that is of interest to you. It can include locations like cafes, restaurants, and so on. 
 
-1. Log in to Adobe Places with your Adobe ID.
+1. Log in to Places with your Adobe ID.
 2. In the top right side, click the icon that looks like a bulleted list and then click **[!UICONTROL New]**. 
 3. Type a name for your POI.
 4. Select or add a library.

@@ -12,7 +12,7 @@ The Places extension allows you to act based on the location of your users. This
 ## Install the Places extension in Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-2. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Adobe Places]** extension, and click **[!UICONTROL Install]**.
+2. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Places]** extension, and click **[!UICONTROL Install]**.
 3. Select the Places libraries you want to use in this property. These are the libraries that will be accessible in your app.
 4. Click **[!UICONTROL Save]**. 
 
