@@ -1,5 +1,5 @@
 ---
-title: Release notes
+title: Release notes for Adobe Experience Platform Places
 seo-title: Release notes for Adobe Experience Platform Places.
 description: Release notes for Adobe Experience Platform Places.
 seo-description: Release notes for Adobe Experience Platform Places.
@@ -7,7 +7,7 @@ seo-description: Release notes for Adobe Experience Platform Places.
 
 # Release notes {#release-notes}
 
-Here are the release notes for Places:
+Here are the release notes for for Adobe Experience Platform Places (Places):
 
 ## October 9, 2019
 
