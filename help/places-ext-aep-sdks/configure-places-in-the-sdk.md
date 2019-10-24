@@ -15,15 +15,15 @@ To configure the Places extension:
 
 1. Configure the Places extension in Launch.
 
-    For more information, see *Configure the Places extension in Launch*.
+    For more information, see *Configure the Places extension in Launch* in [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Add the Places extension to your mobile app.
 
-    For more information, see *Add the Places extension to your app*.
+    For more information, see *Add the Places extension to your app* in [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Register Places with the Mobile Core extension.
 
-    For more information, see *Register Adobe Places with Mobile core*.
+    For more information, see *Register Places with Mobile core* in [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 ## Configuring the Places Monitor extension 
 

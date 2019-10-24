@@ -33,7 +33,7 @@ Geofences are a type of POI and are defined in the database based by the followi
 ## Edit a POI
 
 1. Log into Places using your Adobe ID.
-1. Log into Adobe Places Service using your Adobe ID.
+1. Log into Places Service using your Adobe ID.
 1. In the top right side, click the icon that looks like a bulleted list.
 1. Locate the POI that you want to edit.
 1. Click **[!UICONTROL ...]** and select **[!UICONTROL View Details]**.
@@ -42,14 +42,14 @@ Geofences are a type of POI and are defined in the database based by the followi
 ## Delete a POI
 
 1. Log into Places using your Adobe ID.
-1. Log into Adobe Places Service using your Adobe ID.
+1. Log into Places Service using your Adobe ID.
 1. In the top right side, click the icon that looks like a bulleted list.
 1. Locate the POI that you want to delete.
 1. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
 
 ## Filter POIs by city, state, country, or metadata
 
-1. Log into Adobe Places Service using your Adobe ID.
+1. Log into Places Service using your Adobe ID.
 1. In the top right side, click the filtering icon.
 1. You can filter POIs in one of the following ways: 
 

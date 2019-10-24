@@ -1,12 +1,12 @@
 ---
-product: places
+product: Adobe Experience Platform Places
 audience: end-user
-user-guide-title: Adobe Places Help
+user-guide-title: Adobe Experience Platform Places Help
 ---
 
-# Adobe Places Help {#using}
+# Adobe Experience Platform Places Help {#using}
 
-+ [Adobe Places overview](home.md)
++ [Adobe Experience Platform Places overview](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + Places point of interest management interface {#poi-mgmt-ui}

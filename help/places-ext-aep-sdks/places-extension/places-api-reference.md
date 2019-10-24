@@ -46,7 +46,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
         List<Geofence> geofences = geofencingEvent.getTriggeringGeofences();
 
         if (geofences.size() > 0) {
-          // Call Adobe Places API to process information
+          // Call the Places API to process information
           Places.processGeofence(geofences.get(0), geofencingEvent.getGeofenceTransition());
         }
     }
@@ -103,7 +103,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
     protected void onHandleIntent(Intent intent) {
         GeofencingEvent geofencingEvent = GeofencingEvent.fromIntent(intent);
-        // Call Adobe Places API to process information
+        // Call the Places API to process information
         Places.processGeofenceEvent(geofencingEvent);
     }
 }

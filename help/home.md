@@ -1,13 +1,13 @@
 ---
-title: Adobe Places overview
-seo-title: Adobe Places overview
-description: Adobe Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+title: Adobe Experience Platform Places
+seo-title: Adobe Experience Platform Places
+description: Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 seo-description: Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 ---
 
 # Overview {#home}
 
-Adobe Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
+Adobe Experience Platform Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
 
 Places allows you to achieve the following:
 
