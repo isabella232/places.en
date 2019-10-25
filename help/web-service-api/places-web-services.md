@@ -34,7 +34,7 @@ Before you can use the web services API, ensure that the following requirements 
 Additional information:
 
 * For more information about information about the available APIs and how to use them, see [Manage libraries](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md). 
-* For more information about the headers and parameters in these APIs, see [Headers and parameters](/help/Web-service-api/api-usage/headers-and-parameters.md).
+* For more information about the headers and parameters in these APIs, see [Headers and parameters](/help/web-service-api/api-usage/headers-and-parameters.md).
 
 ## Organizational requirements {#org-requirements}
 
