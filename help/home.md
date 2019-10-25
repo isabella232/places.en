@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Platform Places
-seo-title: Adobe Experience Platform Places
-description: Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
-seo-description: Places is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+title: Adobe Experience Platform Location Service
+seo-title: Adobe Experience Platform Location Service
+description: Location Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+seo-description: Location Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 ---
 
 # Overview {#home}
 
-Adobe Experience Platform Places (Places) is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
+Adobe Experience Platform Location Service (Location Service) is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
 
-Places allows you to achieve the following:
+Location Service allows you to achieve the following:
 
 * Create and manage a database of POIs that can be leveraged with other Adobe Experience Cloud solutions.
 * Attach custom metadata to the POIs to make them richer and more meaningful by specifying additional attributes. 
@@ -26,21 +26,21 @@ Here are some of the ways you can use Places:
 * Segment an audience based on offline behavior by using audience profiles with location context.
 * Target a user with an in-store experience when relevant.
 
-## Adding a placeholder for the "Places intro" video from Brandon
+## Adding a placeholder for the "Location Service intro" video from Brandon
 
-## Places Use Cases
+## Location Service Use Cases
 
 Improve this section with 
 
-## Places components
+## Location Service components
 
-Places comprises the following components:
+Location Service comprises the following components:
 
 * **Places web service** 
 
   You can create and manage POIs by using the Places REST APIs. For more information about the REST APIs, see [Manage libraries](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **Places UI** 
+* **Location Service UI** 
 
   Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
 
