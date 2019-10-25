@@ -44,11 +44,13 @@ user-guide-title: Adobe Experience Platform Location Service
         + [Delete multiple POIs](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
     + [Query APIs](web-service-api/api-usage/query-apis.md)
 + Extensions for the Mobile SDKs {#places-ext-aep-sdks}
-  + [Places extension](places-ext-aep-sdks/places-extension/places-extension.md)
+  + Places extension {#places-extension}
+    + [Places extension](places-ext-aep-sdks/places-extension/places-extension.mdd)
     + [Places API reference](places-ext-aep-sdks/places-extension/places-api-reference.md)
     + [Places event reference](places-ext-aep-sdks/places-extension/places-event-ref.md)
     + [Custom Places objects](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-  + [Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+  + Places Monitor extension {#places-monitor-extension}
+    + [Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
     + [Using the Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
     + [Places Monitor API reference](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Use Location Service with your own monitoring solution](using-your-own-monitor.md)
