@@ -38,7 +38,7 @@ Places comprises the following components:
 
 * **Places web service** 
 
-  You can create and manage POIs by using the Places REST APIs. For more information about the REST APIs, see [Manage libraries](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md).
+  You can create and manage POIs by using the Places REST APIs. For more information about the REST APIs, see [Manage libraries](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Places UI** 
 

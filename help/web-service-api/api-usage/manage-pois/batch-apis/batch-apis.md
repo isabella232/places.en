@@ -13,6 +13,6 @@ To help you complete a batch import of your POIs from a `.csv` file into your or
 
 You can use the batch APIs to complete the following tasks:
 
-* [Create multiple POIs](/help/places-web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
-* [Update multiple POIs](/help/places-web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
-* [Delete multiple POIs](/help/places-web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
+* [Create multiple POIs](/help/web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
+* [Update multiple POIs](/help/web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
+* [Delete multiple POIs](/help/web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)

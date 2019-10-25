@@ -45,7 +45,7 @@ You can create libraries and POIs in one of the following ways:
 
 * By using the web services. 
 
-  For more information, see [Web Service API](/help/places-web-service-api/places-web-services.md).
+  For more information, see [Web Service API](/help/web-service-api/places-web-services.md).
 
 * By using the Places UI. 
 

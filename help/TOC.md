@@ -35,7 +35,7 @@ user-guide-title: Adobe Experience Platform Location Service
       + [Read a POI](web-service-api/api-usage/manage-pois/read-a-poi.md)
       + [Update a POI](web-service-api/api-usage/manage-pois/update-a-poi.md)
       + [Delete a POI](web-service-api/api-usage/manage-pois/delete-a-poi.md)
-      + [Read all POIs in a library](places-web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
+      + [Read all POIs in a library](web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
       + [Read all POIs in your organization](web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
       + Batch APIs {#batch-apis}
         + [Batch APIs overview](web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)

@@ -23,7 +23,7 @@ An integration with Adobe I/O provides these items and a way to request the bear
 
 >[!IMPORTANT]
 >
->If you cannot log in to the Adobe I/O console, or if Experience Platform Location Service is not an option on the *Create Integrations page*, see *Organization requirements* in [Places web services overview](/help/places-web-service-api/places-web-services.md).
+>If you cannot log in to the Adobe I/O console, or if Experience Platform Location Service is not an option on the *Create Integrations page*, see *Organization requirements* in [Web services API overview](/help/web-service-api/places-web-services.md).
 
 ## Create a Places integration {#create-places-integration}
 
