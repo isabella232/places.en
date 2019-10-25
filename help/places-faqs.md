@@ -1,13 +1,13 @@
 ---
-title: Places FAQs
-seo-title: Places FAQs
-description: This topic provides additional information about some frequently asked questions about Places.
-seo-description: This topic provides additional information about some frequently asked questions about Places.
+title: Frequently asked questions
+seo-title: Frequently asked questions
+description: This topic provides additional information about some frequently asked questions.
+seo-description: This topic provides additional information about some frequently asked questions.
 ---
 
-# Places FAQs
+# Frequently asked questions
 
-Here is some information and frequently asked questions about Places. 
+Here is some information and frequently asked questions about Location Service. 
 
 ## Size and reliability  
 
@@ -21,7 +21,7 @@ When the Places Monitor (SDK) gets a new list of nearby POIs, it registers a reg
 
 If the operating system cannot deliver an exit event when the device leaves a region, it is safer for the SDK to just omit the exit event. If the SDK manufactures an exit event without the event being triggered by the operating system, there is a risk that the exit event might be processed well outside the time period during which the device was near the POI.
 
-## Adding a user to Places and Experience Platform Launch {#adding-user-launch-places}
+## Adding a user to Location Service and Experience Platform Launch {#adding-user-launch-places}
 
 To allow users to access the [Launch Service UI](https://places.adobe.com), they need to be added to Places Core Service in the Admin Console as a user. To allow users to have access to Experience Platform Launch, configure mobile properties, and use Places with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
 
@@ -33,15 +33,15 @@ To allow users to access the [Launch Service UI](https://places.adobe.com), they
   * Manage environments
 * Manage Properties permission under Company Rights 
 
-If this is the first time you are adding a user, complete the following steps to add users to Experience Platform Launch and Places. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
+If this is the first time you are adding a user, complete the following steps to add users to Experience Platform Launch and Location Service. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
 
 >[!IMPORTANT]
 >
 >Only org administrators can access the Admin Console and add the users.
 
-### 1. Verify that Places and Experience Platform Launch are provisioned 
+### 1. Verify that Location Service and Experience Platform Launch are provisioned 
 
-To verify that Places and Experience Platform Launch are provisioned:
+To verify that Location Service and Experience Platform Launch are provisioned:
 
 1. Log in to your Experience Cloud organization.
 1. In the top-right side, click the Experience Cloud shell switcher.
@@ -66,7 +66,7 @@ To verify that Places and Experience Platform Launch are provisioned:
 
     ![](/help/assets/places_provisioned1.png)
 
-    If they are displayed, Places and Experience Platform Launch have been provisioned for your organization. If they are not displayed, they need to be provisioned for your organization.
+    If they are displayed, Location Service and Experience Platform Launch have been provisioned for your organization. If they are not displayed, they need to be provisioned for your organization.
 
     >[!IMPORTANT]
     >
@@ -107,17 +107,17 @@ To set up the profile and add the permissions:
 
 >[!IMPORTANT]
 >
->For Places, there is a default profile, but you do not have to add any permissions. 
+>For Location Service, there is a default profile, but you do not have to add any permissions. 
 
 You have successfully added permissions to the profile that you created.
 
-### 3. Add a user or a developer to your Places and Experience Platform Launch profiles
+### 3. Add a user or a developer to your Location Service and Experience Platform Launch profiles
 
-You can add a user and/or a developer to your Places and Experience Platform Launch profiles.
+You can add a user and/or a developer to your Location Service and Experience Platform Launch profiles.
 
 ### Add a user
 
-To add a user to your Places and Experience Platform Launch profiles:
+To add a user to your Location Service and Experience Platform Launch profiles:
 
 1. Add a user to the Experience Platform Launch profile.
 
@@ -147,7 +147,7 @@ To add a user to your Places and Experience Platform Launch profiles:
 
    >[!TIP]
    >
-   >Currently, all Places users have the same permissions, so you do not need to edit the permissions.
+   >Currently, all Location Service users have the same permissions, so you do not need to edit the permissions.
 
    a. On the **[!UICONTROL Places Core Services]** card, verify the following:
 
@@ -169,7 +169,7 @@ To add a user to your Places and Experience Platform Launch profiles:
 
 ### Add a developer
 
-For users who also need access to the Places REST API, you need to add them as a Developer.
+For users who also need access to the Web Service API, you need to add them as a Developer.
 
 To add a developer:
 
