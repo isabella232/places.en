@@ -6,7 +6,7 @@ user-guide-title: Adobe Experience Platform Location Service
 
 # Adobe Experience Platform Location Service Help {#using}
 
-+ [Adobe Experience Platform Places overview](home.md)
++ [Adobe Experience Platform Location Service overview](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + Point of interest management interface {#poi-mgmt-ui}
@@ -60,8 +60,8 @@ user-guide-title: Adobe Experience Platform Location Service
   + [Create entry and exit rules](use-places-launch-workflow/create-rule-places-property.md)
 + Use Location Service with other Adobe Solutions {#use-places-with-other-solutions}
   + Adobe Analytics {#places-adobe-analytics}
-    + [Send Places data to Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
-    + [Run reports in Adobe Analytics that includes Places data](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+    + [Send Location Service data to Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+    + [Run reports in Adobe Analytics that includes Location Service data](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
   + Mobile Services for Messaging {#places-mobile-svcs-messaging}
     + [Mobile Services for Messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
     + [Push messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
@@ -70,7 +70,7 @@ user-guide-title: Adobe Experience Platform Location Service
     + [Push notifications](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
     + [In-App messages](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
   + Adobe Target {#places-target}
-    + [Use Places with Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
+    + [Use Location Service with Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Testing and validation {#places-testing-validation}
   + [Test and validate Places](places-testing-validation/test-validate-places.md)
 + [Frequently asked questions](places-faqs.md)
