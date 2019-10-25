@@ -45,7 +45,7 @@ user-guide-title: Adobe Experience Platform Location Service
     + [Query APIs](web-service-api/api-usage/query-apis.md)
 + Extensions for the Mobile SDKs {#places-ext-aep-sdks}
   + Places extension {#places-extension}
-    + [Places extension](places-ext-aep-sdks/places-extension/places-extension.mdd)
+    + [Places extension](places-ext-aep-sdks/places-extension/places-extension.md)
     + [Places API reference](places-ext-aep-sdks/places-extension/places-api-reference.md)
     + [Places event reference](places-ext-aep-sdks/places-extension/places-event-ref.md)
     + [Custom Places objects](places-ext-aep-sdks/places-extension/cust-places-objects.md)
