@@ -1,73 +1,76 @@
 ---
-product: Adobe Experience Platform Places
+product: Adobe Experience Platform Location Service
 audience: end-user
-user-guide-title: Adobe Experience Platform Places Help
+user-guide-title: Adobe Experience Platform Location Service
 ---
 
-# Adobe Experience Platform Places Help {#using}
+# Adobe Experience Platform Location Service Help {#using}
 
 + [Adobe Experience Platform Places overview](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
-+ Places point of interest management interface {#poi-mgmt-ui}
++ Point of interest management interface {#poi-mgmt-ui}
   + [Create a new POI](poi-mgmt-ui/create-a-poi-ui.md)
   + [Manage previously created POIs](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
   + [Strategies for using metadata with POIs](poi-mgmt-ui/metadata-with-pois.md)
   + [Bulk upload POIs](poi-mgmt-ui/bulk-upload-pois.md)
   + [Manage multiple libraries](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
-+ Places web service API {#places-web-service-api}
-  + [Places web services overview](places-web-service-api/places-web-services.md)
-  + [Adobe I/O integration](places-web-service-api/adobe-i-o-integration.md)
++ Web service API {#web-service-api}
+  + [Web service API overview](web-service-api/places-web-services.md)
+  + [Adobe I/O integration](web-service-api/adobe-i-o-integration.md)
   + API usage {#api-usage}
-    + [Headers and parameters](places-web-service-api/api-usage/headers-and-parameters.md)
+    + [Headers and parameters](web-service-api/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
-      + [Manage libraries overview](places-web-service-api/api-usage/manage-libraries/manage-libraries.md)
-      + [Create a library](places-web-service-api/api-usage/manage-libraries/create-a-library.md)
-      + [Read a library](places-web-service-api/api-usage/manage-libraries/read-a-library.md)
-      + [Update a library](places-web-service-api/api-usage/manage-libraries/update-a-library.md)
-      + [Delete a library](places-web-service-api/api-usage/manage-libraries/delete-a-library.md)
-      + [Read all libraries in your organization](places-web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
-      + [Set a rank on your libraries](places-web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
-      + [Get a library's rank](places-web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
+      + [Manage libraries overview](web-service-api/api-usage/manage-libraries/manage-libraries.md)
+      + [Create a library](web-service-api/api-usage/manage-libraries/create-a-library.md)
+      + [Read a library](web-service-api/api-usage/manage-libraries/read-a-library.md)
+      + [Update a library](web-service-api/api-usage/manage-libraries/update-a-library.md)
+      + [Delete a library](web-service-api/api-usage/manage-libraries/delete-a-library.md)
+      + [Read all libraries in your organization](web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
+      + [Set a rank on your libraries](web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
+      + [Get a library's rank](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
     + Manage points of interest {#manage-pois}
-      + [Manage POIs overview](places-web-service-api/api-usage/manage-pois/manage-pois.md)
-      + [Create a POI](places-web-service-api/api-usage/manage-pois/create-a-poi.md)
-      + [Read a POI](places-web-service-api/api-usage/manage-pois/read-a-poi.md)
-      + [Update a POI](places-web-service-api/api-usage/manage-pois/update-a-poi.md)
-      + [Delete a POI](places-web-service-api/api-usage/manage-pois/delete-a-poi.md)
-      + [Read all POIs in a library](places-web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
-      + [Read all POIs in your organization](places-web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
+      + [Manage POIs overview](web-service-api/api-usage/manage-pois/manage-pois.md)
+      + [Create a POI](web-service-api/api-usage/manage-pois/create-a-poi.md)
+      + [Read a POI](web-service-api/api-usage/manage-pois/read-a-poi.md)
+      + [Update a POI](web-service-api/api-usage/manage-pois/update-a-poi.md)
+      + [Delete a POI](web-service-api/api-usage/manage-pois/delete-a-poi.md)
+      + [Read all POIs in a library](web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
+      + [Read all POIs in your organization](web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
       + Batch APIs {#batch-apis}
-        + [Batch APIs overview](places-web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)
-        + [Create multiple POIs](places-web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
-        + [Update multiple POIs](places-web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
-        + [Delete multiple POIs](places-web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
-    + [Query APIs](places-web-service-api/api-usage/query-apis.md)
-+ Places extension for the Mobile SDKs {#places-ext-aep-sdks}
-  + [Places extension](places-ext-aep-sdks/places-extension/places-extension.md)
-  + [Places API reference](places-ext-aep-sdks/places-extension/places-api-reference.md)
-  + [Places event reference](places-ext-aep-sdks/places-extension/places-event-ref.md)
-  + [Custom Places objects](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-+ Places Monitor extension{#places-monitor-extension}
-  + [Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
-  + [Using the Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
-  + [Places Monitor API reference](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
-+ Use Places as part of the Experience Platform Launch workflow {#use-places-launch-workflow}
+        + [Batch APIs overview](web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)
+        + [Create multiple POIs](web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
+        + [Update multiple POIs](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
+        + [Delete multiple POIs](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
+    + [Query APIs](web-service-api/api-usage/query-apis.md)
++ Extensions for the Mobile SDKs {#places-ext-aep-sdks}
+  + Places extension {#places-extension}
+    + [Places extension](places-ext-aep-sdks/places-extension/places-extension.md)
+    + [Places API reference](places-ext-aep-sdks/places-extension/places-api-reference.md)
+    + [Places event reference](places-ext-aep-sdks/places-extension/places-event-ref.md)
+    + [Custom Places objects](places-ext-aep-sdks/places-extension/cust-places-objects.md)
+  + Places Monitor extension {#places-monitor-extension}
+    + [Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+    + [Using the Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
+    + [Places Monitor API reference](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
++ [Use Location Service with your own monitoring solution](using-your-own-monitor.md)
++ [Use Location Service without active region monitoring](use-places-without-active-monitoring.md)
++ Use Location Service as part of the Experience Platform Launch workflow {#use-places-launch-workflow}
   + [Define data elements](use-places-launch-workflow/define-data-elements.md)
-  + [Create Places entry and exit rules](use-places-launch-workflow/create-rule-places-property.md)
-+ [Use Places with your own monitoring solution](using-your-own-monitor.md)
-+ [Use Places without active region monitoring](use-places-without-active-monitoring.md)
-+ [Configure Experience Platform Launch rules and data elements with Places data](rules-data-elements-places-data.md)
-+ Use Places with other Adobe Solutions {#use-places-with-other-solutions}
-  + Use Places with Adobe Analytics {#places-adobe-analytics}
-    + [Use Places with Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
-  + Use Places with Mobile Services for Messaging {#places-mobile-svcs-messaging}
-    + [Use Places with Mobile Services for Messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
-  + Use Places with Adobe Campaign Standard {#places-acs}
-    + [Use Places with Push notifications](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
-    + [Use Places with In-App messages](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
-  + Use Places with Adobe Target {#places-target}
+  + [Create entry and exit rules](use-places-launch-workflow/create-rule-places-property.md)
++ Use Location Service with other Adobe Solutions {#use-places-with-other-solutions}
+  + Adobe Analytics {#places-adobe-analytics}
+    + [Send Places data to Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+    + [Run reports in Adobe Analytics that includes Places data](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+  + Mobile Services for Messaging {#places-mobile-svcs-messaging}
+    + [Mobile Services for Messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
+    + [Push messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
+    + [In-App messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
+  + Adobe Campaign Standard {#places-acs}
+    + [Push notifications](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
+    + [In-App messages](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
+  + Adobe Target {#places-target}
     + [Use Places with Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
-+ Test and validate Places {#places-testing-validation}
++ Testing and validation {#places-testing-validation}
   + [Test and validate Places](places-testing-validation/test-validate-places.md)
 + [Frequently asked questions](places-faqs.md)

@@ -13,4 +13,3 @@ seo-description: This section provides information about how to send Places data
 
 
 
-## Run reports in Adobe Analytics that includes Places data 

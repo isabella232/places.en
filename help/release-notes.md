@@ -1,13 +1,13 @@
 ---
-title: Release notes for Adobe Experience Platform Places
-seo-title: Release notes for Adobe Experience Platform Places.
-description: Release notes for Adobe Experience Platform Places.
-seo-description: Release notes for Adobe Experience Platform Places.
+title: Release notes
+seo-title: Release notes
+description: Release notes for Adobe Experience Platform Location Service.
+seo-description: Release notes for Adobe Experience Platform Location Service.
 ---
 
 # Release notes {#release-notes}
 
-Here are the release notes for for Adobe Experience Platform Places (Places):
+Here are the release notes:
 
 ## October 9, 2019
 
@@ -27,7 +27,7 @@ Here are the release notes for for Adobe Experience Platform Places (Places):
 
 The following updates were made in this release:
 
-### Places UI Updates
+### UI Updates
 
 Here is a list of the updates to the Places UI: 
 
@@ -50,7 +50,7 @@ Here is a list of the updates to the Places UI:
 
 The following updates were made in this release:
 
-### Places Monitor Launch Extension 2.0.0
+### Monitor Launch Extension 2.0.0
 
 * Updated the Android and iOS installation instructions for the Places Monitor 2.0.
 
@@ -68,7 +68,7 @@ The following updates were made in this release:
 
      New API: `public static void stop (final boolean clearData);`
 
-* Updated the use of the Places `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
+* Updated the use of the `getNearbyPointsOfInterest` API to handle error scenarios more effectively.
 
 ## July 25, 2019
 
@@ -191,12 +191,12 @@ This is the first release of Places, a set of tools that allows customers to enr
 
 Here are the key features in this release:
 
-#### Places UI 
+#### Location Service UI 
 
 We have released a management UI where you can view and manage your points of interest (POIs). You also can organize your POIs into libraries. In addition to standard metadata such as city, state, and category, we also support the ability to add custom metadata to your POIs.
 
-* To see the Places UI, go to [https://places.adobe.com](https://places.adobe.com). 
-* To get started with the Places UI, see [Getting started](/help/getting-started.md).
+* To see the UI, go to [https://places.adobe.com](https://places.adobe.com). 
+* To get started with the UI, see [Getting started](/help/getting-started.md).
 
 #### Places Extension
 
@@ -220,7 +220,7 @@ You can use the Places APIs do do the following:
 
     A python utility is provided with the APIs. 
 
-For more information about the Places APIs, see [Places web services](/help/places-web-service-api/places-web-services.md).
+For more information about the Places APIs, see [Web service API](/help/web-service-api/places-web-services.md).
 
 ### Coming Soon
 
