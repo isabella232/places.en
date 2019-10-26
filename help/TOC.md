@@ -13,7 +13,7 @@ user-guide-title: Adobe Experience Platform Location Service
   + [Create a new POI](poi-mgmt-ui/create-a-poi-ui.md)
   + [Manage previously created POIs](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
   + [Strategies for using metadata with POIs](poi-mgmt-ui/metadata-with-pois.md)
-  + [Bulk upload POIs](poi-mgmt-ui/bulk-upload-pois.md)
+  + [Bulk upload of POIs](poi-mgmt-ui/bulk-upload-pois.md)
   + [Manage multiple libraries](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + Web service API {#web-service-api}
   + [Web service API overview](web-service-api/places-web-services.md)
