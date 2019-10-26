@@ -5,9 +5,11 @@ description: Information about creating an Adobe I/O integration.
 seo-description: Information about creating a Adobe I/O integration.
 ---
 
-# Adobe I/O integration overview {#adobeio-integration}
+# Adobe I/O integration {#adobeio-integration}
 
-## Prerequesites for user access
+This information shows you how to create an Adobe I/O and a Places integration.
+
+## Prerequisites for user access
 
 Verify with your organization's System administrator that the following tasks have been completed:
 
@@ -23,7 +25,7 @@ Verify with your organization's System administrator that the following tasks ha
 
   For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).
 
-### Adobe I/O integration overview {#adobeio-integration}
+### REST API requests 
 
 Each request to the Places REST API requires the following items:
 
@@ -33,8 +35,6 @@ Each request to the Places REST API requires the following items:
 
 An integration with Adobe I/O provides these items and a way to request the bearer token by using a JSON Web Token (JWT). 
 
-### Additional information
-
 * For more information about JWTs, see [Introduction to JSON Web Tokens](https://jwt.io/introduction/).
 * To create an integration for Places, see the *Creating a Places integration* section below.
 * To understand API key integration, generating a JWT, and public key certificates, see [Adobe I/O Authentication Overview](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
@@ -43,7 +43,7 @@ An integration with Adobe I/O provides these items and a way to request the bear
 >
 >If you cannot log in to the Adobe I/O console, or if Experience Platform Location Service is not an option on the *Create Integrations page*, see *Organization requirements* in [Web services API overview](/help/web-service-api/places-web-services.md).
 
-## Create a Places integration {#create-places-integration}
+## Create a Places integration
 
 To create an Places integration, complete the following tasks:
 

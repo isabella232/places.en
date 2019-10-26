@@ -9,7 +9,7 @@ seo-description: This section provides information about how to bulk upload your
 
 A set of Python scripts have been created to simplify the batch import of POIs from a .csv file into a POI database by using the Web Service APIs. These scripts can be downloaded from this open source [git repo](https://github.com/adobe/places-scripts). 
 
-Before you run these scripts, to ensure you have access to the Web Service APIs, see *Prerequisites for user access* in [Adobe I/O integration overview](/help/web-service-api/adobe-i-o-integration.md). 
+Before you run these scripts, to ensure you have access to the web service APIs, see *Prerequisites for user access* in [Adobe I/O integration overview](/help/web-service-api/adobe-i-o-integration.md). 
 
 Here is some information about the scripts:
 
