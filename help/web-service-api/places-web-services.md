@@ -35,17 +35,3 @@ Additional information:
 
 * For more information about information about the available APIs and how to use them, see [Manage libraries](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md). 
 * For more information about the headers and parameters in these APIs, see [Headers and parameters](/help/web-service-api/api-usage/headers-and-parameters.md).
-
-## Organizational requirements {#org-requirements}
-
-To access the web services REST APIs, verify with your system administrator that the following tasks have been completed:
-
-* Places has been provisioned and appears in the organization. 
-* You have been added to the organization. 
-* You have been added to Places in your organization.
-
-    For more information, see *Adding a user to Places and Experience Platform Launch* in [Frequently Asked Questions](/help/places-faqs.md).
-
-* You have been added as a Places developer to your organization. 
-
-  For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).

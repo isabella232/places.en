@@ -7,6 +7,24 @@ seo-description: Information about creating a Adobe I/O integration.
 
 # Adobe I/O integration overview {#adobeio-integration}
 
+## Prerequesites for user access
+
+Verify with your organization's System administrator that the following tasks have been completed:
+
+* Places Core Service appears in your organization's admin console. 
+* You have been added to the organization. 
+* You have been added as a User to Places Core Service in your organization. 
+
+  For more information, see *Add a user or a developer to your Location Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
+
+* You have been added as a Developer to Places Core Service in your organization.  
+
+  For more information on adding developers see *Add a user or a developer to your Location Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
+
+  For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+
+### Adobe I/O integration overview {#adobeio-integration}
+
 Each request to the Places REST API requires the following items:
 
 * An organization ID
@@ -15,7 +33,7 @@ Each request to the Places REST API requires the following items:
 
 An integration with Adobe I/O provides these items and a way to request the bearer token by using a JSON Web Token (JWT). 
 
-## Additional information
+### Additional information
 
 * For more information about JWTs, see [Introduction to JSON Web Tokens](https://jwt.io/introduction/).
 * To create an integration for Places, see the *Creating a Places integration* section below.
@@ -71,7 +89,7 @@ To generate your own self-signed keys:
 
 The following video guides you through the process of generating the key pair:
 
-![](/help/assets/places_integration_video.gif)
+![integration video](/help/assets/places_integration_video.gif)
 
 ### Create a Places integration in the Adobe I/O console
 
@@ -121,4 +139,3 @@ To generate a JWT token:
 >[!IMPORTANT]
 >
 >Adobe access tokens are valid **only** for 24 hours, so save the sample CURL command (step 5). If the access token is no longer valid, you need to generate the token again.
-
