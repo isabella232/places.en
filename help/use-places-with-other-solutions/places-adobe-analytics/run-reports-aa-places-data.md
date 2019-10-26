@@ -35,7 +35,7 @@ After Places sends the entry and exit events, you can create rules in Experience
 
 Now you can determine the triggers that you want to include for this Rule. In this example, the trigger is based on all `TrackAction` calls. After you configure the Event, click **[!UICONTROL Keep Changes]**.
 
-!["create an event"](assets/ad-setEvent.png )
+!["create an event"](/help/assets/ad-setEvent.png)
 
 
 ## 2. Add Conditions
@@ -56,7 +56,7 @@ In this example, a Condition is created that causes the Rule to trigger only for
 
 5. Click **[!UICONTROL Keep Changes]**.
 
-!["create a condition"](assets/ad-setCondition.png )
+!["create a condition"](/help/assets/ad-setCondition.png)
 
 ## 3. Define the Action
 
@@ -74,13 +74,13 @@ On the right pane, you can add a freeform JSON payload that adds data to an SDK 
 
 In the following example, `poi.city` and `poi.name` values are added to the context data of the Analytics event. The values for the new keys are dynamically determined by the SDK when this event processes.
 
-!["create an action"](assets/pt-setAction.png )
+!["create an action"](/help/assets/pt-setAction.png)
 
 ## 4. Save the Rule and rebuild your property
 
 After you complete your configuration, verify that your Rule looks like the following image:
 
-!["the rule is complete."](assets/pt-ruleComplete.png )
+!["the rule is complete."](/help/assets/pt-ruleComplete.png)
 
 1. Click **[!UICONTROL Save]**
 

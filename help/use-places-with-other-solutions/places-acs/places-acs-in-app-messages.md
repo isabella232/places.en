@@ -36,15 +36,15 @@ This information helps you understand how you can use Adobe Experience Platform 
  
     In the example in the following graphic, you can trigger an in-app message that is displayed only to users who entered one of the vacation resorts that are participating in a free drink program, you want to send your users a coupon when they arrive.
 
-   ![In-App Message Places metadata](assets/last-entered-vacation.png)
+   !["In-App Message Places metadata"](/help/assets/last-entered-vacation.png)
 
 5. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
 
-    ![create an event](assets/prepare-ACS.png)
+    !["create an event"](/help/assets/prepare-ACS.png)
 
     To test the in-app message delivery, launch the application in Xcode or Android studio and use the location simulator to select a POI hat fits the messaging criteria.
 
-    ![drink coupon](assets/drink-coupon-on-app.png)
+    !["drink coupon"](/help/assets/drink-coupon-on-app.png)
 
 
 Using Location Services with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and exits. This simple integration opens the door to build more personalized and contextual use cases.

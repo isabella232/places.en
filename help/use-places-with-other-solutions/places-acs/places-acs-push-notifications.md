@@ -34,7 +34,7 @@ After you verify that the Places and Places Monitor for Location Service extensi
 
    **Last Entered** retrieves the name of the POI that user last entered, and **Last Exited** provides the name of the POI that the user last left. For this example, we will selected **Last Entered** and type a name for the data element, such as **Last Entered POI Name** and clicked **Save**.
 
-   !["Push messaging in Campaign Standard"](assets/ACS_Push1.png )
+   !["Push messaging in Campaign Standard"](/help/assets/ACS_Push1.png)
 
 
 5. Repeat the same steps above and create data elements for _Last Entered POI Latitude_, _Last Entered POI Longitude_, and _Last Entered POI Radius_.
@@ -93,7 +93,7 @@ Now that we have location data populated in Campaign, we can use POIs as an audi
 
     *You can make additional selections to determine the range of time since the user’s last visit to this POI.*
 
-    !["Push messaging 2 in ACS"](assets/ACS_push2.png )
+    !["Push messaging 2 in ACS"](/help/assets/ACS_push2.png)
 
 
 7. Click **Confirm**.
@@ -101,6 +101,6 @@ Now that we have location data populated in Campaign, we can use POIs as an audi
 9. You can drag out additional POI location filters to include multiple POIs in your message.
 10. Click **Next** to finish creating the push notification for delivery.
 
-    !["Push messaging 3 in ACS"](assets/ACS_push3.html )
+    !["Push messaging 3 in ACS"](/help/assets/ACS_push3.html)
 
 Using Location Service with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and extis. This simple integration opens the door for building out more personalized and contextual use cases.
