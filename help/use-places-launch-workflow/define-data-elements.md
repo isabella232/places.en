@@ -42,8 +42,6 @@ Each POI contains the following data references:
 
 2. Click **[!UICONTROL Create New Data Element]**.
 
-    ![Create data element](/help/assets/create-de-2-v3.png)
-
 3. In the list of installed extensions, find **[!UICONTROL Places]**.
 
 4. In the **[!UICONTROL Data Element Type]** drop-down list, select a data reference for this data element.
