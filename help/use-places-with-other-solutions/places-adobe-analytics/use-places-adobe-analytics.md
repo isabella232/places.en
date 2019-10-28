@@ -8,8 +8,6 @@ seo-description: This section provides information about how to send Places data
 # Send Places data to Adobe Analytics {#places-data-analytics}
 
 
-(Placeholder for the video from Steve.)
-
 >[!IMPORTANT]
 >
 >This document assumes that you have Places implemented in your application. For more information about implementing Places, see [Places Extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
