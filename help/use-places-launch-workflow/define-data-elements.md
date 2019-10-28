@@ -26,10 +26,10 @@ With the Places extension, you can reference values from the following targets:
 Each POI contains the following data references:
 
 * **[!UICONTROL Category]**: category of the POI
-* **[!IUICONTROL City]**: city of the POI
+* **[!UICONTROL City]**: city of the POI
 * **[!UICONTROL Country]**: country of the POI
-* **[UICONTROL Latitude]**: latitude of the POI
-* **[UICONTROL Longitude]**: longitude of the POI
+* **[!UICONTROL Latitude]**: latitude of the POI
+* **[!UICONTROL Longitude]**: longitude of the POI
 * **[!UICONTROL Metadata]**: custom metadata of the POI
 * **[!UICONTROL Name]**: region of the POI
 * **[!UICONTROL Radius]**: radius of the POI
