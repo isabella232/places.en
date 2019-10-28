@@ -7,8 +7,6 @@ seo-description: This section provides information about how to use "Push messag
 
 # In-App messaging with Location Service {#in-app-messages-loc-service}
 
-(video from Ivan.)
-
 This information helps you understand how you can use Adobe Experience Platform Location Service information to send In-App Messages or Local Notifications.
 
 >[!IMPORTANT]

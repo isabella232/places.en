@@ -26,8 +26,6 @@ Here are some of the ways you can use Places:
 * Segment an audience based on offline behavior by using audience profiles with location context.
 * Target a user with an in-store experience when relevant.
 
-## Adding a placeholder for the "Location Service intro" video from Brandon
-
 ## Location Service Use Cases
 
 Improve this section with 
