@@ -17,7 +17,7 @@ user-guide-title: Adobe Experience Platform Location Service
   + [Manage multiple libraries](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + Web service API {#web-service-api}
   + [Web service API overview](web-service-api/places-web-services.md)
-  + [Adobe I/O integration](web-service-api/adobe-i-o-integration.md)
+  + [Integration prerequisites](web-service-api/adobe-i-o-integration.md)
   + API usage {#api-usage}
     + [Headers and parameters](web-service-api/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
@@ -72,5 +72,5 @@ user-guide-title: Adobe Experience Platform Location Service
   + Adobe Target {#places-target}
     + [Use Location Service with Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Testing and validation {#places-testing-validation}
-  + [Test and validate Places](places-testing-validation/test-validate-places.md)
+  + [Test and validate Location Service](places-testing-validation/test-validate-places.md)
 + [Frequently asked questions](places-faqs.md)

@@ -5,7 +5,7 @@ description: Information about creating an Adobe I/O integration.
 seo-description: Information about creating a Adobe I/O integration.
 ---
 
-# Adobe I/O integration {#adobeio-integration}
+# Integration overview and prerequisites {#integration-prereqs}
 
 This information shows you how to create an Adobe I/O and a Places integration.
 
