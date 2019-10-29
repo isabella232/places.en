@@ -47,6 +47,4 @@ This information helps you understand how you can use Adobe Experience Platform 
 
 Using Location Services with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and exits. This simple integration opens the door to build more personalized and contextual use cases.
 
-## Create different triggers in Campaign Standard based on Places metadata
-
-(is this information coming?)
+>[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
