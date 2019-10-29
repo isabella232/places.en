@@ -12,7 +12,14 @@ How to configure In-App messages to trigger from Places events; the messages mus
 ## In-app message
 
 AMS allows you to use location data that is being sent to Analytics as the trigger event(s) and/or condition for an in-app message. In-app messages can appear to the user in real time as soon as the trigger if fired from the SDK and does not need to wait for data to be processed by Analytics. 
-•	Local notifications: In-app messaging has 3 different types: Full screen, ¬¬¬Alert, or Local Notifications. These types qualify as in-app messages because they are triggered by the SDK, but it is important to note that local notifications look and feel like push notifications as they appear while the app is not in the foreground. Local notifications are a great option for delivering real time notifications to users as they enter or exit your POIs while the app is in the background. Please see Places Monitor extension documentation to understand location monitoring (https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension¬¬¬¬¬)
+
+Local notifications: In-app messaging has 3 different types: 
+
+* Full screen
+* Alert
+* Local Notifications. 
+
+These types qualify as in-app messages because they are triggered by the SDK, but it is important to note that local notifications look and feel like push notifications as they appear while the app is not in the foreground. Local notifications are a great option for delivering real time notifications to users as they enter or exit your POIs while the app is in the background. Please see Places Monitor extension documentation to understand location monitoring (https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension.)
 
 ### Pre-requisites
 
