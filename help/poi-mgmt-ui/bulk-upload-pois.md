@@ -73,15 +73,15 @@ The values of the following columns are used in the Location Service UI:
 
       * `access_code`
 
-        This is your access code that was obtained from the call to Adobe IMS. For information about how to obtain this access code, see [Prequisites for using the Places REST API.](../places-rest-apis/adobe-i-o-integration/README.md) . 
+        This is your access code that was obtained from the call to Adobe IMS. For information about how to obtain this access code, see [Prerequisites for user access](/help/web-service-api/adobe-i-o-integration.md) . 
  
       * `org_id`
 
-        The Experience Cloud orgID into which the POIs are to be imported. For information about how to obtain the org ID, see [Prequisites for using the Places REST API.](../places-rest-apis/adobe-i-o-integration/README.md).
+        The Experience Cloud orgID into which the POIs are to be imported. For information about how to obtain the org ID, see [Prerequisites for user access.](/help/web-service-api/adobe-i-o-integration.md).
 
       * `api_key`
 
-        This is your Places REST API key obtained from your Adobe I/O Places Integration. For information about how to obtain the API key, see [Prequisites for using the Places REST API.](../places-rest-apis/adobe-i-o-integration/README.md).
+        This is your Places REST API key obtained from your Adobe I/O Places Integration. For information about how to obtain the API key, see [Prerequisites for user access.](/help/web-service-api/adobe-i-o-integration.md).
 
     b. Save your changes.
 
@@ -110,6 +110,3 @@ If errors are found, the script prints out the errors and is aborted. If no erro
 ## Unit Tests
 
 Unit tests are in the `tests.py` file, should be run before each pull request, and should all pass. Additional tests should be added with new code. To run the tests, navigate to the `…/places-scripts/import/` directory, and enter `python ./places_import.py` in terminal.
-
-
-
