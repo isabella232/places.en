@@ -7,46 +7,41 @@ seo-description: Getting started with Location Service.
 
 # Getting started {#getting-started}
 
-Here is a video that helps you get started with Location Service:
-
+Here is a helpful video to get an overview of Location Services:
+ 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
-
+ 
 To use Location Service, complete the following tasks: 
-
-## 1. Get provisioned to use Location Service
-
-Location Service requires special provisioning context with your regular Adobe Experience Platform provisioning context.
-
-To get provisioned, complete the following tasks:
-
-* In the Admin Console, ensure that your organization is provisioned with Location Service.
-
-  If you are not the Adobe administrator, contact the administrator to ensure the Location Service context in Admin Console.
-
-* Ensure you are listed as a user under the Location Service and Experience Platform Launch product contexts in the Admin Console.  
-
+ 
+## 1. Ensure that your user is provisioned to use Location Service
+ 
+The Location Service product context is available with all Experience Cloud organizations. 
+ 
+* Ensure that you are listed as a user under the Location Service and Experience Platform Launch product contexts in the Admin Console.  
+ 
    For more information, see *Adding a user to Experience Platform Launch and Location Service* in [Frequently asked questions](/help/places-faqs.md).
+ 
+* Ensure that the Places extension is installed on your mobile app property in Experience Platform Launch. 
 
-* Ensure your mobile app property is configured in Experience Platform Launch with the Places extension installed.
+  To use the Adobe-provided regional monitoring for your geo-fences, install the Places Monitor extension. For more information, see [Places monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+ 
+  
+## 2. Create your POIs
+ 
+Points of Interest (POI) are geo-fences that you create for your organizations, and you can create POIs in one of the following ways:
 
-  For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+* Using the Location Service user interface. 
 
-* If your company has multiple Adobe organizations, ensure that you always select the organization that is provisioned for Places.  
+  For more information, see [Places Service overview](/help/poi-mgmt-ui/places-services-overview.md). 
 
-  This allows you to add your POIs and libraries.
-
-## 2. Configure the Places extension and Places Monitor extension
-
-For more information about configuring the Places extension and Monitor extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) and [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
-
-## 3. Create your libraries and POIs
-
-You can create libraries and POIs in one of the following ways:
-
-* By using the web services. 
+* Using the APIs from Places Web service. 
 
   For more information, see [Web Service API](/help/web-service-api/places-web-services.md).
 
-* By using the Places UI. 
 
-  For more information, see [Places UI](/help/poi-mgmt-ui/places-services-overview.md). 
+## 3. Configure the Places extension and Places Monitor extension
+
+For more information about configuring the Places extension and Monitor extension, see the following information:
+
+* [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)
+* [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
