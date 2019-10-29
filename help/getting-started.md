@@ -11,9 +11,11 @@ Here is a helpful video to get an overview of Location Services:
  
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
  
+## Using Location Service
+
 To use Location Service, complete the following tasks: 
  
-## 1. Ensure that your user is provisioned to use Location Service
+### 1. Ensure that your user is provisioned to use Location Service
  
 The Location Service product context is available with all Experience Cloud organizations. 
  
@@ -26,7 +28,7 @@ The Location Service product context is available with all Experience Cloud orga
   To use the Adobe-provided regional monitoring for your geo-fences, install the Places Monitor extension. For more information, see [Places monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
  
   
-## 2. Create your POIs
+### 2. Create your POIs
  
 Points of Interest (POI) are geo-fences that you create for your organizations, and you can create POIs in one of the following ways:
 
@@ -39,7 +41,7 @@ Points of Interest (POI) are geo-fences that you create for your organizations, 
   For more information, see [Web Service API](/help/web-service-api/places-web-services.md).
 
 
-## 3. Configure the Places extension and Places Monitor extension
+### 3. Configure the Places extension and Places Monitor extension
 
 For more information about configuring the Places extension and Monitor extension, see the following information:
 

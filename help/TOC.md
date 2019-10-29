@@ -62,10 +62,10 @@ user-guide-title: Adobe Experience Platform Location Service
   + Adobe Analytics {#places-adobe-analytics}
     + [Send Location Service data to Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
     + [Run reports in Adobe Analytics that includes Location Service data](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
-  + Mobile Services for Messaging {#places-mobile-svcs-messaging}
-    + [Mobile Services for Messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
-    + [Push messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
-    + [In-App messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
+  + Adobe Mobile Services {#places-mobile-svcs-messaging}
+    + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
+    + [Push notifications](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
+    + [In-App notifications](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
   + Adobe Campaign Standard {#places-acs}
     + [Push notifications](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
     + [In-App messages](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
