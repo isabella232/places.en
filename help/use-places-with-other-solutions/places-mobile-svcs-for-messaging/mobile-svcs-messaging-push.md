@@ -5,4 +5,31 @@ description: This section shows you how to use Places with push messaging.
 seo-description: This section shows you how to use Places with push messaging.
 ---
 
-# Push Messaging (#places-push-messaging)
+# Push notifications (#places-push-messaging)
+
+Push Notification: AMS allows you to send push notifications to Adobe Analytics segments. The Location Service enables you to segment the audience of your push message by their historical interactions with your POIs. For example, you could send a message to users that have been in one of your stores in the last 30 days.
+
+Before you begin, ensure that you have completed the following tasks: 
+
+* Location Service data has been processed by Adobe Analytics. 
+
+  This means that your mobile app has successfully sent in Location Service data into a Report Suite and the data is available for segmentation. 
+
+* The push notification channel in Mobile Services is set up. 
+
+  For more information, see [Create a push message](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/prerequisites-push-messaging.html).
+
+* Become familiar with how to send a push notification to an Analytics segment in Mobile Services. 
+
+  * For more information, see [Create a push message](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/push-messages/t-create-push-message.html).
+
+## Sending a notification
+
+In the **[!UICONTROL Audience]** tab of the *Create push notification* workflow, you can create the audience for this message in one of the following ways:
+
+* Select a previously created Adobe Analytics segment.
+
+* Build an audience by using the available custom segment parameters.
+
+![setting up a push message](/help/assets/push-set-up.png)
+
