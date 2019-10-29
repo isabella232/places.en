@@ -96,25 +96,31 @@ The following video guides you through the process of generating the key pair:
 To create a Places integration:
 
 1. Go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
-2. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the left.
-3. Click **[!UICONTROL New Integration]**.
-4. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.
+2. in the **Quick Start** section, click on **Create integration**.
+3. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.
+
+    **[!UICONTROL Access an API]** is the default location.
+
+4. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the top right.
 5. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
 6. Select **[!UICONTROL New integration]** and click **[!UICONTROL Continue]**.
-7. On the *Create a new integration* screen, enter a name and description. 
+7. On the Create a new integration screen, enter a name and description. 
 8. Drag and drop your `xxxx_public.crt` file, that you created above, to the **[!UICONTROL Public keys certificates]** drop zone.
-9. At the bottom of the page, click **[!UICONTROL Create integration]**.
-10. After a few seconds, in the *Integration created* screen, verify that the following message appears:
+9. Select a product profile.
+
+    If you are unsure of which profile to select, contact your system administrator.
+10. At the bottom of the page, click **[!UICONTROL Create integration]**.
+11. After a few seconds, in the *Integration created* screen, verify that the following message appears:
 
     `Your integration has been created.`
 
-11. Click **[!UICONTROL Continue to integration details]**. 
+12. The integration details page appears with the name of the integration at the top.
 
-    An overview of your integration with the API key, your organization ID, the technical account ID, and other details about your integrations are displayed.
+    The **[!UICONTROL Overview]** tab appears by default and displays the API key, your organization ID, the technical account ID, and other details about your integrations.
 
 ### Record the organization ID and the API key
 
-1. On the **[!UICONTROL Services]** tab, confirm that **[!UICONTROL Places]** is displayed.
+1. On the integration details page, click the **[!UICONTROL Services]** tab and confirm that **[!UICONTROL Places]** is displayed under **[!UICONTROL Configured Services]**.
 2. On the **[!UICONTROL Overview]** tab, locate and record the API Key (Client ID) and the Organization ID.
 
    These IDs are needed for each Places REST API request.
@@ -123,7 +129,7 @@ To create a Places integration:
 
 ### Generate a JWT token
 
-On the **[!UICONTROL JWT]** tab, the Adobe I/O console allows you to test your integration by generating a JWT and providing the exchange URL.
+On the integration details page, click the **[!UICONTROL JWT]** tab so that you can test your integration by generating a JWT and providing the exchange URL.
 
 To generate a JWT token:
 
@@ -138,4 +144,4 @@ To generate a JWT token:
 
 >[!IMPORTANT]
 >
->Adobe access tokens are valid **only** for 24 hours, so save the sample CURL command (step 5). If the access token is no longer valid, you need to generate the token again.
+>Adobe access tokens are valid **only** for 24 hours, so save the sample CURL command (step 5). If the access token is no longer valid, you need to regenerate the token.
