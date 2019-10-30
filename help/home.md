@@ -15,7 +15,7 @@ Location Service allows you to achieve the following:
 * Attach custom metadata to the POIs to make them richer and more meaningful by specifying additional attributes.
 * Visualize the POIs on a map to easily understand the spatial context and add/edit metadata attributes.
 * Configure the SDK in Adobe Experience Platform Launch to define your location-triggered rules and metadata based conditions.
-* Reduce the code that you need to write to a monitor device's location and use the Places extension to automatically trigger the location-specific rules.
+* Reduce the code that you need to write to monitor a device's location and use the Places extension to automatically trigger the location-specific rules.
 
 This will allow you to take actions from location signals in real time, when and where it matters. The right context provides a more enriching mobile engagement experience.
 
@@ -72,7 +72,7 @@ Here are some common terms that are used in this documentation:
 
 * A **library** is a collection of POIs, which are grouped to easily attach rules to a set instead of one POI. 
 
-* The Places SDK **extension** is the Experience Platform Launch extension that is required to integrate the Places SDK in your mobile apps. 
+* An **extension** is the Experience Platform Launch extension that is required to integrate the Places SDK in your mobile apps. 
 
   The extension used with the other mobile SDKs to add location context to your experiences.
 
