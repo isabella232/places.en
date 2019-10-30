@@ -12,8 +12,8 @@ Adobe Experience Platform Location Service (Location Service) is an important co
 Location Service allows you to achieve the following:
 
 * Create and manage a database of POIs that can be leveraged with other Adobe Experience Cloud solutions.
-* Attach custom metadata to the POIs to make them richer and more meaningful by specifying additional attributes. 
-* Visualize the POIs on a map to easily understand the spatial context and add/edit metadata attributes. 
+* Attach custom metadata to the POIs to make them richer and more meaningful by specifying additional attributes.
+* Visualize the POIs on a map to easily understand the spatial context and add/edit metadata attributes.
 * Configure the SDK in Adobe Experience Platform Launch to define your location-triggered rules and metadata based conditions.
 * Reduce the code that you need to write to a monitor device's location and use Adobe's location monitor to automatically trigger the location-specific rules.
 

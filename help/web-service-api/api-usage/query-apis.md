@@ -41,7 +41,7 @@ Arguments are supplied as the following query parameters:
 
   The ID of the library to query. To query multiple libraries, ensure that you include multiple copies of the library parameter in the query.
 
-Here is an example of the successfuly returned JSON format:
+Here is an example of the successfully returned JSON format:
 
 ```markup
 {
