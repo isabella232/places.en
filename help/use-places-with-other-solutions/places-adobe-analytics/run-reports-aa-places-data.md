@@ -13,19 +13,19 @@ seo-description: This section provides information about how to run reports in A
 
 After Places sends the entry and exit events, you can create rules in Experience Platform Launch and attach your Places data to all Adobe Analytics events. To create this type of rule, select your property in Launch and complete the following steps:
 
-## 1. Create a Rule
+## 1. Create a rule
 
 1. On the **[!UICONTROL Rules]** tab, click **[!UICONTROL Create New Rule]**.
 
     Remember the following information:
-    * If you do not have existing rules for this property, the button will be in the middle of the screen.
-    * If your property has rules, the button will be in the top right of the screen.
+    * If you do not have existing rules for this property, the **[!UICONTROL Create New Rule]** button will be in the middle of the screen.
+    * If your property has rules, the **[!UICONTROL Create New Rule]** button will be in the top right of the screen.
 
-## 1.Select an Event
+## 1.Select an event
 
 1. Give your rule a meaningful name so it will be easily recognizable in your list of Rules. 
 
-    In this example, the Rule is named **Attach Places Data to Analytics Track Action Events**.
+    In this example, the Rule is named **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
 2. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
@@ -38,11 +38,11 @@ Now you can determine the triggers that you want to include for this Rule. In th
 !["create an event"](/help/assets/ad-setEvent.png)
 
 
-## 2. Add Conditions
+## 2. Add conditions
 
 >[!IMPORTANT]
 >
->Complete this step if you want to add Conditions to your rule. Otherwise, skip to the *Define the Action* section below.
+>Complete this procedure to add Conditions to your rule. Otherwise, skip to the *Define the Action* section below.
 
 In this example, a Condition is created that causes the Rule to trigger only for AT&T customers.
 
@@ -58,7 +58,7 @@ In this example, a Condition is created that causes the Rule to trigger only for
 
 !["create a condition"](/help/assets/ad-setCondition.png)
 
-## 3. Define the Action
+## 3. Define the action
 
 1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
@@ -76,7 +76,7 @@ In the following example, `poi.city` and `poi.name` values are added to the cont
 
 !["create an action"](/help/assets/pt-setAction.png)
 
-## 4. Save the Rule and rebuild your property
+## 4. Save the rule and rebuild your property
 
 After you complete your configuration, verify that your Rule looks like the following image:
 

@@ -25,7 +25,7 @@ Here is a list of the available In-app messaging types:
 * Alert
 * Local notifications
 
-These types are in-app messages because they are triggered by the SDK. Local notifications look and feel like push notifications because they appear when the app is in the background. These notifications also deliver real-time notifications as users enter or exit your POIs while the app is in the background. For more information see [Places Monitor extension.](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+These types are in-app messages because they are triggered by the SDK. Local notifications look and feel like push notifications because they appear when the app is in the background. These notifications also deliver real-time notifications as users enter or exit your POIs while the app is in the background. For more information see [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ### Prerequisites
 
@@ -47,36 +47,38 @@ After the rule is set up with the proper event and condition parameters, complet
 
 ## Create an action
 
-To do this:
+To create an action:
 
 1. Select the **[!UICONTROL Adobe Analytics]** extension.
 1. In the **[!UICONTROL Action type]** drop-down list, select **[!UICONTROL Track.]**
 1. Type a name for your action.
-1. In the right pane, in **[!UICONTROL Context Data]**, select the key and value pair to set the context data that will be sent to Analytics. 
+1. In the right pane, in **[!UICONTROL Context Data]**, select the key-value pair to set the context data that will be sent to Analytics. 
 
-  For example, you can select **[!UICONTROL poiname]** as the key and **[!UICONTROL `{%%Last Entered POI Name}`.]
+  For example, you can select `poiname` as the key and `{%%Last Entered POI Name}` as the value.
 
 >[!TIP]
 >
->Analytics Processing Rules can be set to pick up this context data. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). In the example in *Create an action*, the Action will send the `poiname` as the context to describe the POIentry event that is being sent to Analytics.
+>Analytics Processing Rules can be set to pick up this context data. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). In the example in *Create an action*, the Action will send the `poiname` as the context to describe the POI entry event that is being sent to Analytics.
 
 ![creating an action](/help/assets/configure-action.png)
 
-Here is an example of the complete rule: 
+Here is an example of the complete rule:
 
 ![completed rule](/help/assets/create-a-rule.png)
 
-## Creating an in-app message in AMS
+## Creating an in-app message in Mobile Services
 
 As part of your Trigger parameters, you can create the audience for the message with data from the Location Service in one of the following ways:
 
-* Using location specific actions such as an entry or an exit.
+* Using location-specific actions such as an entry or an exit.
 * Using POI metadata that is sent as context data to narrow the target of your audience.
 
-  This optin can be used with a location-specific action, such as entry, or it can be used as context to another event such as a launch or a button click. 
+  This option can be used with a location-specific action, such as entry, or it can be used as context to another event such as a launch or a button click. 
 
   Here is an example of how to configure an in-app message to welcome users who enter a POI that has **[!UICONTROL Adobe]** in the name:
 
   ![trigger parameters](/help/assets/trigger-parameters.png)
 
-* Parameters in the Places headings in the *Triggers and Traits* page in Mobile Services do not work with data from the Location Service. Those parameters are only for the legacy Places database that was created in Mobile Services.  
+* Parameters in the Places headings in the *Triggers and Traits* page in Mobile Services do not work with data from the Location Service.
+
+  Those parameters are only for the legacy Places database that was created in Mobile Services.  
