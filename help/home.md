@@ -7,7 +7,9 @@ seo-description: Location Service is an important context for understanding the 
 
 # Adobe Experience Platform Location Service overview {#home}
 
-Adobe Experience Platform Location Service (Location Service) is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. Places is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
+Location is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+
+Adobe Experience Platform Location Service (Location Service) is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
 
 Location Service allows you to achieve the following:
 
@@ -26,31 +28,27 @@ Here are some of the ways you can use Places:
 * Segment an audience based on offline behavior by using audience profiles with location context.
 * Target a user with an in-store experience when relevant.
 
-## Location Service Use Cases
-
-Improve this section with 
-
 ## Location Service components
 
 Location Service comprises the following components:
 
-* **Places web service** 
+* **Web service** 
 
   You can create and manage POIs by using the Places REST APIs. For more information about the REST APIs, see [Manage libraries](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) and [Manage POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **Location Service UI** 
+* **POI Management interface** 
 
   Visualize POIs on a map to understand the spatial context and to add/edit POIs and their custom metadata.
 
-* **Places SDK** 
+* **Places extension** 
 
   The multi-platform mobile API interface to integrate the location context in your mobile apps. For more information about the SDKs, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-* **Places rules** 
+* **Launch rules** 
 
   The geo-intelligent Launch rules that enable you to trigger actions with entry and exit events. The rules also allow you to use geo-attributes in conditions to personalize the experience. 
 
-* **Places Monitor**  
+* **Places Monitor extension**  
   
   The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
