@@ -7,7 +7,7 @@ seo-description: The Places SDK keeps track of the current location, monitors th
 
 # Create entry and exit rules {#create-entry-exit-rules}
 
-With the Places and Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including Places location entry and exit events. 
+With the Places and Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including location entry and exit events. 
 
 ## Rules
 
@@ -50,7 +50,7 @@ Actions define what the app will do in response to the condition for the rule is
 
 >[!CAUTION]
 >
->This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) and [Create a Library](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
+>This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) and *Create a Library* in [Manage multiple libraries](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 The following procedure is an example of how to create a rule that sends a post back to Slack when you enter a coffee shop in San Francisco.
 
@@ -124,6 +124,6 @@ To create a data element in Experience Platform Launch:
 
 ### Thinking beyond entries and exits
 
-Using Places geo-fence entries and exits to trigger rules in Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based on this event, you can place additional location conditions to the event before an action is performed. For example, open up an in-app survey when a purchase `trackAction` event occurs, but **only** if the user's current location includes specific Location Service metadata. 
+Using Location Service geo-fence entries and exits to trigger rules in Experience Platform Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based on this event, you can place additional location conditions to the event before an action is performed. For example, open up an in-app survey when a purchase `trackAction` event occurs, but **only** if the user's current location includes specific Location Service metadata. 
 
 ![create a condition](/help/assets/places-condition.png)

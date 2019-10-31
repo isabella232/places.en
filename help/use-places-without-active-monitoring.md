@@ -1,17 +1,18 @@
 ---
-title: Use Places without active region monitoring 
-seo-title: Use Places without active region monitoring 
-description: This section provides information about how Use Places without active region monitoring.
-seo-description: This section provides information about how to Use Places without active region monitoring.
+title: Use Location Service without active region monitoring 
+seo-title: Use Location Service without active region monitoring 
+description: This section provides information about how use Location ServicePlaces without active region monitoring.
+seo-description: This section provides information about how to use Location Service without active region monitoring.
 ---
 
-# Use Places without active region monitoring {#use-places-without-active-monitoring}
+# Use Location Service without active region monitoring {#use-places-without-active-monitoring}
 
-Use cases for your application may not require active region monitoring. Adobe Places can still be used to get your users' location data integrated with other Experience Platform products.
+Use cases for your application might not require active region monitoring. Adobe Places can still be used to get your users' location data integrated with other Experience Platform products.
 
 This section explains how to to complete a POI membership check only at the time of collecting the user's location (latitude and longitude).
 
-**Prerequisite:**
+## Prerequisite
+
 The developer will collect the device's location using the APIs provided by the target platform's operating system.
 
 >[!TIP]
@@ -77,7 +78,6 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
     }
 }
 ```
-
 
 ### Objective-C
 
@@ -226,10 +226,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Complete sample implementation
 
-The following code samples show how to retrieve the current location of the device, trigger the necessary events, and ensure that you do not get multiple entries for the same location on one visit:
+The code samples below show you how to retrieve the current location of the device, trigger the necessary events, and ensure that you do not get multiple entries for the same location on one visit.
 
 >[!IMPORTANT]
-These snippets are **only** examples. Developers must determine how they want to implement the functionality, and the decision should consider the best practices as recommended by the target operating system.
+>
+>These snippets are **only** examples. Developers must determine how they want to implement the functionality, and the decision should consider the best practices as recommended by the target operating system.
 
 ### Android
 

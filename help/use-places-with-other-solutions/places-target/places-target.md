@@ -78,7 +78,7 @@ In the following example, `poiCity` and `poiName` values are added to the **[!UI
 >
 >The notation of `request[*]` can be read out loud as _for each object in the `request` array.
 
-![add an event](/help/assets/ad-setCondition_target.png)
+![add an event](/help/assets/ad-setAction_target.png)
 
 ## 5. Save the Rule and rebuild your Property
 
