@@ -48,9 +48,9 @@ Actions define what the app will do in response to the condition for the rule is
 
 ## Create a rule: an example
 
-{% hint style="warning" %}
-This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) and [Create a Library](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
-{% endhint %}
+>[!CAUTION]
+>
+>This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) and [Create a Library](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
 
 The following procedure is an example of how to create a rule that sends a post back to Slack when you enter a coffee shop in San Francisco.
 
@@ -78,45 +78,45 @@ To create a data element in Experience Platform Launch:
 
 ![creating a rule](/help/assets/placesrule.png)
 
-1. In Experience Platform Launch, click the **Rules** tab.
-2. Click **Add Rule**.
-3. Type a name for the rule, for example, **Track entry for coffee shop in SF**.
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
+2. Click **[!UICONTROL Add Rule]**.
+3. Type a name for the rule, for example, **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Create an event
 
-1. In the Events section, click **+ Add**. Events determine when you want the rule to fire.
-2. In the **Extension** drop-down list, select **Places – Beta**.
-3. In the **Event Type** drop-down list, select **Enter POI**.
-4. In **Name**, enter a name for the event, for example, **Entering a coffee shop**.
-5. Click **Keep Changes**.
+1. In the Events section, click **[!UICONTROL + Add]**. Events determine when you want the rule to fire.
+2. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places – Beta]**.
+3. In the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Enter POI]**.
+4. In **[!UICONTROL Name]**, enter a name for the event, for example, **[!UICONTROL Entering a coffee shop]**.
+5. Click **[!UICONTROL Keep Changes]**.
 
 ### Create a condition
 
-1. In the Conditions section, click **+Add**. Conditions determine what criteria has to be met for the action to be taken.
-2. In **Logic Type**, select Regular, which allows actions to execute if the condition is met.
-3. In the **Extension** drop-down list, select **Places – Beta**.
-4. In **Condition Type**, select **City**.
-5. Type a condition name, for example, **Coffee shop in SF**.
-6. In the right pane, click **Current POI**, and in the drop-down list, select **San Francisco** as one of your cities.
-7. Click **Keep Changes**.
+1. In the Conditions section, click **[!UICONTROL +Add]**. Conditions determine what criteria has to be met for the action to be taken.
+2. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
+3. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places – Beta]**.
+4. In **[!UICONTROL Condition Type]**, select **[!UICONTROL City]**.
+5. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
+6. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
+7. Click **[!UICONTROL Keep Changes]**.
 
 ### Create an action
 
-1. In the **Actions** section, click **+ Add**.
-2. In the **Extension** drop-down list, leave the default **Mobile Core** option selected.
-3. Select an action type, for example, **Send Postback**.
+1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
+2. In the **[!UICONTROL Extension]** drop-down list, leave the default **[!UICONTROL Mobile Core]** option selected.
+3. Select an action type, for example, **[!UICONTROL Send Postback]**.
 
-   a. In **URL**, type the postback URL for Slack, for example, `https://hooks.slack.com/services/`.
+   a. In **[!UICONTROL URL]**, type the postback URL for Slack, for example, `https://hooks.slack.com/services/`.
 
-   b. To send a post body, select the **Add Post Body** check box.
+   b. To send a post body, select the **[!UICONTROL Add Post Body]** check box.
 
-   c. In **Post Body**, add the post body, for example: `{ "text": "A customer has entered" }`
+   c. In **[!UICONTROL Post Body]**, add the post body, for example: `{ "text": "A customer has entered" }`
 
-   c. Type a content type for example **application/json**.
+   c. Type a content type for example **[!UICONTROL application/json]**.
 
-   d. Select a timeout value, for example, **5**.
+   d. Select a timeout value, for example, **[!UICONTROL 5]**.
 
-4. Click **Keep Changes**.
+4. Click **[!UICONTROL Keep Changes]**.
 
 ### Publish the rule
 
@@ -124,6 +124,6 @@ To create a data element in Experience Platform Launch:
 
 ### Thinking beyond entries and exits
 
-Using Places geo-fence entries and exits to trigger rules in Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based upon this event, you could place additional location conditions to the event before an action is performed. i.e. open up an in-app survey when a purchase trackAction event occurs, but ONLY if the user's current location include specific Places metadata. 
+Using Places geo-fence entries and exits to trigger rules in Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based on this event, you can place additional location conditions to the event before an action is performed. For example, open up an in-app survey when a purchase `trackAction` event occurs, but **only** if the user's current location includes specific Location Service metadata. 
 
 ![create a condition](/help/assets/places-condition.png)
