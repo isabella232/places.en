@@ -29,8 +29,8 @@ After the location events are correctly validated, solution integrations (for ex
 | 5 | Confirm that the correct environments are configured for testing. The Launch environment ID should match your Launch development environment. |  Confirmed |
 | 6 | Create GPX files for each POI that you want to test. GPX files can be used in local development environment to simulate a location entry. For information about creating and using GPX files, see the following: <br>[GPX files for iOS Simulator [closed]](https://stackoverflow.com/questions/17292783/gpx-files-for-ios-simulator)<br>[https://mapstogpx.com/mobiledev.php](https://mapstogpx.com/mobiledev.php)<br>[LOCATION TESTING IN MOBILE APPS](https://qacumtester.wordpress.com/2014/02/27/location-testing-in-mobile-apps/) | GPX files are created and loaded in the app project. |
 | 7 | Without doing anything else, you should be able to launch the application from Android Studio or XCode and see the appropriate alert to request access for the tracking location. Click the *Always Allow* permission.<br><br>We recommend that you use a real device that is connected to your computer instead of using device simulator. | Location request prompt should display on application loaded through IDE |
-| 8 | After Location permission has been accepted, in the application console, you should see  messages that indicate `ACPExtensionEventName : requestgetnearbyplaces`, has been called. Switching between different locations in XCode or Android studio should produce entry events for specific POIs  | `ACPExtensionEventName : requestgetnearbyplaces` should be displayed as you simulate different locations.|
-| 9 | If the Location that you selected is close to nearby POIs, the Monitor extension starts monitoring the 20 closest POIs from the current location. Message in the console will look something like the following: `[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places:`.| Switching between different locations in XCode or Android studio should produce entry events for specific POIs. |
+| 8 | Once Location permission has been accepted. The Places SDK will to retrieve the current location of the device and the Places Monitor extension will start monitoring the 20 closest POIs from the current location | See the log sample under the table. |
+| 9 | Switching between different locations in XCode or Android studio should produce entry events for specific POIs. The below logs are expected on entry to a POI. | See the log sample under the table.|
 | 10 | After you see the Places Monitor find nearby POIs, you should  test by sending location pings out. In Launch, create a new rule that uses the Places extension to trigger based on a geo-fence entry. Then create a new action by using Mobile Core to send a Postback. Creating a Slack Webhook app helps you see location entries and exits. For information on creating a Slack Webhook app see [Sending messages using Incoming Webhooks.](https://api.slack.com/messaging/webhooks)|  |
 | 10a | In Launch, ensure that you added data elements for the Places extension including the following: <br>Current POI name<br>Current POI lat<br>Current POI long<br>Last Entered name<br>Last Entered lat<br>Last Entered long<br>Last Exited name<br>Last Exited lat<br>Last Exited long<br>Timestamp |  |
 | 10b | Create a new rule with an Event = Places → Enter POI |  |
@@ -67,3 +67,51 @@ After the location events are correctly validated, solution integrations (for ex
 | 19 | Conduct the test with only cellular enabled and with the wifi turned off. |  |
 | 20 | Conduct test with both cellular and wifi turned on. |  |
 |  | **SUMMARY POINT** <br>On-site testing should closely match the development testing. Keep in mind that there are some environmental factors that can come into play in determining a users location, such as duration of time spent in a POI geo-fence, availability of cell signal, and strength of nearby wifi access points.|  |
+
+## Log Samples
+
+8. Expected iOS and Android logs during a location update
+
+   **iOS**
+
+   ```
+   [AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Authorization status changed: Always
+   [AdobeExperienceSDK DEBUG <Places>]: Requesting 20 nearby POIs for device location (<lat>, <longitude>)
+   [AdobeExperienceSDK DEBUG <Places>]: Response from Places Query Service contained <n> nearby POIs
+   [AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places: (
+   <ACPPlacePoi: 0x600002b75a40> Name: <poi name>; ID:<poi id>; Center: (<lat>, <long>); Radius: <radius>
+   ..
+   ..)
+   
+   ```
+
+   **Android**
+
+   ```
+   PlacesMonitor - All location settings are satisfied to monitor location
+   PlacesMonitor - PlacesMonitorInternal : New location obtained: <latitude> <longitude> Attempting to get the near by pois
+   PlacesExtension - Dispatching nearby places event with n POIs
+   PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+   PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+   PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+   ...
+   ...
+   PlacesMonitor - Successfully added n fences for monitoring
+   
+   ```
+
+9. Expected iOS and Android logs during an event
+
+   **iOS**
+
+   ```
+   [AdobeExperienceSDK TRACE <Places>]: Dispatching Places region entry event for place ID <poiId>
+   ```
+
+   **Android**
+
+   ```
+   PlacesExtension -  Dispatching Places Region Event for <poi name> with eventType entry
+   ```
+
+   
