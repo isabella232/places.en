@@ -5,7 +5,7 @@ description: This section shows you how to use Places with push notifications.
 seo-description: This section shows you how to use Places with push notifications.
 ---
 
-# Push notifications (#places-push-messaging)
+# Push notifications
 
 Mobile Services allows you to send push notifications to Adobe Analytics segments. In Location Service, you can segment the audience for your push message by using their historical interactions with your POIs. For example, you can send a message to users who have been in one of your stores in the last 30 days.
 
