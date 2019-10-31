@@ -67,12 +67,11 @@ After the location events are correctly validated, solution integrations (for ex
 | 19 | Conduct the test with only cellular enabled and with the wifi turned off. |  |
 | 20 | Conduct test with both cellular and wifi turned on. |  |
 |  | **SUMMARY POINT** <br>On-site testing should closely match the development testing. Keep in mind that there are some environmental factors that can come into play in determining a users location, such as duration of time spent in a POI geo-fence, availability of cell signal, and strength of nearby wifi access points.|  |
-
 ## Log Samples
 
-8. Expected iOS and Android logs during a location update
+**Step 8 :** Expected iOS and Android logs during a location update
 
-   **iOS**
+  **iOS**
 
    ```
    [AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Authorization status changed: Always
@@ -84,8 +83,8 @@ After the location events are correctly validated, solution integrations (for ex
    ..)
    
    ```
-
-   **Android**
+   
+  **Android**
 
    ```
    PlacesMonitor - All location settings are satisfied to monitor location
@@ -100,18 +99,16 @@ After the location events are correctly validated, solution integrations (for ex
    
    ```
 
-9. Expected iOS and Android logs during an event
+**Step 9 :** Expected iOS and Android logs during an event
 
-   **iOS**
+  **iOS**
 
-   ```
-   [AdobeExperienceSDK TRACE <Places>]: Dispatching Places region entry event for place ID <poiId>
-   ```
+```
+[AdobeExperienceSDK TRACE <Places>]: Dispatching Places region entry event for place ID <poiId>
+```
 
-   **Android**
+  **Android**
 
-   ```
-   PlacesExtension -  Dispatching Places Region Event for <poi name> with eventType entry
-   ```
-
-   
+```
+PlacesExtension -  Dispatching Places Region Event for <poi name> with eventType entry
+```
