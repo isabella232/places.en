@@ -37,7 +37,7 @@ After Places sends the entry and exit events, you can create rules in Experience
 
 5. Click **[!UICONTROL Keep Changes]**.
 
-   !["select an event"](/help/assets/ad-setEvent.png)
+   !["select an event"](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Add conditions
@@ -58,7 +58,7 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
 5. Click **[!UICONTROL Keep Changes]**.
 
-   !["set a condition"](/help/assets/ad-setCondition.png)
+   !["set a condition"](/help/assets/ad-setCondition_use-analytics-data.png)
 
 
 ## 4. Define the action
@@ -77,13 +77,13 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
     In the following example, a `TrackAction` call is sent to Analytics with additional context data of `poi.name` equal to the name of the POI that triggered this entry event:
 
-    !["set an action"](/help/assets/ad-setAction.png)
+    !["set an action"](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Save the rule and rebuild your property
 
 After you complete your configuration, verify that your Rule looks like the following image:
 
-!["rule is created"](/help/assets/ad-ruleComplete.png)
+!["rule is created"](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Click **[!UICONTROL Save]**
 
