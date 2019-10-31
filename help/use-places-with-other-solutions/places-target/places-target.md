@@ -34,7 +34,7 @@ After the Places extension is sending in events for entries and exits, you can l
 
 5. Click **[!UICONTROL Keep Changes]**.
 
-![add an event](/help/assets/ad-addEvent.png)
+![add an event](/help/assets/ad-setEvent_target.png)
 
 ## 3. Add Conditions
 
@@ -54,7 +54,7 @@ In the following example, a Condition is created that causes the Rule to trigger
 
 5. Click **[!UICONTROL Keep Changes]**.
 
-![add an event](/help/assets/ad-setCondition.png)
+![add an event](/help/assets/ad-setCondition_target.png)
 
 ## 4. Define the Action
 
@@ -78,13 +78,13 @@ In the following example, `poiCity` and `poiName` values are added to the **[!UI
 >
 >The notation of `request[*]` can be read out loud as _for each object in the `request` array.
 
-![add an event](/help/assets/ad-setAction.png)
+![add an event](/help/assets/ad-setCondition_target.png)
 
 ## 5. Save the Rule and rebuild your Property
 
 After you complete your configuration, verify that your Rule looks like the following image:
 
-![completed rule](/help/assets/ad-ruleComplete.png)
+![completed rule](/help/assets/ad-ruleComplete_target.png)
 
 1. Click **[!UICONTROL Save]**
 
