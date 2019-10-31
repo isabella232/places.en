@@ -5,7 +5,7 @@ description: Manage your libraries by using the Places UI.
 seo-description: Manage your libraries by using the Places UI.
 ---
 
-# Manage libraries in the Places UI {#manage-libraries-places-ui}
+# Manage libraries {#manage-libraries-places-ui}
 
 A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization.  
 
