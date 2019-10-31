@@ -5,7 +5,7 @@ description: The Places SDK keeps track of the current location, monitors the co
 seo-description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
 ---
 
-# Create entry and exit rules {create-entry-exit-rules}
+# Create entry and exit rules {#create-entry-exit-rules}
 
 With the Places and Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including Places location entry and exit events. 
 

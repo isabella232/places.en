@@ -14,9 +14,9 @@ This section explains how to to complete a POI membership check only at the time
 **Prerequisite:**
 The developer will collect the device's location using the APIs provided by the target platform's operating system.
 
-{% hint style="info" %}
-If your app's use cases require active region monitoring, read [using the places monitor extension](../places-monitor-extension/using-the-places-monitor-extension.md).
-{% endhint %}
+>[!TIP]
+>
+>If your app's use cases require active region monitoring, read [using the places monitor extension](../places-monitor-extension/using-the-places-monitor-extension.md).
 
 To use Places without active region monitoring:
 
@@ -37,9 +37,7 @@ For more information, see the following documentation:
 
 After you obtain the user's location, you can pass it to the SDK to get back a list of the nearby POIs.  
 
-{% tabs %}
-
-{% tab title="Android (Java)" %}
+### Android
 
 Here is a sample implementation in Android that uses a [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F..index#5):
 
@@ -83,9 +81,9 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
     }
 }
 ```
-{% endtab %}
 
-{% tab title="iOS (Objective-C)" %}
+
+### Objective-C
 
 Here is a sample implementation in iOS from a [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) method [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc):
 
@@ -100,9 +98,8 @@ Here is a sample implementation in iOS from a [`CLLocationManagerDelegate`](http
     }];
 }
 ```
-{% endtab %}
 
-{% tab title="iOS (Swift)" %}
+### Swift
 
 Here is a sample implementation in iOS from a [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) method [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager):
 
@@ -117,23 +114,18 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
     }
 }
 ```
-{% endtab %}
-
-{% endtabs %}
 
 ## Trigger entry events when the user is in a POI
 
 The SDK returns a list of nearby POIs, including whether the user is currently within each POI. If the user is in a POI, you can have the SDK trigger an entry event for that region.
 
-{% hint style="important" %}
-To prevent your app from triggering multiple entry events in one visit, keep a list of the regions in which you know the user has entered. When processing the response of nearby POIs from the SDK, trigger an entry event only when the region is not in your list.
+>[!IMPORTANT]
+>
+>To prevent your app from triggering multiple entry events in one visit, keep a list of the regions in which you know the user has entered. When processing the response of nearby POIs from the SDK, trigger an entry event only when the region is not in your list.
 
 In the following code sample, `NSUserDefaults` (iOS) and `SharedPreferences` (Android) are used:
-{% endhint %}
 
-{% tabs %}
-
-{% tab title="Android (Java)" %}
+### Android
 
 The following code sample shows the handling of the result that was provided in the callback of `getNearbyPointsOfInterest`, a `List<PlacesPOI>`:
 
@@ -170,9 +162,8 @@ void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
     editor.putStringSet("regionsUserIsAlreadyIn", updatedRegionsUserIsIn).apply();
 }
 ```
-{% endtab %}
 
-{% tab title="iOS (Objective-C)" %}
+### Objective-C
 
 The following code sample shows the handling of the result that was provided in the callback of `getNearbyPointsOfInterest:limit:callback:errorCallback:`, an `NSArray<ACPPlacesPoi *> *`:
 
@@ -206,9 +197,7 @@ The following code sample shows the handling of the result that was provided in 
 }
 ```
 
-{% endtab %}
-
-{% tab title="iOS (Swift)" %}
+### Swift
 
 The following code sample shows the handling of the result that was provided in the callback of `getNearbyPoints(_ ofInterest: CLLocation, limit: UInt, callback: (([ACPPlacesPoi]?) -> Void)?, errorCallback: ((ACPPlacesRequestError) -> Void)?)`, an `[ACPPlacesPoi]`:
 
@@ -239,21 +228,14 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-{% endtab %}
-
-{% endtabs %}
-
 ## Full sample implementation
 
 The following code samples show how to retrieve the current location of the device, trigger the necessary events, and ensure that you do not get multiple entries for the same location on one visit:
 
-{% hint style="important" %}
+>[!IMPORTANT]
 These snippets are **only** examples. Developers must determine how they want to implement the functionality, and the decision should consider the best practices as recommended by the target operating system.
-{% endhint %}
 
-{% tabs %}
-
-{% tab title="Android (Java)" %}
+### Android
 
 ```java
 public class LocationBroadcastReceiver extends BroadcastReceiver {
@@ -328,9 +310,9 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
     }
 }
 ```
-{% endtab %}
 
-{% tab title="iOS (Objective-C)" %}
+
+### Objective-C
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -373,9 +355,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 }
 ```
 
-{% endtab %}
-
-{% tab title="iOS (Swift)" %}
+### Swift
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -415,10 +395,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-{% endtab %}
-
-{% endtabs %}
-
 In addition to triggering Places entry events in the SDK, because of the triggering entry events, all of the data that defines your POIs can be used by the rest of the SDK via `data elements` in Launch. With Launch `rules`, you can dynamically attach the Places data to incoming events that are processed by the SDK. For example, you can attach the meta data of a POI in which the user is located and send the data to Analytics as context data.
 
-For more information, see [Using Places with other Adobe Solutions](../../places-solution-integrations/README.md).
+For more information, see [Using Places with other Adobe solutions](/help/use-places-with-other-solutions/use-places-with-other-solutions.md).
