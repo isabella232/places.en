@@ -7,9 +7,9 @@ seo-description: Location Service is an important context for understanding the 
 
 # Adobe Experience Platform Location Service overview {#home}
 
-Location is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+Location is an important context for understanding and engaging with mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 
-Adobe Experience Platform Location Service (Location Service) is a geo-location service that enables mobile app developers to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
+Adobe Experience Platform Location Service (Location Service) is a geo-location service that enables mobile apps with location awareness to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
 
 Location Service allows you to achieve the following:
 
