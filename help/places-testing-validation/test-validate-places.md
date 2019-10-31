@@ -81,10 +81,9 @@ After the location events are correctly validated, solution integrations (for ex
    [AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places: (
    <ACPPlacePoi: 0x600002b75a40> Name: <poi name>; ID:<poi id>; Center: (<lat>, <long>); Radius: <radius>
    ..
-   ..)
-   
+   ..)   
    ```
-   
+
   **Android**
 
    ```
