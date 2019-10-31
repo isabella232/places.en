@@ -35,7 +35,7 @@ After Places sends the entry and exit events, you can create rules in Experience
 
 Now you can determine the triggers that you want to include for this Rule. In this example, the trigger is based on all `TrackAction` calls. After you configure the Event, click **[!UICONTROL Keep Changes]**.
 
-!["create an event"](/help/assets/ad-setEvent.png)
+!["create an event"](/help/assets/pt-selectEvent.png)
 
 
 ## 2. Add conditions
@@ -56,7 +56,7 @@ In this example, a Condition is created that causes the Rule to trigger only for
 
 5. Click **[!UICONTROL Keep Changes]**.
 
-!["create a condition"](/help/assets/ad-setCondition.png)
+!["create a condition"](/help/assets/pt-setCondition.png)
 
 ## 3. Define the action
 
