@@ -67,6 +67,7 @@ After the location events are correctly validated, solution integrations (for ex
 | 19 | Conduct the test with only cellular enabled and with the wifi turned off. |  |
 | 20 | Conduct test with both cellular and wifi turned on. |  |
 |  | **SUMMARY POINT** <br>On-site testing should closely match the development testing. Keep in mind that there are some environmental factors that can come into play in determining a users location, such as duration of time spent in a POI geo-fence, availability of cell signal, and strength of nearby wifi access points.|  |
+
 ## Log Samples
 
 **Step 8 :** Expected iOS and Android logs during a location update
