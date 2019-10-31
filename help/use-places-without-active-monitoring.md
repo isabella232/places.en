@@ -16,15 +16,11 @@ The developer will collect the device's location using the APIs provided by the 
 
 >[!TIP]
 >
->If your app's use cases require active region monitoring, read [using the places monitor extension](../places-monitor-extension/using-the-places-monitor-extension.md).
+>If your app's use cases require active region monitoring, read [using the places monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 To use Places without active region monitoring:
 
-1. [Collect the user's location](#collect-the-users-location)
-2. [Retrieve nearby Points of Interest from the SDK based on the new location](#retrieve-nearby-points-of-interest-from-the-sdk)
-3. [Trigger entry events when the user is in a POI](#trigger-entry-events-when-the-user-is-in-a-poi)
-
-## Collect the user's location
+## 1. Collect the user's location
 
 The app developer must collect the current location of the device by using the `CoreLocation.framework` (iOS) or the `Location` APIs provided by Google Play Services (Android).
 
@@ -33,7 +29,7 @@ For more information, see the following documentation:
 - [CoreLocation](https://developer.apple.com/documentation/corelocation) (Apple)
 - [Location APIs in Google Play Services](https://developer.android.com/training/location) (Google)
 
-## Retrieve nearby points of interest from the SDK
+## 2. Retrieve nearby points of interest from the SDK
 
 After you obtain the user's location, you can pass it to the SDK to get back a list of the nearby POIs.  
 
@@ -115,7 +111,7 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## Trigger entry events when the user is in a POI
+## 3. Trigger entry events when the user is in a POI
 
 The SDK returns a list of nearby POIs, including whether the user is currently within each POI. If the user is in a POI, you can have the SDK trigger an entry event for that region.
 
@@ -228,7 +224,7 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-## Full sample implementation
+## Complete sample implementation
 
 The following code samples show how to retrieve the current location of the device, trigger the necessary events, and ensure that you do not get multiple entries for the same location on one visit:
 
