@@ -40,17 +40,17 @@ Each POI contains the following data references:
 
 1. In the Property page for your app, click the **[!UICONTROL Data Elements]** tab.
 
-2. Click **[!UICONTROL Create New Data Element]**.
+1. Click **[!UICONTROL Create New Data Element]**.
 
-3. In the list of installed extensions, find **[!UICONTROL Places]**.
+1. In the list of installed extensions, find **[!UICONTROL Places]**.
 
-4. In the **[!UICONTROL Data Element Type]** drop-down list, select a data reference for this data element.
+1. In the **[!UICONTROL Data Element Type]** drop-down list, select a data reference for this data element.
 
-5. Select a POI target.
+1. Select a POI target.
 
-6. If this data element is a custom metadata reference, select a metadata key.
+1. If this data element is a custom metadata reference, select a metadata key.
 
-7. Type a name for the data element and click **[!UICONTROL Save]**.
+1. Type a name for the data element and click **[!UICONTROL Save]**.
 
     ![Create data element](/help/assets/create-de-7-v3.png)
 

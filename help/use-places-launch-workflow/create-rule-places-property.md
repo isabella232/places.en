@@ -67,44 +67,44 @@ Before you create a rule, you must create a data element in Adobe Experience Pla
 To create a data element in Experience Platform Launch:
 
 1. Click the **Data Elements** tab.
-2. Click **Add Data Element**.
-3. Type a name, for example, **Current coffee shop name**.
-4. In the **Extension** drop-down list, select **Places – Beta**.
-5. In **Data Element**, select **City**.
-6. In the right pane, select **Current POI**.
-7. Click **Save**.
+1. Click **Add Data Element**.
+1. Type a name, for example, **Current coffee shop name**.
+1. In the **Extension** drop-down list, select **Places – Beta**.
+1. In **Data Element**, select **City**.
+1. In the right pane, select **Current POI**.
+1. Click **Save**.
 
 ### Create a rule in Experience Platform Launch for Places
 
 ![creating a rule](/help/assets/placesrule.png)
 
 1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
-2. Click **[!UICONTROL Add Rule]**.
-3. Type a name for the rule, for example, **[!UICONTROL Track entry for coffee shop in SF]**.
+1. Click **[!UICONTROL Add Rule]**.
+1. Type a name for the rule, for example, **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Create an event
 
 1. In the Events section, click **[!UICONTROL + Add]**. Events determine when you want the rule to fire.
-2. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places – Beta]**.
-3. In the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Enter POI]**.
-4. In **[!UICONTROL Name]**, enter a name for the event, for example, **[!UICONTROL Entering a coffee shop]**.
-5. Click **[!UICONTROL Keep Changes]**.
+1. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places – Beta]**.
+1. In the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Enter POI]**.
+1. In **[!UICONTROL Name]**, enter a name for the event, for example, **[!UICONTROL Entering a coffee shop]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 ### Create a condition
 
 1. In the Conditions section, click **[!UICONTROL +Add]**. Conditions determine what criteria has to be met for the action to be taken.
-2. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
-3. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places – Beta]**.
-4. In **[!UICONTROL Condition Type]**, select **[!UICONTROL City]**.
-5. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-6. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
-7. Click **[!UICONTROL Keep Changes]**.
+1. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
+1. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places – Beta]**.
+1. In **[!UICONTROL Condition Type]**, select **[!UICONTROL City]**.
+1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
+1. Click **[!UICONTROL Keep Changes]**.
 
 ### Create an action
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
-2. In the **[!UICONTROL Extension]** drop-down list, leave the default **[!UICONTROL Mobile Core]** option selected.
-3. Select an action type, for example, **[!UICONTROL Send Postback]**.
+1. In the **[!UICONTROL Extension]** drop-down list, leave the default **[!UICONTROL Mobile Core]** option selected.
+1. Select an action type, for example, **[!UICONTROL Send Postback]**.
 
    a. In **[!UICONTROL URL]**, type the postback URL for Slack, for example, `https://hooks.slack.com/services/`.
 
@@ -116,7 +116,7 @@ To create a data element in Experience Platform Launch:
 
    d. Select a timeout value, for example, **[!UICONTROL 5]**.
 
-4. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 ### Publish the rule
 

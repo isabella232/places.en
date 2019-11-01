@@ -19,7 +19,7 @@ In iOS, complete the following steps:
 
 1. Pass the location updates that were obtained from the Core location services of the iOS to the Places extension. 
 
-2. Use the `getNearbyPointsOfInterest` Places extension API to get the array of *n* `ACPPlacesPoi` objects around the current location.
+1. Use the `getNearbyPointsOfInterest` Places extension API to get the array of *n* `ACPPlacesPoi` objects around the current location.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -31,7 +31,7 @@ In iOS, complete the following steps:
    }
    ```
 
-3. Extract the information from the obtained `ACPPlacesPOI` objects and start monitoring those POIs.
+1. Extract the information from the obtained `ACPPlacesPOI` objects and start monitoring those POIs.
 
     ```objective-c
     - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -56,7 +56,7 @@ In iOS, complete the following steps:
 
 1. Pass the location updates that were obtained from the Google Play services or the Android location services to the Places Extension.
 
-2. Use the `getNearbyPointsOfInterest` Places Extension API to get the list of n `PlacesPoi` objects around the current location.
+1. Use the `getNearbyPointsOfInterest` Places Extension API to get the list of n `PlacesPoi` objects around the current location.
 
     ```java
         LocationCallback callback = new LocationCallback() {
@@ -75,7 +75,7 @@ In iOS, complete the following steps:
             };
     ```
 
-3. Extract the data from the obtained `PlacesPOI` objects and start monitoring those POIs.
+1. Extract the data from the obtained `PlacesPOI` objects and start monitoring those POIs.
 
     ```java
     private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
