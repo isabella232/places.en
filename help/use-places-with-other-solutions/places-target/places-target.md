@@ -26,13 +26,13 @@ After the Places extension is sending in events for entries and exits, you can l
 
     In this example, the Rule is named **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-2. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-3. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Adobe Target]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Adobe Target]**.
 
-4. From the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Content Requested]**.
+1. From the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Content Requested]**.
 
-5. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 ![add an event](/help/assets/ad-setEvent_target.png)
 
@@ -46,13 +46,13 @@ In the following example, a Condition is created that causes the Rule to trigger
 
 1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
-2. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.
 
-3. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Launches]**.
+1. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Launches]**.
 
-4. On the right pane, modify the drop-down list and number controls so that the condition reads **[!UICONTROL User has launched the app greater than or equal to 5 times**.
+1. On the right pane, modify the drop-down list and number controls so that the condition reads **[!UICONTROL User has launched the app greater than or equal to 5 times**.
 
-5. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 ![add an event](/help/assets/ad-setCondition_target.png)
 
@@ -60,13 +60,13 @@ In the following example, a Condition is created that causes the Rule to trigger
 
 1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-2. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.  
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.  
 
-3. From the **[!UICONTROL Action Type]** drop-down list, select **[!UICONTROL Attach Data]**.
+1. From the **[!UICONTROL Action Type]** drop-down list, select **[!UICONTROL Attach Data]**.
 
-4. On the right pane, in the **[!UICONTROL JSON Payload]** field, type the data that will be added to this Event.
+1. On the right pane, in the **[!UICONTROL JSON Payload]** field, type the data that will be added to this Event.
 
-5. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 On the right pane, you can add a freeform JSON payload that adds data to an SDK event before the extensions listening for this event hear it.
 
@@ -88,4 +88,4 @@ After you complete your configuration, verify that your Rule looks like the foll
 
 1. Click **[!UICONTROL Save]**
 
-2. Rebuild your Launch property and deploy it to the correct Environment.
+1. Rebuild your Launch property and deploy it to the correct Environment.
