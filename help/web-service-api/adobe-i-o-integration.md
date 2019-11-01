@@ -65,7 +65,7 @@ To generate your own self-signed keys:
    >
    >We recommend that you name your keys for easy reference and store them in a folder. If you create multiple integrations, you can easily identify and manage which keys belong to which integration.
 
-2. Type the information that is requested by OpenSSL:
+1. Type the information that is requested by OpenSSL:
 
    ```text
    Country Name (2 letter code:  // Example: US
@@ -83,7 +83,7 @@ To generate your own self-signed keys:
     >
     >The information that you provide is incorporated into the keys.
 
-3. Navigate to the directory where the `.key` and `.crt` files are located. 
+1. Navigate to the directory where the `.key` and `.crt` files are located. 
 
     For example, in iOS, go to **[!UICONTROL Macintosh HD]** > **[!UICONTROL users]** > **[!UICONTROL (your user name)]** > **[!UICONTROL Keys]**.
 
@@ -96,17 +96,17 @@ The following video guides you through the process of generating the key pair:
 To create a Places integration:
 
 1. Go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
-2. in the **Quick Start** section, click on **Create integration**.
-3. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.
+1. in the **Quick Start** section, click on **Create integration**.
+1. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.
 
     **[!UICONTROL Access an API]** is the default location.
 
-4. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the top right.
-5. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
-6. Select **[!UICONTROL New integration]** and click **[!UICONTROL Continue]**.
-7. On the Create a new integration screen, enter a name and description. 
-8. Drag and drop your `xxxx_public.crt` file, that you created above, to the **[!UICONTROL Public keys certificates]** drop zone.
-9. Select a product profile.
+1. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the top right.
+1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
+1. Select **[!UICONTROL New integration]** and click **[!UICONTROL Continue]**.
+1. On the Create a new integration screen, enter a name and description. 
+1. Drag and drop your `xxxx_public.crt` file, that you created above, to the **[!UICONTROL Public keys certificates]** drop zone.
+1. Select a product profile.
 
     If you are unsure of which profile to select, contact your system administrator.
 10. At the bottom of the page, click **[!UICONTROL Create integration]**.
@@ -121,7 +121,7 @@ To create a Places integration:
 ### Record the organization ID and the API key
 
 1. On the integration details page, click the **[!UICONTROL Services]** tab and confirm that **[!UICONTROL Places]** is displayed under **[!UICONTROL Configured Services]**.
-2. On the **[!UICONTROL Overview]** tab, locate and record the API Key (Client ID) and the Organization ID.
+1. On the **[!UICONTROL Overview]** tab, locate and record the API Key (Client ID) and the Organization ID.
 
    These IDs are needed for each Places REST API request.
 
@@ -134,11 +134,11 @@ On the integration details page, click the **[!UICONTROL JWT]** tab so that you 
 To generate a JWT token:
 
 1. In a text editor, open your `private.key` file created that you created above.
-2. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field. 
-3. Click **[!UICONTROL Generate JWT]**.
-4. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
-5. Run the command by pressing **[!UICONTROL Enter]** on your keyboard.
-6. Locate the `"token_type": "bearer"` and the `"access_token"` value.  
+1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field. 
+1. Click **[!UICONTROL Generate JWT]**.
+1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
+1. Run the command by pressing **[!UICONTROL Enter]** on your keyboard.
+1. Locate the `"token_type": "bearer"` and the `"access_token"` value.  
 
     The value of the bearer access token is what you will use in your Places API requests.  
 
