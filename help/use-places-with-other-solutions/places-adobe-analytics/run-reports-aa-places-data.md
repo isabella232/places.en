@@ -27,11 +27,11 @@ After Places sends the entry and exit events, you can create rules in Experience
 
     In this example, the Rule is named **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
-2. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-3. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.
 
-4. From the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Track Action]**.
+1. From the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Track Action]**.
 
 Now you can determine the triggers that you want to include for this Rule. In this example, the trigger is based on all `TrackAction` calls. After you configure the Event, click **[!UICONTROL Keep Changes]**.
 
@@ -48,13 +48,13 @@ In this example, a Condition is created that causes the Rule to trigger only for
 
 1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
-2. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTORL Mobile Core]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTORL Mobile Core]**.
 
-3. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Carrier Name]**.
+1. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Carrier Name]**.
 
-4. In the window on the right, select the **[!UICONTROL AT&T]** checkbox.
+1. In the window on the right, select the **[!UICONTROL AT&T]** checkbox.
 
-5. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 !["create a condition"](/help/assets/pt-setCondition.png)
 
@@ -62,13 +62,13 @@ In this example, a Condition is created that causes the Rule to trigger only for
 
 1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-2. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.  
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.  
 
-3. From the **[!UICONTROL Action Type]** drop-down list, select **[!UICONTROL Attach Data]**.
+1. From the **[!UICONTROL Action Type]** drop-down list, select **[!UICONTROL Attach Data]**.
 
-4. On the right pane, in the **[!UICONTROL JSON Payload]** field, type the data that will be added to this Event.
+1. On the right pane, in the **[!UICONTROL JSON Payload]** field, type the data that will be added to this Event.
 
-5. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 On the right pane, you can add a freeform JSON payload that adds data to an SDK event before an extension that is listening for this event can hear the event. In this example, some context data is added to this event before the Analytics extension processes it. The added context data will now be on the outgoing Analytics hit.
 
@@ -84,4 +84,4 @@ After you complete your configuration, verify that your Rule looks like the foll
 
 1. Click **[!UICONTROL Save]**
 
-2. Rebuild your Launch property and deploy it to the correct Environment.
+1. Rebuild your Launch property and deploy it to the correct Environment.

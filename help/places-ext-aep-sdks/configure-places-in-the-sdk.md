@@ -33,14 +33,14 @@ To configure the Places Monitor extension in Launch:
 
     For more information, see *Configure the Places Monitoring extension in Launch*.
 
-2. Add the Places Monitor extension to your mobile app.
+1. Add the Places Monitor extension to your mobile app.
 
     For more information, see *Add the Places Monitor extension to your app*.
 
-3. Register the Places Monitor with the Mobile Core extension.
+1. Register the Places Monitor with the Mobile Core extension.
 
     For more information, see Register the *Places Monitor with Mobile Core*.
 
-4. Enable location updates in the background.
+1. Enable location updates in the background.
 
     For more information, see *Enable location updates in the background*.

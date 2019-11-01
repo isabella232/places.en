@@ -29,13 +29,13 @@ After Places sends the entry and exit events, you can create rules in Experience
 
     This way, th rule will be easily recognizable in your list of Rules. In this example, the Rule is named **[!UICONTROL Send Data to Analytics]**.
 
-2. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-3. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places]**.
 
-4. From the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Enter POI]**.
+1. From the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Enter POI]**.
 
-5. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
    !["select an event"](/help/assets/ad-setEvent_use-analytics-data.png)
 
@@ -50,13 +50,13 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
 1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
-2. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places]**.
 
-3. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Name]**.
+1. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Name]**.
 
-4. In the right pane, in the text field, enter **[!UICONTROL My POI]**.
+1. In the right pane, in the text field, enter **[!UICONTROL My POI]**.
 
-5. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
    !["set a condition"](/help/assets/ad-setCondition_use-analytics-data.png)
 
@@ -65,15 +65,15 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
 1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-2. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Adobe Analytics]**.  
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Adobe Analytics]**.  
 
-3. From the **[!UICONTROL Action Type]** drop-down list, select **[!UICONTROL Track]**.
+1. From the **[!UICONTROL Action Type]** drop-down list, select **[!UICONTROL Track]**.
 
-4. On the right pane, add the action or state that you want to send to Analytics. 
+1. On the right pane, add the action or state that you want to send to Analytics. 
 
     You can also choose to add any additional context data to this request. Remember that you can use data elements to get this data dynamically from the SDK.
 
-5. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
     In the following example, a `TrackAction` call is sent to Analytics with additional context data of `poi.name` equal to the name of the POI that triggered this entry event:
 
@@ -87,5 +87,5 @@ After you complete your configuration, verify that your Rule looks like the foll
 
 1. Click **[!UICONTROL Save]**
 
-2. Rebuild your Launch property and deploy it to the correct environment.
+1. Rebuild your Launch property and deploy it to the correct environment.
 
