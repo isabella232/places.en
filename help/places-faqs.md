@@ -87,7 +87,7 @@ To set up the profile and add the permissions:
   
        If you previously added users to Experience Platform Launch, you might see multiple profiles listed.
 
-2. Select the correct profile:
+1. Select the correct profile:
 
    a. Click on the name of the default profile.
 
@@ -143,7 +143,7 @@ To add a user to your Location Service and Experience Platform Launch profiles:
 
    g. Click **[!UICONTROL Save]**.
 
-2. Add a user to **[!UICONTROL Places Core Services]**.
+1. Add a user to **[!UICONTROL Places Core Services]**.
 
    >[!TIP]
    >

@@ -22,29 +22,29 @@ Libraries are defined by the following:
 ## Create a library
 
 1. Log into Places with your Adobe ID.
-2. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**. 
-3. Click **[!UICONTROL New]**.
-4. Type the name.
-5. Click **[!UICONTROL Confirm]**.
+1. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**. 
+1. Click **[!UICONTROL New]**.
+1. Type the name.
+1. Click **[!UICONTROL Confirm]**.
 
 ## Change the rank of a library in the Places UI
 
 1. Log in to Places with your Adobe ID.
-2. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**.
-3. Click the icon to the left of the library name and drag the library to the new rank. 
+1. In the top right side, click **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**.
+1. Click the icon to the left of the library name and drag the library to the new rank. 
 
 ## Rename a library
 
 1. Log in to Places with your Adobe ID.
-2. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
-3. Locate the library that you want to delete.
-4. Click **[!UICONTROL ...]** and select **[!UICONTROL Rename]**.
-5. Update the name and click **[!UICONTROL Save]**.
+1. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
+1. Locate the library that you want to delete.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL Rename]**.
+1. Update the name and click **[!UICONTROL Save]**.
 
 ## Delete a library
 
 1. Log in to Places with your Adobe ID.
-2. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
-3. Locate the library that you want to delete.
-4. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
+1. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
+1. Locate the library that you want to delete.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
 

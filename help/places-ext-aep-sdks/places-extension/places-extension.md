@@ -12,13 +12,13 @@ The Places extension allows you to act based on the location of your users. This
 ## Install the Places extension in Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-2. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Places]** extension, and click **[!UICONTROL Install]**.
-3. Select the Places libraries you want to use in this property. These are the libraries that will be accessible in your app.
-4. Click **[!UICONTROL Save]**. 
+1. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Places]** extension, and click **[!UICONTROL Install]**.
+1. Select the Places libraries you want to use in this property. These are the libraries that will be accessible in your app.
+1. Click **[!UICONTROL Save]**. 
 
     When you click **[!UICONTROL Save]**, the Experience Platform SDK searches the Places Services for POIs in the libraries that you selected. The POI data is not included in the download of the library when you build the app, but a location-based subset of POIs is downloaded to the end user's device at runtime and is based on the user's GPS coordinates.
 
-5. Complete the publishing process to update the SDK configuration.
+1. Complete the publishing process to update the SDK configuration.
 
    For more information about publishing in Experience Platform Launch, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
 
@@ -41,7 +41,7 @@ To add the Places extension to your app by using Java:
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-2. Import the Places extension in your application's main activity.
+1. Import the Places extension in your application's main activity.
 
     ```java
     import com.adobe.marketing.mobile.Places;
@@ -61,13 +61,13 @@ To add Places extension to your app by using Objective-C or Swift:
 
    Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and Places libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
 
-2. Update your Cocoapods:
+1. Update your Cocoapods:
 
    ```objective-c
    pod update
    ```
 
-3. Open Xcode, and in your AppDelegate class, import the Core and Places headers:
+1. Open Xcode, and in your AppDelegate class, import the Core and Places headers:
 
     **Objective-C**
 
