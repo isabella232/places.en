@@ -25,7 +25,7 @@ Verify with your organization's System administrator that the following tasks ha
 
   For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).
 
-### REST API requests 
+### REST API requests
 
 Each request to the Places REST API requires the following items:
 
@@ -96,7 +96,7 @@ The following video guides you through the process of generating the key pair:
 To create a Places integration:
 
 1. Go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
-1. in the **Quick Start** section, click on **Create integration**.
+1. In the **Quick Start** section, click on **Create integration**.
 1. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.
 
     **[!UICONTROL Access an API]** is the default location.
@@ -109,12 +109,12 @@ To create a Places integration:
 1. Select a product profile.
 
     If you are unsure of which profile to select, contact your system administrator.
-10. At the bottom of the page, click **[!UICONTROL Create integration]**.
-11. After a few seconds, in the *Integration created* screen, verify that the following message appears:
+1. At the bottom of the page, click **[!UICONTROL Create integration]**.
+1. After a few seconds, in the *Integration created* screen, verify that the following message appears:
 
     `Your integration has been created.`
 
-12. The integration details page appears with the name of the integration at the top.
+1. The integration details page appears with the name of the integration at the top.
 
     The **[!UICONTROL Overview]** tab appears by default and displays the API key, your organization ID, the technical account ID, and other details about your integrations.
 
@@ -140,7 +140,7 @@ To generate a JWT token:
 1. Run the command by pressing **[!UICONTROL Enter]** on your keyboard.
 1. Locate the `"token_type": "bearer"` and the `"access_token"` value.  
 
-    The value of the bearer access token is what you will use in your Places API requests.  
+   The value of the bearer access token is what you will use in your Places API requests.  
 
 >[!IMPORTANT]
 >
