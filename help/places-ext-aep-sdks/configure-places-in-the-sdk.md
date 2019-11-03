@@ -7,7 +7,7 @@ seo-description: You can configure the SDK with the Places extension to enable l
 
 # Configure the SDK with Places extension {#configure-sdk-places-extension}
 
-To enable location awareness in your mobile app, configure the SDK with the Places extensions and, optionally, the Places Monitoring extension. For more information including SDK configuration, see [Places (Beta) extension](/help/configure-places-in-the sdk/places-extension/places-extension.md).
+To enable location awareness in your mobile app, configure the SDK with the Places extensions and, optionally, the Places Monitoring extension. For more information including SDK configuration, see [Places (Beta) extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 ## Configuring the Places extension
 
