@@ -2,7 +2,7 @@
 title: Send Places data to Adobe Analytics
 seo-title: Send Places data to Adobe Analytics
 description: This section provides information about how to send Places data to Analytics.
-seo-description: This section provides information about how to send Places data to Analytics. 
+seo-description: This section provides information about how to send Places data to Analytics.
 ---
 
 # Send Places data to Adobe Analytics {#places-data-analytics}
@@ -27,7 +27,7 @@ After Places sends the entry and exit events, you can create rules in Experience
 
 1. Type a meaningful name for your rule.
 
-    This way, th rule will be easily recognizable in your list of Rules. In this example, the Rule is named **[!UICONTROL Send Data to Analytics]**.
+    This way, the rule will be easily recognizable in your list of Rules. In this example, the Rule is named **[!UICONTROL Send Data to Analytics]**.
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
@@ -37,7 +37,7 @@ After Places sends the entry and exit events, you can create rules in Experience
 
 1. Click **[!UICONTROL Keep Changes]**.
 
-   !["select an event"](/help/assets/ad-setEvent_use-analytics-data.png)
+   !["select an event"](/help/assets/pt-selectEvent.png)
 
 
 ## 3. Add conditions
@@ -58,7 +58,7 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
 1. Click **[!UICONTROL Keep Changes]**.
 
-   !["set a condition"](/help/assets/ad-setCondition_use-analytics-data.png)
+   !["set a condition"](/help/assets/pt-setCondition.png)
 
 
 ## 4. Define the action
@@ -69,7 +69,7 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
 1. From the **[!UICONTROL Action Type]** drop-down list, select **[!UICONTROL Track]**.
 
-1. On the right pane, add the action or state that you want to send to Analytics. 
+1. On the right pane, add the action or state that you want to send to Analytics.
 
     You can also choose to add any additional context data to this request. Remember that you can use data elements to get this data dynamically from the SDK.
 
@@ -77,15 +77,14 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
     In the following example, a `TrackAction` call is sent to Analytics with additional context data of `poi.name` equal to the name of the POI that triggered this entry event:
 
-    !["set an action"](/help/assets/ad-setAction_use-analytics-data.png)
+    !["set an action"](/help/assets/pt-setAction.png)
 
 ## 5. Save the rule and rebuild your property
 
 After you complete your configuration, verify that your Rule looks like the following image:
 
-!["rule is created"](/help/assets/ad-ruleComplete_use-analytics-data.png)
+!["rule is created"](/help/assets/pt-ruleComplete.png)
 
 1. Click **[!UICONTROL Save]**
 
 1. Rebuild your Launch property and deploy it to the correct environment.
-
