@@ -54,7 +54,7 @@ In the following example, a Condition is created that causes the Rule to trigger
 
 1. Click **[!UICONTROL Keep Changes]**.
 
-![add an event](/help/assets/ad-setCondition_target.png)
+![add a condition](/help/assets/ad-setCondition_target.png)
 
 ## 4. Define the Action
 
@@ -78,7 +78,7 @@ In the following example, `poiCity` and `poiName` values are added to the **[!UI
 >
 >The notation of `request[*]` can be read out loud as _for each object in the `request` array_.
 
-![add an event](/help/assets/ad-setAction_target.png)
+![define the action](/help/assets/ad-setAction_target.png)
 
 ## 5. Save the Rule and rebuild your Property
 
