@@ -1,8 +1,8 @@
 ---
 title: Using your own monitor
 seo-title: Using your own monitor
-description: You can also use your monitoring services and integrate with Places by using the Places extension APIs. 
-seo-description: You can also use your monitoring services and integrate with Places by using the Places extension APIs. 
+description: You can also use your monitoring services and integrate with Places by using the Places extension APIs.
+seo-description: You can also use your monitoring services and integrate with Places by using the Places extension APIs.
 ---
 
 # Using your own monitor {#using-your-monitor}
@@ -17,19 +17,17 @@ If you decide to use your monitoring services, register the geofences of the POI
 
 In iOS, complete the following steps:
 
-1. Pass the location updates that were obtained from the Core location services of the iOS to the Places extension. 
+1. Pass the location updates that were obtained from the Core location services of the iOS to the Places extension.
 
 1. Use the `getNearbyPointsOfInterest` Places extension API to get the array of *n* `ACPPlacesPoi` objects around the current location.
 
-   ```objective-c
-   - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
-
-          [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
-              [self startMonitoringGeoFences:nearbyPoi];
-      }];
-
-   }
-   ```
+    ```objective-c
+    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
+        [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
+            [self startMonitoringGeoFences:nearbyPoi];
+        }];
+    }
+    ```
 
 1. Extract the information from the obtained `ACPPlacesPOI` objects and start monitoring those POIs.
 
