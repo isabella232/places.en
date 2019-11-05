@@ -19,15 +19,14 @@ In iOS, complete the following steps:
 
 1. Pass the location updates that were obtained from the Core location services of the iOS to the Places extension.
 
-1. Use the `getNearbyPointsOfInterest` Places extension API to get the array of *n* `ACPPlacesPoi` objects around the current location.
+1. Use the `getNearbyPointsOfInterest` Places extension API to get the array of `ACPPlacesPoi` objects around the current location.
 
     ```objective-c
     - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
         [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
             [self startMonitoringGeoFences:nearbyPoi];
         }];
-    }
-    ```
+    }```
 
 1. Extract the information from the obtained `ACPPlacesPOI` objects and start monitoring those POIs.
 
