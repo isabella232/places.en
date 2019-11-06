@@ -84,7 +84,7 @@ In the following example, `poiCity` and `poiName` values are added to the **[!UI
 
 After you complete your configuration, verify that your Rule looks like the following image:
 
-![completed rule](/help/assets/ad-ruleComplete_target.png)
+![completed rule](/help/assets/ad-ruleComplete-target.png)
 
 1. Click **[!UICONTROL Save]**
 
