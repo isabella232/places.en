@@ -147,13 +147,14 @@ Places.getNearbyPointsOfInterest(currentLocation, 10,
     new AdobeCallback<List<PlacesPOI>>() {
         @Override
         public void call(List<PlacesPOI> pois) {
-          // do required processing with the returned nearbyPoi array
-          startMonitoringPois(pois);
+            // do required processing with the returned nearbyPoi array
+            startMonitoringPois(pois);
         }
     }, new AdobeCallback<PlacesRequestError>() {
         @Override
         public void call(PlacesRequestError placesRequestError) {
             // look for the placesRequestError and handle the error accordingly
+            handleError(placesRequestError);
         }
     }
 );
@@ -193,6 +194,7 @@ Places.getNearbyPointsOfInterest(currentLocation, 10,
         [self startMonitoringPois:nearbyPOI];
     } errorCallback:^(ACPPlacesRequestError result) {
         // look for the error and handle accordingly
+        [self handleError:result];
     }
 ];
 ```
