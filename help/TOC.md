@@ -60,8 +60,8 @@ user-guide-title: Adobe Experience Platform Location Service
   + [Create entry and exit rules](use-places-launch-workflow/create-rule-places-property.md)
 + Use Location Service with other Adobe Solutions {#use-places-with-other-solutions}
   + Adobe Analytics {#places-adobe-analytics}
-    + [Send Location Service data to Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
-    + [Run reports in Adobe Analytics that includes Location Service data](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+    + [Send POI entry and exit data to Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+    + [Add location context to Analytics requests](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
   + Adobe Mobile Services {#places-mobile-svcs-messaging}
     + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
     + [Push notifications](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
