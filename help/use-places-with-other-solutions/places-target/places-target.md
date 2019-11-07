@@ -78,13 +78,13 @@ In the following example, `poiCity` and `poiName` values are added to the **[!UI
 >
 >The notation of `request[*]` can be read out loud as _for each object in the `request` array_.
 
-![define the action](/help/assets/ad-setAction_target.png)
+![define the action](/help/assets/ad-setAction-target.png)
 
 ## 5. Save the Rule and rebuild your Property
 
 After you complete your configuration, verify that your Rule looks like the following image:
 
-![completed rule](/help/assets/ad-ruleComplete_target.png)
+![completed rule](/help/assets/ad-ruleComplete-target.png)
 
 1. Click **[!UICONTROL Save]**
 
