@@ -1,11 +1,11 @@
 ---
-title: Run reports in Adobe Analytics that includes Places data
-seo-title: Run reports in Adobe Analytics that includes Places data
-description: This section provides information about how to run reports in Analytics that includes Places data.
-seo-description: This section provides information about how to run reports in Analytics that includes Places data.
+title: Add location context to Analytics requests
+seo-title: Add location context to Analytics requests
+description: This section provides information about how to Add location context to Analytics requests.
+seo-description: This section provides information about how to Add location context to Analytics requests.
 ---
 
-# Run reports in Adobe Analytics that includes Places data {#run-reports-aa-locserv-data}
+# Add location context to Analytics requests {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]
 >

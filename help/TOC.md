@@ -62,6 +62,7 @@ user-guide-title: Adobe Experience Platform Location Service
   + Adobe Analytics {#places-adobe-analytics}
     + [Send POI entry and exit data to Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
     + [Add location context to Analytics requests](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+    + [Report on location data in Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
   + Adobe Mobile Services {#places-mobile-svcs-messaging}
     + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
     + [Push notifications](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)

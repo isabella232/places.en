@@ -1,11 +1,11 @@
 ---
-title: Send Places data to Adobe Analytics
-seo-title: Send Places data to Adobe Analytics
-description: This section provides information about how to send Places data to Analytics.
-seo-description: This section provides information about how to send Places data to Analytics.
+title: Send POI entry and exit data to Analytics
+seo-title: Send POI entry and exit data to Analytics
+description: This section provides information about how to send POI entry and exit data to Analytics.
+seo-description: This section provides information about how to send POI entry and exit data to Analytics.
 ---
 
-# Send Places data to Adobe Analytics {#places-data-analytics}
+# Send POI entry and exit data to Analytics {#places-data-analytics}
 
 
 >[!IMPORTANT]

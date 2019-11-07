@@ -98,7 +98,7 @@ public class MobileApp extends Application {
             MobileCore.start(null);
         } catch (Exception e) {
             //Log the exception
-         }
+        }
     }
 }
 ```
