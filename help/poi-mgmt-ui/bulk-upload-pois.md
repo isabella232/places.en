@@ -41,7 +41,7 @@ Here is a list of the columns and the values that you need to use:
 
 * `radius`
 
-  A value between 10 and 2000.
+  A value between 10 and 20,000.
 
 ### Column values
 
