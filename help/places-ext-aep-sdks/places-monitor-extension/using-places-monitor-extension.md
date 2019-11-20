@@ -2,7 +2,7 @@
 title: Using the Places Monitor extension
 seo-title: Using the Places Monitor extension
 description: Information on how to install, configure, and use the Places Monitor extension.
-seo-description: Information on how to install, configure, and use the Places Monitor extension. 
+seo-description: Information on how to install, configure, and use the Places Monitor extension.
 ---
 
 # Using the Places Monitor extension {#using-places-monitor-extension}
@@ -12,9 +12,9 @@ To use the Places Monitor extension, complete the following tasks:
 ## Install the Places Monitor extension in Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-2. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Places Monitor]** extension, and click **Install**.
-3. Click **[!UICONTROL Save]**.
-4. Follow the publishing process to update the SDK configuration.
+1. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Places Monitor]** extension, and click **Install**.
+1. Click **[!UICONTROL Save]**.
+1. Follow the publishing process to update the SDK configuration.
 
 ### Configure the Places Monitor extension {#configure-places-monitor-extension}
 
@@ -34,7 +34,7 @@ In Android, complete the following steps:
 
 1. Add the Places Monitor extension and the Places extension to your project using your app's gradle file.
 
-2. Also include the latest Google Location services in the gradle file.
+1. Also include the latest Google Location services in the gradle file.
 
     ```java
     implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -43,7 +43,7 @@ In Android, complete the following steps:
     implementation 'com.google.android.gms:play-services-location:16.0.0'
     ```
 
-3. Import the Places Monitor extension in your application's main activity.
+1. Import the Places Monitor extension in your application's main activity.
 
     ```java
     import com.adobe.marketing.mobile.PlacesMonitor;
@@ -54,7 +54,7 @@ In Android, complete the following steps:
 In iOS, complete the following steps:
 
 1. Add the library to your project via your Cocoapods `Podfile` by adding `pod 'ACPPlacesMonitor'`.
-2. Import the Places and Places Monitor libraries:
+1. Import the Places and Places Monitor libraries:
 
 #### Objective-C
 
@@ -98,12 +98,14 @@ public class MobileApp extends Application {
             MobileCore.start(null);
         } catch (Exception e) {
             //Log the exception
-         }
+        }
     }
 }
 ```
 
-**Important:** Places monitoring depends on the Places extension. When you manually install the Places Monitor extension, ensure that you also add the `places.aar` library to your project.
+>[!IMPORTANT]
+>
+>Places monitoring depends on the Places extension. When you manually install the Places Monitor extension, ensure that you also add the `places.aar` library to your project.
 
 ## iOS
 
@@ -121,7 +123,7 @@ In your iOS app's`application:didFinishLaunchingWithOptions`, register `PlacesMo
         [ACPPlacesMonitor start];
     }];
 
-    return YES; 
+    return YES;
 }
 ```
 
@@ -136,7 +138,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         // do other initialization required for the SDK
         ACPPlacesMonitor.start()
     })
-    
+
     // Override point for customization after application launch.        
     return true
 }
@@ -159,7 +161,7 @@ For all versions of Android, to declare that your app needs location permission,
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     // Only for Android apps targeting API level 29 and above
-  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> 
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
   <application>        
     ...    
   </application>
@@ -185,4 +187,3 @@ The following keys must be included in your app's `Info.plist` file:
 >If your app supports iOS 10 and earlier, the `NSLocationAlwaysUsageDescription` key is also required.
 
 ![](/help/assets/using-the-places-monitor_2.png)
-

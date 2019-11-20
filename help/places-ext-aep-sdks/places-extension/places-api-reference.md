@@ -111,7 +111,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ## Retrieve nearby points of interest
 
-Returns an ordered list of nearby POIs in a callback.
+Returns an ordered list of nearby POIs in a callback. An overloaded version of this method returns an error code if something went wrong with the resulting network call.
 
 ### GetNearbyPointsOfInterest (Android)
 
@@ -120,8 +120,12 @@ Here is the syntax for this method:
 **Syntax**
 
 ```java
-public static void getNearbyPointsOfInterest(final Location location,
-    final int limit, final AdobeCallback<List<PlacesPOI>> callback);
+public static void getNearbyPointsOfInterest(final Location location, final int limit,
+                                             final AdobeCallback<List<PlacesPOI>> callback);
+
+public static void getNearbyPointsOfInterest(final Location location, final int limit,
+                                             final AdobeCallback<List<PlacesPOI>> callback,
+                                             final AdobeCallback<PlacesRequestError> errorCallback);
 ```
 
 **Example**
@@ -129,13 +133,32 @@ public static void getNearbyPointsOfInterest(final Location location,
 Here is the code sample for this method:
 
 ```java
-Places.getNearbyPlaces(currentLocation, 10, new AdobeCallback<List<PlacesPOI>>() {
+// getNearbyPointsOfInterest without an error callback
+Places.getNearbyPointsOfInterest(currentLocation, 10, new AdobeCallback<List<PlacesPOI>>() {
     @Override
     public void call(List<PlacesPOI> pois) {
         // do required processing with the returned nearbyPoi array
         startMonitoringPois(pois);
     }
 });
+
+// getNearbyPointsOfInterest with an error callback
+Places.getNearbyPointsOfInterest(currentLocation, 10,
+    new AdobeCallback<List<PlacesPOI>>() {
+        @Override
+        public void call(List<PlacesPOI> pois) {
+            // do required processing with the returned nearbyPoi array
+            startMonitoringPois(pois);
+        }
+    }, new AdobeCallback<PlacesRequestError>() {
+        @Override
+        public void call(PlacesRequestError placesRequestError) {
+            // look for the placesRequestError and handle the error accordingly
+            handleError(placesRequestError);
+        }
+    }
+);
+
 ```
 
 ### GetNearbyPointsOfInterest (iOS)
@@ -146,17 +169,34 @@ Places.getNearbyPlaces(currentLocation, 10, new AdobeCallback<List<PlacesPOI>>()
 + (void) getNearbyPointsOfInterest: (nonnull CLLocation*) currentLocation
                              limit: (NSUInteger) limit
                           callback: (nullable void (^) (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi)) callback;
+
++ (void) getNearbyPointsOfInterest: (nonnull CLLocation*) currentLocation
+                             limit: (NSUInteger) limit
+                          callback: (nullable void (^) (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi)) callback
+                     errorCallback: (nullable void (^) (ACPPlacesRequestError result)) errorCallback;
 ```
 
 **Example**
 
 ```objectivec
+// getNearbyPointsOfInterest without an error callback
 [ACPPlaces getNearbyPointsOfInterest:location
                                limit:10     
                             callback:^(NSArray<ACPPlacesPoi*>* nearbyPoi) {
     // do required processing with the returned nearbyPoi array
     [self startMonitoringPois:nearbyPOI];
 }];
+
+// getNearbyPointsOfInterest with an error callback
+[ACPPlaces getNearbyPointsOfInterest:location limit:10
+    callback:^(NSArray<ACPPlacesPoi *> * _Nullable nearbyPoi) {
+        // do required processing with the returned nearbyPoi array
+        [self startMonitoringPois:nearbyPOI];
+    } errorCallback:^(ACPPlacesRequestError result) {
+        // look for the error and handle accordingly
+        [self handleError:result];
+    }
+];
 ```
 
 ## Retrieve current device points of interest
