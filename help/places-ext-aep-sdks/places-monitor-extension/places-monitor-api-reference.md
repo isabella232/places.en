@@ -1,7 +1,7 @@
 ---
 title: Places Monitor API reference
 seo-title: Places Monitor API reference
-description: A list of the APIs for the Places Monitor. 
+description: A list of the APIs for the Places Monitor.
 seo-description: A list of the APIs for the Places Monitor.  
 ---
 
@@ -318,7 +318,7 @@ Authorization level can be set to one of the following values:
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-    Use this enum to request location services even when the app is in the background. You must have the `NSLocationAlwaysUsageDescription` and `NSLocationWhenInUseUsageDescription` keys in your app’s Info.plist. These keys define the text that will appear during the user prompt. For more information see the [Apple documentation on requestalwaysauthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+    Use this enum to request location services even when the app is in the background. You must have the `NSLocationAlwaysUsageDescription` and `NSLocationWhenInUseUsageDescription` keys in your app’s Info.plist. These keys define the text that will appear during the user prompt. For more information see the [Apple documentation on requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` is the default request authorization value.
 
@@ -331,7 +331,7 @@ Here is the syntax and example code for this API:
 #### Syntax
 
 ```objective-c
-+ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel
++ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel;
 ```
 
 #### Example
@@ -349,7 +349,7 @@ To upgrade to `ACPPlacesRequestAuthorizationLevelAlways` authorization:
 
 ```objective-c
 // set the request authorization level
-[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways]
+[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways];
 ```
 
 ## Monitoring Mode (iOS only)

@@ -1,6 +1,6 @@
 ---
-title: Use Location Service without active region monitoring 
-seo-title: Use Location Service without active region monitoring 
+title: Use Location Service without active region monitoring
+seo-title: Use Location Service without active region monitoring
 description: This section provides information about how use Location ServicePlaces without active region monitoring.
 seo-description: This section provides information about how to use Location Service without active region monitoring.
 ---
@@ -64,17 +64,18 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
         // ask the Places SDK for the 10 nearest Points of Interest based on the user's location
         Places.getNearbyPointsOfInterest(currentLocation, 10,
-                new AdobeCallback<List<PlacesPOI>>() {
-                    @Override
-                    public void call(List<PlacesPOI> pois) {
-                        // pois is the 10 nearest POIs based on the location
-                    }
-                }, new AdobeCallback<PlacesRequestError>() {
-                    @Override
-                    public void call(PlacesRequestError placesRequestError) {
-                        // Look for the placesRequestError and handle the error accordingly
-                    }
-                });
+            new AdobeCallback<List<PlacesPOI>>() {
+                @Override
+                public void call(List<PlacesPOI> pois) {
+                    // pois is the 10 nearest POIs based on the location
+                }
+            }, new AdobeCallback<PlacesRequestError>() {
+                @Override
+                public void call(PlacesRequestError placesRequestError) {
+                    // Look for the placesRequestError and handle the error accordingly
+                }
+            }
+        );
     }
 }
 ```
@@ -118,8 +119,8 @@ The SDK returns a list of nearby POIs, including whether the user is currently w
 >[!IMPORTANT]
 >
 >To prevent your app from triggering multiple entry events in one visit, keep a list of the regions in which you know the user has entered. When processing the response of nearby POIs from the SDK, trigger an entry event only when the region is not in your list.
-
-In the following code sample, `NSUserDefaults` (iOS) and `SharedPreferences` (Android) are used:
+>
+>In the following code sample, `NSUserDefaults` (iOS) and `SharedPreferences` (Android) are used to manage the list of regions:
 
 ### Android
 
@@ -260,18 +261,19 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
         // ask the Places SDK for the 10 nearest Points of Interest based on the user's location
         Places.getNearbyPointsOfInterest(currentLocation, 10,
-                new AdobeCallback<List<PlacesPOI>>() {
-                    @Override
-                    public void call(List<PlacesPOI> pois) {
-                        // pois is the 10 nearest POIs based on the location
-                        handleUpdatedPOIs(pois);
-                    }
-                }, new AdobeCallback<PlacesRequestError>() {
-                    @Override
-                    public void call(PlacesRequestError placesRequestError) {
-                        // Look for the placesRequestError and handle the error accordingly
-                    }
-                });
+            new AdobeCallback<List<PlacesPOI>>() {
+                @Override
+                public void call(List<PlacesPOI> pois) {
+                    // pois is the 10 nearest POIs based on the location
+                    handleUpdatedPOIs(pois);
+                }
+            }, new AdobeCallback<PlacesRequestError>() {
+                @Override
+                public void call(PlacesRequestError placesRequestError) {
+                    // Look for the placesRequestError and handle the error accordingly
+                }
+            }
+        );
     }
 
     void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {

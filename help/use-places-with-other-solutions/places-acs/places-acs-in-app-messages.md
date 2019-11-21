@@ -25,9 +25,9 @@ Before you begin, complete the following tasks:
 ## Sending an In-App message based on a geo-fence entry or exit
 
 1. In your Adobe Campaign Standard instance, click **[!UICONTROL Create In-App message]**.
-2. For the message type, select **[!UICONTROL Target all users of a Mobile application]**.
-3. Click **[!UICONTROL Next]** and type the general details.
-4. In the left pane, verify that you can use a variety triggers that are related to Location Services.
+1. For the message type, select **[!UICONTROL Target all users of a Mobile application]**.
+1. Click **[!UICONTROL Next]** and type the general details.
+1. In the left pane, verify that you can use a variety triggers that are related to Location Services.
 
     * You can choose to have the in-app message display if the user has entered a POI geo-fence.
     * You can also use metadata that is defined in the Location Services UI to filter audience.
@@ -36,7 +36,7 @@ Before you begin, complete the following tasks:
 
    !["In-App Message Places metadata"](/help/assets/last-entered-vacation.png)
 
-5. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
+1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
 
     !["create an event"](/help/assets/prepare-ACS.png)
 

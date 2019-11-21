@@ -7,8 +7,6 @@ seo-description: Release notes for Adobe Experience Platform Location Service.
 
 # Release notes {#release-notes}
 
-Here are the release notes:
-
 ## October 9, 2019
 
 * **PlacesMonitor 2.1.0**
