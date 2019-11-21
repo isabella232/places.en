@@ -9,5 +9,5 @@ seo-description: This section provides information about the REST APIs available
 
 To use the Places REST API to manage your POIs and libraries, see the following sections:
 
-* [Managing Libraries](/help/en/places/using/web-service-api/api-usage/manage-libraries/manage-libraries.md)
-* [Managing POIs](/help/en/places/using/web-service-api/api-usage/manage-pois/manage-pois.md)
+* [Managing Libraries](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md)
+* [Managing POIs](/help/web-service-api/api-usage/manage-pois/manage-pois.md)

@@ -11,7 +11,7 @@ user-guide-title: Adobe Experience Platform Location Service
 + [Getting started](getting-started.md)
 + Point of interest management interface {#poi-mgmt-ui}
   + [Point of interest management interface overview](poi-mgmt-ui/poi-mgmt-ui-overview.md)
-  + [Create a new POI](poi-mgmt-ui/create-a-poi-ui.md)
+  + [Create a POI](poi-mgmt-ui/create-a-poi-ui.md)
   + [Manage previously created POIs](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
   + [Strategies for using metadata with POIs](poi-mgmt-ui/metadata-with-pois.md)
   + [Bulk upload of POIs](poi-mgmt-ui/bulk-upload-pois.md)
