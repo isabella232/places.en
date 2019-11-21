@@ -2,11 +2,11 @@
 cloud: experience-cloud
 product: places
 solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
+solution-hub-url:  https://helpx.adobe.com/support/experience-cloud.html
 getting-started-title: Getting Started
-getting-started-url: https://www.adobe.com
+getting-started-url: https://docs.adobe.com/content/help/en/places/using/getting-started.html
 tutorials-title: Tutorials
-tutorials-url: https://www.adobe.com
+tutorials-url: https://experienceleague.adobe.com/
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
 index: yes
 ---
@@ -27,7 +27,7 @@ The metadata.md file includes repo-level metadata that passes through to user gu
 | tutorials-title | Rarely used when Tutorials is not appropriate |
 | tutorials-url | Link to video tutorials--either helpx tutorials or KT tutorials |
 | mini-toc-levels | Determines the number of heading levels that appear in right rail. default is 2 |
-| git-repo | Specifies the location of the collaboration repo. Use the github.com mirror for public-facing docs |
+| git-repo | https://github.com/AdobeDocs/places.en |
 | index | set index=no for soft launch |
 
 In TOC.md file
