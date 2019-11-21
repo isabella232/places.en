@@ -58,7 +58,7 @@ user-guide-title: Adobe Experience Platform Location Service
 + [Use Location Service with your own monitoring solution](using-your-own-monitor.md)
 + [Use Location Service without active region monitoring](use-places-without-active-monitoring.md)
 + Use Location Service as part of the Experience Platform Launch workflow {#use-places-launch-workflow}
-  + [Use Location Service as part of the Experience Platform Launch workflow](use-places-launch-workflow/places-launch-workflow)
+  + [Use Location Service as part of the Experience Platform Launch workflow](use-places-launch-workflow/places-launch-workflow.md)
   + [Define data elements](use-places-launch-workflow/define-data-elements.md)
   + [Create entry and exit rules](use-places-launch-workflow/create-rule-places-property.md)
 + Use Location Service with other Adobe Solutions {#use-places-with-other-solutions}
