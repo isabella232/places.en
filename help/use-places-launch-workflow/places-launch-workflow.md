@@ -7,5 +7,5 @@ seo-description: This section provides information about how to define data elem
 
 # Use Location Service as part of the Experience Platform Launch workflow {#loc-service-launch-workflow}
 
-* To define data elements, see [Define data elements](/help/use-places-launch-workflow/define-data-elements.html).
-* To create entry and exit rules, see [Create entry and exit rules](/help/use-places-launch-workflow/create-rule-places-property.html).
+* To define data elements, see [Define data elements](/help/use-places-launch-workflow/define-data-elements.md).
+* To create entry and exit rules, see [Create entry and exit rules](/help/use-places-launch-workflow/create-rule-places-property.md).
