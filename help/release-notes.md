@@ -7,6 +7,15 @@ seo-description: Release notes for Adobe Experience Platform Location Service.
 
 # Release notes {#release-notes}
 
+## November 22, 2019
+
+* **PlacesMonitor 2.1.1**
+
+  * **Android**
+
+    * The Monitor now recognizes the boot of an Android device and, if required, registers the geofences again with the OS based on the device's current location.
+    * Fixed a race condition that sometimes caused entry/exit events to be discarded.
+
 ## October 9, 2019
 
 * **PlacesMonitor 2.1.0**
