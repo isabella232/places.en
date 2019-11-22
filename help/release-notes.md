@@ -13,7 +13,7 @@ seo-description: Release notes for Adobe Experience Platform Location Service.
 
   * **Android**
 
-    * Now recognizes boot of an Android device and, if required, re-registers geofences with the OS according to the device's current location.
+    * The Monitor now recognizes the boot of an Android device and, if required, registers the geofences again with the OS based on the device's current location.
     * Fixed a race condition that sometimes caused entry/exit events to be discarded.
 
 ## October 9, 2019
