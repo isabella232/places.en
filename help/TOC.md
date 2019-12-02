@@ -63,6 +63,7 @@ user-guide-title: Adobe Experience Platform Location Service
   + [Create entry and exit rules](use-places-launch-workflow/create-rule-places-property.md)
 + Use Location Service with other Adobe Solutions {#use-places-with-other-solutions}
   + Adobe Analytics {#places-adobe-analytics}
+    + [Use Location Service with Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
     + [Send POI entry and exit data to Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
     + [Add location context to Analytics requests](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
     + [Report on location data in Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
@@ -71,6 +72,7 @@ user-guide-title: Adobe Experience Platform Location Service
     + [Push notifications](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
     + [In-App notifications](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
   + Adobe Campaign Standard {#places-acs}
+    + [Use Location Service with Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
     + [Push notifications](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
     + [In-App messages](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
   + Adobe Target {#places-target}
