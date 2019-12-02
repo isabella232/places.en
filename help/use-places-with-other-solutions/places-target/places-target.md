@@ -2,10 +2,10 @@
 title: Adobe Target
 seo-title: Adobe Target
 description: This section provides information about how to use Location Service with Adobe Target.
-seo-description: This section provides information about how tto use Location Service with Adobe Target.
+seo-description: This section provides information about how to use Location Service with Adobe Target.
 ---
 
-# Adobe Target {#places-target}
+# Use Location Service with Adobe Target {#places-target}
 
 This document assumes that you have the Places extension implemented in your application. If you need help implementing Places extension, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 

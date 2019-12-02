@@ -5,9 +5,9 @@ description: This section provides information about how to report on location d
 seo-description: This section provides information about how to report on location data in Analytics Workspace.
 ---
 
-# Report on location data in Analytics Workspace {#places-in-workspace}
+# Report on location data in the Analytics Workspace {#places-in-workspace}
 
-This document shows an example of how to report on your location data in Analytics Workspace. Each step will contain a high-level summary, with details provided via reference to other pages of documentation.
+This document shows an example of how to report on your location data in the Analytics Workspace. Each step will contain a high-level summary, with details provided by referencing other documentation pages. 
 
 ## Prerequisites
 
