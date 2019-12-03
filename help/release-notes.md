@@ -7,6 +7,14 @@ seo-description: Release notes for Adobe Experience Platform Location Service.
 
 # Release notes {#release-notes}
 
+## December 3, 2019
+
+* **ACPPlaces 1.3.0**
+
+  * **iOS**
+
+    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for location services. The value is stored and used in the Places shared state.
+
 ## November 22, 2019
 
 * **PlacesMonitor 2.1.1**
@@ -21,7 +29,7 @@ seo-description: Release notes for Adobe Experience Platform Location Service.
 * **PlacesMonitor 2.1.0**
 
   * **iOS**
-  
+
     * Added a new API, `setRequestAuthorizationLevel`, to set the type of location authorization request for which the user will be prompted.
 
 
@@ -36,7 +44,7 @@ The following updates were made in this release:
 
 ### UI Updates
 
-Here is a list of the updates to the Places UI: 
+Here is a list of the updates to the Places UI:
 
 #### New Features
 
@@ -198,11 +206,11 @@ This is the first release of Places, a set of tools that allows customers to enr
 
 Here are the key features in this release:
 
-#### Location Service UI 
+#### Location Service UI
 
 We have released a management UI where you can view and manage your points of interest (POIs). You also can organize your POIs into libraries. In addition to standard metadata such as city, state, and category, we also support the ability to add custom metadata to your POIs.
 
-* To see the UI, go to [https://places.adobe.com](https://places.adobe.com). 
+* To see the UI, go to [https://places.adobe.com](https://places.adobe.com).
 * To get started with the UI, see [Getting started](/help/getting-started.md).
 
 #### Places Extension
@@ -217,15 +225,15 @@ In the Places extension:
 
 For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-#### Places APIs 
+#### Places APIs
 
-You can use the Places APIs do do the following:
+You can use the Places APIs to do the following:
 
-* Allow developers to populate and update their list of POIs. 
-* Build your own UI or integrate with an existing POI database. 
-* Use the Places API batch endpoints to do a bulk import of POIs. 
+* Allow developers to populate and update their list of POIs.
+* Build your own UI or integrate with an existing POI database.
+* Use the Places API batch endpoints to do a bulk import of POIs.
 
-    A python utility is provided with the APIs. 
+    You can use the provided Python utility to complete the bulk import.
 
 For more information about the Places APIs, see [Web service API](/help/web-service-api/places-web-services.md).
 
@@ -234,4 +242,3 @@ For more information about the Places APIs, see [Web service API](/help/web-serv
 #### Analytics Integration
 
 The Analytics extension is being updated to automatically add location context data from your Places database to all outgoing Analytics calls when a user is within a POI (Passive calls). This update will also allow rule creation to fire Analytics track calls directly at POI entry or exit (Active calls).
-
