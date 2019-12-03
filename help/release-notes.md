@@ -13,7 +13,7 @@ seo-description: Release notes for Adobe Experience Platform Location Service.
 
   * **iOS**
 
-    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for location services. The value is stored used in Places shared state.
+    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for location services. The value is stored and used in the Places shared state.
 
 ## November 22, 2019
 
@@ -227,13 +227,13 @@ For more information about the Places extension, see [Places extension](/help/pl
 
 #### Places APIs
 
-You can use the Places APIs do do the following:
+You can use the Places APIs to do the following:
 
 * Allow developers to populate and update their list of POIs.
 * Build your own UI or integrate with an existing POI database.
 * Use the Places API batch endpoints to do a bulk import of POIs.
 
-    A python utility is provided with the APIs.
+    You can use the provided python utility to complete the bulk import.
 
 For more information about the Places APIs, see [Web service API](/help/web-service-api/places-web-services.md).
 

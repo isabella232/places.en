@@ -361,7 +361,7 @@ Sets the authorization status in the Places extension.
 The status provided is stored in the Places shared state, and is for reference only.
 Calling this method does not impact the actual location authorization status for this device.
 
-This method should be called when the device changes authorization status, in the CLLocationManagerDelegate method `locationManager:didChangeAuthorizationStatus:`.
+When the device authorization status changes, the `locationManager:didChangeAuthorizationStatus:` method of your `CLLocationManagerDelegate` is invoked. From within this method, you should pass the new `CLAuthorizationStatus` value to the ACPPlaces `setAuthorizationStatus:` API.
 
 **Syntax**
 
