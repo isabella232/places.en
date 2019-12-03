@@ -354,7 +354,7 @@ Coming soon
 
 ### setAuthorizationStatus (iOS)
 
-_[Available starting with ACPPlaces v1.3.0]_
+*[Available starting with ACPPlaces v1.3.0]*
 
 Sets the authorization status in the Places extension.
 
