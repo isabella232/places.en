@@ -345,3 +345,38 @@ Here is the code sample for this method:
 ```objectivec
 [ACPPlaces clear];
 ```
+
+## Set location authorization status
+
+### setAuthorizationStatus (Android)
+
+Coming soon
+
+### setAuthorizationStatus (iOS)
+
+_[Available starting with ACPPlaces v1.3.0]_
+
+Sets the authorization status in the Places extension.
+
+The status provided is stored in the Places shared state, and is for reference only.
+Calling this method does not impact the actual location authorization status for this device.
+
+This method should be called when the device changes authorization status, in the CLLocationManagerDelegate method `locationManager:didChangeAuthorizationStatus:`.
+
+**Syntax**
+
+Here is the syntax for this method:
+
+```objectivec
++ (void) setAuthorizationStatus: (CLAuthorizationStatus) status;
+```
+
+**Example**
+
+Here is the code sample for this method:
+
+```objectivec
+- (void) locationManager: (CLLocationManager*) manager didChangeAuthorizationStatus: (CLAuthorizationStatus) status {    
+    [ACPPlaces setAuthorizationStatus:status];
+}
+```
