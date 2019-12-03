@@ -233,7 +233,7 @@ You can use the Places APIs to do the following:
 * Build your own UI or integrate with an existing POI database.
 * Use the Places API batch endpoints to do a bulk import of POIs.
 
-    You can use the provided python utility to complete the bulk import.
+    You can use the provided Python utility to complete the bulk import.
 
 For more information about the Places APIs, see [Web service API](/help/web-service-api/places-web-services.md).
 
