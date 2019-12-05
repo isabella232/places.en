@@ -21,11 +21,7 @@ The Location Service product context is available with all Experience Cloud orga
  
 * Ensure that you are listed as a user under the Location Service and Experience Platform Launch product contexts in the Admin Console.  
  
-   For more information, see *Adding a user to Experience Platform Launch and Location Service* in [Frequently asked questions](/help/places-faqs.md).
- 
-* Ensure that the Places extension is installed on your mobile app property in Experience Platform Launch. 
-
-  To use the Adobe-provided regional monitoring for your geo-fences, install the Places Monitor extension. For more information, see [Places monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+   For more information, see *Adding a user to Experience Platform Launch and Location Service* in [Frequently asked questions](/help/places-gain-access.md).
  
   
 ### 2. Create your POIs

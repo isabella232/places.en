@@ -5,7 +5,7 @@ description: In the Location Service UI, you can edit, delete, or filter existin
 seo-description: In the Location Service UI, you can edit, delete, or filter existing POIs.
 ---
 
-# Manage existing POIs
+# Manage existing POIs {#managing-existing-pois}
 
 POIs and libraries are created and managed in the Places database by using the Places UI.
 

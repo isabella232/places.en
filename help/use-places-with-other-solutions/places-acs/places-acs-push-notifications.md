@@ -5,7 +5,7 @@ description: This section provides information about how to use Places with push
 seo-description: This section provides information about how to use Places with push notifications in Campaign Standard. 
 ---
 
-# Push Notifications with Experience Platform Location Service {#push-notifications}
+# Push Notifications with Location Service {#push-notifications}
 
 In this guide, we’ll show how you can use historical geo-location information to target push notifications delivered through Adobe Campaign Standard. 
 

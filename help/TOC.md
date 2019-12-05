@@ -9,8 +9,10 @@ user-guide-title: Adobe Experience Platform Location Service
 + [Adobe Experience Platform Location Service overview](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
++ [Gain access to Location Service](places-gain-access.md)
 + Point of interest management interface {#poi-mgmt-ui}
-  + [Create a new POI](poi-mgmt-ui/create-a-poi-ui.md)
+  + [Point of interest management interface overview](poi-mgmt-ui/poi-mgmt-ui-overview.md)
+  + [Create a POI](poi-mgmt-ui/create-a-poi-ui.md)
   + [Manage previously created POIs](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
   + [Strategies for using metadata with POIs](poi-mgmt-ui/metadata-with-pois.md)
   + [Bulk upload of POIs](poi-mgmt-ui/bulk-upload-pois.md)
@@ -19,6 +21,7 @@ user-guide-title: Adobe Experience Platform Location Service
   + [Web service API overview](web-service-api/places-web-services.md)
   + [Integration prerequisites](web-service-api/adobe-i-o-integration.md)
   + API usage {#api-usage}
+    + [API usage overview](web-service-api/api-usage/api-usage-overview.md)
     + [Headers and parameters](web-service-api/api-usage/headers-and-parameters.md)
     + Manage libraries {#manage-libraries}
       + [Manage libraries overview](web-service-api/api-usage/manage-libraries/manage-libraries.md)
@@ -56,10 +59,12 @@ user-guide-title: Adobe Experience Platform Location Service
 + [Use Location Service with your own monitoring solution](using-your-own-monitor.md)
 + [Use Location Service without active region monitoring](use-places-without-active-monitoring.md)
 + Use Location Service as part of the Experience Platform Launch workflow {#use-places-launch-workflow}
+  + [Use Location Service as part of the Experience Platform Launch workflow](use-places-launch-workflow/places-launch-workflow.md)
   + [Define data elements](use-places-launch-workflow/define-data-elements.md)
   + [Create entry and exit rules](use-places-launch-workflow/create-rule-places-property.md)
 + Use Location Service with other Adobe Solutions {#use-places-with-other-solutions}
   + Adobe Analytics {#places-adobe-analytics}
+    + [Use Location Service with Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
     + [Send POI entry and exit data to Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
     + [Add location context to Analytics requests](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
     + [Report on location data in Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
@@ -68,6 +73,7 @@ user-guide-title: Adobe Experience Platform Location Service
     + [Push notifications](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
     + [In-App notifications](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
   + Adobe Campaign Standard {#places-acs}
+    + [Use Location Service with Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
     + [Push notifications](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
     + [In-App messages](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
   + Adobe Target {#places-target}
