@@ -2,9 +2,11 @@
 
 You can access the Platform Location Service from the quick access menu on [Adobe Experience Cloud home](https://experience.adobe.com). 
 If your user ID has access you will see the Location Service icon as indicated below:
+
 ![quick access menu](/help/assets/quick-access.png)
 
 You can also access the Platform Location Service from the Adobe Experience Platform menu:
+
 ![Experience Platform menu](/help/assets/exp-platform-menu.png)
 
 If you do not see the Platform Location Service in either of these menus, you will need to contact an administrator within your organization to add your user ID to the Places Core Service in the Admin Console. 
@@ -56,10 +58,7 @@ To verify that Location Service and Experience Platform Launch are provisioned:
 
     If they are displayed, Location Service and Experience Platform Launch have been provisioned for your organization. If they are not displayed, they need to be provisioned for your organization.
 
-    >[!IMPORTANT]
-    >
-    >During the Beta period, after you complete the [Beta survey](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4fkr821yYptFo-ghlnlXCyhUM0dQVkJCSzVDMFNGWEFXWUUwNEJWSjhSRS4u), the request is made to the Provisioning team.
-
+   
 ### 2. Set up the profile and add the permissions
 
 To set up the profile and add the permissions:
