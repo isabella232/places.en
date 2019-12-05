@@ -1,8 +1,6 @@
 ---
 title: Test and validate Places
-seo-title: Test and validate Places
 description: This section provides information about how you can test and validate Places.
-seo-description: This section provides information about how you can test and validate Places.
 ---
 
 # Recommendations to test Location Service {#test-validate-loc-svc}

@@ -1,8 +1,6 @@
 ---
 title: Creating a rule for your Places property
-seo-title: Creating a rule for your Places property
 description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
-seo-description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
 ---
 
 # Create entry and exit rules {#create-entry-exit-rules}

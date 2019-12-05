@@ -1,8 +1,6 @@
 ---
 title: Send POI entry and exit data to Analytics
-seo-title: Send POI entry and exit data to Analytics
 description: This section provides information about how to send POI entry and exit data to Analytics.
-seo-description: This section provides information about how to send POI entry and exit data to Analytics.
 ---
 
 # Send POI entry and exit data to Analytics {#places-data-analytics}

@@ -1,8 +1,6 @@
 ---
 title: Manage libraries in the Places UI
-seo-title: Manage libraries in the Places UI
 description: Manage your libraries by using the Places UI.
-seo-description: Manage your libraries by using the Places UI.
 ---
 
 # Manage libraries {#manage-libraries-places-ui}

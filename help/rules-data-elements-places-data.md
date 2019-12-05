@@ -1,8 +1,6 @@
 ---
 title: Using Experience Platform Launch rules and data elements with Places data.
-seo-title: Using Experience Platform Launch rules and data elements with Places data
 description: Information about rules and data elements and Places data.
-seo-description: Information about rules and data elements and Places data.
 
 ---
 

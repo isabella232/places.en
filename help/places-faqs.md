@@ -1,8 +1,6 @@
 ---
 title: Frequently asked questions
-seo-title: Frequently asked questions
 description: This topic provides additional information about some frequently asked questions.
-seo-description: This topic provides additional information about some frequently asked questions.
 ---
 
 # Frequently asked questions

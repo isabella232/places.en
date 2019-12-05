@@ -1,8 +1,6 @@
 ---
 title: Overview
-seo-title: Query APIs
 description: Understanding and using Query APIs.
-seo-description: Understanding and using Query APIs.
 ---
 
 

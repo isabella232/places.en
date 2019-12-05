@@ -1,8 +1,6 @@
 ---
 title: Update a library
-seo-title: Update a library
 description: Update a library by using the Places REST API.
-seo-description: Update a library by using the Places REST API.
 ---
 
 # Update a library

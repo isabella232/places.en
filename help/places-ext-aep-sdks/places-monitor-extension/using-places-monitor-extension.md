@@ -1,8 +1,6 @@
 ---
 title: Using the Places Monitor extension
-seo-title: Using the Places Monitor extension
 description: Information on how to install, configure, and use the Places Monitor extension.
-seo-description: Information on how to install, configure, and use the Places Monitor extension.
 ---
 
 # Using the Places Monitor extension {#using-places-monitor-extension}

@@ -1,8 +1,6 @@
 ---
 title: Read all libraries in your organization
-seo-title: Read all libraries in your organization
 description: Read all libraries in your organization by using the Places REST API.
-seo-description: Read all libraries in your organization by using the Places REST API.
 ---
 
 # Read all libraries in your organization
