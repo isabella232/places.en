@@ -21,7 +21,7 @@ The Location Service product context is available with all Experience Cloud orga
  
 * Ensure that you are listed as a user under the Location Service and Experience Platform Launch product contexts in the Admin Console.  
  
-   For more information, see *Adding a user to Experience Platform Launch and Location Service* in [Gain access to Location Service](/help/places-gain-access.md).
+   For more information, see *Adding a user to Experience Platform Launch and Location Service* in [Frequently asked questions](/help/places-gain-access.md).
  
   
 ### 2. Create your POIs
