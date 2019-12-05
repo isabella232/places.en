@@ -9,6 +9,7 @@ user-guide-title: Adobe Experience Platform Location Service
 + [Adobe Experience Platform Location Service overview](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
++ [Gain access to Location Service](places-gain-access.md)
 + Point of interest management interface {#poi-mgmt-ui}
   + [Point of interest management interface overview](poi-mgmt-ui/poi-mgmt-ui-overview.md)
   + [Create a POI](poi-mgmt-ui/create-a-poi-ui.md)
