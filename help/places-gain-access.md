@@ -1,4 +1,4 @@
-## Accessing the Adobe Experience Platform Location Service {#adding-user-launch-places}
+# Accessing the Adobe Experience Platform Location Service {#adding-user-launch-places}
 
 You can access the Platform Location Service from the quick access menu on [Adobe Experience Cloud home](https://experience.adobe.com). 
 If your user ID has access you will see the Location Service icon as indicated below:
