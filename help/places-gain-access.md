@@ -7,7 +7,7 @@ If your user ID has access you will see the Location Service icon as indicated b
 
 You can also access the Platform Location Service from the Adobe Experience Platform menu:
 
-![Experience Platform menu](/help/assets/exp-platform-menu.png)
+![Experience Platform menu](/help/assets/exp-platform-menu-sm.png)
 
 If you do not see the Platform Location Service in either of these menus, you will need to contact an administrator within your organization to add your user ID to the Places Core Service in the Admin Console. 
 
