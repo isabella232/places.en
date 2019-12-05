@@ -1,8 +1,6 @@
 ---
 title: Places API reference
-seo-title: Places API reference
 description: Information about the API references in Places.
-seo-description: Information about the API references in Places.
 ---
 
 # Places API reference {#places-api-reference}

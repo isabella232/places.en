@@ -1,8 +1,6 @@
 ---
 title: Getting started
-seo-title: Getting started
 description: Getting started with Location Service.
-seo-description: Getting started with Location Service.
 ---
 
 # Getting started {#getting-started}

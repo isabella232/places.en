@@ -1,8 +1,6 @@
 ---
 title: Using Places with Mobile Services for messaging
-seo-title: Using Places with Mobile Services for messaging
 description: This section shows you how to use Places with Mobile Services for messaging.
-seo-description: This section shows you how to use Places with Mobile Services for messaging.
 ---
 
 # Adobe Mobile Services {#places-mobile-services}

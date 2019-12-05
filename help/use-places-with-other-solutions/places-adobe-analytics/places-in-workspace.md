@@ -1,8 +1,6 @@
 ---
 title: Report on location data in Analytics Workspace
-seo-title: Report on location data in Analytics Workspace
 description: This section provides information about how to report on location data in Analytics Workspace.
-seo-description: This section provides information about how to report on location data in Analytics Workspace.
 ---
 
 # Report on location data in the Analytics Workspace {#places-in-workspace}

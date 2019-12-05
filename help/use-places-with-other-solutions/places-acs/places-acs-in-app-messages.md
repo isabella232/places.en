@@ -1,8 +1,6 @@
 ---
 title: In-App messages with Location Service
-seo-title: In-App messages with Location Service
 description: This section provides information about how to use Push messaging in Campaign Standard with In-App messages in Campaign Standard.
-seo-description: This section provides information about how to use "Push messaging in Campaign Standard" with In-App messages in Campaign Standard. 
 ---
 
 # In-App messaging with Location Service {#in-app-messages-loc-service}

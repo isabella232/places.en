@@ -1,8 +1,6 @@
 ---
 title: Read a POI
-seo-title: Read a POI
 description: Read a POI by using the Places REST APIs.
-seo-description: Read a POI by using the Places REST APIs.
 ---
 
 # Read a POI

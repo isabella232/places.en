@@ -1,8 +1,6 @@
 ---
 title: Get a library's rank
-seo-title: Get a library's rank
 description: Get a library's rank by using the Places REST API.
-seo-description: Get a library's rank by using the Places REST API.
 ---
 
 # Get a library's rank

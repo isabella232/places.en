@@ -1,8 +1,6 @@
 ---
 title: Using Location Service with other Adobe solutions
-seo-title: Using Location Service with other Adobe solutions
 description: This section shows you how to use Location Service with other Adobe solutions.
-seo-description: This section shows you how to use Location Service with other Adobe solutions.
 ---
 
 # Use Location Service with other Adobe solutions {#use-places-other-solutions}

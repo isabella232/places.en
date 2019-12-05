@@ -1,8 +1,6 @@
 ---
 title: Delete a POI
-seo-title: Delete a POI
 description: Delete a POI by using the Places REST APIs.
-seo-description: Delete a POI by using the Places REST APIs.
 ---
 
 # Delete a POI

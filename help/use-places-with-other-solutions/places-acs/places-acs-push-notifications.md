@@ -1,8 +1,6 @@
 ---
 title: Push notifications
-seo-title: Push notifications
 description: This section provides information about how to use Places with push notifications in Campaign Standard.
-seo-description: This section provides information about how to use Places with push notifications in Campaign Standard. 
 ---
 
 # Push Notifications with Location Service {#push-notifications}

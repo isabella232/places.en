@@ -1,8 +1,6 @@
 ---
 title: Release notes
-seo-title: Release notes
 description: Release notes for Adobe Experience Platform Location Service.
-seo-description: Release notes for Adobe Experience Platform Location Service.
 ---
 
 # Release notes {#release-notes}

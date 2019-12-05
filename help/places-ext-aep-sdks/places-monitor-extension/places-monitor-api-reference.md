@@ -1,8 +1,6 @@
 ---
 title: Places Monitor API reference
-seo-title: Places Monitor API reference
 description: A list of the APIs for the Places Monitor.
-seo-description: A list of the APIs for the Places Monitor.  
 ---
 
 # Places Monitor API reference {#places-api-reference}

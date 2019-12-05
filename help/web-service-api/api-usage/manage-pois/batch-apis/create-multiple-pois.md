@@ -1,8 +1,6 @@
 ---
 title: Create multiple POIs
-seo-title: Create multiple POIs
 description: Use the batch APIs to create multiple POIs.
-seo-description: Use the batch APIs to create multiple POIs.
 ---
 
 # Create multiple POIs {#create-multiple-pois}

@@ -1,8 +1,6 @@
 ---
 title: Add location context to Analytics requests
-seo-title: Add location context to Analytics requests
 description: This section provides information about how to Add location context to Analytics requests.
-seo-description: This section provides information about how to Add location context to Analytics requests.
 ---
 
 # Add location context to Analytics requests {#run-reports-aa-locserv-data}

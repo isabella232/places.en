@@ -1,8 +1,6 @@
 ---
 title: Define data elements
-seo-title: Define data elements
 description: This section provides information about how to create, use, and publish data elements in Experience Platform Launch for Places.
-seo-description: This section provides information about how to create, use, and publish data elements in Experience Platform Launch for Places. 
 ---
 
 # Define a data element {#define-data-elements}

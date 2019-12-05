@@ -1,8 +1,6 @@
 ---
 title: In-App notifications
-seo-title: In-App notifications
 description: This section shows you how to use Places with In-App messaging.
-seo-description: This section shows you how to use Places with In-App messaging.
 ---
 
 # In-App notifications (#places-push-messaging)

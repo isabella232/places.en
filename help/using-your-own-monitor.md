@@ -1,8 +1,6 @@
 ---
 title: Using your own monitor
-seo-title: Using your own monitor
 description: You can also use your monitoring services and integrate with Places by using the Places extension APIs.
-seo-description: You can also use your monitoring services and integrate with Places by using the Places extension APIs.
 ---
 
 # Using your own monitor {#using-your-monitor}

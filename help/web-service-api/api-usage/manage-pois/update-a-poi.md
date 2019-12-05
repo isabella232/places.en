@@ -1,8 +1,6 @@
 ---
 title: Update a POI
-seo-title: Update a POI
 description: Update a POI by using the Places REST APIs.
-seo-description: Update a POI by using the Places REST APIs.
 ---
 
 # Update a POI

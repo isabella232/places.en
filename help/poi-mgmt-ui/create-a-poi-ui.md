@@ -1,8 +1,6 @@
 ---
 title: Create a POI
-seo-title: Create a POI
 description: Create a POI using the Places UI.
-seo-description: Create a POI using the Places UI.
 ---
 
 # Create a POI {#create-a-poi}

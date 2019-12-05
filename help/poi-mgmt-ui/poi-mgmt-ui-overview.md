@@ -1,8 +1,6 @@
 ---
 title: Point of interest management interface overview
-seo-title: Point of interest management interface overview
 description: This section provides information about how to create and manage libraries and POIs through the Location Service UI.
-seo-description: This section provides information about how to create and manage libraries and POIs through the Location Service UI.
 ---
 
 # Point of interest management interface overview {#management-ui-overview}
