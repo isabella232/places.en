@@ -94,6 +94,7 @@ public class MobileApp extends Application {
             PlacesMonitor.registerExtension(); //Register PlacesMonitor with Mobile Core
             Places.registerExtension(); //Register Places with Mobile Core
             MobileCore.start(null);
+            PlacesMonitor.start();//Start monitoring the geo-fences
         } catch (Exception e) {
             //Log the exception
         }
