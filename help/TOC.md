@@ -1,5 +1,5 @@
 ---
-product: Adobe Experience Platform Location Service
+product: adobe experience platform
 audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 ---
