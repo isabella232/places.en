@@ -1,8 +1,6 @@
 ---
 title: Use Location Service with Adobe Campaign Standard 
-seo-title: Use Location Service with Adobe Campaign Standard
 description: This section is an overview of how to use Location Service with Campaign Standard. 
-seo-description: This section is an overview of how to use Location Service with Campaign Standard.
 ---
 
 # Use Location Service with Adobe Campaign Standard {#location-service-acs}

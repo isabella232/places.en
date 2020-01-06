@@ -1,7 +1,5 @@
 ---
 title: Custom Places objects
-seo-title: Custom native classes to be used with the Places APIs.
-seo-description: Custom native classes to be used with the Places APIs.
 ---
 
 # Custom Places objects {#places-objects}

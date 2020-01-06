@@ -1,8 +1,6 @@
 ---
 title: Manage libraries
-seo-title: Manage libraries
 description: Managing the Places REST API libraries.
-seo-description: Managing the Places REST API libraries.
 ---
 # Manage libraries overview {#manage-libraries}
 

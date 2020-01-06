@@ -1,8 +1,6 @@
 ---
 title: Using the Places Monitor extension
-seo-title: Using the Places Monitor extension
 description: Information on how to install, configure, and use the Places Monitor extension.
-seo-description: Information on how to install, configure, and use the Places Monitor extension.
 ---
 
 # Using the Places Monitor extension {#using-places-monitor-extension}
@@ -96,6 +94,7 @@ public class MobileApp extends Application {
             PlacesMonitor.registerExtension(); //Register PlacesMonitor with Mobile Core
             Places.registerExtension(); //Register Places with Mobile Core
             MobileCore.start(null);
+            PlacesMonitor.start();//Start monitoring the geo-fences
         } catch (Exception e) {
             //Log the exception
         }

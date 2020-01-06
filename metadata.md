@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: places
+product: adobe experience platform
 solution-title: Learn & Support
 solution-hub-url:  https://helpx.adobe.com/support/experience-cloud.html
 getting-started-title: Getting Started

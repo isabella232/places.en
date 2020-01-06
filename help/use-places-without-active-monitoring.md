@@ -1,8 +1,6 @@
 ---
 title: Use Location Service without active region monitoring
-seo-title: Use Location Service without active region monitoring
 description: This section provides information about how use Location ServicePlaces without active region monitoring.
-seo-description: This section provides information about how to use Location Service without active region monitoring.
 ---
 
 # Use Location Service without active region monitoring {#use-places-without-active-monitoring}

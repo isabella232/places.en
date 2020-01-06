@@ -1,8 +1,6 @@
 ---
 title: Use Location Service with Adobe Analytics
-seo-title: Use Location Service with Adobe Analytics
 description: This section provides information about how to use Location Service with Adobe Analytics.
-seo-description: This section provides information about how to use Location Service with Adobe Analytics.
 ---
 
 # Use Location Service with Adobe Analytics {#places-with-aa}

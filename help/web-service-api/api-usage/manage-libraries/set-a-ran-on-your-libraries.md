@@ -1,8 +1,6 @@
 ---
 title: Set a rank on your libraries
-seo-title: Set a rank on your libraries
 description: Set a rank on your libraries by using the Places REST API.
-seo-description: Set a rank on your libraries by using the Places REST API.
 ---
 
 # Set a rank on your libraries

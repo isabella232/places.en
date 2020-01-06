@@ -1,8 +1,6 @@
 ---
 title: Adobe Target
-seo-title: Adobe Target
 description: This section provides information about how to use Location Service with Adobe Target.
-seo-description: This section provides information about how to use Location Service with Adobe Target.
 ---
 
 # Use Location Service with Adobe Target {#places-target}

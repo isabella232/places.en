@@ -1,8 +1,6 @@
 ---
 title: Experience Platform Launch Data Elements with Places Data
-seo-title: Experience Platform Launch Data Elements with Places Data
 description: Data elements are the building blocks for your data dictionary (or data map). 
-seo-description: Data elements are the building blocks for your data dictionary (or data map). 
 ---
 
 # Experience Platform Launch data elements with Places data {#launch-data-places}

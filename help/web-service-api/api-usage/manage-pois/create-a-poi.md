@@ -1,8 +1,6 @@
 ---
 title: Create a POI
-seo-title: Create a POI
 description: Create a POI by using the Places REST APIs.
-seo-description: Create a POI by using the Places REST APIs.
 ---
 
 # Create a POI

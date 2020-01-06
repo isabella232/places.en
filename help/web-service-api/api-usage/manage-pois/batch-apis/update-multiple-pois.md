@@ -1,8 +1,6 @@
 ---
 title: Update multiple POIs
-seo-title: Update multiple POIs
 description: Use the batch APIs to update multiple POIs.
-seo-description: Use the batch APIs to update multiple POIs.
 ---
 
 # Update multiple POIs {#update-multiple-pois}

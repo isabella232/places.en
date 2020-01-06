@@ -1,8 +1,6 @@
 ---
 title: Adobe I/O integration overview
-seo-title: Adobe I/O integration overview
 description: Information about creating an Adobe I/O integration.
-seo-description: Information about creating a Adobe I/O integration.
 ---
 
 # Integration overview and prerequisites {#integration-prereqs}

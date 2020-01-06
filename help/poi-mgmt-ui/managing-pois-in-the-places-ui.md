@@ -1,8 +1,6 @@
 ---
 title: Manage existing POIs
-seo-title: Manage existing POIs
 description: In the Location Service UI, you can edit, delete, or filter existing POIs.
-seo-description: In the Location Service UI, you can edit, delete, or filter existing POIs.
 ---
 
 # Manage existing POIs {#managing-existing-pois}

@@ -1,8 +1,6 @@
 ---
 title: Places event reference
-seo-title: Places event reference
 description: A list of the events that are handled by the Places extension. 
-seo-description: A list of the events that are handled by the Places extension.  
 ---
 
 # Places event reference {#places-event-reference}

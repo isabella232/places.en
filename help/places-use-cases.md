@@ -1,8 +1,6 @@
 ---
 title: Uses cases
-seo-title: Use cases for Places.
 description: This topic contains details about use cases for Places.
-seo-description: This topic contains details about use cases for Places.
 ---
 
 # Places use cases

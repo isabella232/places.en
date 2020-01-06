@@ -1,8 +1,6 @@
 ---
 title: Delete multiple POIs
-seo-title: Delete multiple POIs
 description: Use the batch APIs to delete multiple POIs.
-seo-description: Use the batch APIs to delete multiple POIs.
 ---
 
 
