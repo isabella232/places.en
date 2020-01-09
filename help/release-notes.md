@@ -5,6 +5,15 @@ description: Release notes for Adobe Experience Platform Location Service.
 
 # Release notes {#release-notes}
 
+## January 9, 2020
+
+* **ACPPlaces 1.4.0**
+
+  * **Android**
+
+    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for location services. The value is stored and used in the Places shared state.
+
+
 ## December 3, 2019
 
 * **ACPPlaces 1.3.0**
