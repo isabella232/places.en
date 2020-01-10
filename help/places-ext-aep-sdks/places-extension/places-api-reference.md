@@ -347,6 +347,7 @@ Here is the code sample for this method:
 ## Set location authorization status
 
 ### setAuthorizationStatus (Android)
+
 *Available starting with Places v1.4.0*
 
 Sets the authorization status in the Places extension.
