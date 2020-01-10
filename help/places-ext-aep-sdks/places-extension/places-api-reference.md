@@ -348,7 +348,28 @@ Here is the code sample for this method:
 
 ### setAuthorizationStatus (Android)
 
-Coming soon
+*Available starting with Places v1.4.0*
+
+Sets the authorization status in the Places extension.
+
+The status provided is stored in the Places shared state, and is for reference only.
+Calling this method does not impact the actual location authorization status for this device.
+
+**Syntax**
+
+Here is the syntax for this method:
+
+```java
+public static void setAuthorizationStatus(final PlacesAuthorizationStatus status);
+```
+
+**Example**
+
+Here is the code sample for this method:
+
+```java
+Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
+```
 
 ### setAuthorizationStatus (iOS)
 
