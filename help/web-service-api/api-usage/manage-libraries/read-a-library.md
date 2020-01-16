@@ -4,7 +4,7 @@ description: Read a library by using the Places REST API.
 ---
 
 
-# Read a library
+# Read a library {#read-a-library}
 
 A GET method that returns the details for a library.
 

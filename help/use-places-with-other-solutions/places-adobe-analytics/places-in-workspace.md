@@ -11,11 +11,17 @@ This document shows an example of how to report on your location data in the Ana
 
 This document assumes the following:
 
-1. Adobe Places extension is implemented in your application. For more information about implementing Adobe Places, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+1. Places Service extension is implemented in your application. 
 
-1. The Adobe Analytics user is an admin and has access to processing rules. For more information about processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   For more information about implementing Places Service, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-1. In Launch property, data elements have been created for the desired Location Service variables. For more information about data elements in Launch, see [Define a data element](/help/use-places-launch-workflow/define-data-elements.md).
+1. The Adobe Analytics user is an admin and has access to processing rules. 
+  
+   For more information about processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+
+1. In Launch property, data elements have been created for the Places Service variables that you want. 
+
+   For more information about data elements in Launch, see [Define a data element](/help/use-places-launch-workflow/define-data-elements.md).
 
 
 ## 1. Create a Launch rule
@@ -32,7 +38,7 @@ In this example, the rule's action has the following values defined for the Anal
 
 ## 2. Create Analytics variables
 
-In order to map the context data (sent in step 1), variables must first be created for the Analytics report suite. For more information about creating variables in Analytics, see [Conversion variables \(eVars\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+To map the context data (sent in step 1), variables must first be created for the Analytics report suite. For more information about creating variables in Analytics, see [Conversion variables (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
 In this example, a conversion variable, **[!UICONTROL Evar2]**, has been created and named **[!UICONTROL Places POI Name]**. Additional variables will need to be created for each location variable you want to expose in reporting.
 

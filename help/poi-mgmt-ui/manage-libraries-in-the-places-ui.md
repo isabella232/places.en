@@ -1,6 +1,6 @@
 ---
-title: Manage libraries in the Places UI
-description: Manage your libraries by using the Places UI.
+title: Manage libraries in the Places Service UI
+description: Manage your libraries by using the Places Service UI.
 ---
 
 # Manage libraries {#manage-libraries-places-ui}

@@ -1,6 +1,6 @@
 ---
 title: Push notifications
-description: This section shows you how to use Places with push notifications.
+description: This section shows you how to use Places Service with push notifications.
 ---
 
 # Push notifications

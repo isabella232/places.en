@@ -3,7 +3,7 @@ title: Create a library
 description: Create a library by using the Places REST API.
 ---
 
-# Create a library
+# Create a library {#create-a-library}
 
 A POST method that lets you create a library.
 

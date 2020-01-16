@@ -1,6 +1,6 @@
 ---
 title: Manage existing POIs
-description: In the Location Service UI, you can edit, delete, or filter existing POIs.
+description: In the Places Service UI, you can edit, delete, or filter existing POIs.
 ---
 
 # Manage existing POIs {#managing-existing-pois}
@@ -28,7 +28,7 @@ POIs and libraries are created and managed in the Places database by using the P
 
 ![filter a POI](/help/assets/filter_poi.png)
 
-1. Log in to the Location Service UI using your Adobe ID.
+1. Log in to the Places Service UI using your Adobe ID.
 1. In the top right side, click the filtering icon.
 1. You can filter POIs in one of the following ways: 
 

@@ -1,6 +1,6 @@
 ---
 title: Release notes
-description: Release notes for Adobe Experience Platform Location Service.
+description: Release notes for Places Service.
 ---
 
 # Release notes {#release-notes}
@@ -11,7 +11,7 @@ description: Release notes for Adobe Experience Platform Location Service.
 
   * **Android**
 
-    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for location services. The value is stored and used in the Places shared state.
+    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for Places Services. The value is stored and used in the Places shared state.
 
 
 ## December 3, 2019
@@ -20,7 +20,7 @@ description: Release notes for Adobe Experience Platform Location Service.
 
   * **iOS**
 
-    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for location services. The value is stored and used in the Places shared state.
+    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for Places Services. The value is stored and used in the Places shared state.
 
 ## November 22, 2019
 
@@ -213,7 +213,7 @@ This is the first release of Places, a set of tools that allows customers to enr
 
 Here are the key features in this release:
 
-#### Location Service UI
+#### Places Service UI
 
 We have released a management UI where you can view and manage your points of interest (POIs). You also can organize your POIs into libraries. In addition to standard metadata such as city, state, and category, we also support the ability to add custom metadata to your POIs.
 

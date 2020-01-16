@@ -122,6 +122,6 @@ To create a data element in Experience Platform Launch:
 
 ### Thinking beyond entries and exits
 
-Using Location Service geo-fence entries and exits to trigger rules in Experience Platform Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based on this event, you can place additional location conditions to the event before an action is performed. For example, open up an in-app survey when a purchase `trackAction` event occurs, but **only** if the user's current location includes specific Location Service metadata. 
+Using Places Service geo-fence entries and exits to trigger rules in Experience Platform Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based on this event, you can place additional location conditions to the event before an action is performed. For example, open up an in-app survey when a purchase `trackAction` event occurs, but **only** if the user's current location includes specific Places Service metadata. 
 
 ![create a condition](/help/assets/places-condition.png)

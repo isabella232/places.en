@@ -5,13 +5,13 @@ description: This section provides information and strategies about how to use m
 
 # Strategies for using metadata with POIs {#using-metadata-pois}
 
-In Location Service, when you create a a new POI, the only required elements are Name, Radius, Latitude and Longitude. For more information about creating a POI, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md). If, however, you are only entering the minimum information, you will miss an opportunity to create additional value.
+In Places Service, when you create a a new POI, the only required elements are Name, Radius, Latitude and Longitude. For more information about creating a POI, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md). If, however, you are only entering the minimum information, you will miss an opportunity to create additional value.
 
 Point of interest metadata can be used in a variety of ways. From a POI management standpoint, adding metadata values can aid in searching for or filtering a list of potentially thousands of POIs. Creating metadata for key attributes related to a POI can yield value in downstream workflows. For instance, a hotel chain creating POIs for each property may want to include metadata such as if the hotel property has a pool or not, or a restaurant and bar, or if they have a gym facility. This metadata can be included as context data in analytics and can also be used for targeted offers or messaging.
 
-## Location Service metadata in Launch
+## Places Service metadata in Launch
 
-In Adobe Experience Platform Launch you can create data elements for each Location Service metadata field that is important for tracking or messaging purposes.
+In Adobe Experience Platform Launch you can create data elements for each Places Service metadata field that is important for tracking or messaging purposes.
 
 ![data element for the gym facility](/help/assets/gymfacility.png)
 

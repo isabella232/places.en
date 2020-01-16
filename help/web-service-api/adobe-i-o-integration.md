@@ -15,11 +15,11 @@ Verify with your organization's System administrator that the following tasks ha
 * You have been added to the organization. 
 * You have been added as a User to Places Core Service in your organization. 
 
-  For more information, see *Add a user or a developer to your Location Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
+  For more information, see *Add a user or a developer to your Places Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
 
 * You have been added as a Developer to Places Core Service in your organization.  
 
-  For more information on adding developers see *Add a user or a developer to your Location Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
+  For more information on adding developers see *Add a user or a developer to your Places Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
 
   For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).
 
@@ -39,7 +39,7 @@ An integration with Adobe I/O provides these items and a way to request the bear
 
 >[!IMPORTANT]
 >
->If you cannot log in to the Adobe I/O console, or if Experience Platform Location Service is not an option on the *Create Integrations page*, see *Organization requirements* in [Web services API overview](/help/web-service-api/places-web-services.md).
+>If you cannot log in to the Adobe I/O console, or if Places Service is not an option on the *Create Integrations page*, see *Organization requirements* in [Web services API overview](/help/web-service-api/places-web-services.md).
 
 ## Create a Places integration
 

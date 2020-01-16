@@ -1,6 +1,6 @@
 ---
 title: Push notifications
-description: This section provides information about how to use Places with push notifications in Campaign Standard.
+description: This section provides information about how to use Places Service with push notifications in Campaign Standard.
 ---
 
 # Push Notifications with Location Service {#push-notifications}
@@ -16,19 +16,19 @@ Before you begin, complete the following tasks:
 * Integrate the [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) into your app.
 * Add the [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to your mobile app configuration.
 
-* [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) in the Places POI management interface.
+* [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) in the Places Service POI management interface.
 
 * Enable and install the [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 
 ## Create data elements in Experience Platform Launch
 
-After you verify that the Places and Places Monitor for Location Service extensions are working correctly in your application, create data elements in Experience Platform Launch. Data elements allow you to read the information that was provided by the extensions coming through the Mobile SDK event hub and act as an alias to retrieve data from the client application. To retrieve data from the Places extensions and send the Places information to Campaign, you need to create a few data elements.
+After you verify that the Places extension and Places Monitor extension for Places Service extensions are working correctly in your application, create data elements in Experience Platform Launch. Data elements allow you to read the information that was provided by the extensions coming through the Mobile SDK event hub and act as an alias to retrieve data from the client application. To retrieve data from the Places extensions and send the Places Service information to Campaign, you need to create a few data elements.
 
 To create a data element:
 
 1. In your Experience Platform Launch mobile property, click the **[!UICONTROL Data Elements]** tab and click **[!UICONTROLAdd Data Element]**.
-1. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places]**.
+1. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places Service]**.
 1. From the **[!UICONTROL Data Element Type]** drop-down list, select **[!UICONTROL Name]**.
 1. In the right-hand side pane, you can select **[!UICONTROL Current POI]** which retrieves the name of the POI in which the user is currently located.
 
@@ -45,7 +45,7 @@ In addition to the data elements for Location Service, ensure that you create Mo
 Rules in Experience Platform Launch allow you to create complex, multi-solution workflows based on event triggers. With rules, you can create new rules or modify existing ones and have the updates dynamically deployed to your mobile applications. In the following example, the rule will be triggered when a user enters a geo-fenced POI. After the rule is triggered, an update is sent to Campaign Standard to record an entry to a specific POI for a particular user based on the Experience Cloud ID.
 
 1. In your Launch mobile property, on the **[!UICONTROL Rules]** tab, click **[!UICONTROL Add Rule]**.
-1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL +]** and select **[!UICONTROL Places]** as the extension.
+1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL +]** and select **[!UICONTROL Places Service]** as the extension.
 1. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
 1. Name the rule, for example, **User entered POI**.
 1. Click **[!UICONTROL Keep Changes]**.

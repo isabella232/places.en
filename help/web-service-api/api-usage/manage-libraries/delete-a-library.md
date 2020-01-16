@@ -3,7 +3,7 @@ title: Delete a library
 description: Delete a library by using the Places REST APIs.
 ---
 
-# Delete a library
+# Delete a library {#delete-a-library}
 
 A DELETE method that lets you delete a library.
 

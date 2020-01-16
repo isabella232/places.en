@@ -3,7 +3,7 @@ title: Delete a POI
 description: Delete a POI by using the Places REST APIs.
 ---
 
-# Delete a POI
+# Delete a POI {#delete-a-poi}
 
 A DELETE method that lets you delete a POI.
 

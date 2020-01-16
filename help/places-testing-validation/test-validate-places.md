@@ -1,6 +1,6 @@
 ---
-title: Test and validate Places
-description: This section provides information about how you can test and validate Places.
+title: Test and validate Places Service
+description: This section provides information about how you can test and validate Places Service.
 ---
 
 # Recommendations to test Location Service {#test-validate-loc-svc}

@@ -3,7 +3,7 @@ title: Get a library's rank
 description: Get a library's rank by using the Places REST API.
 ---
 
-# Get a library's rank
+# Get a library's rank {#get-library-rank}
 
  A GET method that allows you to rank libraries.
 

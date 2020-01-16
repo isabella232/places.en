@@ -1,11 +1,11 @@
 ---
 title: In-App notifications
-description: This section shows you how to use Places with In-App messaging.
+description: This section shows you how to use Places Service with In-App messaging.
 ---
 
 # In-App notifications (#places-push-messaging)
 
-The following information shows you how to configure In-App messages to trigger from Places events.
+The following information shows you how to configure In-App messages to trigger from Places Service events.
 
 >[!IMPORTANT]
 >
@@ -77,6 +77,6 @@ As part of your Trigger parameters, you can create the audience for the message 
 
   ![trigger parameters](/help/assets/trigger-parameters.png)
 
-* Parameters in the Places headings in the *Triggers and Traits* page in Mobile Services do not work with data from the Location Service.
+* Parameters in the Places Service headings in the *Triggers and Traits* page in Mobile Services do not work with data from the Location Service.
 
-  Those parameters are only for the legacy Places database that was created in Mobile Services.  
+  Those parameters are only for the legacy Places Service database that was created in Mobile Services.  

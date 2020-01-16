@@ -3,7 +3,7 @@ title: Read all POIs in a library
 description: Read all POIs in a library by using the Places REST APIs.
 ---
 
-# Read all POIs in a library
+# Read all POIs in a library {#read-all-pois-library}
 
 A GET method that returns all POIs in a library.
 
