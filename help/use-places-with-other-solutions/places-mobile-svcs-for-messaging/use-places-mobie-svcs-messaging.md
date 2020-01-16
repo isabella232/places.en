@@ -23,7 +23,7 @@ Before you can use Mobile Services extension for messaging, review the following
 
 * The ACP SDK is properly configured with Places and/or Places Monitor extensions. 
 
-  This means that data is available as events and/or conditions in the Launch rules engine for your mobile app. For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) or [Places Monitor extension](/Users/rekrishn/Documents/GitHub/places.en/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md).
+  This means that data is available as events and/or conditions in the Launch rules engine for your mobile app. For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) or [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md).
 
 * Become familiar with creating and publishing Experience Platform Launch rules to the ACP SDK in your mobile app. 
 
