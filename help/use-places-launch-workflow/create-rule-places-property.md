@@ -1,11 +1,11 @@
 ---
-title: Creating a rule for your Places property
+title: Creating a rule for your Places Service property
 description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
 ---
 
 # Create entry and exit rules {#create-entry-exit-rules}
 
-With the Places and Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including location entry and exit events. 
+With the Places extension and the Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including location entry and exit events. 
 
 ## Rules
 
@@ -15,14 +15,14 @@ You can configure a rule, which is composed of an event, a condition, and an act
 * (Optional) conditions
 * One or more actions
 
-### Places events
+### Places Service events
 
-Places offers the following events on which you can run a rule:
+Places Service offers the following events on which you can run a rule:
 
 * **Enter POI**, which is triggered by the Places SDK when your customer enters the POI that you configured.
 * **Exit POI**, which is triggered by the Places SDK when your customer exits the POI that you configured.
 
-### Places conditions
+### Places Service conditions
 
 Conditions define the criteria that the data associated with the event, or the shared state of an extension at that instance, must meet for the action to be taken. For example, you can set a condition to trigger an action on an entry to a coffee shop only in the city of San Francisco.
 
@@ -72,7 +72,7 @@ To create a data element in Experience Platform Launch:
 1. In the right pane, select **Current POI**.
 1. Click **Save**.
 
-### Create a rule in Experience Platform Launch for Places
+### Create a rule in Experience Platform Launch for Places Service
 
 ![creating a rule](/help/assets/placesrule.png)
 

@@ -5,7 +5,7 @@ description: This section provides information about how to use Push messaging i
 
 # In-App messaging with Places Service {#in-app-messages-loc-service}
 
-This information helps you understand how you can use Adobe Experience Platform Places Service information to send In-App Messages or Local Notifications.
+This information helps you understand how you can use Places Service information to send In-App Messages or Local Notifications.
 
 ## Prerequisites
 

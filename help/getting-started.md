@@ -40,4 +40,4 @@ Points of Interest (POI) are geo-fences that you create for your organizations, 
 For more information about configuring the Places extension and Monitor extension, see the following information:
 
 * [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)
-* [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+* [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)

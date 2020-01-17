@@ -3,11 +3,11 @@ title: Test and validate Places Service
 description: This section provides information about how you can test and validate Places Service.
 ---
 
-# Recommendations to test Location Service {#test-validate-loc-svc}
+# Recommendations to test Places Service {#test-validate-loc-svc}
 
-Many customers and organizations will define POIs across the globe, so it is important to have a way to simulate and test how the Location Service interacts with your application.
+Many customers and organizations will define POIs across the globe, so it is important to have a way to simulate and test how the Places Service interacts with your application.
 
-This information helps you understand how to test and validate the Location Service entries and exits that are being correctly triggered based on the defined POIs and a user's current location.
+This information helps you understand how to test and validate the Places Service entries and exits that are being correctly triggered based on the defined POIs and a user's current location.
 
 Since environmental variables can be a factor in location signal and accuracy, we recommended that you first establish baseline results by working locally with developer tools and simulated location entries. The goal here is to validate that all location events are correctly working.
 
@@ -15,7 +15,7 @@ After the location events are correctly validated, solution integrations (for ex
 
 >[!IMPORTANT]
 >
->This plan assumes that POIs have been created in the [Location Service management UI](https://places.adobe.com) and the latest versions of the the Places extension and Places Monitor extension are installed and correctly configured.
+>This plan assumes that POIs have been created in the [Places Service management UI](https://places.adobe.com) and the latest versions of the the Places extension and Places Monitor extension are installed and correctly configured.
 
 | Step | Description | Expected Result |
 |--- |--- |--- |
@@ -38,7 +38,7 @@ After the location events are correctly validated, solution integrations (for ex
 | 10f | Ensure that you publish all of the new data element and rule changes in Launch. (You should select a working dev library in the upper right of the Launch interface.)|  |
 | 11 | Launch and test your application again by flipping between the GPX locations in the developer IDE. | You should now see Slack notifications showing entries for each POI as you select different locations in your development environment. |
 |  | **QUICK SUMMARY POINT**<br>All of this testing can be conducted locally without having to go to a specific POI location. Validation testing helps ensure that your application is correctly configured and has received the correct permissions for the location. <br><br>This validation also gives you confidence that the defined POIs are working correctly with the Places Monitor extension.  After this step, we will begin to test messaging in Campaign to see if the proper messages appear based on POI entries and exits. |  |
-|  | **Testing Adobe Campaign Standard In-App Messaging with Location Service.** |  |
+|  | **Testing Adobe Campaign Standard In-App Messaging with Places Service.** |  |
 | 12 | On the main Campaign dashboard configure a new In-App-Message (type = broadcast) |  |
 | 12a | In triggers, select **Places event type - Entry as the trigger**. |  |
 | 12b| Select **[UICONTROL Places Custom metadata]** as an additional filter - use POI type = Last Entered POI.<br>We use **[!UICONTROL Last Entered]** as the POI type because in most cases, **[!UICONTROL Last Entered]** will be the same as **[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Current POI]** should only be used in instances where there are overlapping POI geo-fences. In this case, these POIs need to be RANKED and then the **[!UICONTROL Current POI]** will display the top ranked POI out of the 2 or 3 geo-fences that a user might currently be in. |  |
@@ -59,7 +59,7 @@ After the location events are correctly validated, solution integrations (for ex
 | 16f | For the display type, select **[!UICONTROL Local Notification]**. |  |
 | 16g | Prepare/confirm and deploy the in-app message. |  |
 | 17 | In the developer environment, connect your device and press **[!UICONTROL Play]** on the build. After you establish that location is working, background the application and continue switching locations in Xcode or Android Studio. You should still see console read-outs indicating the location change, and you should also see local notifications displayed depending on the criteria set in your trigger. (There might be a 1-2 second delay.)| The expected result is that local notifications are displayed each time the matching criteria is met. |
-|  | **SUMMARY POINT** <br>At this stage, we should be seeing POI entries in our local environment. We should also see messaging from Campaign based on the POI work. If there are failures, check to see whether a Slack notification did not go out. If there is no Slack message, check the application console, because a new location entry might not have been recorded. If results are successful, then we can be fairly sure that the application is performing correctly and that the Location Service and Campaign messaging service is also working correctly.|  |
+|  | **SUMMARY POINT** <br>At this stage, we should be seeing POI entries in our local environment. We should also see messaging from Campaign based on the POI work. If there are failures, check to see whether a Slack notification did not go out. If there is no Slack message, check the application console, because a new location entry might not have been recorded. If results are successful, then we can be fairly sure that the application is performing correctly and that the Places Service and Campaign messaging service is also working correctly.|  |
 |  | **ON-SITE TESTING** <br>Not much should change when testing on location. Keeping the slack postback active should help with understanding if the device is getting an entry and exit for the location.|  |
 | 18 | Conduct tests with devices starting out with wifi and cellular disabled and then enable once in the POI region. | If there is a failure, make note whether you are getting a geo-fence entry and notification in Slack. What is the timestamp on the Slack notification? |
 | 19 | Conduct the test with only cellular enabled and with the wifi turned off. |  |

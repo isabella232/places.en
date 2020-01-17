@@ -11,9 +11,9 @@ This document shows an example of how to report on your location data in the Ana
 
 This document assumes the following:
 
-1. Places Service extension is implemented in your application. 
+1. The Places extension is implemented in your application. 
 
-   For more information about implementing Places Service, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   For more information about implementing the Places extension, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. The Adobe Analytics user is an admin and has access to processing rules. 
   
@@ -48,7 +48,7 @@ In this example, a conversion variable, **[!UICONTROL Evar2]**, has been created
 
 This step is needed to map context data (step 1) to Analytics variables (step 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-In this example, a processing rule has been created to map the context data value **[!UICONTROL poi.name]** into **[!UICONTROL Places POI Name \(eVar2\)]**. Additional processing rules will need to be created for each location variable created.
+In this example, a processing rule has been created to map the context data value **[!UICONTROL poi.name]** into **[!UICONTROL Places POI Name (eVar2)]**. Additional processing rules will need to be created for each location variable created.
 
 !["create a processing rule"](/help/assets/aa-processing-rule.png)
 

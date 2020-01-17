@@ -1,11 +1,11 @@
 ---
 title: Headers and parameters
-description: Headers and parameters that are available in the Places REST APIs.
+description: Headers and parameters that are available in the Places Service REST APIs.
 ---
 
 # Headers and parameters {#headers-and-parameters}
 
-Here are the details about the headers and parameters that are available in the Places REST API:
+Here are the details about the headers and parameters that are available in the Places Service REST API:
 
 ## Supported headers
 

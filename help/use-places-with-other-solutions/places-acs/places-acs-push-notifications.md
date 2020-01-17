@@ -3,7 +3,7 @@ title: Push notifications
 description: This section provides information about how to use Places Service with push notifications in Campaign Standard.
 ---
 
-# Push Notifications with Location Service {#push-notifications}
+# Push Notifications with Places Service {#push-notifications}
 
 In this guide, we’ll show how you can use historical geo-location information to target push notifications delivered through Adobe Campaign Standard. 
 
@@ -38,7 +38,7 @@ To create a data element:
 
 1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
-In addition to the data elements for Location Service, ensure that you create Mobile Core data elements for *App ID* and *Experience Cloud ID*.
+In addition to the data elements for Places Service, ensure that you create Mobile Core data elements for *App ID* and *Experience Cloud ID*.
 
 ## Create a rule to send location data to Adobe Campaign Standard
 
@@ -82,7 +82,6 @@ Rules in Experience Platform Launch allow you to create complex, multi-solution 
 >[!IMPORTANT]
 >
 >* It might be helpful to have a Slack web hook setup as an additional action to validate that entries are being triggered and that the right data is being collected.
-
 >* Remember to publish the recent changes to your app to make sure the rule and all of your data elements are deployed as part of your configuration. After publishing, you should launch the mobile application again to get the latest configuration updates.
 
 ## Use location data to target Campaign Messages
@@ -116,4 +115,4 @@ Now that we have location data populated in Campaign, we can use POIs as an audi
 
     !["Push messaging 3 in ACS"](/help/assets/ACS_push3.html)
 
-Using Location Service with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and exits. This integration helps you build more personalized and contextual use cases.
+Using Places Service with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and exits. This integration helps you build more personalized and contextual use cases.

@@ -1,11 +1,11 @@
 ---
 title: Using your own monitor
-description: You can also use your monitoring services and integrate with Places by using the Places extension APIs.
+description: You can also use your monitoring services and integrate with Places Service by using the Places Service extension APIs.
 ---
 
 # Using your own monitor {#using-your-monitor}
 
-You can also use your monitoring services and integrate with Places by using the Places extension APIs.
+You can also use your monitoring services and integrate with Places Service by using the Places extension APIs.
 
 ## Registering Geofences
 

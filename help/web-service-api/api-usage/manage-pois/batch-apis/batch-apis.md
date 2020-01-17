@@ -7,7 +7,7 @@ description: With batch APIs, you can create, update, and delete multiple POIs.
 
 The batch APIs allow you to create, update, or delete multiple POIs at the same time.
 
-To help you complete a batch import of your POIs from a `.csv` file into your organization's Places database, use the set of Python scripts. You can download the zip file of these scripts [here](https://github.com/adobe/places-scripts). For instructions on how to use the scripts, see the included README file.
+To help you complete a batch import of your POIs from a `.csv` file into your organization's Places database, use the set of Python scripts. You can download the zip file of these scripts [here](https://github.com/adobe/places-scripts). For instructions on how to use the scripts, see the README file  in the repo.
 
 You can use the batch APIs to complete the following tasks:
 

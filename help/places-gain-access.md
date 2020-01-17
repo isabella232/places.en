@@ -35,8 +35,6 @@ If this is the first time you are adding a user, complete the following steps to
 
 ### 1. Verify that Places Service and Experience Platform Launch are provisioned 
 
-To verify that Places Service and Experience Platform Launch are provisioned:
-
 1. Log in to your Experience Cloud organization.
 1. In the top-right side, click the Experience Cloud shell switcher.
 
@@ -64,8 +62,6 @@ To verify that Places Service and Experience Platform Launch are provisioned:
 
    
 ### 2. Set up the profile and add the permissions
-
-To set up the profile and add the permissions:
 
 1. Set up a Experience Platform Launch profile, which allows the users who were added to the profile, use Experience Platform Launch and its mobile properties with the Experience Platform SDK.
 
@@ -182,4 +178,4 @@ To add a developer:
 
 1. Click **Save**.
 
-Users receive an email that notifies them that they have access to Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **Add a developer** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places integration and use the Places REST API.
+Users receive an email that notifies them that they have access to Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **Add a developer** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places integration and use the Places REST API.

@@ -9,9 +9,9 @@ Before you can use Mobile Services extension for messaging, review the following
 
 * Points of interest have been created in Places Service. For more information, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
->[!IMPORTANT]
->
->The Places Service includes a new and improved POI database for your organization that exists outside the legacy Mobile Services UI. POIs that are located on the Mobile Service *Manage Placess* page navigation will only work for version 4 of the SDK. 
+    >[!IMPORTANT]
+    >
+    >The Places Service includes a new and improved POI database for your organization that exists outside the legacy Mobile Services UI. POIs that are located on the Mobile Service *Manage Placess* page navigation will only work for version 4 of the SDK. 
 
 * Here is the *Manage Places* POI management page in the legacy Mobile Services UI for older versions of the SDK:
 
@@ -23,7 +23,7 @@ Before you can use Mobile Services extension for messaging, review the following
 
 * The ACP SDK is properly configured with Places and/or Places Monitor extensions. 
 
-  This means that data is available as events and/or conditions in the Launch rules engine for your mobile app. For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) or [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md).
+  This means that data is available as events and/or conditions in the Experience Platform Launch rules engine for your mobile app. For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) or [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md).
 
 * Become familiar with creating and publishing Experience Platform Launch rules to the ACP SDK in your mobile app. 
 
@@ -37,7 +37,7 @@ Before you can use Mobile Services extension for messaging, review the following
 
 Before you can use reporting, complete the following prerequisites:
 
-* Successfully send Location Service data into Adobe Analytics Report Suite. 
+* Successfully send Places Service data into Adobe Analytics Report Suite. 
 
     For more information, see [Use Places Service with Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md). 
 

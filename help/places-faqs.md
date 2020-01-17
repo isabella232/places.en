@@ -5,7 +5,7 @@ description: This topic provides additional information about some frequently as
 
 # Frequently asked questions
 
-Here is some information and frequently asked questions about Location Service. 
+Here is some information and frequently asked questions about Places Service. 
 
 ## Size and reliability  
 

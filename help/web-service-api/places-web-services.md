@@ -1,11 +1,11 @@
 ---
 title: Web Services API overview overview 
-description: Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Experience Cloud and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
+description: Places Service is the set of services that makes it easier for Adobe customers to hydrate the Adobe Experience Cloud and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 ---
 
 # Web Services API overview {#places-web-services-api}
 
-Places is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
+Places Service is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
 
 The web services APIs allow you to do the following:
 
@@ -17,17 +17,17 @@ This section provides information about how to use the REST APIs and the POI dat
 
 ## REST APIs
 
-The Places REST API let you work programmatically with your organization's POIs. These APIs allow you to create, update, and delete your libraries and the POIs in those libraries. These APIs use JavaScript Object Notation (JSON) standards to format the data that is sent and received. A principal advantage of JSON is that it makes API queries easy to write, read, and parse by developers and machines.
+The Places Service REST API let you work programmatically with your organization's POIs. These APIs allow you to create, update, and delete your libraries and the POIs in those libraries. These APIs use JavaScript Object Notation (JSON) standards to format the data that is sent and received. A principal advantage of JSON is that it makes API queries easy to write, read, and parse by developers and machines.
 
 Before you can use the web services API, ensure that the following requirements have been met:
 
-* Places is provisioned in your organization, and you have appropriate access as a user.
+* Places Service is provisioned in your organization, and you have appropriate access as a user.
 
   For more information, see *Prerequisites for user access* in [Integration overview and prerequisites](/help/web-service-api/adobe-i-o-integration.md).
 
-* After Places is provisioned in your organization, and you have access, create an Adobe integration for Places. 
+* After Places Service is provisioned in your organization, and you have access, create an Adobe integration for Places Service. 
 
-  For more information, see *Creating Places integration* in [Integration overview and prerequisites](/help/web-service-api/adobe-i-o-integration.md).
+  For more information, see *Creating a Places Service integration* in [Integration overview and prerequisites](/help/web-service-api/adobe-i-o-integration.md).
 
 Additional information:
 

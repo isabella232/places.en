@@ -46,7 +46,7 @@ In this example, a Condition is created that causes the Rule to trigger only for
 
 1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTORL Mobile Core]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.
 
 1. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Carrier Name]**.
 

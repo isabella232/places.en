@@ -57,7 +57,7 @@ To add Places extension to your app by using Objective-C or Swift:
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and Places libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
+   Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and the Places libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
 
 1. Update your Cocoapods:
 
@@ -65,7 +65,7 @@ To add Places extension to your app by using Objective-C or Swift:
    pod update
    ```
 
-1. Open Xcode, and in your AppDelegate class, import the Core and Places headers:
+1. Open Xcode, and in your AppDelegate class, import the Core and the Places headers:
 
     **Objective-C**
 
@@ -81,13 +81,13 @@ To add Places extension to your app by using Objective-C or Swift:
     import ACPPlaces
     ```
 
-### Register Places with Mobile Core {#register-places-mobile-core}
+### Register the Places extension with Mobile Core {#register-places-mobile-core}
 
-You need to register Places with Mobile Core in Android and iOS.
+You need to register the Places extension with Mobile Core in Android and iOS.
 
 #### Android
 
-In your App's `OnCreate` method register the Location Services extensions:
+In your App's `OnCreate` method register the Places extensions:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -133,10 +133,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Configuration keys
 
-To update the SDK configuration programmatically at runtime, use the following information to change your Places configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
+To update the SDK configuration programmatically at runtime, use the following information to change your Places extension configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
 | Key | Required | Description |
 | :--- | :--- | :--- |
-| `places.libraries` | Yes | The places libraries for the mobile app. It specifies the library ID and the name of the library that the mobile app supports. |
+| `places.libraries` | Yes | The Places extension libraries for the mobile app. It specifies the library ID and the name of the library that the mobile app supports. |
 | `places.endpoint` | Yes | The default Experience Platform Location Query Service endpoint, which is used to get information about libraries and POIs. |
 
