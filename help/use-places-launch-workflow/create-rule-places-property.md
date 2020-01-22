@@ -35,7 +35,7 @@ The Places SDK maintains the following states:
 Each POI contains the following data elements:
 
 * ID 
-* Name:
+* Name
 * Latitude/longitude
 * Radius
 * Metadata such as city, country, state, category
@@ -118,7 +118,7 @@ To create a data element in Experience Platform Launch:
 
 ### Publish the rule
 
-1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
+1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Thinking beyond entries and exits
 

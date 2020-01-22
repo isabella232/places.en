@@ -3,7 +3,7 @@ title: Point of interest management interface overview
 description: This section provides information about how to create and manage libraries and POIs through the Places Service UI.
 ---
 
-# Point of interest management interface overview {#management-ui-overview}
+# Places Service UI overview {#management-ui-overview}
 
 POIs and libraries are created and managed in the Places Service database by using the Places Service UI.
 

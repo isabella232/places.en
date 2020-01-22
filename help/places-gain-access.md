@@ -17,7 +17,7 @@ If you do not see the Places Service in either of these menus, contact an admini
 
 ## Adding a user to Places Service and Experience Platform Launch
 
-To allow users to access the [Launch Service UI](https://places.adobe.com), they need to be added to Places Core Service in the Admin Console as a user. To allow users to have access to Experience Platform Launch, configure mobile properties, and use Places with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
+To allow users to access the [Experience Platform Launch UI](https://launch.adobe.com), they need to be added to Places Core Service in the Admin Console as a user. To allow users to have access to Experience Platform Launch, configure mobile properties, and use Places with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
 
 * All Property Rights:
   * Develop

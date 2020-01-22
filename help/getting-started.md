@@ -28,7 +28,7 @@ Points of Interest (POI) are geo-fences that you create for your organizations, 
 
 * Using the Places Service user interface. 
 
-  For more information, see [Places Service overview](/help/poi-mgmt-ui/places-services-overview.md). 
+  For more information, see [Places Service overview](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md). 
 
 * Using the APIs from Places Web service. 
 

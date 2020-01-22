@@ -15,11 +15,11 @@ Verify with your organization's System administrator that the following tasks ha
 * You have been added to the organization. 
 * You have been added as a User to Places Core Service in your organization. 
 
-  For more information, see *Add a user or a developer to your Places Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
+  For more information, see *Add a user or a developer to your Places Service and Experience Platform Launch profiles* in [Gain access to Places Service](/help/places-gain-access.md).
 
 * You have been added as a Developer to Places Core Service in your organization.  
 
-  For more information on adding developers see *Add a user or a developer to your Places Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
+  For more information on adding developers see *Add a user or a developer to your Places Service and Experience Platform Launch profiles* in [Gain access to Places Service](/help/places-gain-access.md).
 
   For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).
 
@@ -83,7 +83,7 @@ To generate your own self-signed keys:
 
 1. Navigate to the directory where the `.key` and `.crt` files are located. 
 
-    For example, in iOS, go to **[!UICONTROL Macintosh HD]** > **[!UICONTROL users]** > **[!UICONTROL (your user name)]** > **[!UICONTROL Keys]**.
+    For example, in MacOS, go to **[!UICONTROL Macintosh HD]** > **[!UICONTROL users]** > **[!UICONTROL (your user name)]** > **[!UICONTROL Keys]**.
 
 The following video guides you through the process of generating the key pair:
 

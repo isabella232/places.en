@@ -29,7 +29,7 @@ Each POI contains the following data references:
 * **[!UICONTROL Latitude]**: latitude of the POI
 * **[!UICONTROL Longitude]**: longitude of the POI
 * **[!UICONTROL Metadata]**: custom metadata of the POI
-* **[!UICONTROL Name]**: region of the POI
+* **[!UICONTROL Name]**: name of the POI
 * **[!UICONTROL Radius]**: radius of the POI
 * **[!UICONTROL Region ID]**: ID of the POI
 * **[!UICONTROL Region/State]**: region, province or state of the POI

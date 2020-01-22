@@ -1,9 +1,9 @@
 ---
-title: Places Service, powered by Adobe Experience Platform
-description: Places Service, powered by Adobe Experience Platform is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+title: Places Service
+description: Places Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 ---
 
-# Places Service, powered by Adobe Experience Platform overview {#home}
+# Places Service {#home}
 
 !["Places Service"](/help/assets/LocationHeader.png)
 

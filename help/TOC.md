@@ -10,8 +10,8 @@ user-guide-title: Places Service, powered by Adobe Experience Platform
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + [Gain access to Places Service](places-gain-access.md)
-+ Point of interest management interface {#poi-mgmt-ui}
-  + [Point of interest management interface overview](poi-mgmt-ui/poi-mgmt-ui-overview.md)
++ Places Service UI {#poi-mgmt-ui}
+  + [Places Service UI overview](poi-mgmt-ui/poi-mgmt-ui-overview.md)
   + [Create a POI](poi-mgmt-ui/create-a-poi-ui.md)
   + [Manage previously created POIs](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
   + [Strategies for using metadata with POIs](poi-mgmt-ui/metadata-with-pois.md)

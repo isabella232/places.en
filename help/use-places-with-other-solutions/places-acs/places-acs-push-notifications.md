@@ -113,6 +113,6 @@ Now that we have location data populated in Campaign, we can use POIs as an audi
 1. You can drag out additional POI location filters to include multiple POIs in your message.
 1. Click **[!UICONTROL Next]** to finish creating the push notification for delivery.
 
-    !["Push messaging 3 in ACS"](/help/assets/ACS_push3.html)
+    !["Push messaging 3 in ACS"](/help/assets/ACS_push3.png)
 
 Using Places Service with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and exits. This integration helps you build more personalized and contextual use cases.
