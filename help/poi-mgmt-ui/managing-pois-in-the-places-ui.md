@@ -57,7 +57,7 @@ Geofences are a type of POI and are defined in the database based by the followi
 | ID | Unique identifier assigned to each POI | Yes |
 | Name | Friendly name given to the POI. | Yes |
 | Library | Each POI must be assigned a library for organization. | Yes |
-| Radius | The radius for your POI in miles. | Yes|
+| Radius | The radius for your POI in meters. | Yes|
 | Icon | Assist with visualizations of the POIs. | Yes (assigned default) |
 | Color | Assist with visualizations of the POIs. | Yes (assigned default) |
 | Category | Assign a common framework of categories that are common across all POIs in all libraries. | No |

@@ -5,17 +5,13 @@ description: This section provides information about how you can test and valida
 
 # Recommendations to test Places Service {#test-validate-loc-svc}
 
-Many customers and organizations will define POIs across the globe, so it is important to have a way to simulate and test how the Places Service interacts with your application.
+Many customers and organizations will define POIs across the globe, so it is important to have a way to simulate and test how the Places Service interacts with your application. This information helps you understand how to test and validate the Places Service entries and exits that are being correctly triggered based on the defined POIs and a user's current location.
 
-This information helps you understand how to test and validate the Places Service entries and exits that are being correctly triggered based on the defined POIs and a user's current location.
-
-Since environmental variables can be a factor in location signal and accuracy, we recommended that you first establish baseline results by working locally with developer tools and simulated location entries. The goal here is to validate that all location events are correctly working.
-
-After the location events are correctly validated, solution integrations (for example, Analytics, Target, and Campaign) can be tested. To help your testing activities, you should set up Slack Webhooks with a postback and load GPX files in your individual development environment.
+Since environmental variables can be a factor in location signal and accuracy, we recommended that you first establish baseline results by working locally with developer tools and simulated location entries. The goal is to validate that all location events are correctly working. After the location events are correctly validated, solution integrations (for example, Analytics, Target, and Campaign) can be tested. To help your testing activities, you should set up Slack Webhooks with a postback and load GPX files in your individual development environment.
 
 >[!IMPORTANT]
 >
->This plan assumes that POIs have been created in the [Places Service management UI](https://places.adobe.com) and the latest versions of the the Places extension and Places Monitor extension are installed and correctly configured.
+>This plan assumes that POIs have been created in the [Places Service UI](https://places.adobe.com) and the latest versions of the the Places extension and Places Monitor extension are installed and correctly configured. For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) and [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 | Step | Description | Expected Result |
 |--- |--- |--- |

@@ -138,5 +138,5 @@ To update the SDK configuration programmatically at runtime, use the following i
 | Key | Required | Description |
 | :--- | :--- | :--- |
 | `places.libraries` | Yes | The Places extension libraries for the mobile app. It specifies the library ID and the name of the library that the mobile app supports. |
-| `places.endpoint` | Yes | The default Experience Platform Location Query Service endpoint, which is used to get information about libraries and POIs. |
+| `places.endpoint` | Yes | The default Places Query Service endpoint, which is used to get information about libraries and POIs. |
 

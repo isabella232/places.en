@@ -240,7 +240,7 @@ PlacesMonitor.updateLocation();
 
 ## App Location permission
 
-You can use this API to set the type of location permission that the user is prompted for and authorized to use for location services.
+You can use this API to set the type of location permission that the user is prompted for and authorized to use for Places Service.
 
 ### SetLocationPermission (Android)
 

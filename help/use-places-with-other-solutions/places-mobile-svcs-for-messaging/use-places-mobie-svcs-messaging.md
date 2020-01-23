@@ -17,11 +17,11 @@ Before you can use Mobile Services extension for messaging, review the following
 
     ![Legacy UI](/help/assets/legacy-location-v4-ui.png)
 
-* Here is the Places Service POI management interface:
+* Here is the Places Service UI:
 
-    ![Location Service POI management UI](/help/assets/places-ui.png)
+    ![Places Service POI management UI](/help/assets/places-ui.png)
 
-* The ACP SDK is properly configured with Places and/or Places Monitor extensions. 
+* The ACP SDK is properly configured with Places Service and/or Places Monitor extensions. 
 
   This means that data is available as events and/or conditions in the Experience Platform Launch rules engine for your mobile app. For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) or [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md).
 

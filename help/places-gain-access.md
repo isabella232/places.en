@@ -1,5 +1,5 @@
 ---
-title: Accessing the Places Service. 
+title: Gain access to Places Service 
 description: This section provides information about how to add a user to Places Service and Experience Platform Launch, so that the user can access Places Service.
 ---
 # Gain access to Places Service {#adding-user-launch-places}
