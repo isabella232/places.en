@@ -9,7 +9,7 @@ description: Places Service is an important context for understanding the engage
 
 Location is an important context for understanding and engaging with mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 
-Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
+Places Service, previously known as Adobe Experience Platform Location Service, is a geo-location service that enables mobile apps with location awareness to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
 
 Places Service allows you to achieve the following:
 
