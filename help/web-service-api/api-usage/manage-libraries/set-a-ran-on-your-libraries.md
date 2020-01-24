@@ -3,7 +3,7 @@ title: Set a rank on your libraries
 description: Set a rank on your libraries by using the Places REST API.
 ---
 
-# Set a rank on your libraries
+# Set a rank on your libraries {#set-rank-on-libraries}
 
 A PUT method that allows you to set a rank order on all of your libraries.
 

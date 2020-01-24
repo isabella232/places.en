@@ -1,6 +1,6 @@
 ---
 title: API usage overview
-description: This section provides information about the REST APIs available for Location Service.
+description: This section provides information about the REST APIs available for Places Service.
 ---
 
 # API usage overview {#api-usage-overview}

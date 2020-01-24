@@ -5,7 +5,7 @@ description: Information about creating an Adobe I/O integration.
 
 # Integration overview and prerequisites {#integration-prereqs}
 
-This information shows you how to create an Adobe I/O and a Places integration.
+This information shows you how to create an Adobe I/O and a Places Service integration.
 
 ## Prerequisites for user access
 
@@ -15,17 +15,17 @@ Verify with your organization's System administrator that the following tasks ha
 * You have been added to the organization. 
 * You have been added as a User to Places Core Service in your organization. 
 
-  For more information, see *Add a user or a developer to your Location Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
+  For more information, see *Add a user or a developer to your Places Service and Experience Platform Launch profiles* in [Gain access to Places Service](/help/places-gain-access.md).
 
 * You have been added as a Developer to Places Core Service in your organization.  
 
-  For more information on adding developers see *Add a user or a developer to your Location Service and Experience Platform Launch profiles* in [Frequently asked questions](/help/places-faqs.md).
+  For more information on adding developers see *Add a user or a developer to your Places Service and Experience Platform Launch profiles* in [Gain access to Places Service](/help/places-gain-access.md).
 
   For more information about the developer role, see [Manage developers](https://helpx.adobe.com/enterprise/using/manage-developers.html).
 
 ### REST API requests
 
-Each request to the Places REST API requires the following items:
+Each request to the Places Service REST API requires the following items:
 
 * An organization ID
 * An API key
@@ -34,20 +34,20 @@ Each request to the Places REST API requires the following items:
 An integration with Adobe I/O provides these items and a way to request the bearer token by using a JSON Web Token (JWT). 
 
 * For more information about JWTs, see [Introduction to JSON Web Tokens](https://jwt.io/introduction/).
-* To create an integration for Places, see the *Creating a Places integration* section below.
+* To create an integration for Places Service, see the *Creating a Places Service integration* section below.
 * To understand API key integration, generating a JWT, and public key certificates, see [Adobe I/O Authentication Overview](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
 
 >[!IMPORTANT]
 >
->If you cannot log in to the Adobe I/O console, or if Experience Platform Location Service is not an option on the *Create Integrations page*, see *Organization requirements* in [Web services API overview](/help/web-service-api/places-web-services.md).
+>If you cannot log in to the Adobe I/O console, or if Places Service is not an option on the *Create Integrations page*, see *Organization requirements* in [Web services API overview](/help/web-service-api/places-web-services.md).
 
-## Create a Places integration
+## Create a Places Service integration
 
-To create an Places integration, complete the following tasks:
+To create an Places Service integration, complete the following tasks:
 
 ### Generate a public and private key pair
 
-To create a Places integration, you need a public and a private key pair. These pairs can be purchased, or you can generate your own self-signed keys.
+To create a Places Service integration, you need a public and a private key pair. These pairs can be purchased, or you can generate your own self-signed keys.
 
 To generate your own self-signed keys:
 
@@ -83,15 +83,15 @@ To generate your own self-signed keys:
 
 1. Navigate to the directory where the `.key` and `.crt` files are located. 
 
-    For example, in iOS, go to **[!UICONTROL Macintosh HD]** > **[!UICONTROL users]** > **[!UICONTROL (your user name)]** > **[!UICONTROL Keys]**.
+    For example, in MacOS, go to **[!UICONTROL Macintosh HD]** > **[!UICONTROL users]** > **[!UICONTROL (your user name)]** > **[!UICONTROL Keys]**.
 
 The following video guides you through the process of generating the key pair:
 
 ![integration video](/help/assets/places_integration_video.gif)
 
-### Create a Places integration in the Adobe I/O console
+### Create a Places Service integration in the Adobe I/O console
 
-To create a Places integration:
+To create a Places Service integration:
 
 1. Go to [https://console.adobe.io](https://console.adobe.io) and sign in with your Adobe ID.
 1. In the **Quick Start** section, click on **Create integration**.
@@ -100,7 +100,7 @@ To create a Places integration:
     **[!UICONTROL Access an API]** is the default location.
 
 1. If you have access to more than one Experience Cloud organization, select the organization from the drop-down list on the top right.
-1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
+1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places Service]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
 1. Select **[!UICONTROL New integration]** and click **[!UICONTROL Continue]**.
 1. On the Create a new integration screen, enter a name and description. 
 1. Drag and drop your `xxxx_public.crt` file, that you created above, to the **[!UICONTROL Public keys certificates]** drop zone.
@@ -118,10 +118,10 @@ To create a Places integration:
 
 ### Record the organization ID and the API key
 
-1. On the integration details page, click the **[!UICONTROL Services]** tab and confirm that **[!UICONTROL Places]** is displayed under **[!UICONTROL Configured Services]**.
+1. On the integration details page, click the **[!UICONTROL Services]** tab and confirm that **[!UICONTROL Places Service]** is displayed under **[!UICONTROL Configured Services]**.
 1. On the **[!UICONTROL Overview]** tab, locate and record the API Key (Client ID) and the Organization ID.
 
-   These IDs are needed for each Places REST API request.
+   These IDs are needed for each Places Service REST API request.
 
 ![](/help/assets/places_orgid_api-key.png)
 
@@ -138,7 +138,7 @@ To generate a JWT token:
 1. Run the command by pressing **[!UICONTROL Enter]** on your keyboard.
 1. Locate the `"token_type": "bearer"` and the `"access_token"` value.  
 
-   The value of the bearer access token is what you will use in your Places API requests.  
+   The value of the bearer access token is what you will use in your Places Service API requests.  
 
 >[!IMPORTANT]
 >

@@ -1,17 +1,17 @@
 ---
-title: Adobe Experience Platform Location Service
-description: Location Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+title: Places Service
+description: Places Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 ---
 
-# Adobe Experience Platform Location Service overview {#home}
+# Places Service {#home}
 
-!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
+!["Places Service"](/help/assets/LocationHeader.png)
 
 Location is an important context for understanding and engaging with mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 
-Adobe Experience Platform Location Service (Location Service) is a geo-location service that enables mobile apps with location awareness to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
+Places Service, previously known as Adobe Experience Platform Location Service, is a geo-location service that enables mobile apps with location awareness to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs).
 
-Location Service allows you to achieve the following:
+Places Service allows you to achieve the following:
 
 * Create and manage a database of POIs that can be leveraged with other Adobe Experience Cloud solutions.
 * Attach custom metadata to the POIs to make them richer and more meaningful by specifying additional attributes.
@@ -28,9 +28,9 @@ Here are some of the ways you can use Places:
 * Segment an audience based on offline behavior by using audience profiles with location context.
 * Target a user with an in-store experience when relevant.
 
-## Location Service components
+## Places Service components
 
-Location Service comprises the following components:
+Places Service comprises the following components:
 
 * **Web service** 
 

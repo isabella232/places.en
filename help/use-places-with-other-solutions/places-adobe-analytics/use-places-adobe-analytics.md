@@ -8,9 +8,9 @@ description: This section provides information about how to send POI entry and e
 
 >[!IMPORTANT]
 >
->This section assumes that you have Places implemented in your application. For more information about implementing Places, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>This section assumes that you have Places Service implemented in your application. For more information about implementing Places Service, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-After Places sends the entry and exit events, you can create rules in Experience Platform Launch to send Places data to Adobe Analytics. To create this type of rule, select your property in Launch and complete the following steps:
+After Places Service sends the entry and exit events, you can create rules in Experience Platform Launch to send Places Service data to Adobe Analytics. To create this type of rule, select your property in Launch and complete the following steps:
 
 ## 1. Create a rule
 
@@ -29,7 +29,7 @@ After Places sends the entry and exit events, you can create rules in Experience
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places Service]**.
 
 1. From the **[!UICONTROL Event Type]** drop-down list, select **[!UICONTROL Enter POI]**.
 
@@ -48,7 +48,7 @@ In this example, a Condition is created that causes the Rule to trigger only whe
 
 1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places Service]**.
 
 1. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Name]**.
 

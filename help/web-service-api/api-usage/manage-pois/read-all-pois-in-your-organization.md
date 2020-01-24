@@ -3,7 +3,7 @@ title: Read all POIs in your organization
 description: Read all POIs in your organization by using the Places REST APIs.
 ---
 
-# Read all POIs in your organization
+# Read all POIs in your organization {#read-all-pois-org}
 
 A GET method that returns all POIs in your organization.
 

@@ -3,7 +3,7 @@ title: Read a POI
 description: Read a POI by using the Places REST APIs.
 ---
 
-# Read a POI
+# Read a POI {#read-a-poi}
 
 A GET method that returns the details for a POI.
 

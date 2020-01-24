@@ -1,15 +1,15 @@
 ---
 title: Add location context to Analytics requests
-description: This section provides information about how to Add location context to Analytics requests.
+description: This section provides information about how to add location context to Analytics requests.
 ---
 
 # Add location context to Analytics requests {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]
 >
->This document assumes that you have Adobe Places implemented in your application. For more information about implementing Adobe Places, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>This document assumes that you have Places Service implemented in your application. For more information about implementing Places Service, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-After Places sends the entry and exit events, you can create rules in Experience Platform Launch and attach your Places data to all Adobe Analytics events. To create this type of rule, select your property in Launch and complete the following steps:
+After Places Service sends the entry and exit events, you can create rules in Experience Platform Launch and attach your Places Service data to all Adobe Analytics events. To create this type of rule, select your property in Launch and complete the following steps:
 
 ## 1. Create a rule
 
@@ -23,7 +23,7 @@ After Places sends the entry and exit events, you can create rules in Experience
 
 1. Give your rule a meaningful name so it will be easily recognizable in your list of Rules.
 
-    In this example, the Rule is named **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
+    In this example, the Rule is named **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**.
 
 1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
@@ -46,7 +46,7 @@ In this example, a Condition is created that causes the Rule to trigger only for
 
 1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTORL Mobile Core]**.
+1. From the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Mobile Core]**.
 
 1. From the **[!UICONTROL Condition Type]** drop-down list, select **[!UICONTROL Carrier Name]**.
 

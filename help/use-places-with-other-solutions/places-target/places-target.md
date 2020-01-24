@@ -1,13 +1,13 @@
 ---
 title: Adobe Target
-description: This section provides information about how to use Location Service with Adobe Target.
+description: This section provides information about how to use Places Service with Adobe Target.
 ---
 
-# Use Location Service with Adobe Target {#places-target}
+# Use Places Service with Adobe Target {#places-target}
 
 This document assumes that you have the Places extension implemented in your application. If you need help implementing Places extension, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-After the Places extension is sending in events for entries and exits, you can leverage Rules in Launch to attach your Places data to your Adobe Target SDK events. With your desired property selected in Launch, you can create this type of rule by completing the following tasks:
+After the Places extension is sending in events for entries and exits, you can leverage Rules in Launch to attach your Places Service data to your Adobe Target SDK events. With your desired property selected in Launch, you can create this type of rule by completing the following tasks:
 
 ## 1. Create a Rule
 
@@ -22,7 +22,7 @@ After the Places extension is sending in events for entries and exits, you can l
 
 1. Give your rule a meaningful name so it will be easily recognizable in your list of Rules.
 
-    In this example, the Rule is named **[!UICONTROL Attach Places Data to Target Content Requested]**.
+    In this example, the Rule is named **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
 1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 

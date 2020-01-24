@@ -1,11 +1,11 @@
 ---
-title: Use Location Service without active region monitoring
-description: This section provides information about how use Location ServicePlaces without active region monitoring.
+title: Use Places Service without active region monitoring
+description: This section provides information about how use Places Service without active region monitoring.
 ---
 
-# Use Location Service without active region monitoring {#use-places-without-active-monitoring}
+# Use Places Service without active region monitoring {#use-places-without-active-monitoring}
 
-Use cases for your application might not require active region monitoring. Adobe Places can still be used to get your users' location data integrated with other Experience Platform products.
+Use cases for your application might not require active region monitoring. Places Service can still be used to get your users' location data integrated with other Experience Platform products.
 
 This section explains how to to complete a POI membership check only at the time of collecting the user's location (latitude and longitude).
 
@@ -15,9 +15,9 @@ The developer will collect the device's location using the APIs provided by the 
 
 >[!TIP]
 >
->If your app's use cases require active region monitoring, read [using the places monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+>If your app's use cases require active region monitoring, see [Using the Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
-To use Places without active region monitoring:
+To use Places Service without active region monitoring:
 
 ## 1. Collect the user's location
 
@@ -392,6 +392,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-In addition to triggering Places entry events in the SDK, because of the triggering entry events, all of the data that defines your POIs can be used by the rest of the SDK via `data elements` in Launch. With Launch `rules`, you can dynamically attach the Places data to incoming events that are processed by the SDK. For example, you can attach the meta data of a POI in which the user is located and send the data to Analytics as context data.
+In addition to triggering Places Service entry events in the SDK, because of the triggering entry events, all of the data that defines your POIs can be used by the rest of the SDK via `data elements` in Experience Platform Launch. With Experience Platform Launch `rules`, you can dynamically attach the Places Service data to incoming events that are processed by the SDK. For example, you can attach the meta data of a POI in which the user is located and send the data to Analytics as context data.
 
-For more information, see [Using Places with other Adobe solutions](/help/use-places-with-other-solutions/use-places-with-other-solutions.md).
+For more information, see [Using Places Service with other Adobe solutions](/help/use-places-with-other-solutions/use-places-with-other-solutions.md).

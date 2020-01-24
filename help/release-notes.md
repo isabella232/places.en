@@ -1,6 +1,6 @@
 ---
 title: Release notes
-description: Release notes for Adobe Experience Platform Location Service.
+description: Release notes for Places Service.
 ---
 
 # Release notes {#release-notes}
@@ -11,7 +11,7 @@ description: Release notes for Adobe Experience Platform Location Service.
 
   * **Android**
 
-    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for location services. The value is stored and used in the Places shared state.
+    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for Places Services. The value is stored and used in the Places shared state.
 
 
 ## December 3, 2019
@@ -20,7 +20,7 @@ description: Release notes for Adobe Experience Platform Location Service.
 
   * **iOS**
 
-    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for location services. The value is stored and used in the Places shared state.
+    * Added a new API, `setAuthorizationStatus`, to set the device authorization status for Places Services. The value is stored and used in the Places shared state.
 
 ## November 22, 2019
 
@@ -207,13 +207,13 @@ The Places Monitor manages the OS-level Location APIs and communicates directly 
 
 ### Beta Release
 
-This is the first release of Places, a set of tools that allows customers to enrich their users' experiences with real world location data. For the first release, our primary use case is to enable mobile apps to retrieve custom location data and act on that data through Adobe Experience Platform Launch.
+This is the first release of Places Service, a set of tools that allows customers to enrich their users' experiences with real world location data. For the first release, our primary use case is to enable mobile apps to retrieve custom location data and act on that data through Adobe Experience Platform Launch.
 
 ### Key features
 
 Here are the key features in this release:
 
-#### Location Service UI
+#### Places Service UI
 
 We have released a management UI where you can view and manage your points of interest (POIs). You also can organize your POIs into libraries. In addition to standard metadata such as city, state, and category, we also support the ability to add custom metadata to your POIs.
 
@@ -222,7 +222,7 @@ We have released a management UI where you can view and manage your points of in
 
 #### Places Extension
 
-Using the Places Extension, you can add your Places libraries to your mobile app and act on their POIs. Using the rule builder in Experience Platform Launch, you can trigger actions to fire when users enter and exit POIs.
+Using the Places Extension, you can add your Places Service libraries to your mobile app and act on their POIs. Using the rule builder in Experience Platform Launch, you can trigger actions to fire when users enter and exit POIs.
 
 In the Places extension:
 
@@ -248,4 +248,4 @@ For more information about the Places APIs, see [Web service API](/help/web-serv
 
 #### Analytics Integration
 
-The Analytics extension is being updated to automatically add location context data from your Places database to all outgoing Analytics calls when a user is within a POI (Passive calls). This update will also allow rule creation to fire Analytics track calls directly at POI entry or exit (Active calls).
+The Analytics extension is being updated to automatically add location context data from your Places Service database to all outgoing Analytics calls when a user is in a POI (Passive calls). This update will also allow rule creation to fire Analytics track calls directly at POI entry or exit (Active calls).

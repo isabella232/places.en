@@ -16,7 +16,7 @@ GET https://query.places.adobe.com/placesedgequery
 
 With the following input, the service returns a list of the POIs that are closest to the caller:
 
-* The caller's position \(latitude, longitude\).
+* The caller's position (latitude, longitude).
 * The IDs of the POI libraries to be included in the search.
 * The maximum number of POIs to return.  The default value is 100. 
 

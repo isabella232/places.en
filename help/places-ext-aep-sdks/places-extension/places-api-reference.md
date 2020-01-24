@@ -5,11 +5,11 @@ description: Information about the API references in Places.
 
 # Places API reference {#places-api-reference}
 
-Here is information about the API references in Places:
+Here is information about the API references in the Places extension:
 
 ## Processing a region event
 
-When a device crosses one of your app's pre-defined Places region boundaries, the region and event type are passed to the SDK for processing.
+When a device crosses one of your app's pre-defined Places Service region boundaries, the region and event type are passed to the SDK for processing.
 
 ### ProcessGeofence (Android)
 
@@ -306,7 +306,7 @@ Here is the code sample for this method:
 
 ### Clear (Android)
 
-Clears out the client-side data for Places in shared state, local storage, and in-memory.
+Clears out the client-side data for the Places extension in the shared state, local storage, and in-memory.
 
 **Syntax**
 
@@ -326,7 +326,7 @@ Places.clear();
 
 ### clear (iOS)
 
-Clears out the client-side data for Places in shared state, local storage, and in-memory.
+Clears out the client-side data for the Places extension in shared state, local storage, and in-memory.
 
 **Syntax**
 

@@ -3,7 +3,7 @@ title: Create a POI
 description: Create a POI by using the Places REST APIs.
 ---
 
-# Create a POI
+# Create a POI {#create-a-poi}
 
 A POST method that lets you create a POI.
 

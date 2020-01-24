@@ -135,7 +135,7 @@ PlacesMonitor.start();
 >
 >To begin monitoring, the location service must have the necessary authorization:
 >
->* If the authorization for the location service has not been provided to the application, the first call to the `start` API requests the authorization to use the location service as configured for the application.
+>* If the authorization for the Places Service has not been provided to the application, the first call to the `start` API requests the authorization to use the Places Service as configured for the application.
 >* Depending on your device's capabilities, if the authorization has been provided, the Places Monitor tracks the user's location based on the currently set `ACPPlacesMonitorMode`. By default, the monitor uses `ACPPlacesMonitorModeSignificantChanges`.
 
 >[!CAUTION]
@@ -240,7 +240,7 @@ PlacesMonitor.updateLocation();
 
 ## App Location permission
 
-You can use this API to set the type of location permission that the user is prompted for and authorized to use for location services.
+You can use this API to set the type of location permission that the user is prompted for and authorized to use for Places Service.
 
 ### SetLocationPermission (Android)
 
@@ -312,17 +312,17 @@ Authorization level can be set to one of the following values:
 
 * `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
-    Requests the user’s permission to use location services while the app is in use. The user prompt contains the text from the `NSLocationWhenInUseUsageDescription` key in your app Info.plist file, and the presence of that key is required when calling this method. For more information see the  [Apple documentation on requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
+    Requests the user’s permission to use Places Service while the app is in use. The user prompt contains the text from the `NSLocationWhenInUseUsageDescription` key in your app Info.plist file, and the presence of that key is required when calling this method. For more information see the  [Apple documentation on requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-    Use this enum to request location services even when the app is in the background. You must have the `NSLocationAlwaysUsageDescription` and `NSLocationWhenInUseUsageDescription` keys in your app’s Info.plist. These keys define the text that will appear during the user prompt. For more information see the [Apple documentation on requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+    Use this enum to request Places Service even when the app is in the background. You must have the `NSLocationAlwaysUsageDescription` and `NSLocationWhenInUseUsageDescription` keys in your app’s Info.plist. These keys define the text that will appear during the user prompt. For more information see the [Apple documentation on requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` is the default request authorization value.
 
 >[!IMPORTANT]
 >
->The application that authorized the use of the `ACPPlacesRequestAuthorizationLevelWhenInUse` permission will not be able to trigger entry/exit events on regions that are happening in the background.
+>The application that authorized the use of the `ACPPlacesRequestAuthorizationLevelWhenInUse` permission will not trigger entry/exit events on regions that are happening in the background.
 
 Here is the syntax and example code for this API:
 

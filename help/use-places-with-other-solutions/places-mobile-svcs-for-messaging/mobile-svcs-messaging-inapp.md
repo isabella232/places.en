@@ -1,11 +1,11 @@
 ---
 title: In-App notifications
-description: This section shows you how to use Places with In-App messaging.
+description: This section shows you how to use Places Service with In-App messaging.
 ---
 
-# In-App notifications (#places-push-messaging)
+# In-App notifications {#places-push-messaging}
 
-The following information shows you how to configure In-App messages to trigger from Places events.
+The following information shows you how to configure In-App messages to trigger from Places Service events.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Before you begin, you understand how to send and create an in-app message in Mob
 
 ## Rules in Experience Platform Launch
 
-You can create Launch rules that send the data that you want to be able to use as part of your in-app message Trigger rules to Analytics. You can use data from the Places extensions in your Launch rules as either events and/or conditions depending on your use case.
+You can create Experience Platform Launch rules that send the data that you want to be able to use as part of your in-app message Trigger rules to Analytics. You can use data from the Places extensions in your Experience Platform Launch rules as either events and/or conditions depending on your use case.
 
 * Using location data as the triggering event.
 
@@ -39,7 +39,7 @@ You can create Launch rules that send the data that you want to be able to use a
 
 * Using location data as a Condition to a triggering event.
 
-  For example, if you created a custom metadata tag in the Location Service for the weather at different POIs, you can use that metadata as a parameter for your Rule condition. While you can use this condition with a POI entry event described earlier, you can also use the condition as context to any event.
+  For example, if you created a custom metadata tag in the Places Service for the weather at different POIs, you can use that metadata as a parameter for your Rule condition. While you can use this condition with a POI entry event described earlier, you can also use the condition as context to any event.
 
 After the rule is set up with the proper event and condition parameters, complete your rule configuration by configuring the action to send data to Analytics. 
 
@@ -66,7 +66,7 @@ Here is an example of the complete rule:
 
 ## Creating an in-app message in Mobile Services
 
-As part of your Trigger parameters, you can create the audience for the message with data from the Location Service in one of the following ways:
+As part of your Trigger parameters, you can create the audience for the message with data from the Places Service in one of the following ways:
 
 * Using location-specific actions such as an entry or an exit.
 * Using POI metadata that is sent as context data to narrow the target of your audience.
@@ -77,6 +77,6 @@ As part of your Trigger parameters, you can create the audience for the message 
 
   ![trigger parameters](/help/assets/trigger-parameters.png)
 
-* Parameters in the Places headings in the *Triggers and Traits* page in Mobile Services do not work with data from the Location Service.
+* Parameters in the Places Service headings in the *Triggers and Traits* page in Mobile Services do not work with data from the Places Service.
 
-  Those parameters are only for the legacy Places database that was created in Mobile Services.  
+  Those parameters are only for the legacy Places Service database that was created in Mobile Services.  

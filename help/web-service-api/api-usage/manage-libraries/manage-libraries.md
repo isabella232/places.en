@@ -1,10 +1,10 @@
 ---
 title: Manage libraries
-description: Managing the Places REST API libraries.
+description: Managing the Places Service REST API libraries.
 ---
 # Manage libraries overview {#manage-libraries}
 
-You can use the Places REST APIs to complete the following tasks:
+You can use the Places Service REST APIs to complete the following tasks:
 
 * [Create a library](/help/web-service-api/api-usage/manage-libraries/create-a-library.md)
 * [Read a library](/help/web-service-api/api-usage/manage-libraries/read-a-library.md)

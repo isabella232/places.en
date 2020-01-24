@@ -1,23 +1,23 @@
 ---
-title: Accessing the Adobe Experience Platform Location Service 
-description: This section provides information about how to add a user to Location Service and Experience Platform Launch, so that the user can access Location Service.
+title: Gain access to Places Service 
+description: This section provides information about how to add a user to Places Service and Experience Platform Launch, so that the user can access Places Service.
 ---
-# Gain access to Location Service {#adding-user-launch-places}
+# Gain access to Places Service {#adding-user-launch-places}
 
-You can access the Platform Location Service from the quick access menu on [Adobe Experience Cloud home](https://experience.adobe.com). 
-If your user ID has access you will see the Location Service icon as indicated below:
+You can access the Places Service from the quick access menu on [Adobe Experience Cloud home](https://experience.adobe.com). 
+If your user ID has access you will see the Places Service icon as indicated below:
 
 ![quick access menu](/help/assets/quick-access.png)
 
-You can also access the Platform Location Service from the Adobe Experience Platform menu:
+You can also access the Places Service from the Adobe Experience Platform menu:
 
 ![Experience Platform menu](/help/assets/exp-platform-menu-sm.png)
 
-If you do not see the Platform Location Service in either of these menus, you will need to contact an administrator within your organization to add your user ID to the Places Core Service in the Admin Console. 
+If you do not see the Places Service in either of these menus, contact an administrator in your organization to add your user ID to the Places Core Service in the Admin Console. 
 
-## Adding a user to Location Service and Experience Platform Launch
+## Adding a user to Places Service and Experience Platform Launch
 
-To allow users to access the [Launch Service UI](https://places.adobe.com), they need to be added to Places Core Service in the Admin Console as a user. To allow users to have access to Experience Platform Launch, configure mobile properties, and use Places with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
+To allow users to access the [Experience Platform Launch UI](https://launch.adobe.com), they need to be added to Places Core Service in the Admin Console as a user. To allow users to have access to Experience Platform Launch, configure mobile properties, and use Places with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
 
 * All Property Rights:
   * Develop
@@ -27,15 +27,13 @@ To allow users to access the [Launch Service UI](https://places.adobe.com), they
   * Manage environments
 * Manage Properties permission under Company Rights 
 
-If this is the first time you are adding a user, complete the following steps to add users to Experience Platform Launch and Location Service. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
+If this is the first time you are adding a user, complete the following steps to add users to Experience Platform Launch and Places Service. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
 
 >[!IMPORTANT]
 >
 >Only org administrators can access the Admin Console and add the users.
 
-### 1. Verify that Location Service and Experience Platform Launch are provisioned 
-
-To verify that Location Service and Experience Platform Launch are provisioned:
+### 1. Verify that Places Service and Experience Platform Launch are provisioned 
 
 1. Log in to your Experience Cloud organization.
 1. In the top-right side, click the Experience Cloud shell switcher.
@@ -60,12 +58,10 @@ To verify that Location Service and Experience Platform Launch are provisioned:
 
     ![](/help/assets/places_provisioned1.png)
 
-    If they are displayed, Location Service and Experience Platform Launch have been provisioned for your organization. If they are not displayed, they need to be provisioned for your organization.
+    If they are displayed, Places Service and Experience Platform Launch have been provisioned for your organization. If they are not displayed, they need to be provisioned for your organization.
 
    
 ### 2. Set up the profile and add the permissions
-
-To set up the profile and add the permissions:
 
 1. Set up a Experience Platform Launch profile, which allows the users who were added to the profile, use Experience Platform Launch and its mobile properties with the Experience Platform SDK.
 
@@ -98,17 +94,17 @@ To set up the profile and add the permissions:
 
 >[!IMPORTANT]
 >
->For Location Service, there is a default profile, but you do not have to add any permissions. 
+>For Places Service, there is a default profile, but you do not have to add any permissions. 
 
 You have successfully added permissions to the profile that you created.
 
-### 3. Add a user or a developer to your Location Service and Experience Platform Launch profiles
+### 3. Add a user or a developer to your Places Service and Experience Platform Launch profiles
 
-You can add a user and/or a developer to your Location Service and Experience Platform Launch profiles.
+You can add a user and/or a developer to your Places Service and Experience Platform Launch profiles.
 
 ### Add a user
 
-To add a user to your Location Service and Experience Platform Launch profiles:
+To add a user to your Places Service and Experience Platform Launch profiles:
 
 1. Add a user to the Experience Platform Launch profile.
 
@@ -138,7 +134,7 @@ To add a user to your Location Service and Experience Platform Launch profiles:
 
    >[!TIP]
    >
-   >Currently, all Location Service users have the same permissions, so you do not need to edit the permissions.
+   >Currently, all Places Service users have the same permissions, so you do not need to edit the permissions.
 
    a. On the **[!UICONTROL Places Core Services]** card, verify the following:
 
@@ -178,8 +174,8 @@ To add a developer:
      * If you are adding a new user, click **[!UICONTROL New user]** and enter the user’s first and last name.
      * If you are adding an existing user, click the user’s name that is displayed.
 
-1. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Location Service profile.
+1. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Places Service profile.
 
 1. Click **Save**.
 
-Users receive an email that notifies them that they have access to Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **Add a developer** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places integration and use the Places REST API.
+Users receive an email that notifies them that they have access to Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **Add a developer** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places integration and use the Places REST API.

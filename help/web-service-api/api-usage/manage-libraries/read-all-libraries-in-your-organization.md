@@ -3,7 +3,7 @@ title: Read all libraries in your organization
 description: Read all libraries in your organization by using the Places REST API.
 ---
 
-# Read all libraries in your organization
+# Read all libraries in your organization {#read-all-lib-in-org}
 
 A GET method that returns the details for all libraries in your organization.
 

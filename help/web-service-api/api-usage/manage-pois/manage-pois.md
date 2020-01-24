@@ -5,7 +5,7 @@ description: Understand and work with POIs.
 
 # Manage POIs overview {#manage-pois}
 
-You can use the Places REST APIs to complete the following tasks:
+You can use the Places Service REST APIs to complete the following tasks:
 
 * [Create a POI](/help/web-service-api/api-usage/manage-pois/create-a-poi.md)
 * [Read a POI](/help/web-service-api/api-usage/manage-pois/read-a-poi.md)

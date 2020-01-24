@@ -3,7 +3,7 @@ title: Update a library
 description: Update a library by using the Places REST API.
 ---
 
-# Update a library
+# Update a library {#update-a-library}
 
 A PUT method that lets you update a library.
 

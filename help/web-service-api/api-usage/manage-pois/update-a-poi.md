@@ -3,7 +3,7 @@ title: Update a POI
 description: Update a POI by using the Places REST APIs.
 ---
 
-# Update a POI
+# Update a POI {#update-a-poi}
 
 A PUT method that lets you update a POI.
 

@@ -1,11 +1,11 @@
 ---
-title: Creating a rule for your Places property
+title: Creating a rule for your Places Service property
 description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
 ---
 
 # Create entry and exit rules {#create-entry-exit-rules}
 
-With the Places and Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including location entry and exit events. 
+With the Places extension and the Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including location entry and exit events. 
 
 ## Rules
 
@@ -15,14 +15,14 @@ You can configure a rule, which is composed of an event, a condition, and an act
 * (Optional) conditions
 * One or more actions
 
-### Places events
+### Places Service events
 
-Places offers the following events on which you can run a rule:
+Places Service offers the following events on which you can run a rule:
 
 * **Enter POI**, which is triggered by the Places SDK when your customer enters the POI that you configured.
 * **Exit POI**, which is triggered by the Places SDK when your customer exits the POI that you configured.
 
-### Places conditions
+### Places Service conditions
 
 Conditions define the criteria that the data associated with the event, or the shared state of an extension at that instance, must meet for the action to be taken. For example, you can set a condition to trigger an action on an entry to a coffee shop only in the city of San Francisco.
 
@@ -35,7 +35,7 @@ The Places SDK maintains the following states:
 Each POI contains the following data elements:
 
 * ID 
-* Name:
+* Name
 * Latitude/longitude
 * Radius
 * Metadata such as city, country, state, category
@@ -72,7 +72,7 @@ To create a data element in Experience Platform Launch:
 1. In the right pane, select **Current POI**.
 1. Click **Save**.
 
-### Create a rule in Experience Platform Launch for Places
+### Create a rule in Experience Platform Launch for Places Service
 
 ![creating a rule](/help/assets/placesrule.png)
 
@@ -118,10 +118,10 @@ To create a data element in Experience Platform Launch:
 
 ### Publish the rule
 
-1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://docs.adobelaunch.com/launch-reference/publishing).
+1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Thinking beyond entries and exits
 
-Using Location Service geo-fence entries and exits to trigger rules in Experience Platform Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based on this event, you can place additional location conditions to the event before an action is performed. For example, open up an in-app survey when a purchase `trackAction` event occurs, but **only** if the user's current location includes specific Location Service metadata. 
+Using Places Service geo-fence entries and exits to trigger rules in Experience Platform Launch is incredibly powerful, but you can also use location data as a condition for other events to fire. For example, you could have a Mobile Core Track Action event trigger ready to fire based on a particular trackAction call event inside your app. Based on this event, you can place additional location conditions to the event before an action is performed. For example, open up an in-app survey when a purchase `trackAction` event occurs, but **only** if the user's current location includes specific Places Service metadata. 
 
 ![create a condition](/help/assets/places-condition.png)
