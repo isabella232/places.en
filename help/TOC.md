@@ -1,12 +1,12 @@
 ---
-product: Places Service, powered by Adobe Experience Platform
+product: Places Service
 audience: end-user
-user-guide-title: Places Service, powered by Adobe Experience Platform
+user-guide-title: Places Service
 ---
 
-# Places Service, powered by Adobe Experience Platform Help {#using}
+# Places Service {#using}
 
-+ [Places Service, powered by Adobe Experience Platform overview](home.md)
++ [Places Service overview](home.md)
 + [Release notes](release-notes.md)
 + [Getting started](getting-started.md)
 + [Gain access to Places Service](places-gain-access.md)
