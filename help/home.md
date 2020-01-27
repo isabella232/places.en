@@ -5,7 +5,7 @@ description: Places Service is an important context for understanding the engage
 
 # Places Service {#home}
 
-!["Places Service"](/help/assets/places_service_header.png)
+!["Places Service"](/help/assets/places-service-header.png)
 
 Location is an important context to understand and engage with mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
 
