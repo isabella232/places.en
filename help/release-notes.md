@@ -142,7 +142,7 @@ The following updates were made in this release:
 * Fixed an issue that, after a first launch, sometimes caused Places events to be lost due to bad network conditions.
 * Fixed an issue where, when processing POI entry events in quick succession, token replacement via Rules Engine sometimes reference the incorrect POI.
 
-## May 30, 2019 (Places)
+## May 30, 2019
 
 **Android Places Monitor 1.0.1**
 
@@ -157,7 +157,7 @@ Fixed the following issues in the Places UI:
 * Increased the minimum allowed radius in the UI to 10 meters.
 * Fixed an issue where, if you delete all the numbers in the field, the radius field reset back to 20 meters.
 
-## May 17, 2019 (Places)
+## May 17, 2019
 
 The following updates were made in this release:
 
