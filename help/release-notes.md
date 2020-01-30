@@ -5,6 +5,15 @@ description: Release notes for Places Service.
 
 # Release notes {#release-notes}
 
+## January 27, 2020
+
+* **PlacesMonitor 2.2.0**
+
+  * **Android**
+
+    * Call new Places API to collect location authorization status when the app launches and when authorization changes while the app is running.
+    * Added setRequestLocationPermission API and deprecated setLocationPermission API.
+
 ## January 9, 2020
 
 * **ACPPlaces 1.4.0**
@@ -13,6 +22,13 @@ description: Release notes for Places Service.
 
     * Added a new API, `setAuthorizationStatus`, to set the device authorization status for Places Services. The value is stored and used in the Places shared state.
 
+## December 4, 2019
+
+* **PlacesMonitor 2.1.2**
+
+  * **iOS**
+
+    * Call Places API to collect CLAuthorizationStatus from device when it changes.
 
 ## December 3, 2019
 
@@ -22,6 +38,14 @@ description: Release notes for Places Service.
 
     * Added a new API, `setAuthorizationStatus`, to set the device authorization status for Places Services. The value is stored and used in the Places shared state.
 
+## November 25, 2019
+
+* **PlacesMonitor 2.1.1**
+
+  * **iOS**
+
+    * Fixed import statements for Cocoapods projects using multiple pod projects option.
+    
 ## November 22, 2019
 
 * **PlacesMonitor 2.1.1**
