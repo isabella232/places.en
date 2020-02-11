@@ -18,3 +18,16 @@ In addition, accuracy and reliability may be reduced based on hardware condition
 When the Places Monitor (SDK) gets a new list of nearby POIs, it registers a region with the operating system for each POI. The operating system is now responsible for notifying the SDK when the device crosses a boundary (entry or exit) for one of the monitored regions. The SDK only triggers an exit event when the operating system notifies the SDK that the event has occurred. The main reason for this notification is the time sensitivity of the location data.  
 
 If the operating system cannot deliver an exit event when the device leaves a region, it is safer for the SDK to just omit the exit event. If the SDK manufactures an exit event without the event being triggered by the operating system, there is a risk that the exit event might be processed well outside the time period during which the device was near the POI.
+
+## Number of POIs
+
+In the Places Service POI management interface, customers can add up to 150 thousand points of interest in a specific library. Customers can define multiple libraries to segment groupings of POIs if desired. 
+
+## Some notes about location change and active region monitoring
+
+Monitoring of a geographical region begins immediately after registration for authorized apps. However, don’t expect to receive an event right away, because only boundary crossings generate an event. In particular, if the user’s location is already inside the region at registration time, the location manager doesn’t automatically generate an event. Instead, your app must wait for the user to cross the region boundary before an event is generated and sent to the delegate. 
+
+Be judicious when specifying the set of regions to monitor. Regions are a shared system resource, and the total number of regions available systemwide is limited. For this reason, Core Location limits to 20 the number of regions that may be simultaneously monitored by a single app. To work around this limit, consider registering only those regions in the user’s immediate vicinity. 
+
+[See additional information on the Apple developer site] (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)
+
