@@ -5,6 +5,19 @@ description: Release notes for Places Service.
 
 # Release notes {#release-notes}
 
+## February 20, 2020
+
+* **ACPPlaces 1.3.1 (iOS)**
+
+    * Places extension now reports version information to the event hub in the Core SDK.
+    * Device POI membership information now has a default time-to-live of one hour from the time it is collected. For more information, see [Modifying Places membership time-to-live](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+
+
+* **Places 1.4.1 (Android)**
+
+    * Places extension now reports version information to the event hub in the Core SDK.
+    * Device POI membership information now has a default time-to-live of one hour from the time it is collected. For more information, see [Modifying Places membership time-to-live](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+
 ## January 27, 2020
 
 * **PlacesMonitor 2.2.0**
@@ -16,7 +29,7 @@ description: Release notes for Places Service.
 
 ## January 9, 2020
 
-* **ACPPlaces 1.4.0**
+* **Places 1.4.0**
 
   * **Android**
 
@@ -45,7 +58,7 @@ description: Release notes for Places Service.
   * **iOS**
 
     * Fixed import statements for Cocoapods projects using multiple pod projects option.
-    
+
 ## November 22, 2019
 
 * **PlacesMonitor 2.1.1**
