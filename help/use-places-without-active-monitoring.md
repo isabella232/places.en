@@ -394,4 +394,4 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 In addition to triggering Places Service entry events in the SDK, because of the triggering entry events, all of the data that defines your POIs can be used by the rest of the SDK via `data elements` in Experience Platform Launch. With Experience Platform Launch `rules`, you can dynamically attach the Places Service data to incoming events that are processed by the SDK. For example, you can attach the meta data of a POI in which the user is located and send the data to Analytics as context data.
 
-For more information, see [Using Places Service with other Adobe solutions](/help/use-places-with-other-solutions/use-places-with-other-solutions.md).
+For more information, see [Using Places Service with other Adobe solutions](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).
