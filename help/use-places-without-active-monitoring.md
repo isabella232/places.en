@@ -7,8 +7,6 @@ description: This section provides information about how use Places Service with
 
 Use cases for your application might not require active region monitoring. Places Service can still be used to get your users' location data integrated with other Experience Platform products.
 
-This section explains how to to complete a POI membership check only at the time of collecting the user's location (latitude and longitude).
-
 ## Prerequisite
 
 The developer will collect the device's location using the APIs provided by the target platform's operating system.
@@ -80,7 +78,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Objective-C
 
-Here is a sample implementation in iOS from a [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) method [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc):
+Here is a sample implementation for iOS. The code is showing implementation of the [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) method in the [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -96,7 +94,7 @@ Here is a sample implementation in iOS from a [`CLLocationManagerDelegate`](http
 
 ### Swift
 
-Here is a sample implementation in iOS from a [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) method [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager):
+Here is a sample implementation for iOS. The code is showing implementation of the [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) method in the [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager):
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -110,9 +108,21 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3. Trigger entry events when the user is in a POI
+## 3. Attach Places data to your Analytics requests
 
-The SDK returns a list of nearby POIs, including whether the user is currently within each POI. If the user is in a POI, you can have the SDK trigger an entry event for that region.
+By calling the `getNearbyPointsOfInterest` API, the Places SDK will make all POI data relevant for the device available via data elements in Launch. By using an [Attach Data](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) rule, Places data can be automatically be added to future requests to Analytics. This eliminates the need for a one-off call to Analytics at the time the location of the device is collected.
+
+See [Add Location Context to Analytics Requests](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) to learn more about this topic.
+
+## Optional - Trigger entry events when the user is in a POI
+
+>[!TIP]
+>
+>The recommended way to capture Places data is to [Attach Places data to your Analytics requests](#attach-places-data-to-your-analytics-requests).
+>
+>If the use case requires a [region entry event](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) to be triggered by the SDK, it will need to be done manually as outlined below.
+
+The list returned by the `getNearbyPointsOfInterest` API contains [custom objects](places-ext-aep-sdks/places-extension/cust-places-objects.md) that indicate if the user is currently within a POI. If the user is in a POI, you can have the SDK trigger an entry event for that region.
 
 >[!IMPORTANT]
 >
@@ -225,7 +235,9 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Complete sample implementation
 
-The code samples below show you how to retrieve the current location of the device, trigger the necessary events, and ensure that you do not get multiple entries for the same location on one visit.
+The code samples below show you how to retrieve the current location of the device, trigger necessary entry events, and ensure that you do not get multiple entries for the same location on one visit.
+
+This code sample includes the optional step of [triggering an entry events when the user is in a POI](#trigger-entry-events-when-the-user-is-in-a-poi).
 
 >[!IMPORTANT]
 >
