@@ -5,6 +5,23 @@ description: Release notes for Places Service.
 
 # Release notes {#release-notes}
 
+## May 6, 2020
+
+* **PlacesMonitor 2.2.1**
+
+  * **Android**
+
+    * Improved logging
+
+## May 5, 2020
+
+
+* **PlacesMonitor 2.1.3**
+
+  * **iOS**
+
+    * Improved logging
+
 ## February 20, 2020
 
 * **ACPPlaces 1.3.1 (iOS)**
