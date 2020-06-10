@@ -26,7 +26,11 @@ The Places extension allows you to act based on the location of your users. This
 
 ## Add the Places extension to your app {#add-places-to-app}
 
-You can add the Places extension to your Android and iOS apps.
+You can add the Places extension to your Android and iOS apps. The steps to add Places to your iOS or Android application can be seen below. Places is also available for Cordova and React Native. For adding Places to your application when developing with one of these platforms see the accompanying links:
+
+**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+
+**React Native Places ACPPlaces**: https://github.com/adobe/react-native-acpplaces/blob/master/README.md 
 
 ### Android
 
