@@ -30,7 +30,7 @@ You can add the Places extension to your Android and iOS apps. The steps to add 
 
 **Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
 
-**React Native Places ACPPlaces**: https://github.com/adobe/react-native-acpplaces/blob/master/README.md 
+**React Native ACPPlaces**: https://github.com/adobe/react-native-acpplaces/blob/master/README.md 
 
 ### Android
 
