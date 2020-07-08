@@ -5,6 +5,22 @@ description: Release notes for Places Service.
 
 # Release notes {#release-notes}
 
+## July 8, 2020
+
+* **Places and Places Monitor Extensions**
+
+   * Places and Places Monitor extensions have been added for [React Native applications](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * Places and Places Monitor extensions have been added for [Cordova applications](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * For more information see: [Using Places Extension](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   
+
+## May 12, 2020
+
+* **Places Service**
+
+   * Bulk import POIs from a CSV file using "Import POIs" button
+   * Select multiple POIs and bulk edit or add metadata values
+
 ## May 6, 2020
 
 * **PlacesMonitor 2.2.1**
