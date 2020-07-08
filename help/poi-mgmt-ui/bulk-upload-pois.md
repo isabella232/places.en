@@ -5,6 +5,16 @@ description: This section provides information about how to bulk upload your POI
 
 # Bulk upload of POIs {#bulk-upload-pois}
 
+The **Import POIs** button in the Places Service can be used to bulk upload new POIs using a CSV file. A sample spreadsheet template is provided to show which data columns are required and how to add optional custom metadata. 
+
+ ![Bulk Import Screen](/help/assets/Bulk-import.png)
+ 
+ A video showing the process for bulk import and bulk edit is below:
+
+>[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+
+## Python API scripts
+
 A set of Python scripts have been created to simplify the batch import of POIs from a .csv file into a POI database by using the Web Service APIs. These scripts can be downloaded from this open source [git repo](https://github.com/adobe/places-scripts). 
 
 Before you run these scripts, to access the web service APIs, see *Prerequisites for user access* in [Integration overview and prerequisites](/help/web-service-api/adobe-i-o-integration.md). 
