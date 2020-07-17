@@ -22,7 +22,15 @@ There are no configuration tasks for the Places Monitor extension.
 
 ## Add the Places Monitor extension to your app {#add-monitor-extension-to-app}
 
-You need to add the Places Monitor extension to your Android or iOS app.
+Directions on adding the Places Monitor extension to your Android or iOS application is below. 
+
+Additional platform support for the Places Monitor extension include:
+**[Cordova Places Monitor](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)** 
+
+**[React Native Places Monitor](https://github.com/adobe/react-native-acpplaces-monitor/blob/master/README.md)** 
+
+**[Flutter Places Monitor](https://github.com/adobe/flutter_acpplaces_monitor/blob/master/README.md)** 
+
 
 ### Android
 
