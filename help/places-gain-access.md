@@ -7,11 +7,11 @@ description: This section provides information about how to add a user to Places
 You can access the Places Service from the quick access menu on [Adobe Experience Cloud home](https://experience.adobe.com). 
 If your user ID has access you will see the Places Service icon as indicated below:
 
-![quick access menu](/help/assets/quick-access.png)
+![quick access menu](/help/assets/quickaccess.png)
 
 You can also access the Places Service from the Adobe Experience Platform menu:
 
-![Experience Platform menu](/help/assets/exp-platform-menu-sm.png)
+![Experience Platform menu](/help/assets/solutionaccessmenu.png)
 
 If you do not see the Places Service in either of these menus, contact an administrator in your organization to add your user ID to the Places Core Service in the Admin Console. 
 
