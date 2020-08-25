@@ -27,7 +27,7 @@ After verifying that the Places extension and Places Monitor extension are worki
 
 To create a data element:
 
-1. In your Experience Platform Launch mobile property, click the **[!UICONTROL Data Elements]** tab and click **[!UICONTROLAdd Data Element]**.
+1. In your Experience Platform Launch mobile property, click the **[!UICONTROL Data Elements]** tab and click **[!UICONTROL Add Data Element]**.
 1. In the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Places Service]**.
 1. From the **[!UICONTROL Data Element Type]** drop-down list, select **[!UICONTROL Name]**.
 1. In the right-hand side pane, you can select **[!UICONTROL Current POI]** which retrieves the name of the POI in which the user is currently located.
