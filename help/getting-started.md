@@ -6,8 +6,12 @@ description: Getting started with Places Service.
 # Getting started {#getting-started}
 
 Here is a helpful video to get an overview of Places Services:
- 
->[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+
+<!--
+Test of different youtube link for exl
+-->
+
+>[!VIDEO](https://youtu.be/aV6i_ayxWCw)
  
 ## Using Places Service
 
