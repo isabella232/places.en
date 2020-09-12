@@ -1,7 +1,7 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Places Service
+user-guide-title: Places Service Guide
 user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 ---
 
